@@ -1,0 +1,29 @@
+[
+  {
+    "history_id": 0,
+    "qualified": true,
+    "checkpoint_hash": "57afdea378b31d4a4ba60f22956d735f1beda5a634409239a1f01f61f23562df",
+    "branches": [
+      {
+        "approach": "ordinary",
+        "start_hash": "57afdea378b31d4a4ba60f22956d735f1beda5a634409239a1f01f61f23562df"
+      },
+      {
+        "approach": "direct",
+        "start_hash": "57afdea378b31d4a4ba60f22956d735f1beda5a634409239a1f01f61f23562df"
+      },
+      {
+        "approach": "indirect",
+        "start_hash": "57afdea378b31d4a4ba60f22956d735f1beda5a634409239a1f01f61f23562df"
+      },
+      {
+        "approach": "reciprocal",
+        "start_hash": "57afdea378b31d4a4ba60f22956d735f1beda5a634409239a1f01f61f23562df"
+      },
+      {
+        "approach": "gradual",
+        "start_hash": "57afdea378b31d4a4ba60f22956d735f1beda5a634409239a1f01f61f23562df"
+      }
+    ]
+  }
+]

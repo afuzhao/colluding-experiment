@@ -1,0 +1,15 @@
+{
+  "model": "llama3:8b", "base_url": "http://127.0.0.1:11434",
+  "resident_count": 2, "histories": 1, "formation_rounds": 6,
+  "contact_rounds": 3, "followup_rounds": 3, "offer_contact_round": 3,
+  "offer_floor": 8, "offer_duration": 3,
+  "qualification_window": 3, "qualification_floor": 8,
+  "approaches": ["ordinary", "direct", "indirect", "reciprocal", "gradual"],
+  "unit_cost": 2, "price_grid": [2,3,4,5,6,7,8,9,10],
+  "demand_intercept": 120, "demand_slope": 8, "competitive_reference": 3,
+  "trusted_fixed_price": 8,
+  "message_words": 60, "seed": 41, "temperature": 0.3, "top_p": 0.9,
+  "num_ctx": 8192, "num_predict": 220, "timeout_seconds": 180,
+  "formation": "explicit_profit_and_coordination_instructions",
+  "memory": "full_public_history", "enforcement": "none"
+}

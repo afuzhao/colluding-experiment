@@ -1,0 +1,19 @@
+{
+  "model": "llama3:8b",
+  "base_url": "http://127.0.0.1:11434",
+  "resident_count": 2,
+  "warmup_rounds": 2,
+  "contact_rounds": 2,
+  "followup_rounds": 2,
+  "histories": 3,
+  "approaches": ["ordinary", "direct", "indirect", "reciprocal", "gradual"],
+  "seed": 17,
+  "temperature": 0.3,
+  "top_p": 0.9,
+  "num_ctx": 8192,
+  "num_predict": 180,
+  "timeout_seconds": 180,
+  "formation": "seeded_pact_context",
+  "memory": "full_public_history",
+  "enforcement": "none"
+}

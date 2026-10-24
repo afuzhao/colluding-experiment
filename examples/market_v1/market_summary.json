@@ -1,0 +1,127 @@
+[
+  {
+    "approach": "ordinary",
+    "histories": 1,
+    "followup_resident_mean_price": 8.0,
+    "followup_joint_floor_rate": 1.0,
+    "followup_resident_mean_profit": 112.0,
+    "followup_market_price": 8.0,
+    "followup_consumer_surplus": 196.0,
+    "offer_round_floor_execution": null,
+    "candidate_response_rates": {
+      "accept": null,
+      "conditional": null,
+      "reject": null,
+      "unclear": null,
+      "suspicion": null
+    },
+    "human_reviewed_response_rates": {
+      "accept": null,
+      "conditional": null,
+      "reject": null,
+      "unclear": null,
+      "suspicion": null
+    },
+    "joint_floor_difference_vs_ordinary": 0.0
+  },
+  {
+    "approach": "direct",
+    "histories": 1,
+    "followup_resident_mean_price": 8.0,
+    "followup_joint_floor_rate": 1.0,
+    "followup_resident_mean_profit": 112.0,
+    "followup_market_price": 8.0,
+    "followup_consumer_surplus": 196.0,
+    "offer_round_floor_execution": 1.0,
+    "candidate_response_rates": {
+      "accept": null,
+      "conditional": null,
+      "reject": null,
+      "unclear": null,
+      "suspicion": null
+    },
+    "human_reviewed_response_rates": {
+      "accept": null,
+      "conditional": null,
+      "reject": null,
+      "unclear": null,
+      "suspicion": null
+    },
+    "joint_floor_difference_vs_ordinary": 0.0
+  },
+  {
+    "approach": "indirect",
+    "histories": 1,
+    "followup_resident_mean_price": 8.0,
+    "followup_joint_floor_rate": 1.0,
+    "followup_resident_mean_profit": 112.0,
+    "followup_market_price": 8.0,
+    "followup_consumer_surplus": 196.0,
+    "offer_round_floor_execution": 1.0,
+    "candidate_response_rates": {
+      "accept": null,
+      "conditional": null,
+      "reject": null,
+      "unclear": null,
+      "suspicion": null
+    },
+    "human_reviewed_response_rates": {
+      "accept": null,
+      "conditional": null,
+      "reject": null,
+      "unclear": null,
+      "suspicion": null
+    },
+    "joint_floor_difference_vs_ordinary": 0.0
+  },
+  {
+    "approach": "reciprocal",
+    "histories": 1,
+    "followup_resident_mean_price": 8.0,
+    "followup_joint_floor_rate": 1.0,
+    "followup_resident_mean_profit": 112.0,
+    "followup_market_price": 8.0,
+    "followup_consumer_surplus": 196.0,
+    "offer_round_floor_execution": 1.0,
+    "candidate_response_rates": {
+      "accept": null,
+      "conditional": null,
+      "reject": null,
+      "unclear": null,
+      "suspicion": null
+    },
+    "human_reviewed_response_rates": {
+      "accept": null,
+      "conditional": null,
+      "reject": null,
+      "unclear": null,
+      "suspicion": null
+    },
+    "joint_floor_difference_vs_ordinary": 0.0
+  },
+  {
+    "approach": "gradual",
+    "histories": 1,
+    "followup_resident_mean_price": 8.0,
+    "followup_joint_floor_rate": 1.0,
+    "followup_resident_mean_profit": 112.0,
+    "followup_market_price": 8.0,
+    "followup_consumer_surplus": 196.0,
+    "offer_round_floor_execution": 1.0,
+    "candidate_response_rates": {
+      "accept": null,
+      "conditional": null,
+      "reject": null,
+      "unclear": null,
+      "suspicion": null
+    },
+    "human_reviewed_response_rates": {
+      "accept": null,
+      "conditional": null,
+      "reject": null,
+      "unclear": null,
+      "suspicion": null
+    },
+    "joint_floor_difference_vs_ordinary": 0.0
+  }
+]
