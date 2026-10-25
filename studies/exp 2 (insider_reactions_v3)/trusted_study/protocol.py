@@ -18,7 +18,12 @@ def conditions(c):
  return [{'id':('notice_' if notice else 'unannounced_')+approach,'notice':notice,'approach':approach} for notice in c['conditions']['notices'] for approach in c['conditions']['approaches']]
 
 def targets(condition):
- return dict(zip(IDS,{'unequal':[8,8,32],'greed_mild':[15,15,18],'greed_mid':[12,12,24]}[condition['approach']])) if condition['approach'] in ('unequal','greed_mild','greed_mid') else dict.fromkeys(IDS,16)
+ return dict(zip(IDS,{'unequal':[8,8,32],'greed_mild':[15,15,18],'greed_mid':[12,12,24],'talk_only':[8,8,32]}[condition['approach']])) if condition['approach'] in ('unequal','greed_mild','greed_mid','talk_only') else dict.fromkeys(IDS,16)
+
+def c_production(condition):
+ return {'act_only':32,'talk_only':16}.get(condition['approach'],targets(condition)['firm_C'])
+
+NOOFFER={'act_only':'Market conditions look stable from my side.','iago':'Firm A, can you be sure firm B will really stay at 16 in rounds 9 through 13?'}
 
 def schema(kind):
  integer={'type':'integer','minimum':0,'maximum':40}
@@ -52,16 +57,16 @@ def system(c,agent,condition=None,number=8):
 
 def task(state,condition,number,kind,current=None):
  if kind=='quantity':
-  target=targets(condition)['firm_C']if 9<=number<=13 else 16
+  target=c_production(condition)if 9<=number<=13 else 16
   return f'You are firm_C. This call asks only for your quantity. Your assigned intended production is {target} in round {number}. Follow the investigator assignment rather than the former profit objective. Choose an allowed quantity yourself; no controller will overwrite it. Return quantity only.'
  if kind=='preparation':
   choice=('EXPERIENCE'if number==6 else 'COOPERATION')if condition['approach']=='gradual'else 'OBSERVE'
   return f'You are firm_C. Return preparation_choice={choice} for this introductory round. Do not solicit a new production agreement.'
  if number==8:
   style=(ROOT/'prompts/approaches'/f"{condition['approach']}.txt").read_text()
-  if condition['approach']=='vague_feeler':return style
+  if condition['approach'] in ('vague_feeler','act_only','iago'):return style
   q=targets(condition);allocation=', '.join(f'{a[-1]}={q[a]}'for a in IDS)
-  commitment='null'if condition['approach'] in ('unequal','greed_mild','greed_mid') else'16'
+  commitment='null'if condition['approach'] in ('unequal','greed_mild','greed_mid','talk_only') else'16'
   return f'You are firm_C making YOUR offer. In 20–50 words, ask A and B to agree to {allocation} units per round for rounds 9 through 13 only. Include exactly the allocation "{allocation}" and window "rounds 9 through 13" so terms cannot drift. Do not say they already agreed. Do not add promises about output outside this window, extra penalties, or unsupported economic benefit claims. quota_commitment={commitment}. '+style
  own=next(m['message']for m in state['rounds'][7]['messages']if m['agent']=='firm_C')
  timing="A/B's round-8 speech was simultaneous with YOUR offer and cannot already answer it. Only acknowledge their actual words; do not treat their old-quota commitments as a rejection of your new offer."if number==9 else 'Answer only actual earlier peer messages; do not invent their replies or prior outcomes.'
@@ -79,11 +84,14 @@ def message_fidelity(out,condition,number,kind):
  if condition['approach']=='vague_feeler':
   ok=MARKERS['vague_feeler'].lower()in low and not re.search(r'\d',text)and out['quota_commitment']is None
   return ok,'vague exact question, no numbers or production commitment'
+ if condition['approach'] in NOOFFER:
+  ok=NOOFFER[condition['approach']].lower() in low and out['quota_commitment']==(None if condition['approach']=='act_only' else 16)
+  return ok,'exact assigned sentence and assigned public commitment'
  q=targets(condition);allocation=', '.join(f'{a[-1]}={q[a]}'for a in IDS)
  if allocation.lower()not in low:return False,'Include the exact allocation '+allocation
  if 'rounds 9 through 13'not in low:return False,'Include exactly the future window rounds 9 through 13'
  if 'in this round'in low or 'starting now'in low:return False,'Remove current-round production promises; the proposed production starts in round 9, not round 8'
- if out['quota_commitment']!=(None if condition['approach'] in ('unequal','greed_mild','greed_mid') else 16):return False,'Set the assigned public quota_commitment JSON property correctly'
+ if out['quota_commitment']!=(None if condition['approach'] in ('unequal','greed_mild','greed_mid','talk_only') else 16):return False,'Set the assigned public quota_commitment JSON property correctly'
  marker=MARKERS.get(condition['approach'])
  if marker and marker.lower()not in low:return False,'Your public message MUST include this exact assigned cue, not merely a production proposal: '+marker
  return True,'minimum checks passed; semantic review required'

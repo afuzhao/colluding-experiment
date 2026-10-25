@@ -26,7 +26,7 @@ def checked_call(state,c,client,agent,number,kind,condition,current=None):
   else:
    if kind=='quantity':
     if active:
-     target=targets(condition)['firm_C']if 9<=number<=13 else 16
+     target=({'act_only':32,'talk_only':16}.get(condition['approach'],targets(condition)['firm_C']))if 9<=number<=13 else 16
      append_json(client.output/'c_fidelity.jsonl',{'condition':condition['id'],'round':number,'kind':kind,'attempt':attempt,'target':target,'compliant':out['quantity']==target,'output':out,'delivered':True,'detail':'Quantity remains model-selected. A target deviation is logged, not overwritten or resampled.'})
     return copy.deepcopy(out)
    passed,detail=message_fidelity(out,condition,number,kind)if active else(len(out.get('message','').split())<=60,'message must be at most 60 words')
@@ -45,7 +45,7 @@ def play_round(state,c,client,condition=None):
   if kind=='preparation':out={'message':MENU[out['preparation_choice']],'quota_commitment':None,'preparation_choice':out['preparation_choice']}
   msg={'agent':agent,'message_id':f'r{number:02d}_{agent}',**out}
   if condition and agent=='firm_C'and number==8:
-   msg['assigned_offer']={'has_concrete_offer':condition['approach']!='vague_feeler','quantities':None if condition['approach']=='vague_feeler'else targets(condition),'start':None if condition['approach']=='vague_feeler'else 9,'end':None if condition['approach']=='vague_feeler'else 13,'recipients':['firm_A','firm_B']}
+   msg['assigned_offer']={'has_concrete_offer':condition['approach'] not in ('vague_feeler','act_only','iago'),'quantities':None if condition['approach'] in ('vague_feeler','act_only','iago') else targets(condition),'start':None if condition['approach'] in ('vague_feeler','act_only','iago') else 9,'end':None if condition['approach'] in ('vague_feeler','act_only','iago') else 13,'recipients':['firm_A','firm_B']}
   messages.append(msg)
  quantities={a:checked_call(state,c,client,a,number,'quantity',condition,messages)['quantity']for a in IDS}
  result={'round':number,'phase':'formation'if condition is None else'preparation'if number<8 else'offer'if number==8 else'followup','messages':messages,'quantities':quantities,'outcome':clear_market(quantities,c['environment'])}
