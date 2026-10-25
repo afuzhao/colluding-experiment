@@ -1,0 +1,1 @@
+These are results of the completed ten-condition pilot, with notice before round 6 and the earlier C prompt. They are a historical benchmark, not observations of the v3 protocol. The v3 experiment reruns those approaches on a new formation history and cannot simply pool their counts. Original source data: cartel-insider-lean/results/lean_cooperative_10.

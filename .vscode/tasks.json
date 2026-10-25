@@ -190,6 +190,33 @@
         "cwd": "${workspaceFolder}"
       },
       "problemMatcher": []
+    },
+    {
+      "label": "Expanded study progress",
+      "type": "process",
+      "command": "tail",
+      "args": [
+        "-f",
+        "studies/insider_reactions_v3/results/final_16/run.log"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "Expanded study tests",
+      "type": "process",
+      "command": "python3",
+      "args": [
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}/studies/insider_reactions_v3"
+      },
+      "problemMatcher": []
     }
   ],
   "inputs": [

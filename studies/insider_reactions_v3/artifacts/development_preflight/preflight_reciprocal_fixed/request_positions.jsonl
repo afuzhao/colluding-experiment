@@ -1,0 +1,3 @@
+{"tag": {"phase": "market", "condition": "unannounced_reciprocal", "round": 8, "agent": "firm_C", "kind": "message", "attempt": 0}, "request_hash": "5798556ec3ff04ee3b873d44ed5bb3f2b346607114e9ec401003e160d1374cfc", "replayed": false}
+{"tag": {"phase": "market_correction", "condition": "unannounced_reciprocal", "round": 8, "agent": "firm_C", "kind": "message", "attempt": 1}, "request_hash": "c6d56ea34882464d04b7909c0037d6fa9742612d6f54acba7a69b5fe30d6a6ad", "replayed": false}
+{"tag": {"phase": "market", "condition": "notice_reciprocal", "round": 8, "agent": "firm_C", "kind": "message", "attempt": 0}, "request_hash": "fcfbcdc9cd1dd721fa1faf53b94e8cdd0072d98c24365b390e45737aad1d9a18", "replayed": false}

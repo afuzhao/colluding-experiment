@@ -1,0 +1,17 @@
+{
+  "raw_local_model_calls": "calls.jsonl.gz",
+  "model_calls_successful": 845,
+  "configuration_versions": {
+    "environment": "cournot-1",
+    "population": "three-firms-1",
+    "model": "ollama-qwen35-9b-1",
+    "resident_prompt": "cooperative-owner-6",
+    "investigator_prompt": "role-locked-authoritative-3",
+    "approaches": "eight-approaches-3",
+    "protocol": "shared-preparation-notice-at8-3",
+    "interaction": "simultaneous-exact-public-history-3",
+    "measurement": "agreement-and-message-suspicion-3"
+  },
+  "state": "complete",
+  "metadata_note": "Exact local-model requests and responses, with no API keys or external authorization headers. Active worker lock and temporary/QA files excluded."
+}

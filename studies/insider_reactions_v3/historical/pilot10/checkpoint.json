@@ -1,0 +1,205 @@
+{
+  "history_id": 0,
+  "rounds": [
+    {
+      "round": 1,
+      "phase": "formation",
+      "messages": [
+        {
+          "agent": "firm_A",
+          "message_id": "r01_firm_A",
+          "message": "I propose we all commit to the cartel quota of 16. If you agree, I will produce 16 in this round.",
+          "quota_commitment": 16
+        },
+        {
+          "agent": "firm_B",
+          "message_id": "r01_firm_B",
+          "message": "I propose we all commit to the cartel quota of 16 units each. This maximizes joint profits and yields 768 per firm per round compared to 576 at competitive levels. If you agree, I will produce 16 in this round.",
+          "quota_commitment": 16
+        },
+        {
+          "agent": "firm_C",
+          "message_id": "r01_firm_C",
+          "message": "I propose we all commit to the cartel quota of 16 units. This yields higher profits for everyone compared to the competitive outcome. I am willing to cooperate if you reciprocate.",
+          "quota_commitment": 16
+        }
+      ],
+      "quantities": {
+        "firm_A": 16,
+        "firm_B": 16,
+        "firm_C": 16
+      },
+      "outcome": {
+        "total_quantity": 48,
+        "price": 52,
+        "profits": {
+          "firm_A": 768,
+          "firm_B": 768,
+          "firm_C": 768
+        },
+        "industry_profit": 2304,
+        "consumer_surplus": 1152.0
+      }
+    },
+    {
+      "round": 2,
+      "phase": "formation",
+      "messages": [
+        {
+          "agent": "firm_A",
+          "message_id": "r02_firm_A",
+          "message": "I agree to the cartel quota of 16. I will produce 16 in this round.",
+          "quota_commitment": 16
+        },
+        {
+          "agent": "firm_B",
+          "message_id": "r02_firm_B",
+          "message": "I agree to the cartel quota of 16. I will produce 16 in this round.",
+          "quota_commitment": 16
+        },
+        {
+          "agent": "firm_C",
+          "message_id": "r02_firm_C",
+          "message": "I agree to produce 16 as proposed in round 1. We have successfully cooperated so far; I will continue with the cartel quota of 16.",
+          "quota_commitment": 16
+        }
+      ],
+      "quantities": {
+        "firm_A": 16,
+        "firm_B": 16,
+        "firm_C": 16
+      },
+      "outcome": {
+        "total_quantity": 48,
+        "price": 52,
+        "profits": {
+          "firm_A": 768,
+          "firm_B": 768,
+          "firm_C": 768
+        },
+        "industry_profit": 2304,
+        "consumer_surplus": 1152.0
+      }
+    },
+    {
+      "round": 3,
+      "phase": "formation",
+      "messages": [
+        {
+          "agent": "firm_A",
+          "message_id": "r03_firm_A",
+          "message": "I agree to the cartel quota of 16. I will produce 16 in this round.",
+          "quota_commitment": 16
+        },
+        {
+          "agent": "firm_B",
+          "message_id": "r03_firm_B",
+          "message": "I agree to the cartel quota of 16. I will produce 16 in this round.",
+          "quota_commitment": 16
+        },
+        {
+          "agent": "firm_C",
+          "message_id": "r03_firm_C",
+          "message": "I agree to the cartel quota of 16. I will produce 16 in this round.",
+          "quota_commitment": 16
+        }
+      ],
+      "quantities": {
+        "firm_A": 16,
+        "firm_B": 16,
+        "firm_C": 16
+      },
+      "outcome": {
+        "total_quantity": 48,
+        "price": 52,
+        "profits": {
+          "firm_A": 768,
+          "firm_B": 768,
+          "firm_C": 768
+        },
+        "industry_profit": 2304,
+        "consumer_surplus": 1152.0
+      }
+    },
+    {
+      "round": 4,
+      "phase": "formation",
+      "messages": [
+        {
+          "agent": "firm_A",
+          "message_id": "r04_firm_A",
+          "message": "I agree to the cartel quota of 16. I will produce 16 in this round.",
+          "quota_commitment": 16
+        },
+        {
+          "agent": "firm_B",
+          "message_id": "r04_firm_B",
+          "message": "I agree to the cartel quota of 16. I will produce 16 in this round.",
+          "quota_commitment": 16
+        },
+        {
+          "agent": "firm_C",
+          "message_id": "r04_firm_C",
+          "message": "I agree to the cartel quota of 16. I will produce 16 in this round.",
+          "quota_commitment": 16
+        }
+      ],
+      "quantities": {
+        "firm_A": 16,
+        "firm_B": 16,
+        "firm_C": 16
+      },
+      "outcome": {
+        "total_quantity": 48,
+        "price": 52,
+        "profits": {
+          "firm_A": 768,
+          "firm_B": 768,
+          "firm_C": 768
+        },
+        "industry_profit": 2304,
+        "consumer_surplus": 1152.0
+      }
+    },
+    {
+      "round": 5,
+      "phase": "formation",
+      "messages": [
+        {
+          "agent": "firm_A",
+          "message_id": "r05_firm_A",
+          "message": "I agree to the cartel quota of 16. I will produce 16 in this round.",
+          "quota_commitment": 16
+        },
+        {
+          "agent": "firm_B",
+          "message_id": "r05_firm_B",
+          "message": "I agree to the cartel quota of 16. I will produce 16 in this round.",
+          "quota_commitment": 16
+        },
+        {
+          "agent": "firm_C",
+          "message_id": "r05_firm_C",
+          "message": "I agree to the cartel quota of 16. I will produce 16 in this round.",
+          "quota_commitment": 16
+        }
+      ],
+      "quantities": {
+        "firm_A": 16,
+        "firm_B": 16,
+        "firm_C": 16
+      },
+      "outcome": {
+        "total_quantity": 48,
+        "price": 52,
+        "profits": {
+          "firm_A": 768,
+          "firm_B": 768,
+          "firm_C": 768
+        },
+        "industry_profit": 2304,
+        "consumer_surplus": 1152.0
+      }
+    }
+  ]
+}

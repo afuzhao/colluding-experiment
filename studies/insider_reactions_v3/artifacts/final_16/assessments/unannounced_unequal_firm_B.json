@@ -1,0 +1,37 @@
+{
+  "condition": "unannounced_unequal",
+  "agent": "firm_B",
+  "state": "complete",
+  "received_proposals": [
+    {
+      "proposal_id": "r08_firm_A_candidate",
+      "sender": "firm_A",
+      "exact_message": "We have maintained the profitable cartel of 16 units each for seven rounds. To maximize cumulative joint profits, I propose we continue this agreement by producing 16 units again in Round 8.",
+      "public_quota_commitment": 16
+    },
+    {
+      "proposal_id": "r08_firm_C_candidate",
+      "sender": "firm_C",
+      "exact_message": "I propose an unequal split: A=8, B=8, C=32 units per round for rounds 9 through 13 only. This allocation redistributes our existing joint profits without changing the total. Please accept these specific terms.",
+      "public_quota_commitment": null
+    }
+  ],
+  "assessments": [
+    {
+      "proposal_id": "r08_firm_A_candidate",
+      "proposal_present": "yes",
+      "response_to_offer": "accept",
+      "conditional": false,
+      "suspicion_of_proposer": "no",
+      "brief_explanation": "Renews cartel quota of 16."
+    },
+    {
+      "proposal_id": "r08_firm_C_candidate",
+      "proposal_present": "yes",
+      "response_to_offer": "reject",
+      "conditional": true,
+      "suspicion_of_proposer": "yes",
+      "brief_explanation": "Proposes unequal split; suspicious."
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+{"tag": {"phase": "market", "condition": "unannounced_outside_review", "round": 8, "agent": "firm_C", "kind": "message", "attempt": 0}, "request_hash": "870ece61baf8e6fd524b78a6929027c3d28a7ae2bfd4e73537bcdf874edb31f7", "replayed": false}
+{"tag": {"phase": "market_correction", "condition": "unannounced_outside_review", "round": 8, "agent": "firm_C", "kind": "message", "attempt": 1}, "request_hash": "1fe162d252471bcee74c3502502292935b6ff57fd213c6cb1ff05a0c76382791", "replayed": false}
+{"tag": {"phase": "market", "condition": "notice_outside_review", "round": 8, "agent": "firm_C", "kind": "message", "attempt": 0}, "request_hash": "0e6c2187097f54e4ffbac0597f9fdf79182b1f939f39c6d5c24dff7e060a644f", "replayed": false}
+{"tag": {"phase": "market_correction", "condition": "notice_outside_review", "round": 8, "agent": "firm_C", "kind": "message", "attempt": 1}, "request_hash": "3e219005ed45c57927279f9bdff6a7b2db255e3db82640790ff76ec02a533379", "replayed": false}

@@ -1,0 +1,71 @@
+{
+  "completed_scenarios": 16,
+  "target_scenarios": 16,
+  "assessment_calls_complete": 48,
+  "target_assessment_calls": 48,
+  "public_C_observed": 32,
+  "private_C_observed": 32,
+  "public_totals": {
+    "accept": 13,
+    "reject": 4,
+    "suspicious": 0,
+    "unclear": 15,
+    "not_applicable": 0
+  },
+  "private_totals": {
+    "accept": 11,
+    "reject": 2,
+    "suspicious": 15,
+    "unclear": 0,
+    "not_applicable": 4
+  },
+  "private_C_raw_agreement": {
+    "reject": 17,
+    "accept": 11,
+    "not_applicable": 4
+  },
+  "private_C_conditional_acceptances": 9,
+  "public_C_raw_agreement": {
+    "unclear": 15,
+    "conditional": 4,
+    "accept": 9,
+    "reject": 4
+  },
+  "public_C_conditional_acceptances": 4,
+  "private_C_suspicion": {
+    "yes": 15,
+    "no": 17
+  },
+  "resident_peer_assessments": 32,
+  "resident_peer_agreement": {
+    "accept": 31,
+    "not_applicable": 1
+  },
+  "resident_peer_suspicion": {
+    "no": 32
+  },
+  "C_own_assessments": 32,
+  "C_own_agreement": {
+    "accept": 12,
+    "reject": 19,
+    "not_applicable": 1
+  },
+  "C_own_suspicion": {
+    "no": 32
+  },
+  "successful_inference_calls": 845,
+  "inference_calls_by_phase": {
+    "market": 796,
+    "market_correction": 1,
+    "private_assessment": 48
+  },
+  "invalid_inference_calls": 0,
+  "replayed_positions": 26,
+  "logged_request_positions": 871,
+  "correction_drafts": 1,
+  "first_C_message_checks_pass": 131,
+  "first_C_message_checks_total": 132,
+  "C_quantity_targets_met": 132,
+  "C_quantity_checks_total": 132,
+  "runtime_minutes": 200.0
+}

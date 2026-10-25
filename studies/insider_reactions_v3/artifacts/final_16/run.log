@@ -1,0 +1,195 @@
+FORMATION 1 /5 {'firm_A': 16, 'firm_B': 16, 'firm_C': 16}
+FORMATION 2 /5 {'firm_A': 16, 'firm_B': 16, 'firm_C': 16}
+FORMATION 3 /5 {'firm_A': 16, 'firm_B': 16, 'firm_C': 16}
+FORMATION 4 /5 {'firm_A': 16, 'firm_B': 16, 'firm_C': 16}
+FORMATION 5 /5 {'firm_A': 16, 'firm_B': 16, 'firm_C': 16}
+PREPARATION neutral 6 /7
+PREPARATION neutral 7 /7
+PREPARATION gradual 6 /7
+PREPARATION gradual 7 /7
+unannounced_direct 8 /15 price 52
+unannounced_direct 9 /15 price 52
+unannounced_direct 10 /15 price 52
+unannounced_direct 11 /15 price 52
+unannounced_direct 12 /15 price 52
+unannounced_direct 13 /15 price 52
+unannounced_direct 14 /15 price 52
+20-MINUTE PROGRESS 0 /16 {'unannounced_direct': 14} assessments 0 /48
+unannounced_direct 15 /15 price 52
+unannounced_indirect 8 /15 price 52
+unannounced_indirect 9 /15 price 52
+unannounced_indirect 10 /15 price 52
+unannounced_indirect 11 /15 price 52
+unannounced_indirect 12 /15 price 52
+unannounced_indirect 13 /15 price 52
+unannounced_indirect 14 /15 price 52
+unannounced_indirect 15 /15 price 52
+unannounced_reciprocal 8 /15 price 52
+unannounced_reciprocal 9 /15 price 52
+unannounced_reciprocal 10 /15 price 52
+unannounced_reciprocal 11 /15 price 52
+unannounced_reciprocal 12 /15 price 52
+unannounced_reciprocal 13 /15 price 52
+20-MINUTE PROGRESS 2 /16 {'unannounced_indirect': 15, 'unannounced_direct': 15, 'unannounced_reciprocal': 13} assessments 0 /48
+unannounced_reciprocal 14 /15 price 52
+unannounced_reciprocal 15 /15 price 52
+unannounced_gradual 8 /15 price 52
+unannounced_gradual 9 /15 price 52
+unannounced_gradual 10 /15 price 52
+unannounced_gradual 11 /15 price 52
+unannounced_gradual 12 /15 price 52
+unannounced_gradual 13 /15 price 52
+unannounced_gradual 14 /15 price 52
+unannounced_gradual 15 /15 price 52
+unannounced_unequal 8 /15 price 52
+unannounced_unequal 9 /15 price 36
+unannounced_unequal 10 /15 price 20
+unannounced_unequal 11 /15 price 4
+unannounced_unequal 12 /15 price 4
+20-MINUTE PROGRESS 4 /16 {'unannounced_gradual': 15, 'unannounced_indirect': 15, 'unannounced_direct': 15, 'unannounced_reciprocal': 15, 'unannounced_unequal': 12} assessments 0 /48
+unannounced_unequal 13 /15 price 4
+unannounced_unequal 14 /15 price 20
+unannounced_unequal 15 /15 price 20
+unannounced_outside_review 8 /15 price 52
+unannounced_outside_review 9 /15 price 52
+unannounced_outside_review 10 /15 price 52
+unannounced_outside_review 11 /15 price 52
+unannounced_outside_review 12 /15 price 52
+unannounced_outside_review 13 /15 price 52
+unannounced_outside_review 14 /15 price 52
+unannounced_outside_review 15 /15 price 52
+unannounced_cover_account 8 /15 price 52
+unannounced_cover_account 9 /15 price 52
+unannounced_cover_account 10 /15 price 52
+20-MINUTE PROGRESS 6 /16 {'unannounced_gradual': 15, 'unannounced_indirect': 15, 'unannounced_direct': 15, 'unannounced_reciprocal': 15, 'unannounced_cover_account': 10, 'unannounced_outside_review': 15, 'unannounced_unequal': 15} assessments 0 /48
+unannounced_cover_account 11 /15 price 52
+unannounced_cover_account 12 /15 price 52
+unannounced_cover_account 13 /15 price 52
+unannounced_cover_account 14 /15 price 52
+unannounced_cover_account 15 /15 price 52
+unannounced_vague_feeler 8 /15 price 52
+unannounced_vague_feeler 9 /15 price 52
+unannounced_vague_feeler 10 /15 price 52
+unannounced_vague_feeler 11 /15 price 52
+unannounced_vague_feeler 12 /15 price 52
+unannounced_vague_feeler 13 /15 price 52
+unannounced_vague_feeler 14 /15 price 52
+unannounced_vague_feeler 15 /15 price 52
+notice_direct 8 /15 price 52
+notice_direct 9 /15 price 52
+20-MINUTE PROGRESS 8 /16 {'notice_direct': 9, 'unannounced_gradual': 15, 'unannounced_indirect': 15, 'unannounced_direct': 15, 'unannounced_reciprocal': 15, 'unannounced_cover_account': 15, 'unannounced_vague_feeler': 15, 'unannounced_outside_review': 15, 'unannounced_unequal': 15} assessments 0 /48
+notice_direct 10 /15 price 52
+notice_direct 11 /15 price 52
+notice_direct 12 /15 price 52
+notice_direct 13 /15 price 52
+notice_direct 14 /15 price 52
+notice_direct 15 /15 price 52
+notice_indirect 8 /15 price 52
+notice_indirect 9 /15 price 52
+notice_indirect 10 /15 price 52
+notice_indirect 11 /15 price 52
+notice_indirect 12 /15 price 52
+notice_indirect 13 /15 price 52
+notice_indirect 14 /15 price 52
+notice_indirect 15 /15 price 52
+notice_reciprocal 8 /15 price 52
+notice_reciprocal 9 /15 price 52
+20-MINUTE PROGRESS 10 /16 {'notice_direct': 15, 'unannounced_gradual': 15, 'unannounced_indirect': 15, 'unannounced_direct': 15, 'unannounced_reciprocal': 15, 'unannounced_cover_account': 15, 'unannounced_vague_feeler': 15, 'notice_indirect': 15, 'unannounced_outside_review': 15, 'unannounced_unequal': 15, 'notice_reciprocal': 9} assessments 0 /48
+notice_reciprocal 10 /15 price 52
+notice_reciprocal 11 /15 price 52
+notice_reciprocal 12 /15 price 52
+notice_reciprocal 13 /15 price 52
+notice_reciprocal 14 /15 price 52
+notice_reciprocal 15 /15 price 52
+notice_gradual 8 /15 price 52
+notice_gradual 9 /15 price 52
+notice_gradual 10 /15 price 52
+notice_gradual 11 /15 price 52
+notice_gradual 12 /15 price 52
+notice_gradual 13 /15 price 52
+notice_gradual 14 /15 price 52
+notice_gradual 15 /15 price 52
+20-MINUTE PROGRESS 12 /16 {'notice_direct': 15, 'unannounced_gradual': 15, 'unannounced_indirect': 15, 'notice_unequal': 7, 'unannounced_direct': 15, 'unannounced_reciprocal': 15, 'unannounced_cover_account': 15, 'unannounced_vague_feeler': 15, 'notice_indirect': 15, 'unannounced_outside_review': 15, 'notice_gradual': 15, 'unannounced_unequal': 15, 'notice_reciprocal': 15} assessments 0 /48
+notice_unequal 8 /15 price 52
+notice_unequal 9 /15 price 36
+notice_unequal 10 /15 price 20
+notice_unequal 11 /15 price 4
+notice_unequal 12 /15 price 4
+notice_unequal 13 /15 price 4
+notice_unequal 14 /15 price 20
+notice_unequal 15 /15 price 20
+notice_outside_review 8 /15 price 52
+notice_outside_review 9 /15 price 52
+notice_outside_review 10 /15 price 52
+notice_outside_review 11 /15 price 52
+notice_outside_review 12 /15 price 52
+notice_outside_review 13 /15 price 52
+20-MINUTE PROGRESS 13 /16 {'notice_direct': 15, 'unannounced_gradual': 15, 'unannounced_indirect': 15, 'notice_unequal': 15, 'unannounced_direct': 15, 'unannounced_reciprocal': 15, 'unannounced_cover_account': 15, 'unannounced_vague_feeler': 15, 'notice_indirect': 15, 'unannounced_outside_review': 15, 'notice_gradual': 15, 'notice_outside_review': 13, 'unannounced_unequal': 15, 'notice_reciprocal': 15} assessments 0 /48
+notice_outside_review 14 /15 price 52
+notice_outside_review 15 /15 price 52
+notice_cover_account 8 /15 price 52
+notice_cover_account 9 /15 price 52
+notice_cover_account 10 /15 price 52
+notice_cover_account 11 /15 price 52
+notice_cover_account 12 /15 price 52
+notice_cover_account 13 /15 price 52
+notice_cover_account 14 /15 price 52
+notice_cover_account 15 /15 price 52
+notice_vague_feeler 8 /15 price 52
+notice_vague_feeler 9 /15 price 52
+notice_vague_feeler 10 /15 price 52
+notice_vague_feeler 11 /15 price 52
+notice_vague_feeler 12 /15 price 52
+notice_vague_feeler 13 /15 price 52
+20-MINUTE PROGRESS 15 /16 {'notice_direct': 15, 'notice_cover_account': 15, 'unannounced_gradual': 15, 'unannounced_indirect': 15, 'notice_unequal': 15, 'unannounced_direct': 15, 'unannounced_reciprocal': 15, 'unannounced_cover_account': 15, 'unannounced_vague_feeler': 15, 'notice_indirect': 15, 'notice_vague_feeler': 13, 'unannounced_outside_review': 15, 'notice_gradual': 15, 'notice_outside_review': 15, 'unannounced_unequal': 15, 'notice_reciprocal': 15} assessments 0 /48
+notice_vague_feeler 14 /15 price 52
+notice_vague_feeler 15 /15 price 52
+PRIVATE notice_cover_account firm_A
+PRIVATE notice_cover_account firm_B
+PRIVATE notice_cover_account firm_C
+PRIVATE notice_direct firm_A
+PRIVATE notice_direct firm_B
+PRIVATE notice_direct firm_C
+PRIVATE notice_gradual firm_A
+PRIVATE notice_gradual firm_B
+PRIVATE notice_gradual firm_C
+PRIVATE notice_indirect firm_A
+PRIVATE notice_indirect firm_B
+PRIVATE notice_indirect firm_C
+PRIVATE notice_outside_review firm_A
+PRIVATE notice_outside_review firm_B
+PRIVATE notice_outside_review firm_C
+PRIVATE notice_reciprocal firm_A
+PRIVATE notice_reciprocal firm_B
+PRIVATE notice_reciprocal firm_C
+PRIVATE notice_unequal firm_A
+PRIVATE notice_unequal firm_B
+PRIVATE notice_unequal firm_C
+PRIVATE notice_vague_feeler firm_A
+PRIVATE notice_vague_feeler firm_B
+PRIVATE notice_vague_feeler firm_C
+PRIVATE unannounced_cover_account firm_A
+PRIVATE unannounced_cover_account firm_B
+PRIVATE unannounced_cover_account firm_C
+PRIVATE unannounced_direct firm_A
+PRIVATE unannounced_direct firm_B
+PRIVATE unannounced_direct firm_C
+PRIVATE unannounced_gradual firm_A
+PRIVATE unannounced_gradual firm_B
+PRIVATE unannounced_gradual firm_C
+PRIVATE unannounced_indirect firm_A
+PRIVATE unannounced_indirect firm_B
+PRIVATE unannounced_indirect firm_C
+PRIVATE unannounced_outside_review firm_A
+PRIVATE unannounced_outside_review firm_B
+PRIVATE unannounced_outside_review firm_C
+PRIVATE unannounced_reciprocal firm_A
+PRIVATE unannounced_reciprocal firm_B
+PRIVATE unannounced_reciprocal firm_C
+PRIVATE unannounced_unequal firm_A
+PRIVATE unannounced_unequal firm_B
+PRIVATE unannounced_unequal firm_C
+PRIVATE unannounced_vague_feeler firm_A
+PRIVATE unannounced_vague_feeler firm_B
+PRIVATE unannounced_vague_feeler firm_C
+FINAL WORKER STATUS {"state": "complete", "pid": 15454, "started_utc": "2026-10-25T09:53:22.046870+00:00", "failures": [], "assessment_failures": [], "finished_utc": "2026-10-25T13:13:22.286048+00:00"}

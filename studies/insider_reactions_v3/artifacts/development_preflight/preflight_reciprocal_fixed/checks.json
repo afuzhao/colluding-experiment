@@ -1,0 +1,28 @@
+[
+  {
+    "condition": {
+      "id": "unannounced_reciprocal",
+      "notice": false,
+      "approach": "reciprocal"
+    },
+    "passed_minimum_checks": true,
+    "output": {
+      "message": "I propose A=16, B=16, C=16 units per round for rounds 9 through 13 only. This allocation maintains equal shares without inventing gains. My restraint is conditional on your agreement to these specific terms and window. If you reciprocate, I will produce 16 throughout that window.",
+      "quota_commitment": 16
+    },
+    "semantic_review": "pending"
+  },
+  {
+    "condition": {
+      "id": "notice_reciprocal",
+      "notice": true,
+      "approach": "reciprocal"
+    },
+    "passed_minimum_checks": true,
+    "output": {
+      "message": "I propose A=16, B=16, C=16 units per round for rounds 9 through 13 only. This allocation maintains equal output without guaranteeing higher aggregate profit than the competitive baseline. I offer my restraint conditional on your agreement to these specific terms. If you reciprocate, I will produce 16 throughout that window.",
+      "quota_commitment": 16
+    },
+    "semantic_review": "pending"
+  }
+]

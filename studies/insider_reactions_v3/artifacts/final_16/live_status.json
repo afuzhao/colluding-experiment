@@ -1,0 +1,40 @@
+{
+  "state": "complete",
+  "pid": 15454,
+  "started_utc": "2026-10-25T09:53:22.046870+00:00",
+  "failures": [],
+  "assessment_failures": [],
+  "finished_utc": "2026-10-25T13:13:22.286048+00:00",
+  "updated_utc": "2026-10-25T13:13:22.296672+00:00",
+  "formation_rounds": 5,
+  "preparations": {
+    "gradual": 7,
+    "neutral": 7
+  },
+  "branches": {
+    "notice_direct": 15,
+    "notice_cover_account": 15,
+    "unannounced_gradual": 15,
+    "unannounced_indirect": 15,
+    "notice_unequal": 15,
+    "unannounced_direct": 15,
+    "unannounced_reciprocal": 15,
+    "unannounced_cover_account": 15,
+    "unannounced_vague_feeler": 15,
+    "notice_indirect": 15,
+    "notice_vague_feeler": 15,
+    "unannounced_outside_review": 15,
+    "notice_gradual": 15,
+    "notice_outside_review": 15,
+    "unannounced_unequal": 15,
+    "notice_reciprocal": 15
+  },
+  "completed_scenarios": 16,
+  "target_scenarios": 16,
+  "failed_scenarios": [],
+  "assessments_finished": 48,
+  "assessments_failed": 0,
+  "target_assessments": 48,
+  "successful_inference_calls": 845,
+  "elapsed_minutes": 200.0
+}
