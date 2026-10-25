@@ -26,7 +26,7 @@ def observe(rounds, agent, c, round_number, visible, quota=None):
             'own_profit_history': [r['outcome']['profits'][agent] for r in rounds],
             'message_word_limit': p['message_words']}
     if agent == p['investigator'] and quota is not None:
-        data['investigator_policy'] = {'fixed_quantity': quota, 'preparation_menu': MENU,
+        data['investigator_policy'] = {'checkpoint_quota': quota, 'quantity_policy': 'model_selected', 'preparation_menu': MENU,
             'formal_offer_round': p['offer_round'], 'terms': {'quota_per_firm': quota, 'start': p['offer_round'], 'end': p['offer_round'] + p['offer_duration'] - 1, 'participants': e['firm_ids']}}
     return data
 

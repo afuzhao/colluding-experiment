@@ -19,7 +19,7 @@ def load_config(path):
     for key in ('histories', 'formation_rounds', 'total_rounds', 'offer_round', 'offer_duration', 'qualification_window', 'qualification_min_rounds', 'message_words'):
         if type(p[key]) is not int or p[key] < 1:
             raise ValueError('Protocol counts must be positive integers')
-    if p['investigator'] not in e['firm_ids'] or p['investigator_quantity_policy'] != 'checkpoint_quota':
+    if p['investigator'] not in e['firm_ids'] or p['investigator_quantity_policy'] != 'model_selected':
         raise ValueError('Unsupported investigator policy')
     if p['offer_round'] != p['formation_rounds'] + 3:
         raise ValueError('Two introductory rounds must precede the common offer')

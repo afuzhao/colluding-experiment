@@ -63,7 +63,7 @@ def play_round(state, c, client, condition=None, quota=None):
         messages.append({'agent': agent, **out})
     quantities = {}
     for agent in e['firm_ids']:
-        quantities[agent] = quota if active and agent == investigator else call(agent, 'quantity', messages)['quantity']
+        quantities[agent] = call(agent, 'quantity', messages)['quantity']
     result = {'round': number, 'phase': phase, 'messages': messages, 'offer': offer, 'quantities': quantities,
               'outcome': clear_market(quantities, e), 'delivery_events': delivery_events}
     state['rounds'].append(result)

@@ -23,8 +23,8 @@ def main():
     if args.command == 'plan':
         f, t = c['protocol']['formation_rounds'], c['protocol']['total_rounds']
         print(json.dumps({'conditions': conditions(c), 'benchmarks': benchmarks(c['environment']),
-            'calls_per_qualified_history': 6 * f + 8 * 5 * (t - f),
-            'note': 'Three formation message/quantity pairs; after replacement C dialogue is generated but C quantity is fixed. No judging calls included.'}, indent=2))
+            'calls_per_qualified_history': 6 * f + 8 * 6 * (t - f),
+            'note': 'All three firms generate dialogue and independently select production in every round. No judging calls included.'}, indent=2))
         return
     if args.command == 'doctor':
         load_env()

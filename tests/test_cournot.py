@@ -40,7 +40,7 @@ class CournotTests(unittest.TestCase):
     def test_checkpoint_and_roster_and_eight_conditions(self):
         folder, status = self.fixture()
         self.assertEqual(status['status'], 'complete')
-        self.assertEqual(status['new_model_calls'], 860)
+        self.assertEqual(status['new_model_calls'], 1020)
         checkpoint = json.loads((folder / 'history_000/checkpoint.json').read_text())
         self.assertEqual(len(checkpoint['rounds']), 10)
         files = list((folder / 'history_000/branches').glob('*.json'))
@@ -54,7 +54,7 @@ class CournotTests(unittest.TestCase):
             self.assertEqual([r['round'] for r in offers], [13])
             self.assertEqual(offers[0]['offer']['end'], 17)
             self.assertTrue(all(set(r['quantities']) == set(self.e['firm_ids']) for r in branch['rounds']))
-            self.assertTrue(all(r['quantities']['firm_C'] == 16 for r in branch['rounds'][10:]))
+            self.assertTrue(all(r['quantities']['firm_C'] == 16 for r in branch['rounds'][10:]))  # Mock selection, not a controller policy
         # Original checkpoint was never modified while branching.
         self.assertEqual(json.loads((folder / 'history_000/checkpoint.json').read_text()), checkpoint)
 
@@ -70,6 +70,21 @@ class CournotTests(unittest.TestCase):
         for r in rounds[-5:]:
             r['quantities']['firm_A'] = 24
         self.assertFalse(qualify(rounds, self.c)['qualified'])
+
+    def test_investigator_quantity_is_model_selected(self):
+        seen = []
+        class DeviatingClient(MockClient):
+            def generate(inner, system, obs, kind, seed, output_schema):
+                seen.append((obs['agent'], kind))
+                if obs['agent'] == 'firm_C' and kind == 'quantity':
+                    return {'quantity': 32}
+                return super().generate(system, obs, kind, seed, output_schema)
+        state = {'history_id': 0, 'rounds': []}
+        # Production remains a real model action even when the known agreement is 16.
+        result = play_round(state, self.c, DeviatingClient(self.c, '.'), conditions(self.c)[0], quota=16)
+        self.assertEqual(result['quantities']['firm_C'], 32)
+        self.assertIn(('firm_C', 'quantity'), seen)
+        self.assertEqual(result['outcome']['profits']['firm_C'], 1024)
 
     def test_private_information_not_delivered(self):
         folder, _ = self.fixture()

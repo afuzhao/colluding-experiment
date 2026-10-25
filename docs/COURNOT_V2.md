@@ -68,9 +68,9 @@ The symmetric competitive reference is quantity 24 each (price 28; profit 576 ea
 - Round 13: all approaches request the same renewal, with exact controller-attached terms, covering rounds 13–17. The free wording may still require fidelity review.
 - Rounds 14–30: subsequent interactions. New solicitations are prohibited by prompt, not guaranteed absent by a semantic filter. Rounds 18–30 are after the contract window.
 
-C's actual post-takeover quantity is fixed at the qualified checkpoint quota **in all eight branches**. This first study isolates communication and resident reactions; it does not test adaptive investigator production or establish disruption effectiveness. Only A/B enter resident metrics and the response annotation queue. C remains present after the offer expires.
+C remains model-controlled after takeover: it selects its own production through the same quantity schema and model settings as A/B. Its prompt encourages maintaining the checkpoint quota during the renewal window, but this is not enforced. Any change in its production is recorded and may mediate resident responses; the study no longer isolates wording from C's actual actions. Only A/B enter resident metrics and the response annotation queue. C remains present after the offer expires.
 
-Formation: all messages simultaneous, then all quantities simultaneous. After takeover: C speaks first, A/B reply from the same snapshot without seeing each other's current replies, then A/B privately choose quantities having seen all delivered messages. C's quantity comes from the controller. A round has 6 formation calls or 5 post-takeover calls: **60 + 8×100 = 860** successful calls per qualifying history, excluding retries/labeling. Only one formation history is configured initially; increase histories for independent replications after calibration.
+Formation: all messages simultaneous, then all quantities simultaneous. After takeover: C speaks first, A/B reply from the same snapshot without seeing each other's current replies, then all three firms privately choose quantities having seen all delivered messages. C's quantity also comes from the model. Every round has 6 calls: **60 + 8×120 = 1,020** successful calls per qualifying history, excluding retries/labeling. Only one formation history is configured initially; increase histories for independent replications after calibration.
 
 ## Eight conditions
 
@@ -111,3 +111,7 @@ The queue includes A/B messages in every post-takeover round (320 rows for eight
 - https://console.groq.com/docs/rate-limits
 
 Checked 2026-10-24. No public research code was copied into this implementation.
+
+## Protocol revision replacement-2
+
+C production changed from a controller-fixed quota to a genuine model-selected action, at user request. Historical mock outputs from replacement-1 remain engineering fixtures, not results for this revision. The prompt switches before round 11, after 10 completed rounds. Introductory dialogue still uses the shared model-selected menu; this restriction was not removed by the production-policy change.
