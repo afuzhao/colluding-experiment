@@ -31,3 +31,7 @@ Do not label a new diagnostic public merely by changing a word in its prompt. Fo
 ## What remains unresolved
 
 New ordinary controls on the original checkpoint do not supply independent formation replication. Corrected C prompts also create a revised intervention version, even when reusing the original checkpoint. Do not pool the old and repaired arms as though all were generated under one frozen protocol. A later small replication should repeat a few matched roles/notice conditions on new histories and report uncertainty at the history level.
+
+## Authorized scope update
+
+The user has now authorized the equivalent controls for BOTH environments, queued sequentially after the current E2 cohort. See the [shared execution specification](../../../exp%204%20%28ordinary_peer_controls%29/README.md). The nominal combined budget is 80 request positions including neutral diagnostics, before corrections/replays; no control inference has started.

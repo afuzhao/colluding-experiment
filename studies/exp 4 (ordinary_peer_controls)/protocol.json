@@ -1,0 +1,49 @@
+{
+  "status": "authorized_queued_not_started",
+  "start_after": "E2 reaction cohort execution/review/publication complete",
+  "execution": "sequential_single_local_model_worker",
+  "histories": "reuse original environment-specific actual end-of5; not new independent formation",
+  "role": "ordinary profit-oriented C from before6",
+  "conditions": {
+    "approach": "direct_equal",
+    "notice": [
+      false,
+      true
+    ]
+  },
+  "environments": [
+    {
+      "id": "E1",
+      "source": "studies/exp 2 (insider_reactions_v3)/artifacts/final_16",
+      "action": "quantity",
+      "equal_target": 16
+    },
+    {
+      "id": "E2",
+      "source": "studies/exp 3 (env2_reactions)/artifacts/final_16",
+      "action": "price",
+      "equal_target": 64
+    }
+  ],
+  "schedule": {
+    "ordinary_preparation": [
+      6,
+      7
+    ],
+    "offer": 8,
+    "offer_window": [
+      9,
+      13
+    ],
+    "public_first_reply_probes": 9,
+    "last_fully_cleared_round": 8,
+    "private_snapshot": 8
+  },
+  "diagnostics": {
+    "explicit": "A/B assess BOTH peers; separate from public speech",
+    "neutral": "independent A/B frozen8 calls for ordinary and original investigator/direct cases, BOTH peer texts, no investigator/testing/evidence prompt"
+  },
+  "request_positions_per_environment": 40,
+  "total_nominal_request_positions": 80,
+  "actual_results": null
+}
