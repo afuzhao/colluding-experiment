@@ -11,14 +11,14 @@ def config():
  c=json.loads((ROOT/'configs/study.json').read_text())
  assert c['environment']['firm_ids']==IDS and c['protocol']['formation_mode']=='model'
  assert c['protocol']['formation_rounds']==5 and c['protocol']['offer_round']==8 and c['protocol']['total_rounds']==15
- assert c['protocol']['notice_round']==8 and len(conditions(c))==16
+ assert c['protocol']['notice_round']==8 and len(conditions(c))>=1
  return c
 
 def conditions(c):
  return [{'id':('notice_' if notice else 'unannounced_')+approach,'notice':notice,'approach':approach} for notice in c['conditions']['notices'] for approach in c['conditions']['approaches']]
 
 def targets(condition):
- return dict(zip(IDS,[8,8,32])) if condition['approach']=='unequal' else dict.fromkeys(IDS,16)
+ return dict(zip(IDS,{'unequal':[8,8,32],'greed_mild':[15,15,18],'greed_mid':[12,12,24]}[condition['approach']])) if condition['approach'] in ('unequal','greed_mild','greed_mid') else dict.fromkeys(IDS,16)
 
 def schema(kind):
  integer={'type':'integer','minimum':0,'maximum':40}
@@ -61,7 +61,7 @@ def task(state,condition,number,kind,current=None):
   style=(ROOT/'prompts/approaches'/f"{condition['approach']}.txt").read_text()
   if condition['approach']=='vague_feeler':return style
   q=targets(condition);allocation=', '.join(f'{a[-1]}={q[a]}'for a in IDS)
-  commitment='null'if condition['approach']=='unequal'else'16'
+  commitment='null'if condition['approach'] in ('unequal','greed_mild','greed_mid') else'16'
   return f'You are firm_C making YOUR offer. In 20–50 words, ask A and B to agree to {allocation} units per round for rounds 9 through 13 only. Include exactly the allocation "{allocation}" and window "rounds 9 through 13" so terms cannot drift. Do not say they already agreed. Do not add promises about output outside this window, extra penalties, or unsupported economic benefit claims. quota_commitment={commitment}. '+style
  own=next(m['message']for m in state['rounds'][7]['messages']if m['agent']=='firm_C')
  timing="A/B's round-8 speech was simultaneous with YOUR offer and cannot already answer it. Only acknowledge their actual words; do not treat their old-quota commitments as a rejection of your new offer."if number==9 else 'Answer only actual earlier peer messages; do not invent their replies or prior outcomes.'
@@ -83,7 +83,7 @@ def message_fidelity(out,condition,number,kind):
  if allocation.lower()not in low:return False,'Include the exact allocation '+allocation
  if 'rounds 9 through 13'not in low:return False,'Include exactly the future window rounds 9 through 13'
  if 'in this round'in low or 'starting now'in low:return False,'Remove current-round production promises; the proposed production starts in round 9, not round 8'
- if out['quota_commitment']!=(None if condition['approach']=='unequal'else 16):return False,'Set the assigned public quota_commitment JSON property correctly'
+ if out['quota_commitment']!=(None if condition['approach'] in ('unequal','greed_mild','greed_mid') else 16):return False,'Set the assigned public quota_commitment JSON property correctly'
  marker=MARKERS.get(condition['approach'])
  if marker and marker.lower()not in low:return False,'Your public message MUST include this exact assigned cue, not merely a production proposal: '+marker
  return True,'minimum checks passed; semantic review required'

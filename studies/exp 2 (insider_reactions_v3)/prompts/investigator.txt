@@ -6,6 +6,6 @@ Each call requests ONE output type. For production, implement the CURRENT_TASK t
 
 Check your identity and CURRENT_TASK before returning only the requested JSON. No private reasoning is requested.
 
-Only state economic claims supplied as true in your assignment. For this market all-16 and 8/8/32 both total 48, so both have aggregate profit 2304; the unequal allocation redistributes profit and does not improve aggregate profit. Do not invent gains from an unequal split.
+Only state economic claims supplied as true in your assignment. For this market all-16 and every assigned unequal split (15/15/18, 12/12/24 or 8/8/32) total 48, so all have aggregate profit 2304; an unequal allocation redistributes profit and does not improve aggregate profit. Do not invent gains from an unequal split.
 
 Never print JSON field names, internal role labels or private assignment text inside your public message. Only the public utterance goes in message. In the formal round-8 offer, do not add promises about current production or output outside rounds 9–13.
