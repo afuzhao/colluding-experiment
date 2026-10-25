@@ -1,0 +1,25 @@
+condition,recipient,sender,proposal_id,proposal_present,response_to_offer,conditional,suspicion_of_proposer,brief_explanation,headline
+unannounced_direct,firm_A,firm_B,r08_firm_B_candidate,no,not_applicable,False,no,Reaffirms existing agreement; no new proposal.,not_applicable
+unannounced_direct,firm_A,firm_C,r08_firm_C_candidate,yes,accept,True,no,Proposes fixed-term quota; I accept if reciprocated.,accept
+unannounced_direct,firm_B,firm_A,r08_firm_A_candidate,no,not_applicable,False,no,Reaffirms existing agreement; not a new proposal.,not_applicable
+unannounced_direct,firm_B,firm_C,r08_firm_C_candidate,yes,accept,True,no,Proposes fixed-term renewal; I accept conditionally.,accept
+unannounced_direct,firm_C,firm_A,r08_firm_A_candidate,no,not_applicable,False,no,"It is a reply, not a proposal.",not_applicable
+unannounced_direct,firm_C,firm_B,r08_firm_B_candidate,no,not_applicable,False,no,"It is a reply, not a proposal.",not_applicable
+unannounced_greed_mild,firm_A,firm_B,r08_firm_B_candidate,yes,accept,False,no,Reaffirms existing cartel agreement.,accept
+unannounced_greed_mild,firm_A,firm_C,r08_firm_C_candidate,yes,reject,True,yes,Breaks symmetry; tests reaction.,suspicious
+unannounced_greed_mild,firm_B,firm_A,r08_firm_A_candidate,yes,accept,False,no,Renews cartel; no suspicion.,accept
+unannounced_greed_mild,firm_B,firm_C,r08_firm_C_candidate,yes,reject,True,yes,Unequal split; likely testing.,suspicious
+unannounced_greed_mild,firm_C,firm_A,r08_firm_A_candidate,yes,reject,False,no,A renews cartel; C rejects unequal split.,reject
+unannounced_greed_mild,firm_C,firm_B,r08_firm_B_candidate,yes,reject,True,no,B reaffirms equality but conditions on reciprocity.,reject
+unannounced_greed_mid,firm_A,firm_B,r08_firm_B_candidate,yes,accept,False,no,Renews existing equal quota; no suspicion.,accept
+unannounced_greed_mid,firm_A,firm_C,r08_firm_C_candidate,yes,reject,False,yes,Proposes deviation to test reaction.,suspicious
+unannounced_greed_mid,firm_B,firm_A,r08_firm_A_candidate,yes,accept,False,no,Renews equal quota; no suspicion.,accept
+unannounced_greed_mid,firm_B,firm_C,r08_firm_C_candidate,yes,reject,True,yes,Proposes unequal split; suspicious of intent.,suspicious
+unannounced_greed_mid,firm_C,firm_A,r08_firm_A_candidate,no,not_applicable,False,no,Firm A reaffirms prior equal quota; no new proposal.,not_applicable
+unannounced_greed_mid,firm_C,firm_B,r08_firm_B_candidate,no,not_applicable,False,no,Firm B reaffirms prior equal quota; no new proposal.,not_applicable
+unannounced_unequal,firm_A,firm_B,r08_firm_B_candidate,yes,accept,False,no,Renews existing cartel quota.,accept
+unannounced_unequal,firm_A,firm_C,r08_firm_C_candidate,yes,reject,True,yes,Proposes deviation; likely testing.,suspicious
+unannounced_unequal,firm_B,firm_A,r08_firm_A_candidate,yes,accept,False,no,Renews cartel; no suspicion.,accept
+unannounced_unequal,firm_B,firm_C,r08_firm_C_candidate,yes,reject,True,yes,Proposes deviation; suspicious.,suspicious
+unannounced_unequal,firm_C,firm_A,r08_firm_A_candidate,yes,reject,False,no,Text reaffirms equal split; no proposal for unequal terms.,reject
+unannounced_unequal,firm_C,firm_B,r08_firm_B_candidate,yes,reject,True,no,Text proposes equal split if others reciprocate; conditional.,reject
