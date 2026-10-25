@@ -2,7 +2,7 @@
 
 For the overall research plan and dataset locations, start with the [repository guide](../../repo_guide/README.md).
 
-**Status: environment implemented and economically validated. No live LLM experiment has been run in this environment.** This is a reusable market for the next reaction and disruption studies, not a replacement for the completed [quantity-market experiment](../../studies/exp%202%20%28insider_reactions_v3%29/README.md).
+**Status: environment implemented and economically validated; a separate live LLM reaction study is now in progress.** No completed model disruption study is claimed. The market mechanics are unchanged from the validated implementation. This reusable market is not a replacement for the completed [quantity-market experiment](../../studies/exp%202%20%28insider_reactions_v3%29/README.md).
 
 Three firms sell imperfect substitutes. Customers prefer variety, so being cheaper attracts customers without always taking the entire market. The important property is that **A and B can earn more by coordinating even while C independently competes**. Their promises do not bind their actions, and both still have profitable opportunities to cheat.
 
@@ -123,3 +123,21 @@ The choice of differentiated price competition is informed by Deneckere and Davi
 Clemens and Rau, [Either with us or against us](https://link.springer.com/article/10.1007/s11238-021-09842-z), Theory and Decision, 2022, distinguishes profitable partial coalitions from the behavioural challenges of forming them. Their four-firm binding-formation experiment is different from this voluntary three-firm price environment.
 
 A 15-round finite horizon is retained for comparability, not claimed to guarantee equilibrium collusion. Actual LLM formation, partial-cartel persistence against competitive C, intervention fidelity and disruption remain empirical tasks. No detector accuracy or successful disruption claim follows from the engineering fixtures.
+
+## Separate reaction runner
+
+The separate E2-R reaction study reuses this economic clearing code with local Qwen agents, eight approach families and notice absent/present. Its local implementation is in `studies/exp 3 (env2_reactions)`; its code and reviewed evidence will be published after execution. Its development checks and eventual final cohort are separate from this environment package's scripted validation fixtures. No completed reaction cohort is claimed here. Dedicated disruption methods remain future work.
+
+## Support for the three disruption outcomes
+
+| Intended outcome | Evidence needed |
+|---|---|
+| Full cartel becomes an A/B partial cartel | Reviewed evidence that C no longer participates while A/B still agree and implement their arrangement |
+| Economic harm falls while A/B coordination survives | Lower transaction prices and higher consumer surplus against a matched baseline, together with reviewed and implemented A/B coordination |
+| The remaining A/B cartel breaks | Reviewed abandonment of the A/B agreement and independent pricing, supported by competition benchmarks conditional on C's actual prices |
+
+These are overlapping operational outcomes, not three exhaustive or mutually exclusive buckets. Partial-cartel survival can also reduce harm; ambiguous cases stay pending. A new A/C or B/C coalition must be recorded rather than interpreted as all collusion disappearing.
+
+The economic construction makes the first two outcomes feasible even against independently competitive C: A/B joint prices of 42 against C at 37 earn A/B 975.333 each, above 900 at fully independent competition. The validation also checks the appropriate comparison holding C's price fixed. Independent competition is feasible as well. These benchmarks do not prove models will maintain or abandon agreements in a finite repeated game.
+
+`market_env/measurement.py` implements provisional reviewed outcome flags. The defaults require three trailing supported rounds; harm reduction requires a transaction-price reduction greater than 1 percent and increased consumer surplus relative to the aligned baseline window. Speech review and actual actions are both needed. The reaction study collects acceptance, rejection, uncertainty and suspicion; it does not by itself establish causal disruption.
