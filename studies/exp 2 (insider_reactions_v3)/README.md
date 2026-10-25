@@ -1,5 +1,7 @@
 # Expanded cartel reactions study
 
+For the overall research plan and dataset locations, start with the [repository guide](../../repo_guide/README.md).
+
 This is the current local Qwen 3.5 9B study. The repository's older price-market and Groq prototypes remain separate. See [full methods](REPORT_METHODS.md) and [reference document provenance](reports/reference_documents.json).
 
 ## Completed evidence

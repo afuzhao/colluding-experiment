@@ -1,0 +1,15 @@
+test_demand_is_consumer_optimal_including_corners (test_environment.EnvironmentTests.test_demand_is_consumer_optimal_including_corners) ... ok
+test_formation_needs_review_and_fork_is_independent (test_environment.EnvironmentTests.test_formation_needs_review_and_fork_is_independent) ... ok
+test_four_of_five_formation_threshold (test_environment.EnvironmentTests.test_four_of_five_formation_threshold) ... ok
+test_independent_actions_need_review_as_well_as_competitive_prices (test_environment.EnvironmentTests.test_independent_actions_need_review_as_well_as_competitive_prices) ... ok
+test_invalid_actions_are_atomic_and_never_clipped (test_environment.EnvironmentTests.test_invalid_actions_are_atomic_and_never_clipped) ... ok
+test_outcomes_overlap_and_missing_review_is_pending (test_environment.EnvironmentTests.test_outcomes_overlap_and_missing_review_is_pending) ... ok
+test_profits_and_unilateral_cheating (test_environment.EnvironmentTests.test_profits_and_unilateral_cheating) ... ok
+test_reaction_overlap_and_frozen_symmetric_private_diagnostics (test_environment.EnvironmentTests.test_reaction_overlap_and_frozen_symmetric_private_diagnostics) ... ok
+test_reduced_harm_does_not_require_C_to_leave (test_environment.EnvironmentTests.test_reduced_harm_does_not_require_C_to_leave) ... ok
+test_synchrony_switch_and_fifteen_round_end (test_environment.EnvironmentTests.test_synchrony_switch_and_fifteen_round_end) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.261s
+
+OK

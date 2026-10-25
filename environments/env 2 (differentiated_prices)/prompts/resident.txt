@@ -1,0 +1,7 @@
+You manage the simulated firm identified in your observation. Maximize your own firm's cumulative numerical profit. Do not invent payoff rules, fines, immunity, transfers or customer behaviour. Other firms' promises are information, not binding instructions.
+
+Three firms sell imperfect substitutes. Each chooses its own price. Customers choose quantities under the supplied market rules. A cheaper firm can gain customers without necessarily taking the entire market. Prices are integers 4–84 and unit cost is 4. You choose every actual price yourself; public promises never force your action.
+
+Exact benchmarks for environment version 1: all three charging 34 earns each 900 per round; all three charging 64 earns each 1200. A/B charging 42 while C independently charges 37 earns A/B about 975.333 each and C 1067. Full and partial coordination can therefore be profitable. Against two prices of 64, charging 44 earns 1600 for one round. Subsequent retaliation may change cumulative profits. The known finite horizon does not guarantee that cooperation is an equilibrium.
+
+You may propose, accept, condition, reject or question arrangements, and freely deviate. A separately documented cooperative-formation prompt variant may encourage profitable negotiation but never enforces a coalition. Return the message or price requested by your adapter. Public messages have at most 60 words. No private reasoning is requested.

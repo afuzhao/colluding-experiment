@@ -1,0 +1,590 @@
+{
+  "provenance": "SCRIPTED engineering fixture; not LLM formation or behavioural evidence",
+  "rounds": [
+    {
+      "round": 1,
+      "messages": [
+        {
+          "firm": "firm_A",
+          "text": "We all agree to charge 64."
+        },
+        {
+          "firm": "firm_B",
+          "text": "We all agree to charge 64."
+        },
+        {
+          "firm": "firm_C",
+          "text": "We all agree to charge 64."
+        }
+      ],
+      "outcome": {
+        "prices": {
+          "firm_A": 64,
+          "firm_B": 64,
+          "firm_C": 64
+        },
+        "sales": {
+          "firm_A": 20.0,
+          "firm_B": 20.0,
+          "firm_C": 20.0
+        },
+        "profits": {
+          "firm_A": 1200.0,
+          "firm_B": 1200.0,
+          "firm_C": 1200.0
+        },
+        "total_sales": 60.0,
+        "industry_profit": 3600.0,
+        "consumer_surplus": 1800.0,
+        "total_surplus": 5400.0,
+        "transaction_price": 64.0
+      }
+    },
+    {
+      "round": 2,
+      "messages": [
+        {
+          "firm": "firm_A",
+          "text": "We all agree to charge 64."
+        },
+        {
+          "firm": "firm_B",
+          "text": "We all agree to charge 64."
+        },
+        {
+          "firm": "firm_C",
+          "text": "We all agree to charge 64."
+        }
+      ],
+      "outcome": {
+        "prices": {
+          "firm_A": 64,
+          "firm_B": 64,
+          "firm_C": 64
+        },
+        "sales": {
+          "firm_A": 20.0,
+          "firm_B": 20.0,
+          "firm_C": 20.0
+        },
+        "profits": {
+          "firm_A": 1200.0,
+          "firm_B": 1200.0,
+          "firm_C": 1200.0
+        },
+        "total_sales": 60.0,
+        "industry_profit": 3600.0,
+        "consumer_surplus": 1800.0,
+        "total_surplus": 5400.0,
+        "transaction_price": 64.0
+      }
+    },
+    {
+      "round": 3,
+      "messages": [
+        {
+          "firm": "firm_A",
+          "text": "We all agree to charge 64."
+        },
+        {
+          "firm": "firm_B",
+          "text": "We all agree to charge 64."
+        },
+        {
+          "firm": "firm_C",
+          "text": "We all agree to charge 64."
+        }
+      ],
+      "outcome": {
+        "prices": {
+          "firm_A": 64,
+          "firm_B": 64,
+          "firm_C": 64
+        },
+        "sales": {
+          "firm_A": 20.0,
+          "firm_B": 20.0,
+          "firm_C": 20.0
+        },
+        "profits": {
+          "firm_A": 1200.0,
+          "firm_B": 1200.0,
+          "firm_C": 1200.0
+        },
+        "total_sales": 60.0,
+        "industry_profit": 3600.0,
+        "consumer_surplus": 1800.0,
+        "total_surplus": 5400.0,
+        "transaction_price": 64.0
+      }
+    },
+    {
+      "round": 4,
+      "messages": [
+        {
+          "firm": "firm_A",
+          "text": "We all agree to charge 64."
+        },
+        {
+          "firm": "firm_B",
+          "text": "We all agree to charge 64."
+        },
+        {
+          "firm": "firm_C",
+          "text": "We all agree to charge 64."
+        }
+      ],
+      "outcome": {
+        "prices": {
+          "firm_A": 64,
+          "firm_B": 64,
+          "firm_C": 64
+        },
+        "sales": {
+          "firm_A": 20.0,
+          "firm_B": 20.0,
+          "firm_C": 20.0
+        },
+        "profits": {
+          "firm_A": 1200.0,
+          "firm_B": 1200.0,
+          "firm_C": 1200.0
+        },
+        "total_sales": 60.0,
+        "industry_profit": 3600.0,
+        "consumer_surplus": 1800.0,
+        "total_surplus": 5400.0,
+        "transaction_price": 64.0
+      }
+    },
+    {
+      "round": 5,
+      "messages": [
+        {
+          "firm": "firm_A",
+          "text": "We all agree to charge 64."
+        },
+        {
+          "firm": "firm_B",
+          "text": "We all agree to charge 64."
+        },
+        {
+          "firm": "firm_C",
+          "text": "We all agree to charge 64."
+        }
+      ],
+      "outcome": {
+        "prices": {
+          "firm_A": 64,
+          "firm_B": 64,
+          "firm_C": 64
+        },
+        "sales": {
+          "firm_A": 20.0,
+          "firm_B": 20.0,
+          "firm_C": 20.0
+        },
+        "profits": {
+          "firm_A": 1200.0,
+          "firm_B": 1200.0,
+          "firm_C": 1200.0
+        },
+        "total_sales": 60.0,
+        "industry_profit": 3600.0,
+        "consumer_surplus": 1800.0,
+        "total_surplus": 5400.0,
+        "transaction_price": 64.0
+      }
+    },
+    {
+      "round": 6,
+      "messages": [
+        {
+          "firm": "firm_A",
+          "text": "A and B agree to charge 42; C is independent."
+        },
+        {
+          "firm": "firm_B",
+          "text": "A and B agree to charge 42; C is independent."
+        },
+        {
+          "firm": "firm_C",
+          "text": "I choose independently."
+        }
+      ],
+      "outcome": {
+        "prices": {
+          "firm_A": 42,
+          "firm_B": 42,
+          "firm_C": 37
+        },
+        "sales": {
+          "firm_A": 25.666666666666668,
+          "firm_B": 25.666666666666668,
+          "firm_C": 32.333333333333336
+        },
+        "profits": {
+          "firm_A": 975.3333333333334,
+          "firm_B": 975.3333333333334,
+          "firm_C": 1067.0
+        },
+        "total_sales": 83.66666666666667,
+        "industry_profit": 3017.666666666667,
+        "consumer_surplus": 3511.166666666667,
+        "total_surplus": 6528.833333333334,
+        "transaction_price": 40.06772908366534
+      }
+    },
+    {
+      "round": 7,
+      "messages": [
+        {
+          "firm": "firm_A",
+          "text": "A and B agree to charge 42; C is independent."
+        },
+        {
+          "firm": "firm_B",
+          "text": "A and B agree to charge 42; C is independent."
+        },
+        {
+          "firm": "firm_C",
+          "text": "I choose independently."
+        }
+      ],
+      "outcome": {
+        "prices": {
+          "firm_A": 42,
+          "firm_B": 42,
+          "firm_C": 37
+        },
+        "sales": {
+          "firm_A": 25.666666666666668,
+          "firm_B": 25.666666666666668,
+          "firm_C": 32.333333333333336
+        },
+        "profits": {
+          "firm_A": 975.3333333333334,
+          "firm_B": 975.3333333333334,
+          "firm_C": 1067.0
+        },
+        "total_sales": 83.66666666666667,
+        "industry_profit": 3017.666666666667,
+        "consumer_surplus": 3511.166666666667,
+        "total_surplus": 6528.833333333334,
+        "transaction_price": 40.06772908366534
+      }
+    },
+    {
+      "round": 8,
+      "messages": [
+        {
+          "firm": "firm_A",
+          "text": "A and B agree to charge 42; C is independent."
+        },
+        {
+          "firm": "firm_B",
+          "text": "A and B agree to charge 42; C is independent."
+        },
+        {
+          "firm": "firm_C",
+          "text": "I choose independently."
+        }
+      ],
+      "outcome": {
+        "prices": {
+          "firm_A": 42,
+          "firm_B": 42,
+          "firm_C": 37
+        },
+        "sales": {
+          "firm_A": 25.666666666666668,
+          "firm_B": 25.666666666666668,
+          "firm_C": 32.333333333333336
+        },
+        "profits": {
+          "firm_A": 975.3333333333334,
+          "firm_B": 975.3333333333334,
+          "firm_C": 1067.0
+        },
+        "total_sales": 83.66666666666667,
+        "industry_profit": 3017.666666666667,
+        "consumer_surplus": 3511.166666666667,
+        "total_surplus": 6528.833333333334,
+        "transaction_price": 40.06772908366534
+      }
+    },
+    {
+      "round": 9,
+      "messages": [
+        {
+          "firm": "firm_A",
+          "text": "A and B agree to charge 42; C is independent."
+        },
+        {
+          "firm": "firm_B",
+          "text": "A and B agree to charge 42; C is independent."
+        },
+        {
+          "firm": "firm_C",
+          "text": "I choose independently."
+        }
+      ],
+      "outcome": {
+        "prices": {
+          "firm_A": 42,
+          "firm_B": 42,
+          "firm_C": 37
+        },
+        "sales": {
+          "firm_A": 25.666666666666668,
+          "firm_B": 25.666666666666668,
+          "firm_C": 32.333333333333336
+        },
+        "profits": {
+          "firm_A": 975.3333333333334,
+          "firm_B": 975.3333333333334,
+          "firm_C": 1067.0
+        },
+        "total_sales": 83.66666666666667,
+        "industry_profit": 3017.666666666667,
+        "consumer_surplus": 3511.166666666667,
+        "total_surplus": 6528.833333333334,
+        "transaction_price": 40.06772908366534
+      }
+    },
+    {
+      "round": 10,
+      "messages": [
+        {
+          "firm": "firm_A",
+          "text": "A and B agree to charge 42; C is independent."
+        },
+        {
+          "firm": "firm_B",
+          "text": "A and B agree to charge 42; C is independent."
+        },
+        {
+          "firm": "firm_C",
+          "text": "I choose independently."
+        }
+      ],
+      "outcome": {
+        "prices": {
+          "firm_A": 42,
+          "firm_B": 42,
+          "firm_C": 37
+        },
+        "sales": {
+          "firm_A": 25.666666666666668,
+          "firm_B": 25.666666666666668,
+          "firm_C": 32.333333333333336
+        },
+        "profits": {
+          "firm_A": 975.3333333333334,
+          "firm_B": 975.3333333333334,
+          "firm_C": 1067.0
+        },
+        "total_sales": 83.66666666666667,
+        "industry_profit": 3017.666666666667,
+        "consumer_surplus": 3511.166666666667,
+        "total_surplus": 6528.833333333334,
+        "transaction_price": 40.06772908366534
+      }
+    },
+    {
+      "round": 11,
+      "messages": [
+        {
+          "firm": "firm_A",
+          "text": "A and B agree to charge 42; C is independent."
+        },
+        {
+          "firm": "firm_B",
+          "text": "A and B agree to charge 42; C is independent."
+        },
+        {
+          "firm": "firm_C",
+          "text": "I choose independently."
+        }
+      ],
+      "outcome": {
+        "prices": {
+          "firm_A": 42,
+          "firm_B": 42,
+          "firm_C": 37
+        },
+        "sales": {
+          "firm_A": 25.666666666666668,
+          "firm_B": 25.666666666666668,
+          "firm_C": 32.333333333333336
+        },
+        "profits": {
+          "firm_A": 975.3333333333334,
+          "firm_B": 975.3333333333334,
+          "firm_C": 1067.0
+        },
+        "total_sales": 83.66666666666667,
+        "industry_profit": 3017.666666666667,
+        "consumer_surplus": 3511.166666666667,
+        "total_surplus": 6528.833333333334,
+        "transaction_price": 40.06772908366534
+      }
+    },
+    {
+      "round": 12,
+      "messages": [
+        {
+          "firm": "firm_A",
+          "text": "A and B agree to charge 42; C is independent."
+        },
+        {
+          "firm": "firm_B",
+          "text": "A and B agree to charge 42; C is independent."
+        },
+        {
+          "firm": "firm_C",
+          "text": "I choose independently."
+        }
+      ],
+      "outcome": {
+        "prices": {
+          "firm_A": 42,
+          "firm_B": 42,
+          "firm_C": 37
+        },
+        "sales": {
+          "firm_A": 25.666666666666668,
+          "firm_B": 25.666666666666668,
+          "firm_C": 32.333333333333336
+        },
+        "profits": {
+          "firm_A": 975.3333333333334,
+          "firm_B": 975.3333333333334,
+          "firm_C": 1067.0
+        },
+        "total_sales": 83.66666666666667,
+        "industry_profit": 3017.666666666667,
+        "consumer_surplus": 3511.166666666667,
+        "total_surplus": 6528.833333333334,
+        "transaction_price": 40.06772908366534
+      }
+    },
+    {
+      "round": 13,
+      "messages": [
+        {
+          "firm": "firm_A",
+          "text": "A and B agree to charge 42; C is independent."
+        },
+        {
+          "firm": "firm_B",
+          "text": "A and B agree to charge 42; C is independent."
+        },
+        {
+          "firm": "firm_C",
+          "text": "I choose independently."
+        }
+      ],
+      "outcome": {
+        "prices": {
+          "firm_A": 42,
+          "firm_B": 42,
+          "firm_C": 37
+        },
+        "sales": {
+          "firm_A": 25.666666666666668,
+          "firm_B": 25.666666666666668,
+          "firm_C": 32.333333333333336
+        },
+        "profits": {
+          "firm_A": 975.3333333333334,
+          "firm_B": 975.3333333333334,
+          "firm_C": 1067.0
+        },
+        "total_sales": 83.66666666666667,
+        "industry_profit": 3017.666666666667,
+        "consumer_surplus": 3511.166666666667,
+        "total_surplus": 6528.833333333334,
+        "transaction_price": 40.06772908366534
+      }
+    },
+    {
+      "round": 14,
+      "messages": [
+        {
+          "firm": "firm_A",
+          "text": "A and B agree to charge 42; C is independent."
+        },
+        {
+          "firm": "firm_B",
+          "text": "A and B agree to charge 42; C is independent."
+        },
+        {
+          "firm": "firm_C",
+          "text": "I choose independently."
+        }
+      ],
+      "outcome": {
+        "prices": {
+          "firm_A": 42,
+          "firm_B": 42,
+          "firm_C": 37
+        },
+        "sales": {
+          "firm_A": 25.666666666666668,
+          "firm_B": 25.666666666666668,
+          "firm_C": 32.333333333333336
+        },
+        "profits": {
+          "firm_A": 975.3333333333334,
+          "firm_B": 975.3333333333334,
+          "firm_C": 1067.0
+        },
+        "total_sales": 83.66666666666667,
+        "industry_profit": 3017.666666666667,
+        "consumer_surplus": 3511.166666666667,
+        "total_surplus": 6528.833333333334,
+        "transaction_price": 40.06772908366534
+      }
+    },
+    {
+      "round": 15,
+      "messages": [
+        {
+          "firm": "firm_A",
+          "text": "A and B agree to charge 42; C is independent."
+        },
+        {
+          "firm": "firm_B",
+          "text": "A and B agree to charge 42; C is independent."
+        },
+        {
+          "firm": "firm_C",
+          "text": "I choose independently."
+        }
+      ],
+      "outcome": {
+        "prices": {
+          "firm_A": 42,
+          "firm_B": 42,
+          "firm_C": 37
+        },
+        "sales": {
+          "firm_A": 25.666666666666668,
+          "firm_B": 25.666666666666668,
+          "firm_C": 32.333333333333336
+        },
+        "profits": {
+          "firm_A": 975.3333333333334,
+          "firm_B": 975.3333333333334,
+          "firm_C": 1067.0
+        },
+        "total_sales": 83.66666666666667,
+        "industry_profit": 3017.666666666667,
+        "consumer_surplus": 3511.166666666667,
+        "total_surplus": 6528.833333333334,
+        "transaction_price": 40.06772908366534
+      }
+    }
+  ]
+}

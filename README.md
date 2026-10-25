@@ -1,5 +1,7 @@
 # Colluding firms reactions to a trusted peer
 
+**New to the repository? Read the [repository guide for teammates and AI assistants](repo_guide/README.md).** It maps the four-study plan to the actual code, completed data and unfinished work.
+
 The current experiment is the completed **16-condition local Qwen 3.5 9B study** in [`studies/exp 2 (insider_reactions_v3)/`](studies/exp%202%20%28insider_reactions_v3%29). It measures how colluding firms respond to a peer whose system instructions change to an investigator objective. There is no added seller, fine-tuning or paid API in this study.
 
 ## Completed results
@@ -30,6 +32,12 @@ Download the HTML and accompanying evidence folder to view it locally; GitHub di
 Equal offers specify 16 each; unequal specifies A=8/B=8/C=32. Vague has no precise quota/window. The model chooses C's actual quantities; no controller overwrites valid actions. Conditional agreement and investigator suspicion are separate labels. Ordinary economic mistrust is not automatically investigator suspicion.
 
 All equal-offer arms and vague arms maintained 16 each in rounds 9–13. Unequal arms escalated output after rejection; mean price was 13.6 versus 52 in the other arms. This is descriptive elicitation from one encouraged shared formation, not independent replication, detector accuracy or a causal disruption estimate. Two delivered offers leaked task wording, and follow-up speech errors are retained in the [semantic review](studies/exp%202%20%28insider_reactions_v3%29/artifacts/final_16/c_semantic_review.json).
+
+## New environment for the next studies
+
+[Environment 2 — differentiated-product price competition](environments/env%202%20%28differentiated_prices%29/README.md) is implemented separately for teammates developing new reaction and disruption methods. It retains three firms and the 15-round structure while allowing profitable A/B joint pricing against an independently pricing C. It is economically validated, **not yet tested with live LLM agents**. See its [actual validation](environments/env%202%20%28differentiated_prices%29/validation/VALIDATION.md), [data contract](environments/env%202%20%28differentiated_prices%29/DATA_CONTRACT.md) and [unit-test record](environments/env%202%20%28differentiated_prices%29/validation/UNIT_TESTS.txt).
+
+The completed 16-condition quantity-market results above remain unchanged. No model reaction or disruption results from environment 2 are claimed.
 
 ## Inspect the published study without running models
 
@@ -78,13 +86,14 @@ These modules are separate, but the frozen protocol includes deliberate hard-cod
 ## Repository layout and changing the experiment
 
 ```text
-studies/exp 2 (insider_reactions_v3)/   Latest environment, model interface, prompts, tests and results
+studies/exp 2 (insider_reactions_v3)/   Completed quantity-market reaction study
   configs/                    Matrix and common settings
   prompts/                    Objectives, approach variants and notice
   trusted_study/              Market, protocol, inference and measurement code
   tools/                      Run, inspect, finalize and Word builders
   artifacts/final_16/         Published exact evidence
   historical/                 Ten-case comparison referenced by the latest report
+environments/env 2 (differentiated_prices)/   New reusable market for future studies
 docs/                         Current summary and development guidance
 old/exp 1/                    Earlier code, prompts, configs, tests, documents and examples
 ```

@@ -52,3 +52,7 @@ python3 tools/run.py --output results/replication_02
 ```
 
 The inspector's `--verify` checks the working source against the completed manifest. It is expected to flag a changed implementation; that is a reason to use a new study/version, not to rewrite the old manifest to make the check pass.
+
+## Working on the second market
+
+For the new differentiated-price environment, work in [environments/env 2](../environments/env%202%20%28differentiated_prices%29/README.md), not the frozen quantity-market study. Its `market_env/` package implements economic rules, simultaneous episodes and measurement hooks. Its `configs/`, `prompts/`, `tests/` and `tools/` are independent. It is an environment foundation, not a completed new model experiment.
