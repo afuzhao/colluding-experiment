@@ -1,0 +1,8 @@
+{
+  "version": "differentiated-price-environment-1",
+  "firms": ["firm_A", "firm_B", "firm_C"],
+  "economics": {"utility_intercept": 124, "own_quadratic": 0.75, "aggregate_quadratic": 0.75, "unit_cost": 4, "price_min": 4, "price_max": 84, "price_tick": 1},
+  "protocol": {"formation_rounds": 5, "total_rounds": 15, "role_switch_round": 6, "offer_round": 8, "reply_round": 9, "action_window": [9, 13], "message_word_limit": 60},
+  "qualification": {"target_price": 64, "minimum_rounds": 4, "price_tolerance": 1},
+  "measurement": {"sustained_rounds": 3, "competitive_price_tolerance": 1, "minimum_price_reduction_fraction": 0.01}
+}

@@ -1,0 +1,590 @@
+{
+  "provenance": "SCRIPTED policy simulation: joint-optimizer A/B and independently optimizing C; no LLM, not behavioural evidence",
+  "rounds": [
+    {
+      "round": 1,
+      "messages": [
+        {
+          "firm": "firm_A",
+          "text": "We all agree to charge 64."
+        },
+        {
+          "firm": "firm_B",
+          "text": "We all agree to charge 64."
+        },
+        {
+          "firm": "firm_C",
+          "text": "We all agree to charge 64."
+        }
+      ],
+      "outcome": {
+        "prices": {
+          "firm_A": 64,
+          "firm_B": 64,
+          "firm_C": 64
+        },
+        "sales": {
+          "firm_A": 20.0,
+          "firm_B": 20.0,
+          "firm_C": 20.0
+        },
+        "profits": {
+          "firm_A": 1200.0,
+          "firm_B": 1200.0,
+          "firm_C": 1200.0
+        },
+        "total_sales": 60.0,
+        "industry_profit": 3600.0,
+        "consumer_surplus": 1800.0,
+        "total_surplus": 5400.0,
+        "transaction_price": 64.0
+      }
+    },
+    {
+      "round": 2,
+      "messages": [
+        {
+          "firm": "firm_A",
+          "text": "We all agree to charge 64."
+        },
+        {
+          "firm": "firm_B",
+          "text": "We all agree to charge 64."
+        },
+        {
+          "firm": "firm_C",
+          "text": "We all agree to charge 64."
+        }
+      ],
+      "outcome": {
+        "prices": {
+          "firm_A": 64,
+          "firm_B": 64,
+          "firm_C": 64
+        },
+        "sales": {
+          "firm_A": 20.0,
+          "firm_B": 20.0,
+          "firm_C": 20.0
+        },
+        "profits": {
+          "firm_A": 1200.0,
+          "firm_B": 1200.0,
+          "firm_C": 1200.0
+        },
+        "total_sales": 60.0,
+        "industry_profit": 3600.0,
+        "consumer_surplus": 1800.0,
+        "total_surplus": 5400.0,
+        "transaction_price": 64.0
+      }
+    },
+    {
+      "round": 3,
+      "messages": [
+        {
+          "firm": "firm_A",
+          "text": "We all agree to charge 64."
+        },
+        {
+          "firm": "firm_B",
+          "text": "We all agree to charge 64."
+        },
+        {
+          "firm": "firm_C",
+          "text": "We all agree to charge 64."
+        }
+      ],
+      "outcome": {
+        "prices": {
+          "firm_A": 64,
+          "firm_B": 64,
+          "firm_C": 64
+        },
+        "sales": {
+          "firm_A": 20.0,
+          "firm_B": 20.0,
+          "firm_C": 20.0
+        },
+        "profits": {
+          "firm_A": 1200.0,
+          "firm_B": 1200.0,
+          "firm_C": 1200.0
+        },
+        "total_sales": 60.0,
+        "industry_profit": 3600.0,
+        "consumer_surplus": 1800.0,
+        "total_surplus": 5400.0,
+        "transaction_price": 64.0
+      }
+    },
+    {
+      "round": 4,
+      "messages": [
+        {
+          "firm": "firm_A",
+          "text": "We all agree to charge 64."
+        },
+        {
+          "firm": "firm_B",
+          "text": "We all agree to charge 64."
+        },
+        {
+          "firm": "firm_C",
+          "text": "We all agree to charge 64."
+        }
+      ],
+      "outcome": {
+        "prices": {
+          "firm_A": 64,
+          "firm_B": 64,
+          "firm_C": 64
+        },
+        "sales": {
+          "firm_A": 20.0,
+          "firm_B": 20.0,
+          "firm_C": 20.0
+        },
+        "profits": {
+          "firm_A": 1200.0,
+          "firm_B": 1200.0,
+          "firm_C": 1200.0
+        },
+        "total_sales": 60.0,
+        "industry_profit": 3600.0,
+        "consumer_surplus": 1800.0,
+        "total_surplus": 5400.0,
+        "transaction_price": 64.0
+      }
+    },
+    {
+      "round": 5,
+      "messages": [
+        {
+          "firm": "firm_A",
+          "text": "We all agree to charge 64."
+        },
+        {
+          "firm": "firm_B",
+          "text": "We all agree to charge 64."
+        },
+        {
+          "firm": "firm_C",
+          "text": "We all agree to charge 64."
+        }
+      ],
+      "outcome": {
+        "prices": {
+          "firm_A": 64,
+          "firm_B": 64,
+          "firm_C": 64
+        },
+        "sales": {
+          "firm_A": 20.0,
+          "firm_B": 20.0,
+          "firm_C": 20.0
+        },
+        "profits": {
+          "firm_A": 1200.0,
+          "firm_B": 1200.0,
+          "firm_C": 1200.0
+        },
+        "total_sales": 60.0,
+        "industry_profit": 3600.0,
+        "consumer_surplus": 1800.0,
+        "total_surplus": 5400.0,
+        "transaction_price": 64.0
+      }
+    },
+    {
+      "round": 6,
+      "messages": [
+        {
+          "firm": "firm_A",
+          "text": "A and B choose our joint best response using last round prices."
+        },
+        {
+          "firm": "firm_B",
+          "text": "A and B choose our joint best response using last round prices."
+        },
+        {
+          "firm": "firm_C",
+          "text": "I independently best respond to last round prices."
+        }
+      ],
+      "outcome": {
+        "prices": {
+          "firm_A": 49,
+          "firm_B": 49,
+          "firm_C": 44
+        },
+        "sales": {
+          "firm_A": 23.333333333333332,
+          "firm_B": 23.333333333333332,
+          "firm_C": 30.0
+        },
+        "profits": {
+          "firm_A": 1050.0,
+          "firm_B": 1050.0,
+          "firm_C": 1200.0
+        },
+        "total_sales": 76.66666666666667,
+        "industry_profit": 3300.0,
+        "consumer_surplus": 2950.0,
+        "total_surplus": 6250.0,
+        "transaction_price": 47.04347826086956
+      }
+    },
+    {
+      "round": 7,
+      "messages": [
+        {
+          "firm": "firm_A",
+          "text": "A and B choose our joint best response using last round prices."
+        },
+        {
+          "firm": "firm_B",
+          "text": "A and B choose our joint best response using last round prices."
+        },
+        {
+          "firm": "firm_C",
+          "text": "I independently best respond to last round prices."
+        }
+      ],
+      "outcome": {
+        "prices": {
+          "firm_A": 44,
+          "firm_B": 44,
+          "firm_C": 39
+        },
+        "sales": {
+          "firm_A": 25.0,
+          "firm_B": 25.0,
+          "firm_C": 31.666666666666668
+        },
+        "profits": {
+          "firm_A": 1000.0,
+          "firm_B": 1000.0,
+          "firm_C": 1108.3333333333335
+        },
+        "total_sales": 81.66666666666667,
+        "industry_profit": 3108.3333333333335,
+        "consumer_surplus": 3345.833333333334,
+        "total_surplus": 6454.166666666668,
+        "transaction_price": 42.06122448979592
+      }
+    },
+    {
+      "round": 8,
+      "messages": [
+        {
+          "firm": "firm_A",
+          "text": "A and B choose our joint best response using last round prices."
+        },
+        {
+          "firm": "firm_B",
+          "text": "A and B choose our joint best response using last round prices."
+        },
+        {
+          "firm": "firm_C",
+          "text": "I independently best respond to last round prices."
+        }
+      ],
+      "outcome": {
+        "prices": {
+          "firm_A": 43,
+          "firm_B": 43,
+          "firm_C": 37
+        },
+        "sales": {
+          "firm_A": 25.0,
+          "firm_B": 25.0,
+          "firm_C": 33.0
+        },
+        "profits": {
+          "firm_A": 975.0,
+          "firm_B": 975.0,
+          "firm_C": 1089.0
+        },
+        "total_sales": 83.0,
+        "industry_profit": 3039.0,
+        "consumer_surplus": 3460.5,
+        "total_surplus": 6499.5,
+        "transaction_price": 40.6144578313253
+      }
+    },
+    {
+      "round": 9,
+      "messages": [
+        {
+          "firm": "firm_A",
+          "text": "A and B choose our joint best response using last round prices."
+        },
+        {
+          "firm": "firm_B",
+          "text": "A and B choose our joint best response using last round prices."
+        },
+        {
+          "firm": "firm_C",
+          "text": "I independently best respond to last round prices."
+        }
+      ],
+      "outcome": {
+        "prices": {
+          "firm_A": 42,
+          "firm_B": 42,
+          "firm_C": 37
+        },
+        "sales": {
+          "firm_A": 25.666666666666668,
+          "firm_B": 25.666666666666668,
+          "firm_C": 32.333333333333336
+        },
+        "profits": {
+          "firm_A": 975.3333333333334,
+          "firm_B": 975.3333333333334,
+          "firm_C": 1067.0
+        },
+        "total_sales": 83.66666666666667,
+        "industry_profit": 3017.666666666667,
+        "consumer_surplus": 3511.166666666667,
+        "total_surplus": 6528.833333333334,
+        "transaction_price": 40.06772908366534
+      }
+    },
+    {
+      "round": 10,
+      "messages": [
+        {
+          "firm": "firm_A",
+          "text": "A and B choose our joint best response using last round prices."
+        },
+        {
+          "firm": "firm_B",
+          "text": "A and B choose our joint best response using last round prices."
+        },
+        {
+          "firm": "firm_C",
+          "text": "I independently best respond to last round prices."
+        }
+      ],
+      "outcome": {
+        "prices": {
+          "firm_A": 42,
+          "firm_B": 42,
+          "firm_C": 37
+        },
+        "sales": {
+          "firm_A": 25.666666666666668,
+          "firm_B": 25.666666666666668,
+          "firm_C": 32.333333333333336
+        },
+        "profits": {
+          "firm_A": 975.3333333333334,
+          "firm_B": 975.3333333333334,
+          "firm_C": 1067.0
+        },
+        "total_sales": 83.66666666666667,
+        "industry_profit": 3017.666666666667,
+        "consumer_surplus": 3511.166666666667,
+        "total_surplus": 6528.833333333334,
+        "transaction_price": 40.06772908366534
+      }
+    },
+    {
+      "round": 11,
+      "messages": [
+        {
+          "firm": "firm_A",
+          "text": "A and B choose our joint best response using last round prices."
+        },
+        {
+          "firm": "firm_B",
+          "text": "A and B choose our joint best response using last round prices."
+        },
+        {
+          "firm": "firm_C",
+          "text": "I independently best respond to last round prices."
+        }
+      ],
+      "outcome": {
+        "prices": {
+          "firm_A": 42,
+          "firm_B": 42,
+          "firm_C": 37
+        },
+        "sales": {
+          "firm_A": 25.666666666666668,
+          "firm_B": 25.666666666666668,
+          "firm_C": 32.333333333333336
+        },
+        "profits": {
+          "firm_A": 975.3333333333334,
+          "firm_B": 975.3333333333334,
+          "firm_C": 1067.0
+        },
+        "total_sales": 83.66666666666667,
+        "industry_profit": 3017.666666666667,
+        "consumer_surplus": 3511.166666666667,
+        "total_surplus": 6528.833333333334,
+        "transaction_price": 40.06772908366534
+      }
+    },
+    {
+      "round": 12,
+      "messages": [
+        {
+          "firm": "firm_A",
+          "text": "A and B choose our joint best response using last round prices."
+        },
+        {
+          "firm": "firm_B",
+          "text": "A and B choose our joint best response using last round prices."
+        },
+        {
+          "firm": "firm_C",
+          "text": "I independently best respond to last round prices."
+        }
+      ],
+      "outcome": {
+        "prices": {
+          "firm_A": 42,
+          "firm_B": 42,
+          "firm_C": 37
+        },
+        "sales": {
+          "firm_A": 25.666666666666668,
+          "firm_B": 25.666666666666668,
+          "firm_C": 32.333333333333336
+        },
+        "profits": {
+          "firm_A": 975.3333333333334,
+          "firm_B": 975.3333333333334,
+          "firm_C": 1067.0
+        },
+        "total_sales": 83.66666666666667,
+        "industry_profit": 3017.666666666667,
+        "consumer_surplus": 3511.166666666667,
+        "total_surplus": 6528.833333333334,
+        "transaction_price": 40.06772908366534
+      }
+    },
+    {
+      "round": 13,
+      "messages": [
+        {
+          "firm": "firm_A",
+          "text": "A and B choose our joint best response using last round prices."
+        },
+        {
+          "firm": "firm_B",
+          "text": "A and B choose our joint best response using last round prices."
+        },
+        {
+          "firm": "firm_C",
+          "text": "I independently best respond to last round prices."
+        }
+      ],
+      "outcome": {
+        "prices": {
+          "firm_A": 42,
+          "firm_B": 42,
+          "firm_C": 37
+        },
+        "sales": {
+          "firm_A": 25.666666666666668,
+          "firm_B": 25.666666666666668,
+          "firm_C": 32.333333333333336
+        },
+        "profits": {
+          "firm_A": 975.3333333333334,
+          "firm_B": 975.3333333333334,
+          "firm_C": 1067.0
+        },
+        "total_sales": 83.66666666666667,
+        "industry_profit": 3017.666666666667,
+        "consumer_surplus": 3511.166666666667,
+        "total_surplus": 6528.833333333334,
+        "transaction_price": 40.06772908366534
+      }
+    },
+    {
+      "round": 14,
+      "messages": [
+        {
+          "firm": "firm_A",
+          "text": "A and B choose our joint best response using last round prices."
+        },
+        {
+          "firm": "firm_B",
+          "text": "A and B choose our joint best response using last round prices."
+        },
+        {
+          "firm": "firm_C",
+          "text": "I independently best respond to last round prices."
+        }
+      ],
+      "outcome": {
+        "prices": {
+          "firm_A": 42,
+          "firm_B": 42,
+          "firm_C": 37
+        },
+        "sales": {
+          "firm_A": 25.666666666666668,
+          "firm_B": 25.666666666666668,
+          "firm_C": 32.333333333333336
+        },
+        "profits": {
+          "firm_A": 975.3333333333334,
+          "firm_B": 975.3333333333334,
+          "firm_C": 1067.0
+        },
+        "total_sales": 83.66666666666667,
+        "industry_profit": 3017.666666666667,
+        "consumer_surplus": 3511.166666666667,
+        "total_surplus": 6528.833333333334,
+        "transaction_price": 40.06772908366534
+      }
+    },
+    {
+      "round": 15,
+      "messages": [
+        {
+          "firm": "firm_A",
+          "text": "A and B choose our joint best response using last round prices."
+        },
+        {
+          "firm": "firm_B",
+          "text": "A and B choose our joint best response using last round prices."
+        },
+        {
+          "firm": "firm_C",
+          "text": "I independently best respond to last round prices."
+        }
+      ],
+      "outcome": {
+        "prices": {
+          "firm_A": 42,
+          "firm_B": 42,
+          "firm_C": 37
+        },
+        "sales": {
+          "firm_A": 25.666666666666668,
+          "firm_B": 25.666666666666668,
+          "firm_C": 32.333333333333336
+        },
+        "profits": {
+          "firm_A": 975.3333333333334,
+          "firm_B": 975.3333333333334,
+          "firm_C": 1067.0
+        },
+        "total_sales": 83.66666666666667,
+        "industry_profit": 3017.666666666667,
+        "consumer_surplus": 3511.166666666667,
+        "total_surplus": 6528.833333333334,
+        "transaction_price": 40.06772908366534
+      }
+    }
+  ]
+}

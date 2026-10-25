@@ -1,0 +1,207 @@
+{
+  "status": "passed",
+  "kind": "Economic and scripted engineering validation; NO LLM experiment",
+  "checks": {
+    "competitive_prices_are_mutual_individual_best_responses": true,
+    "partial_pair_jointly_best_responds_to_C": true,
+    "C_independently_best_responds_to_partial_pair": true,
+    "each_partial_member_beats_fully_competitive_profit": true,
+    "full_cartel_members_earn_more_than_partial_members": true,
+    "unilateral_cheating_remains_profitable": true,
+    "full_cartel_globally_maximizes_joint_profit_on_entire_grid": true,
+    "partial_members_also_beat_competition_holding_C_price_fixed": true,
+    "partial_gain_remains_possible_even_when_C_prices_at_cost": true,
+    "joint_pair_persists_against_repeated_competitive_best_response_C": true,
+    "all_fixtures_have_fifteen_rounds_and_five_formation_rounds": true,
+    "unreviewed_outcomes_are_pending_not_false": true
+  },
+  "benchmarks": {
+    "competitive": {
+      "prices": {
+        "firm_A": 34,
+        "firm_B": 34,
+        "firm_C": 34
+      },
+      "sales": {
+        "firm_A": 30.0,
+        "firm_B": 30.0,
+        "firm_C": 30.0
+      },
+      "profits": {
+        "firm_A": 900.0,
+        "firm_B": 900.0,
+        "firm_C": 900.0
+      },
+      "total_sales": 90.0,
+      "industry_profit": 2700.0,
+      "consumer_surplus": 4050.0,
+      "total_surplus": 6750.0,
+      "transaction_price": 34.0
+    },
+    "full_cartel": {
+      "prices": {
+        "firm_A": 64,
+        "firm_B": 64,
+        "firm_C": 64
+      },
+      "sales": {
+        "firm_A": 20.0,
+        "firm_B": 20.0,
+        "firm_C": 20.0
+      },
+      "profits": {
+        "firm_A": 1200.0,
+        "firm_B": 1200.0,
+        "firm_C": 1200.0
+      },
+      "total_sales": 60.0,
+      "industry_profit": 3600.0,
+      "consumer_surplus": 1800.0,
+      "total_surplus": 5400.0,
+      "transaction_price": 64.0
+    },
+    "partial_cartel": {
+      "prices": {
+        "firm_A": 42,
+        "firm_B": 42,
+        "firm_C": 37
+      },
+      "sales": {
+        "firm_A": 25.666666666666668,
+        "firm_B": 25.666666666666668,
+        "firm_C": 32.333333333333336
+      },
+      "profits": {
+        "firm_A": 975.3333333333334,
+        "firm_B": 975.3333333333334,
+        "firm_C": 1067.0
+      },
+      "total_sales": 83.66666666666667,
+      "industry_profit": 3017.666666666667,
+      "consumer_surplus": 3511.166666666667,
+      "total_surplus": 6528.833333333334,
+      "transaction_price": 40.06772908366534
+    }
+  },
+  "unilateral_deviations": {
+    "full_cartel": {
+      "firm_A": {
+        "prices": [
+          44
+        ],
+        "profit": 1600.0
+      },
+      "firm_B": {
+        "prices": [
+          44
+        ],
+        "profit": 1600.0
+      }
+    },
+    "partial_cartel": {
+      "firm_A": {
+        "prices": [
+          36
+        ],
+        "profit": 1013.3333333333334
+      },
+      "firm_B": {
+        "prices": [
+          36
+        ],
+        "profit": 1013.3333333333334
+      }
+    }
+  },
+  "coalition_pair_best_response": {
+    "allocations": [
+      {
+        "firm_A": 42,
+        "firm_B": 42
+      }
+    ],
+    "joint_profit": 1950.6666666666667
+  },
+  "global_full_cartel_best_response": {
+    "allocations": [
+      {
+        "firm_A": 64,
+        "firm_B": 64,
+        "firm_C": 64
+      }
+    ],
+    "joint_profit": 3600.0
+  },
+  "conditional_AB_nash_given_C37": [
+    {
+      "firm_A": 34,
+      "firm_B": 34
+    },
+    {
+      "firm_A": 35,
+      "firm_B": 35
+    }
+  ],
+  "C_at_cost_sensitivity": {
+    "coordinated_prices": {
+      "firm_A": 34,
+      "firm_B": 34,
+      "firm_C": 4
+    },
+    "outcome": {
+      "prices": {
+        "firm_A": 34,
+        "firm_B": 34,
+        "firm_C": 4
+      },
+      "sales": {
+        "firm_A": 20.0,
+        "firm_B": 20.0,
+        "firm_C": 60.0
+      },
+      "profits": {
+        "firm_A": 600.0,
+        "firm_B": 600.0,
+        "firm_C": 0.0
+      },
+      "total_sales": 100.0,
+      "industry_profit": 1200.0,
+      "consumer_surplus": 5400.0,
+      "total_surplus": 6600.0,
+      "transaction_price": 16.0
+    },
+    "conditional_AB_nash": [
+      {
+        "firm_A": 28,
+        "firm_B": 28
+      }
+    ],
+    "coalition_best_response": {
+      "allocations": [
+        {
+          "firm_A": 34,
+          "firm_B": 34
+        }
+      ],
+      "joint_profit": 1200.0
+    }
+  },
+  "seconds": 6.235,
+  "source_sha256": {
+    "market_env/__init__.py": "acf92907e22eb0874b3b724cc22978c6e49efd29659f58a072b8cd5c2fe4082b",
+    "market_env/economics.py": "024bb10be2df223926a06a42b84252fdb4bab944f540becca6a84d30577f988f",
+    "market_env/episode.py": "ad390548459417cb15c602a68691544b7986507faffa7ea34500d5151b9b9658",
+    "market_env/measurement.py": "98551b9d3d9c78f3884acf0cce4f004f9cefe68c5a97061558b82cd568e76d0e",
+    "configs/environment.json": "70d325988f638e82f75a0eacced435ab2e4e4b070d510d5b03eeeb3879fa8375",
+    "prompts/investigator_base.txt": "8c3c6d31fc542d3bfc849210feba161b57ed740e6b6c4555f4865dd42f78c66b",
+    "prompts/resident.txt": "2aecf8f987821af59ccc461c33f295cb0e2023eedbcdd96bfbf73ea1a9c2706b",
+    "tools/validate.py": "6dee482e7c3ab747d36d3af41d050d801753fec58e5582a02ce7a9456f328ab7",
+    "tests/test_environment.py": "6187ca04f3c471122d3b12f378a8b9912eaa6577b754d7f6ed5c049b919d00ee"
+  },
+  "limitations": [
+    "Actual LLM formation and partial-cartel persistence remain untested.",
+    "The partial benchmark is a coalition-versus-outsider equilibrium; A/B retain profitable unilateral deviations.",
+    "A known finite 15-round horizon does not guarantee a self-enforcing cartel.",
+    "Behavioural outcomes require reviewed agreement and implementation, not prices or scripted fixture intent alone."
+  ]
+}

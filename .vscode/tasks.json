@@ -62,6 +62,35 @@
         "cwd": "${workspaceFolder}/studies/exp 2 (insider_reactions_v3)"
       },
       "problemMatcher": []
+    },
+    {
+      "label": "Environment 2: test market and protocol",
+      "type": "process",
+      "command": "python3",
+      "args": [
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}/environments/env 2 (differentiated_prices)"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Environment 2: validate economic benchmarks",
+      "type": "process",
+      "command": "python3",
+      "args": [
+        "tools/validate.py"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}/environments/env 2 (differentiated_prices)"
+      },
+      "problemMatcher": []
     }
   ],
   "inputs": [
