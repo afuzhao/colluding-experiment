@@ -175,6 +175,28 @@
         "cwd": "${workspaceFolder}"
       },
       "problemMatcher": []
+    },
+    {
+      "label": "Queue all eight Groq conditions (saved run)",
+      "type": "process",
+      "command": "${workspaceFolder}/.venv/bin/python",
+      "args": [
+        "tools/batch_cournot.py",
+        "start",
+        "--output",
+        "${input:cournotRunFolder}"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    }
+  ],
+  "inputs": [
+    {
+      "id": "cournotRunFolder",
+      "type": "promptString",
+      "description": "Saved Groq run directory (for example results/cournot_...)"
     }
   ]
 }

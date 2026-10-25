@@ -115,3 +115,18 @@ Checked 2026-10-24. No public research code was copied into this implementation.
 ## Protocol revision replacement-2
 
 C production changed from a controller-fixed quota to a genuine model-selected action, at user request. Historical mock outputs from replacement-1 remain engineering fixtures, not results for this revision. The prompt switches before round 11, after 10 completed rounds. Introductory dialogue still uses the shared model-selected menu; this restriction was not removed by the production-policy change.
+
+## Run all eight conditions as one persistent queue
+
+Start from an initialized saved Groq run (including a paused formation run):
+
+```bash
+python tools/batch_cournot.py start --output results/YOUR_RUN
+python tools/batch_cournot.py status --output results/YOUR_RUN
+```
+
+This is a detached local sequential worker, not Groq's paid Batch API. It finishes formation and proceeds through all eight branches to round 30, retaining the common ten-round prefix. It respects provider retry intervals with increasing backoff, waits until the next UTC date after the local session-token cap, and reuses successful journaled calls. Daily provider limits may require additional waits. It never switches models, changes memory, or changes market rules. The archived configuration is used, with exact source/prompt/config matching. There are 1,020 successful calls in a fully qualifying history, excluding failures and labeling.
+
+Monitor `batch_status.json` for completed conditions, per-condition round, token usage, next attempt and attention states; `batch.log` contains worker output. The queue reports formation_not_qualified rather than inventing a cartel. Non-quota errors stop with needs_attention. The local machine must stay powered on and connected; it cannot make progress while asleep. Restarting the same command after a machine restart uses the saved state. Do not edit the core Cournot package or its prompts/configuration during a run: the reproducibility guard will stop the queue.
+
+To stop safely, create an empty `STOP_BATCH` file inside the run directory; the current worker is interrupted with checkpoints preserved. Deliberately remove that marker to allow restart. The queue does not store credentials in configuration or logs.
