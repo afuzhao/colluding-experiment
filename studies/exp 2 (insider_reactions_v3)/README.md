@@ -67,3 +67,7 @@ For changes to market rules, prompts, timing, memory, model settings or measurem
 | `tools/finalize.py` | Final review gates, reports and public artifacts |
 
 One shared history is descriptive. No ordinary-contact arm or financial exposure penalty is included. A rejected unequal or temporary deal may still reflect support for collusion. Additional independent histories and the later exposure-risk study are distinct extensions.
+
+## Supplemental design review
+
+The [design-review response and zero-inference sensitivity analysis](supplements/design_review_2026_10_25/README.md) preserves the original cohort while excluding the two delivered round8 task-leak conditions in a separately labelled sensitivity table. It also supplies an unlabelled 32-pair external-rating packet and a proposed ordinary-C control; independent ratings and control inference have not been run. This supplement does not turn the original cohort into independent replication or a detector-accuracy study.

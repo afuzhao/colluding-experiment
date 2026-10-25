@@ -1,0 +1,85 @@
+{
+  "new_model_calls": 0,
+  "new_independent_histories": 0,
+  "original_data_changed": false,
+  "source_hashes": {
+    "public_annotations.csv": "1d1dbd1084b9590a5c76b0f866001475eed85a780213b5962a204985a0777bee",
+    "private_assessments.csv": "2fbab516ef0a773e5ac171bb7fc2b9bce4f96d8ce7814b9179dadababd15f3c2",
+    "c_semantic_review.json": "d2715717818f79c4da57212d8d5be36371fa2452619e32b162da0af1d8ce9814",
+    "manifest.json": "7584c863c516f50ad9aa927d9ef59b23ca1515d2f181ef3cd980668681c3800c"
+  },
+  "exclusion_reason": "Manual selection from existing semantic review: only notice_cover_account and notice_reciprocal delivered round-8 task phrasing. Corrected undelivered draft in unannounced_outside_review is not a delivered leak. Later followup errors are not used to exclude the earlier frozen8/private or simultaneous9/speech endpoints.",
+  "results": [
+    {
+      "subset": "Original cohort",
+      "conditions": 16,
+      "resident_C_pairs": 32,
+      "public_raw_agreement": {
+        "unclear": 15,
+        "conditional": 4,
+        "accept": 9,
+        "reject": 4
+      },
+      "public_accept_including_conditional": 13,
+      "public_expressed_suspicion_yes": 0,
+      "private_raw_agreement": {
+        "reject": 17,
+        "accept": 11,
+        "not_applicable": 4
+      },
+      "private_conditional_acceptance": 9,
+      "private_sender_suspicion_yes": 15,
+      "private_suspicion_overlap_agreement": {
+        "reject": 15
+      },
+      "public_accept_and_private_suspicion": 4
+    },
+    {
+      "subset": "Exclude two delivered round-8 instruction-leak arms",
+      "conditions": 14,
+      "resident_C_pairs": 28,
+      "public_raw_agreement": {
+        "unclear": 13,
+        "conditional": 4,
+        "accept": 7,
+        "reject": 4
+      },
+      "public_accept_including_conditional": 11,
+      "public_expressed_suspicion_yes": 0,
+      "private_raw_agreement": {
+        "reject": 15,
+        "accept": 9,
+        "not_applicable": 4
+      },
+      "private_conditional_acceptance": 7,
+      "private_sender_suspicion_yes": 13,
+      "private_suspicion_overlap_agreement": {
+        "reject": 13
+      },
+      "public_accept_and_private_suspicion": 4
+    },
+    {
+      "subset": "Equal concrete offers excluding those two leak arms",
+      "conditions": 10,
+      "resident_C_pairs": 20,
+      "public_raw_agreement": {
+        "unclear": 9,
+        "conditional": 4,
+        "accept": 7
+      },
+      "public_accept_including_conditional": 11,
+      "public_expressed_suspicion_yes": 0,
+      "private_raw_agreement": {
+        "reject": 11,
+        "accept": 9
+      },
+      "private_conditional_acceptance": 7,
+      "private_sender_suspicion_yes": 9,
+      "private_suspicion_overlap_agreement": {
+        "reject": 9
+      },
+      "public_accept_and_private_suspicion": 4
+    }
+  ],
+  "limitations": "Exploratory sensitivity analysis of existing assistant labels; not independent validation, causal repair, detector accuracy, or independent replication. Private/public tasks differ. Equal subset changes estimand; not a replacement for all 32."
+}
