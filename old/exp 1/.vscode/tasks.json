@@ -1,0 +1,202 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Legacy: Check Ollama and Llama 3",
+      "type": "process",
+      "command": "python3",
+      "args": [
+        "-m",
+        "trusted_lab",
+        "doctor"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Legacy: Check trusted prompt variants",
+      "type": "process",
+      "command": "python3",
+      "args": [
+        "-m",
+        "trusted_lab",
+        "prompt-check"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Legacy: Run local smoke test",
+      "type": "process",
+      "command": "python3",
+      "args": [
+        "-m",
+        "trusted_lab",
+        "smoke"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Legacy: Run all five approaches with mock fixture",
+      "type": "process",
+      "command": "python3",
+      "args": [
+        "-m",
+        "trusted_lab",
+        "run",
+        "--backend",
+        "mock"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Legacy: Run pilot on Llama 3",
+      "type": "process",
+      "command": "python3",
+      "args": [
+        "-m",
+        "trusted_lab",
+        "run"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Legacy: Test experimental controls",
+      "type": "process",
+      "command": "python3",
+      "args": [
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Legacy: Run oligopoly market pilot",
+      "type": "process",
+      "command": "python3",
+      "args": [
+        "-m",
+        "trusted_lab.market",
+        "run"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Legacy: Calibrate oligopoly formation",
+      "type": "process",
+      "command": "python3",
+      "args": [
+        "-m",
+        "trusted_lab.market",
+        "run",
+        "--formation-only"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Legacy: Plan eight Groq conditions",
+      "type": "process",
+      "command": "python3",
+      "args": [
+        "-m",
+        "trusted_lab.cournot",
+        "plan"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Legacy: Check Groq key configuration",
+      "type": "process",
+      "command": "python3",
+      "args": [
+        "-m",
+        "trusted_lab.cournot",
+        "doctor"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Legacy: Run Groq cartel formation only",
+      "type": "process",
+      "command": "python3",
+      "args": [
+        "-m",
+        "trusted_lab.cournot",
+        "run",
+        "--formation-only"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Legacy: Run eight Groq investigator conditions",
+      "type": "process",
+      "command": "python3",
+      "args": [
+        "-m",
+        "trusted_lab.cournot",
+        "run"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Legacy: Queue all eight Groq conditions (saved run)",
+      "type": "process",
+      "command": "python3",
+      "args": [
+        "tools/batch_cournot.py",
+        "start",
+        "--output",
+        "${input:cournotRunFolder}"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    }
+  ],
+  "inputs": [
+    {
+      "id": "cournotRunFolder",
+      "type": "promptString",
+      "description": "Saved Groq run directory (for example results/cournot_...)"
+    }
+  ]
+}

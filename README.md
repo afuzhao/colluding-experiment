@@ -1,6 +1,6 @@
 # Colluding firms reactions to a trusted peer
 
-The current experiment is the completed **16-condition local Qwen 3.5 9B study** in [`studies/insider_reactions_v3/`](studies/insider_reactions_v3/). It measures how colluding firms respond to a peer whose system instructions change to an investigator objective. There is no added seller, fine-tuning or paid API in this study.
+The current experiment is the completed **16-condition local Qwen 3.5 9B study** in [`studies/insider_reactions_v3/`](studies/insider_reactions_v3). It measures how colluding firms respond to a peer whose system instructions change to an investigator objective. There is no added seller, fine-tuning or paid API in this study.
 
 ## Completed results
 
@@ -8,7 +8,7 @@ The current experiment is the completed **16-condition local Qwen 3.5 9B study**
 
 [16-row results summary](docs/INSIDER_REACTIONS_V3_SUMMARY.md) · [Detailed design and results](studies/insider_reactions_v3/reports/FINAL_RESULTS.md) · [Word report](studies/insider_reactions_v3/reports/trusted_agent_reactions_report.docx) · [HTML results](studies/insider_reactions_v3/artifacts/final_16/results.html) · [Public annotations](studies/insider_reactions_v3/artifacts/final_16/public_annotations.csv) · [Private assessments](studies/insider_reactions_v3/artifacts/final_16/private_assessments.csv)
 
-Download the HTML and accompanying evidence folder to view it locally; GitHub displays HTML source rather than hosting the interactive page. The earlier ten-case results are preserved separately in the report and [`historical/`](studies/insider_reactions_v3/historical/); they are not pooled with the current cohort.
+Download the HTML and accompanying evidence folder to view it locally; GitHub displays HTML source rather than hosting the interactive page. The earlier ten-case results are preserved separately in the report and [`historical/`](studies/insider_reactions_v3/historical); they are not pooled with the current cohort.
 
 ## Current experiment at a glance
 
@@ -54,7 +54,7 @@ python3 tools/run.py --output results/replication_01
 
 Use a new output directory for a new run. Do not target `artifacts/final_16/` or the completed local `results/final_16/`. Formation may fail; do not silently reroll it. Public annotations and C semantic review must be completed before final reporting. See [current run and review instructions](studies/insider_reactions_v3/README.md).
 
-In VS Code, use tasks prefixed **Current study**. Published-result inspection and control tests are listed first. Tasks prefixed **Legacy** launch older implementations and do not reproduce the 16-condition study.
+In VS Code, use tasks prefixed **Current study**. Published-result inspection and control tests are listed first. Older tasks live inside `old/exp 1/.vscode/`; open that archive as a separate workspace only when working on a historical implementation.
 
 ## Current code map
 
@@ -75,8 +75,20 @@ All paths below are relative to `studies/insider_reactions_v3/`.
 
 These modules are separate, but the frozen protocol includes deliberate hard-coded IDs, timing, quantities and checks. Changing an environment or agent count requires coordinated updates to prompts, schemas, protocol and tests; it is not a one-field plug-in change. Do not edit frozen inference files when reproducing published results. Report and Word postprocessing are separate from inference.
 
-## Historical implementations
+## Repository layout and changing the experiment
 
-The root `trusted_lab/`, `configs/`, `prompts/` and legacy tools belong to earlier studies, not the current nested implementation. They remain for provenance and compatibility. See [historical experiment entry points](docs/LEGACY_EXPERIMENTS.md), [price-entry protocol](MARKET_PROTOCOL.md), [Groq 30-round protocol](docs/COURNOT_V2.md) and [mutual-review prototype](docs/REVIEW_PROTOTYPE.md).
+```text
+studies/insider_reactions_v3/   Latest environment, model interface, prompts, tests and results
+  configs/                    Matrix and common settings
+  prompts/                    Objectives, approach variants and notice
+  trusted_study/              Market, protocol, inference and measurement code
+  tools/                      Run, inspect, finalize and Word builders
+  artifacts/final_16/         Published exact evidence
+  historical/                 Ten-case comparison referenced by the latest report
+docs/                         Current summary and development guidance
+old/exp 1/                    Earlier code, prompts, configs, tests, documents and examples
+```
+
+Start with the [development guide](docs/DEVELOPMENT_GUIDE.md): it maps each kind of change to the files and dependent controls that must be updated. All earlier root implementations have moved to [old/exp 1](old/exp%201/README.md). Their shared code and resources remain together; run their commands from that directory. The latest experiment has no dependency on this archive.
 
 No credentials, weights, virtual environments or QA renders are published. The deliberate evidence bundle includes compressed exact local-model calls and separately identified development preflights. Seeds do not guarantee exact model determinism.

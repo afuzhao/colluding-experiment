@@ -19,3 +19,7 @@ The formation proxy allows a common quota below the competitive reference, and t
 The read-only inspector verifies current inference source and configuration against the frozen manifest, all 16 saved trajectories, 48 completed private calls, 96 reviewed public pairs, exact evidence quotations, raw public/private agreement and suspicion counts, and the compressed model-call count. It does not regenerate reports or run inference.
 
 Validation passed: all four current-study control tests, all 24 historical control tests, frozen-evidence inspection and local Markdown link checks. Public annotations are assistant review, not human validation. The recorded C speech errors and the separate historical ten-case cohort are retained.
+
+## Archive reorganization
+
+Earlier root code, prompts, configurations, tests, examples, launcher and historical documents now live together under `old/exp 1/`. Root VS Code tasks target only the latest study; historical tasks live inside the archive. The latest inference sources and published evidence remain unchanged. See DEVELOPMENT_GUIDE.md for file-level change guidance.

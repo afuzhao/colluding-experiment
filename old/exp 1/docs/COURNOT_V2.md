@@ -1,6 +1,6 @@
 # Cournot V2: Groq/Qwen, three firms, eight investigator conditions
 
-> **Historical implementation.** This document does not describe the completed 16-condition Qwen study. See the [current study](../studies/insider_reactions_v3/README.md).
+> **Historical implementation.** This document does not describe the completed 16-condition Qwen study. See the [current study](../../../studies/insider_reactions_v3/README.md).
 
 ## Status
 

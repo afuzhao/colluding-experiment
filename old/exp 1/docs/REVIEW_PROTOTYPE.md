@@ -1,6 +1,6 @@
 # Trusted agent collusion starter
 
-> **Historical implementation.** This document does not describe the completed 16-condition Qwen study. See the [current study](../studies/insider_reactions_v3/README.md).
+> **Historical implementation.** This document does not describe the completed 16-condition Qwen study. See the [current study](../../../studies/insider_reactions_v3/README.md).
 
 A local Python experiment for comparing undercover conversational approaches while holding model weights, resident prompts, memory policy, inference settings, task rules and controller code constant. Only `prompts/approaches/<condition>.txt`, appended to a common trusted-agent system prompt, varies deliberately across the five branches.
 

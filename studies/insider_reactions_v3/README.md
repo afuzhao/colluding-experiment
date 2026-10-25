@@ -46,6 +46,10 @@ Public annotation requires assistant review with exact evidence, not keyword cla
 
 Code, prompts, documentation, pilot/final transcripts and results are published in `afuzhao/colluding-experiment`. Original attached Word files, credentials, caches, model weights and QA renders are not publication inputs. Final summary: `../../docs/INSIDER_REACTIONS_V3_SUMMARY.md`; final report: `reports/FINAL_RESULTS.md`; Word: `reports/trusted_agent_reactions_report.docx`.
 
+## Development and modules
+
+For changes to market rules, prompts, timing, memory, model settings or measurements, use the [development guide](../../docs/DEVELOPMENT_GUIDE.md). Earlier experiments are isolated in [old/exp 1](../../old/exp%201/README.md); this study does not import them.
+
 ## Modules
 
 | File | Responsibility |
