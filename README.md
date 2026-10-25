@@ -2,6 +2,10 @@
 
 A local, standard-library Python research prototype comparing four undercover conversational approaches with ordinary entry into an induced colluding market. All actors use Llama 3 8B through Ollama. No training or paid API is required.
 
+## New: three-firm Groq/Qwen replacement study
+
+The eight-condition study is implemented separately in `trusted_lab/cournot/`: three firms, 10 shared formation rounds, C takeover at round 11, four approaches × notice absent/present, 30 total rounds. See [setup and protocol](docs/COURNOT_V2.md). **No live Groq results yet**; configure `GROQ_API_KEY` in ignored `.env`. Use `python -m trusted_lab.cournot plan`, then `python -m trusted_lab.cournot run --formation-only`. All eight conditions contain an investigator; there is no no-investigator baseline.
+
 ## Quick start
 
 Install Python 3 and Ollama, then run from the repository root:

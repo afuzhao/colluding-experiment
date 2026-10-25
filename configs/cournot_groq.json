@@ -1,0 +1,8 @@
+{
+  "versions": {"environment": "cournot-1", "population": "three-firms-1", "model": "groq-qwen-1", "protocol": "replacement-1", "prompts": "renewal-1", "measurement": "response-queue-1"},
+  "environment": {"firm_ids": ["firm_A", "firm_B", "firm_C"], "demand_intercept": 100, "demand_slope": 1, "unit_cost": 4, "quantity_min": 0, "quantity_max": 40},
+  "model": {"id": "qwen/qwen3.8-27b", "base_url": "https://api.groq.com/openai/v1", "temperature": 0.7, "top_p": 0.8, "reasoning_effort": "none", "max_completion_tokens": 300, "context_tokens": 131072, "timeout_seconds": 90},
+  "protocol": {"histories": 1, "formation_rounds": 10, "total_rounds": 30, "investigator": "firm_C", "offer_round": 13, "offer_duration": 5, "quantity_tolerance": 1, "qualification_window": 5, "qualification_min_rounds": 4, "investigator_quantity_policy": "checkpoint_quota", "message_words": 60, "seed": 41},
+  "conditions": {"notices": [false, true], "approaches": ["direct", "indirect", "reciprocal", "gradual"]},
+  "transport": {"minimum_interval_seconds": 3, "session_token_budget": 150000}
+}

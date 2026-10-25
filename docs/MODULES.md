@@ -27,3 +27,7 @@ Do not silently apply a refactor to the archived pilot. Preserve its manifests a
 ## Checks before changing a component
 
 Use existing payoff, qualification, matched-checkpoint, offer-timing, fixed-price, message-budget and missing-label tests. Add a new behavioral test when introducing a genuinely new rule. Run `python -m unittest discover -s tests -v`; mock outcomes are plumbing fixtures, not research evidence.
+
+## Cournot replacement implementation
+
+The newer `trusted_lab/cournot/` package separates pure economics, prompts/schemas, provider transport, orchestration and evaluation. Its nested configuration and protocol are documented in [COURNOT_V2.md](COURNOT_V2.md). The limitations above still describe the older pricing pilot; new code does not retroactively alter its source hashes or findings.
