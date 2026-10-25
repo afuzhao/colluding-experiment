@@ -1,10 +1,12 @@
 # Trusted agent collusion starter
 
+> **Historical implementation.** This document does not describe the completed 16-condition Qwen study. See the [current study](../studies/insider_reactions_v3/README.md).
+
 A local Python experiment for comparing undercover conversational approaches while holding model weights, resident prompts, memory policy, inference settings, task rules and controller code constant. Only `prompts/approaches/<condition>.txt`, appended to a common trusted-agent system prompt, varies deliberately across the five branches.
 
 ## Market experiment
 
-The new profit-driven oligopoly task is documented in [the market protocol](MARKET_PROTOCOL.md). It uses a fixed twelve-round rollout, a common offer round and separately annotated verbal responses. Run `python -m trusted_lab.market run`, or select **Run oligopoly market pilot** in VS Code. The review-task commands below remain available.
+The new profit-driven oligopoly task is documented in [the market protocol](../MARKET_PROTOCOL.md). It uses a fixed twelve-round rollout, a common offer round and separately annotated verbal responses. Run `python -m trusted_lab.market run`, or select **Run oligopoly market pilot** in VS Code. The review-task commands below remain available.
 
 ## Start here
 

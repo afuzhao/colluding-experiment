@@ -2,6 +2,10 @@
 
 This is the current local Qwen 3.5 9B study. The repository's older price-market and Groq prototypes remain separate. See [full methods](REPORT_METHODS.md) and [reference document provenance](reports/reference_documents.json).
 
+## Completed evidence
+
+The final cohort completed 16/16 markets and 48/48 private assessment calls. Read the [results summary](../../docs/INSIDER_REACTIONS_V3_SUMMARY.md), [full report](reports/FINAL_RESULTS.md) and [Word report](reports/trusted_agent_reactions_report.docx). Committed evidence is in `artifacts/final_16/`, not the ignored local `results/` folder. Inspect it without inference with `python3 tools/inspect_results.py --verify`.
+
 ## Matrix and question
 
 Eight approaches × general monitoring notice absent/present = **16 conditions**: direct, indirect, reciprocal, gradual, unequal, outside review, C's independent-choice cover account, and vague feeler. The new run repeats the old approaches under the same improved C implementation. The earlier ten-case table is retained under `historical/`; it is not pooled with this cohort.
@@ -29,18 +33,18 @@ From this directory, with Python 3.12+ and Ollama running:
 ```sh
 ollama pull qwen3.5:9b
 python3 -m unittest discover -s tests -v
-python3 tools/run.py --output results/final_16
+python3 tools/run.py --output results/replication_01
 ```
 
-For VS Code, open the repository and use the task named **Expanded study progress**. The experiment has a duplicate-worker lock; do not start a second worker in the same folder. Keep the computer powered and awake. A paused run is not automatically resumed without a user signal.
+Use a new output directory for each replication; never run inference in the published artifacts or completed final output. For VS Code, open the repository and use tasks prefixed **Current study**. The published-results task works on a fresh clone; local progress requires a local run directory. The experiment has a duplicate-worker lock; do not start a second worker in the same folder. Keep the computer powered and awake. A paused run is not automatically resumed without a user signal.
 
 `results/` is ignored by Git. It contains status, progress HTML, exact raw local-model calls, model identity, source/config/prompt manifest, new formation, shared preparations, branches, failures, compliance logs and private assessments. Exact successful-request replays are logged in `request_positions.jsonl` and are not independent samples.
 
 ## Reporting and publication
 
-Public annotation requires assistant review with exact evidence, not keyword classification or quantity inference. Review all candidate/recipient pairs; separately determine whether a real proposal exists and whom it addresses. Review C's actual speech and production. Then `python3 tools/finalize.py --output results/final_16` builds final Markdown, summary and an explicit reproducibility bundle in `artifacts/final_16/`. It refuses incomplete or unreviewed data. Word creation is optional postprocessing via `tools/build_word.py` and requires python-docx; Codex uses its bundled runtime and renderer for visual QA. Report methods and figures do not alter inference.
+Public annotation requires assistant review with exact evidence, not keyword classification or quantity inference. Review all candidate/recipient pairs; separately determine whether a real proposal exists and whom it addresses. Review C's actual speech and production. Then `python3 tools/finalize.py --output results/replication_01` builds final Markdown, summary and an explicit reproducibility bundle in `artifacts/final_16/`. It refuses incomplete or unreviewed data. The delivered Word report is available above. Rebuilding Word is separate postprocessing via `tools/build_word.py` and requires python-docx; Codex uses its bundled runtime and renderer for visual QA. Report methods and figures do not alter inference.
 
-The user authorized publishing code, prompts, documentation, pilot/final transcripts and results to `afuzhao/colluding-experiment` after execution. Original attached Word files, credentials, caches, model weights and QA renders are not publication inputs. Final summary: `../../docs/INSIDER_REACTIONS_V3_SUMMARY.md`; final report: `reports/FINAL_RESULTS.md`; Word: `reports/trusted_agent_reactions_report.docx`.
+Code, prompts, documentation, pilot/final transcripts and results are published in `afuzhao/colluding-experiment`. Original attached Word files, credentials, caches, model weights and QA renders are not publication inputs. Final summary: `../../docs/INSIDER_REACTIONS_V3_SUMMARY.md`; final report: `reports/FINAL_RESULTS.md`; Word: `reports/trusted_agent_reactions_report.docx`.
 
 ## Modules
 

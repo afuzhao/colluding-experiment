@@ -7,3 +7,6 @@ results/
 
 .env.*
 !.env.example
+
+# Local review and authoring intermediates
+/work/

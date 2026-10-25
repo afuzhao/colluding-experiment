@@ -2,7 +2,69 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "Check Ollama and Llama 3",
+      "label": "Current study: inspect published results",
+      "type": "process",
+      "command": "python3",
+      "args": [
+        "tools/inspect_results.py",
+        "--verify"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}/studies/insider_reactions_v3"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Current study: test controls",
+      "type": "process",
+      "command": "python3",
+      "args": [
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}/studies/insider_reactions_v3"
+      },
+      "problemMatcher": [],
+      "group": {
+        "kind": "test",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "Current study: inspect local run",
+      "type": "process",
+      "command": "python3",
+      "args": [
+        "tools/inspect_results.py",
+        "--output",
+        "${input:currentStudyRunFolder}"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}/studies/insider_reactions_v3"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Current study: run new replication",
+      "type": "process",
+      "command": "python3",
+      "args": [
+        "tools/run.py",
+        "--output",
+        "${input:currentStudyRunFolder}"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}/studies/insider_reactions_v3"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Legacy: Check Ollama and Llama 3",
       "type": "process",
       "command": "${workspaceFolder}/.venv/bin/python",
       "args": [
@@ -16,7 +78,7 @@
       "problemMatcher": []
     },
     {
-      "label": "Check trusted prompt variants",
+      "label": "Legacy: Check trusted prompt variants",
       "type": "process",
       "command": "${workspaceFolder}/.venv/bin/python",
       "args": [
@@ -30,7 +92,7 @@
       "problemMatcher": []
     },
     {
-      "label": "Run local smoke test",
+      "label": "Legacy: Run local smoke test",
       "type": "process",
       "command": "${workspaceFolder}/.venv/bin/python",
       "args": [
@@ -44,7 +106,7 @@
       "problemMatcher": []
     },
     {
-      "label": "Run all five approaches with mock fixture",
+      "label": "Legacy: Run all five approaches with mock fixture",
       "type": "process",
       "command": "${workspaceFolder}/.venv/bin/python",
       "args": [
@@ -60,7 +122,7 @@
       "problemMatcher": []
     },
     {
-      "label": "Run pilot on Llama 3",
+      "label": "Legacy: Run pilot on Llama 3",
       "type": "process",
       "command": "${workspaceFolder}/.venv/bin/python",
       "args": [
@@ -74,7 +136,7 @@
       "problemMatcher": []
     },
     {
-      "label": "Test experimental controls",
+      "label": "Legacy: Test experimental controls",
       "type": "process",
       "command": "${workspaceFolder}/.venv/bin/python",
       "args": [
@@ -91,7 +153,7 @@
       "problemMatcher": []
     },
     {
-      "label": "Run oligopoly market pilot",
+      "label": "Legacy: Run oligopoly market pilot",
       "type": "process",
       "command": "${workspaceFolder}/.venv/bin/python",
       "args": [
@@ -105,7 +167,7 @@
       "problemMatcher": []
     },
     {
-      "label": "Calibrate oligopoly formation",
+      "label": "Legacy: Calibrate oligopoly formation",
       "type": "process",
       "command": "${workspaceFolder}/.venv/bin/python",
       "args": [
@@ -120,7 +182,7 @@
       "problemMatcher": []
     },
     {
-      "label": "Plan eight Groq conditions",
+      "label": "Legacy: Plan eight Groq conditions",
       "type": "process",
       "command": "${workspaceFolder}/.venv/bin/python",
       "args": [
@@ -134,7 +196,7 @@
       "problemMatcher": []
     },
     {
-      "label": "Check Groq key configuration",
+      "label": "Legacy: Check Groq key configuration",
       "type": "process",
       "command": "${workspaceFolder}/.venv/bin/python",
       "args": [
@@ -148,7 +210,7 @@
       "problemMatcher": []
     },
     {
-      "label": "Run Groq cartel formation only",
+      "label": "Legacy: Run Groq cartel formation only",
       "type": "process",
       "command": "${workspaceFolder}/.venv/bin/python",
       "args": [
@@ -163,7 +225,7 @@
       "problemMatcher": []
     },
     {
-      "label": "Run eight Groq investigator conditions",
+      "label": "Legacy: Run eight Groq investigator conditions",
       "type": "process",
       "command": "${workspaceFolder}/.venv/bin/python",
       "args": [
@@ -177,7 +239,7 @@
       "problemMatcher": []
     },
     {
-      "label": "Queue all eight Groq conditions (saved run)",
+      "label": "Legacy: Queue all eight Groq conditions (saved run)",
       "type": "process",
       "command": "${workspaceFolder}/.venv/bin/python",
       "args": [
@@ -190,36 +252,15 @@
         "cwd": "${workspaceFolder}"
       },
       "problemMatcher": []
-    },
-    {
-      "label": "Expanded study progress",
-      "type": "process",
-      "command": "tail",
-      "args": [
-        "-f",
-        "studies/insider_reactions_v3/results/final_16/run.log"
-      ],
-      "problemMatcher": []
-    },
-    {
-      "label": "Expanded study tests",
-      "type": "process",
-      "command": "python3",
-      "args": [
-        "-m",
-        "unittest",
-        "discover",
-        "-s",
-        "tests",
-        "-v"
-      ],
-      "options": {
-        "cwd": "${workspaceFolder}/studies/insider_reactions_v3"
-      },
-      "problemMatcher": []
     }
   ],
   "inputs": [
+    {
+      "id": "currentStudyRunFolder",
+      "type": "promptString",
+      "description": "Local run folder relative to studies/insider_reactions_v3; use a NEW directory for a new replication, never artifacts/final_16",
+      "default": "results/replication_01"
+    },
     {
       "id": "cournotRunFolder",
       "type": "promptString",

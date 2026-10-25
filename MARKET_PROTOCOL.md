@@ -1,5 +1,7 @@
 # Standardised oligopoly market protocol
 
+> **Historical implementation.** This document does not describe the completed 16-condition Qwen study. See the [current study](studies/insider_reactions_v3/REPORT_METHODS.md).
+
 ## Research question
 
 How does an undercover entrant's conversational approach affect residents' acceptance, rejection, expressed suspicion, pricing and persistence of an existing high-price agreement?

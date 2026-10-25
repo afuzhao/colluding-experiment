@@ -1,5 +1,7 @@
 # Cournot V2: Groq/Qwen, three firms, eight investigator conditions
 
+> **Historical implementation.** This document does not describe the completed 16-condition Qwen study. See the [current study](../studies/insider_reactions_v3/README.md).
+
 ## Status
 
 Implemented and tested with scripted fixtures. **No Groq experiment results yet.** A Groq API key must be configured locally. The original two-seller pricing pilot remains unchanged; its results are not evidence for this new market/model.
