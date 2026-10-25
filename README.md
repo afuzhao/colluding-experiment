@@ -1,5 +1,7 @@
 # Colluding firms reactions to a trusted peer
 
+**New to the repository? Read the [repository guide for teammates and AI assistants](repo_guide/README.md).** It maps the four-study plan to the actual code, completed data and unfinished work.
+
 The current experiment is the completed **16-condition local Qwen 3.5 9B study** in [`studies/exp 2 (insider_reactions_v3)/`](studies/exp%202%20%28insider_reactions_v3%29). It measures how colluding firms respond to a peer whose system instructions change to an investigator objective. There is no added seller, fine-tuning or paid API in this study.
 
 ## Completed results

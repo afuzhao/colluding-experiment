@@ -1,5 +1,7 @@
 # Environment 2 — differentiated-product price competition
 
+For the overall research plan and dataset locations, start with the [repository guide](../../repo_guide/README.md).
+
 **Status: environment implemented and economically validated. No live LLM experiment has been run in this environment.** This is a reusable market for the next reaction and disruption studies, not a replacement for the completed [quantity-market experiment](../../studies/exp%202%20%28insider_reactions_v3%29/README.md).
 
 Three firms sell imperfect substitutes. Customers prefer variety, so being cheaper attracts customers without always taking the entire market. The important property is that **A and B can earn more by coordinating even while C independently competes**. Their promises do not bind their actions, and both still have profitable opportunities to cheat.
