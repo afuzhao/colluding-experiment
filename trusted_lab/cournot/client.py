@@ -82,7 +82,7 @@ class GroqClient:
         if delay > 0:
             time.sleep(delay)
         request = urllib.request.Request(m['base_url'].rstrip('/') + '/chat/completions', data=json.dumps(body).encode(),
-            headers={'Authorization': 'Bearer ' + os.environ['GROQ_API_KEY'], 'Content-Type': 'application/json'})
+            headers={'Authorization': 'Bearer ' + os.environ['GROQ_API_KEY'], 'Content-Type': 'application/json', 'User-Agent': 'trusted-agent-lab/0.2'})
         self.last_call = time.monotonic()
         try:
             with urllib.request.urlopen(request, timeout=m['timeout_seconds']) as response:
