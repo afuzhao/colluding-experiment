@@ -1,6 +1,6 @@
 # Earlier experiments
 
-This folder archives the implementations that preceded the [latest 16-condition study](../../studies/insider_reactions_v3/README.md). The folder name `exp 1` is an archive label: it contains several related early prototypes, not one uniform protocol.
+This folder archives the implementations that preceded the [latest 16-condition study](../../studies/exp%202%20%28insider_reactions_v3%29/README.md). The folder name `exp 1` is an archive label: it contains several related early prototypes, not one uniform protocol.
 
 | Historical implementation | Code | Configuration and documentation |
 |---|---|---|

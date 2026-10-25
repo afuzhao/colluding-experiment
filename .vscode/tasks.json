@@ -10,7 +10,7 @@
         "--verify"
       ],
       "options": {
-        "cwd": "${workspaceFolder}/studies/insider_reactions_v3"
+        "cwd": "${workspaceFolder}/studies/exp 2 (insider_reactions_v3)"
       },
       "problemMatcher": []
     },
@@ -27,7 +27,7 @@
         "-v"
       ],
       "options": {
-        "cwd": "${workspaceFolder}/studies/insider_reactions_v3"
+        "cwd": "${workspaceFolder}/studies/exp 2 (insider_reactions_v3)"
       },
       "problemMatcher": [],
       "group": {
@@ -45,7 +45,7 @@
         "${input:currentStudyRunFolder}"
       ],
       "options": {
-        "cwd": "${workspaceFolder}/studies/insider_reactions_v3"
+        "cwd": "${workspaceFolder}/studies/exp 2 (insider_reactions_v3)"
       },
       "problemMatcher": []
     },
@@ -59,7 +59,7 @@
         "${input:currentStudyRunFolder}"
       ],
       "options": {
-        "cwd": "${workspaceFolder}/studies/insider_reactions_v3"
+        "cwd": "${workspaceFolder}/studies/exp 2 (insider_reactions_v3)"
       },
       "problemMatcher": []
     }
@@ -68,7 +68,7 @@
     {
       "id": "currentStudyRunFolder",
       "type": "promptString",
-      "description": "Local run folder relative to studies/insider_reactions_v3; use a NEW directory for a new replication, never artifacts/final_16",
+      "description": "Local run folder relative to studies/exp 2 (insider_reactions_v3); use a NEW directory for a new replication, never artifacts/final_16",
       "default": "results/replication_01"
     }
   ]

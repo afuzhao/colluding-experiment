@@ -1,10 +1,10 @@
 # Changing the latest experiment
 
-The current implementation is entirely inside `studies/insider_reactions_v3/`. Open that folder when developing the environment. `old/exp 1/` contains earlier experiments and is not imported by the latest study.
+The current implementation is entirely inside `studies/exp 2 (insider_reactions_v3)/`. Open that folder when developing the environment. `old/exp 1/` contains earlier experiments and is not imported by the latest study.
 
 ## Which files to change
 
-Paths in this table are relative to `studies/insider_reactions_v3/`.
+Paths in this table are relative to `studies/exp 2 (insider_reactions_v3)/`.
 
 | Change you want | Main files | Related controls to check |
 |---|---|---|
@@ -41,7 +41,7 @@ The two crossed factors are approach and notice. The unequal approach changes th
 From the repository root, inspect the existing evidence without inference:
 
 ```sh
-python3 studies/insider_reactions_v3/tools/inspect_results.py --verify
+python3 "studies/exp 2 (insider_reactions_v3)/tools/inspect_results.py" --verify
 ```
 
 From the study directory, test and explicitly start a new replication:

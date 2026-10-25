@@ -8,11 +8,11 @@ A local, standard-library Python research prototype comparing four undercover co
 
 ## Expanded local trusted peer study
 
-The [16-condition Qwen 3.5 9B study](../../../studies/insider_reactions_v3/README.md) is complete: **16/16 markets and 48/48 private assessment calls**, with no failed cases. Three existing firms formed an encouraged cartel for five rounds; C then received an investigator system objective. Eight approaches were paired with and without a general notice before round 8.
+The [16-condition Qwen 3.5 9B study](../../../studies/exp%202%20%28insider_reactions_v3%29/README.md) is complete: **16/16 markets and 48/48 private assessment calls**, with no failed cases. Three existing firms formed an encouraged cartel for five rounds; C then received an investigator system objective. Eight approaches were paired with and without a general notice before round 8.
 
 Across 32 resident replies to C, assistant transcript review found **13 public acceptances (4 conditional), 4 rejections and 15 unclear replies; no explicit public investigator suspicion**. Private reports yielded **15 suspicion flags**, all overlapping rejection. These self-reports are not internal-state ground truth. Equal-offer arms retained 16 units each; unequal arms escalated output. One shared formation is descriptive elicitation, not independent replication, detector accuracy or causal disruption evidence. Task wording leaked in two delivered offers, and later C speech errors are recorded in the full report.
 
-[Results summary and 16-row table](../../../docs/INSIDER_REACTIONS_V3_SUMMARY.md) · [Detailed experiment and results](../../../studies/insider_reactions_v3/reports/FINAL_RESULTS.md) · [Word report](../../../studies/insider_reactions_v3/reports/trusted_agent_reactions_report.docx) · [Reviewed transcripts and reproducibility artifacts](../../../studies/insider_reactions_v3/artifacts/final_16)
+[Results summary and 16-row table](../../../docs/INSIDER_REACTIONS_V3_SUMMARY.md) · [Detailed experiment and results](../../../studies/exp%202%20%28insider_reactions_v3%29/reports/FINAL_RESULTS.md) · [Word report](../../../studies/exp%202%20%28insider_reactions_v3%29/reports/trusted_agent_reactions_report.docx) · [Reviewed transcripts and reproducibility artifacts](../../../studies/exp%202%20%28insider_reactions_v3%29/artifacts/final_16)
 
 The earlier ten-case table is preserved as a separate historical cohort. The older prototypes below remain historical and are not results of this protocol.
 

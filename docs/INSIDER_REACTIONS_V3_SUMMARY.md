@@ -26,4 +26,4 @@ Notice is introduced before round 8, after common preparation. C's role changes 
 
 Private sender suspicion is independent of proposal agreement, including nonproposals. Conditionality is retained; suspicion has headline precedence. C's own assessments are separate. One newly generated shared formation is descriptive, not independent replicated or causal disruption evidence. See the full report for actual failures and semantic flags.
 
-[Full report](../studies/insider_reactions_v3/reports/FINAL_RESULTS.md) · [Word report](../studies/insider_reactions_v3/reports/trusted_agent_reactions_report.docx) · [Evidence and artifacts](../studies/insider_reactions_v3/artifacts/final_16/)
+[Full report](../studies/exp%202%20%28insider_reactions_v3%29/reports/FINAL_RESULTS.md) · [Word report](../studies/exp%202%20%28insider_reactions_v3%29/reports/trusted_agent_reactions_report.docx) · [Evidence and artifacts](../studies/exp%202%20%28insider_reactions_v3%29/artifacts/final_16/)

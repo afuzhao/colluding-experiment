@@ -1,6 +1,6 @@
 # Module boundaries and upgrades
 
-> **Historical implementation.** This document does not describe the completed 16-condition Qwen study. See the [current study](../../../studies/insider_reactions_v3/README.md#modules).
+> **Historical implementation.** This document does not describe the completed 16-condition Qwen study. See the [current study](../../../studies/exp%202%20%28insider_reactions_v3%29/README.md#modules).
 
 The module versions below describe the pilot, not a runtime plugin system. The current executable reads one flat JSON configuration; no independently loadable environment registry exists yet. Historical run manifests hash source files and snapshot prompts/configuration, so existing results remain attributable when the code changes.
 

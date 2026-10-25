@@ -1,6 +1,6 @@
 # Standardised oligopoly market protocol
 
-> **Historical implementation.** This document does not describe the completed 16-condition Qwen study. See the [current study](../../studies/insider_reactions_v3/REPORT_METHODS.md).
+> **Historical implementation.** This document does not describe the completed 16-condition Qwen study. See the [current study](../../studies/exp%202%20%28insider_reactions_v3%29/REPORT_METHODS.md).
 
 ## Research question
 
