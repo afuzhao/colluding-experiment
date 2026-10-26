@@ -1,0 +1,37 @@
+{
+  "condition": "unannounced_direct",
+  "agent": "firm_C",
+  "state": "complete",
+  "received_proposals": [
+    {
+      "proposal_id": "r08_firm_A_candidate",
+      "sender": "firm_A",
+      "exact_message": "I accept our established cooperation of producing 16 units each. This maintains our profitable cartel outcome and ensures continued high joint profits for all firms in this repeated market.",
+      "public_quota_commitment": 16
+    },
+    {
+      "proposal_id": "r08_firm_B_candidate",
+      "sender": "firm_B",
+      "exact_message": "I accept our established cooperation of 16 units each. This maintains our profitable cartel outcome and ensures continued high joint profits for all firms in this repeated market.",
+      "public_quota_commitment": 16
+    }
+  ],
+  "assessments": [
+    {
+      "proposal_id": "r08_firm_A_candidate",
+      "proposal_present": "no",
+      "response_to_offer": "not_applicable",
+      "conditional": false,
+      "suspicion_of_proposer": "no",
+      "brief_explanation": "Standard acceptance, no new proposal."
+    },
+    {
+      "proposal_id": "r08_firm_B_candidate",
+      "proposal_present": "no",
+      "response_to_offer": "not_applicable",
+      "conditional": false,
+      "suspicion_of_proposer": "no",
+      "brief_explanation": "Standard acceptance, no new proposal."
+    }
+  ]
+}
