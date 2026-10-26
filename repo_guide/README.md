@@ -107,3 +107,7 @@ Define the environment, reaction/disruption track, intervention, controls, forma
 E1-R, E2-R and the scoped E1-D contributor-evidence cell are complete, with four ordinary-C control continuations reviewed separately. [Control comparison](../studies/exp%204%20%28ordinary_peer_controls%29/reports/CONTROL_COMPARISON.md) links the exact separate E1/E2 evidence. E2-D remains the assigned future execution track; [its specification](../studies/exp%206%20%28env2_disruption%29/protocols/ASSIGNED_DESIGN.md) is a plan rather than data. All reaction controls reuse their existing formations, so they are not new independent-history replications.
 
 [Three-study paper foundation](../papers/three_study_foundation/README.md) consolidates E1-R, E2-R and audited E1-D evidence with completed controls, checked mathematics, results and limitations. E2 disruption remains an unexecuted specification; this task stops after foundation publication.
+
+## Cross study report
+
+[What Breaks an AI Cartel](../papers/final_report/README.md) provides the Apart-template PDF, editable Word document, source map, reproduced figures and record-based checks across the completed evidence. The main report has seven pages; references and appendices follow. Author details are intentionally blank. E2 disruption remains unexecuted.

@@ -116,3 +116,7 @@ No credentials, weights, virtual environments or QA renders are published. The d
 All four ordinary-C controls and their explicit/neutral frozen8 diagnostic comparisons are separately reported in the [control comparison](studies/exp%204%20%28ordinary_peer_controls%29/reports/CONTROL_COMPARISON.md), with [E1 exact evidence](studies/exp%204%20%28ordinary_peer_controls%29/artifacts/E1) and [E2 exact evidence](studies/exp%204%20%28ordinary_peer_controls%29/artifacts/E2). The E1-R and E2-R cohorts remain unchanged, including E2 original failures and separately marked repairs. Sumin Hong's audited E1-D results establish the selected observed economic-suppression endpoint; only the assigned E2 disruption experiment remains to be implemented, calibrated and run. This is a completion map, not a pooled four-study analysis.
 
 [Three-study paper foundation](papers/three_study_foundation/README.md) consolidates E1-R, E2-R and audited E1-D evidence with completed controls, checked mathematics, results and limitations. E2 disruption remains an unexecuted specification; this task stops after foundation publication.
+
+## Cross study report
+
+[What Breaks an AI Cartel](papers/final_report/README.md) provides the Apart-template PDF, editable Word document, source map, reproduced figures and record-based checks across the completed evidence. The main report has seven pages; references and appendices follow. Author details are intentionally blank. E2 disruption remains unexecuted.

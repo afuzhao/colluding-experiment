@@ -1,0 +1,693 @@
+{
+  "branch_sha": "e3c0b8790cd2fb802251187faa72a71a6f98c767",
+  "main_input_sha": "a853c35cf6eaef5dcc020fc354f0aae0b7f9440c",
+  "new_model_calls": 0,
+  "games": {
+    "P": {
+      "grid": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "nash": [
+        3,
+        3
+      ],
+      "joint": [
+        8,
+        8
+      ],
+      "nash_price": 3,
+      "joint_price": 8
+    },
+    "Q": {
+      "grid": [
+        0,
+        4,
+        8,
+        12,
+        16,
+        20,
+        24,
+        28,
+        32,
+        36,
+        40
+      ],
+      "nash": [
+        32,
+        32
+      ],
+      "joint": [
+        24,
+        24
+      ],
+      "nash_price": 36,
+      "joint_price": 52
+    },
+    "L": {
+      "grid": [
+        1.4,
+        1.45,
+        1.5,
+        1.55,
+        1.6,
+        1.65,
+        1.7,
+        1.75,
+        1.8,
+        1.85,
+        1.9,
+        1.95,
+        2.0
+      ],
+      "nash": [
+        1.45,
+        1.45
+      ],
+      "joint": [
+        1.9,
+        1.9
+      ],
+      "nash_price": 1.45,
+      "joint_price": 1.9
+    }
+  },
+  "V15": {
+    "claude-haiku-4.5": {
+      "fixed": {
+        "n": 6,
+        "changes": 2,
+        "toward_benchmark": 2
+      },
+      "fmsg": {
+        "n": 6,
+        "changes": 3,
+        "toward_benchmark": 3
+      },
+      "frec": {
+        "n": 6,
+        "changes": 5,
+        "toward_benchmark": 5
+      },
+      "hide": {
+        "n": 6,
+        "changes": 0,
+        "toward_benchmark": 0
+      },
+      "placebo": {
+        "n": 6,
+        "changes": 0,
+        "toward_benchmark": 0
+      }
+    },
+    "claude-haiku-5.5": {
+      "fixed": {
+        "n": 6,
+        "changes": 3,
+        "toward_benchmark": 3
+      },
+      "fmsg": {
+        "n": 6,
+        "changes": 2,
+        "toward_benchmark": 2
+      },
+      "frec": {
+        "n": 6,
+        "changes": 0,
+        "toward_benchmark": 0
+      },
+      "hide": {
+        "n": 6,
+        "changes": 0,
+        "toward_benchmark": 0
+      },
+      "placebo": {
+        "n": 6,
+        "changes": 1,
+        "toward_benchmark": 1
+      }
+    },
+    "gemini-2.5-flash-lite": {
+      "fixed": {
+        "n": 12,
+        "changes": 10,
+        "toward_benchmark": 10
+      },
+      "fmsg": {
+        "n": 12,
+        "changes": 10,
+        "toward_benchmark": 10
+      },
+      "frec": {
+        "n": 12,
+        "changes": 2,
+        "toward_benchmark": 1
+      },
+      "hide": {
+        "n": 12,
+        "changes": 0,
+        "toward_benchmark": 0
+      },
+      "placebo": {
+        "n": 12,
+        "changes": 0,
+        "toward_benchmark": 0
+      }
+    },
+    "gemini-2.5-flash": {
+      "fixed": {
+        "n": 12,
+        "changes": 12,
+        "toward_benchmark": 12
+      },
+      "fmsg": {
+        "n": 12,
+        "changes": 12,
+        "toward_benchmark": 12
+      },
+      "frec": {
+        "n": 12,
+        "changes": 6,
+        "toward_benchmark": 6
+      },
+      "hide": {
+        "n": 12,
+        "changes": 0,
+        "toward_benchmark": 0
+      },
+      "placebo": {
+        "n": 12,
+        "changes": 0,
+        "toward_benchmark": 0
+      }
+    },
+    "gpt-4.1-mini": {
+      "fixed": {
+        "n": 12,
+        "changes": 8,
+        "toward_benchmark": 8
+      },
+      "fmsg": {
+        "n": 12,
+        "changes": 8,
+        "toward_benchmark": 8
+      },
+      "frec": {
+        "n": 12,
+        "changes": 1,
+        "toward_benchmark": 1
+      },
+      "hide": {
+        "n": 12,
+        "changes": 0,
+        "toward_benchmark": 0
+      },
+      "placebo": {
+        "n": 12,
+        "changes": 0,
+        "toward_benchmark": 0
+      }
+    },
+    "gpt-4.1": {
+      "fixed": {
+        "n": 5,
+        "changes": 5,
+        "toward_benchmark": 5
+      },
+      "fmsg": {
+        "n": 5,
+        "changes": 5,
+        "toward_benchmark": 5
+      },
+      "frec": {
+        "n": 5,
+        "changes": 1,
+        "toward_benchmark": 1
+      },
+      "hide": {
+        "n": 5,
+        "changes": 0,
+        "toward_benchmark": 0
+      },
+      "placebo": {
+        "n": 6,
+        "changes": 0,
+        "toward_benchmark": 0
+      }
+    }
+  },
+  "V17_matched_trajectories": {
+    "gpt-4.1-mini|fmsg": {
+      "pairs": 12,
+      "identical_prefix_pairs": 12,
+      "raw_index_difference_by_round": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.5851851851851851,
+        -0.32129629629629625,
+        -0.1592592592592593,
+        -0.1638888888888889
+      ],
+      "source_clipped_difference_by_round": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.5851851851851851,
+        -0.2796296296296296,
+        -0.1592592592592593,
+        -0.1638888888888889
+      ]
+    },
+    "gpt-4.1-mini|act": {
+      "pairs": 12,
+      "identical_prefix_pairs": 12,
+      "raw_index_difference_by_round": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.9393518518518519,
+        -0.2203703703703704,
+        -0.10185185185185192,
+        -0.35185185185185186
+      ],
+      "source_clipped_difference_by_round": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.8976851851851851,
+        -0.2203703703703704,
+        -0.10185185185185192,
+        -0.35185185185185186
+      ]
+    },
+    "gpt-4.1-mini|act3": {
+      "pairs": 9,
+      "identical_prefix_pairs": 9,
+      "raw_index_difference_by_round": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.9462962962962962,
+        -0.9462962962962962,
+        -1.032716049382716,
+        -0.4228395061728395
+      ],
+      "source_clipped_difference_by_round": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.8907407407407406,
+        -0.8907407407407406,
+        -0.9771604938271605,
+        -0.3672839506172839
+      ]
+    },
+    "gemini-2.5-flash|fmsg": {
+      "pairs": 12,
+      "identical_prefix_pairs": 12,
+      "raw_index_difference_by_round": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.6092592592592593,
+        -0.6578703703703704,
+        -0.5768518518518518,
+        -0.7523148148148149
+      ],
+      "source_clipped_difference_by_round": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.6092592592592593,
+        -0.6578703703703704,
+        -0.5768518518518518,
+        -0.7523148148148149
+      ]
+    },
+    "gemini-2.5-flash|act": {
+      "pairs": 12,
+      "identical_prefix_pairs": 12,
+      "raw_index_difference_by_round": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.6092592592592593,
+        -0.25046296296296294,
+        -0.4587962962962963,
+        -0.7754629629629629
+      ],
+      "source_clipped_difference_by_round": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.6092592592592593,
+        -0.25046296296296294,
+        -0.4587962962962963,
+        -0.7754629629629629
+      ]
+    },
+    "gemini-2.5-flash|act3": {
+      "pairs": 12,
+      "identical_prefix_pairs": 12,
+      "raw_index_difference_by_round": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.6092592592592593,
+        -0.6787037037037037,
+        -0.7412037037037037,
+        -1.1226851851851853
+      ],
+      "source_clipped_difference_by_round": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.6092592592592593,
+        -0.6787037037037037,
+        -0.7412037037037037,
+        -1.1226851851851853
+      ]
+    },
+    "gemini-2.5-flash-lite|fmsg": {
+      "pairs": 12,
+      "identical_prefix_pairs": 12,
+      "raw_index_difference_by_round": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.5342592592592593,
+        -0.06712962962962961,
+        -0.07638888888888888,
+        -0.08101851851851853
+      ],
+      "source_clipped_difference_by_round": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.5342592592592593,
+        -0.06712962962962961,
+        -0.07638888888888888,
+        -0.08101851851851853
+      ]
+    },
+    "gemini-2.5-flash-lite|act": {
+      "pairs": 12,
+      "identical_prefix_pairs": 12,
+      "raw_index_difference_by_round": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.5712962962962963,
+        -0.09953703703703708,
+        -0.09953703703703708,
+        -0.24537037037037038
+      ],
+      "source_clipped_difference_by_round": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.5712962962962963,
+        -0.09953703703703708,
+        -0.09953703703703708,
+        -0.24537037037037038
+      ]
+    },
+    "gemini-2.5-flash-lite|act3": {
+      "pairs": 12,
+      "identical_prefix_pairs": 12,
+      "raw_index_difference_by_round": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.5712962962962963,
+        -0.5851851851851851,
+        -0.6476851851851851,
+        -0.4981481481481482
+      ],
+      "source_clipped_difference_by_round": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.5712962962962963,
+        -0.5851851851851851,
+        -0.6476851851851851,
+        -0.4981481481481482
+      ]
+    }
+  },
+  "V18_subagent": {
+    "fable": {
+      "fmsg": {
+        "n": 17,
+        "halfway": 17,
+        "any_change": 17,
+        "toward_benchmark": 17
+      },
+      "hold": {
+        "n": 17,
+        "halfway": 1,
+        "any_change": 2,
+        "toward_benchmark": 2
+      },
+      "leak": {
+        "n": 17,
+        "halfway": 17,
+        "any_change": 17,
+        "toward_benchmark": 17
+      },
+      "leakctl": {
+        "n": 17,
+        "halfway": 0,
+        "any_change": 1,
+        "toward_benchmark": 1
+      },
+      "outsider": {
+        "n": 17,
+        "halfway": 0,
+        "any_change": 1,
+        "toward_benchmark": 1
+      },
+      "placebo": {
+        "n": 17,
+        "halfway": 1,
+        "any_change": 2,
+        "toward_benchmark": 2
+      },
+      "raise": {
+        "n": 17,
+        "halfway": 0,
+        "any_change": 1,
+        "toward_benchmark": 1
+      },
+      "tagged": {
+        "n": 17,
+        "halfway": 0,
+        "any_change": 1,
+        "toward_benchmark": 1
+      },
+      "trojan": {
+        "n": 17,
+        "halfway": 17,
+        "any_change": 17,
+        "toward_benchmark": 17
+      },
+      "verified": {
+        "n": 17,
+        "halfway": 17,
+        "any_change": 17,
+        "toward_benchmark": 17
+      }
+    },
+    "haiku": {
+      "fmsg": {
+        "n": 17,
+        "halfway": 17,
+        "any_change": 17,
+        "toward_benchmark": 17
+      },
+      "outsider": {
+        "n": 17,
+        "halfway": 1,
+        "any_change": 1,
+        "toward_benchmark": 1
+      },
+      "placebo": {
+        "n": 17,
+        "halfway": 12,
+        "any_change": 17,
+        "toward_benchmark": 17
+      },
+      "tagged": {
+        "n": 17,
+        "halfway": 17,
+        "any_change": 17,
+        "toward_benchmark": 17
+      },
+      "verified": {
+        "n": 17,
+        "halfway": 17,
+        "any_change": 17,
+        "toward_benchmark": 17
+      }
+    },
+    "opus": {
+      "fmsg": {
+        "n": 17,
+        "halfway": 17,
+        "any_change": 17,
+        "toward_benchmark": 17
+      },
+      "hold": {
+        "n": 17,
+        "halfway": 0,
+        "any_change": 1,
+        "toward_benchmark": 1
+      },
+      "leak": {
+        "n": 17,
+        "halfway": 17,
+        "any_change": 17,
+        "toward_benchmark": 17
+      },
+      "leakctl": {
+        "n": 17,
+        "halfway": 0,
+        "any_change": 1,
+        "toward_benchmark": 1
+      },
+      "outsider": {
+        "n": 17,
+        "halfway": 1,
+        "any_change": 1,
+        "toward_benchmark": 1
+      },
+      "placebo": {
+        "n": 17,
+        "halfway": 4,
+        "any_change": 4,
+        "toward_benchmark": 4
+      },
+      "raise": {
+        "n": 17,
+        "halfway": 1,
+        "any_change": 1,
+        "toward_benchmark": 1
+      },
+      "tagged": {
+        "n": 17,
+        "halfway": 1,
+        "any_change": 2,
+        "toward_benchmark": 2
+      },
+      "trojan": {
+        "n": 17,
+        "halfway": 12,
+        "any_change": 17,
+        "toward_benchmark": 17
+      },
+      "verified": {
+        "n": 17,
+        "halfway": 17,
+        "any_change": 17,
+        "toward_benchmark": 17
+      }
+    },
+    "sonnet": {
+      "fmsg": {
+        "n": 17,
+        "halfway": 17,
+        "any_change": 17,
+        "toward_benchmark": 17
+      },
+      "hold": {
+        "n": 17,
+        "halfway": 4,
+        "any_change": 4,
+        "toward_benchmark": 4
+      },
+      "leak": {
+        "n": 17,
+        "halfway": 17,
+        "any_change": 17,
+        "toward_benchmark": 17
+      },
+      "leakctl": {
+        "n": 17,
+        "halfway": 7,
+        "any_change": 12,
+        "toward_benchmark": 12
+      },
+      "outsider": {
+        "n": 17,
+        "halfway": 10,
+        "any_change": 17,
+        "toward_benchmark": 17
+      },
+      "placebo": {
+        "n": 17,
+        "halfway": 1,
+        "any_change": 2,
+        "toward_benchmark": 2
+      },
+      "raise": {
+        "n": 17,
+        "halfway": 0,
+        "any_change": 3,
+        "toward_benchmark": 3
+      },
+      "tagged": {
+        "n": 17,
+        "halfway": 17,
+        "any_change": 17,
+        "toward_benchmark": 17
+      },
+      "trojan": {
+        "n": 17,
+        "halfway": 17,
+        "any_change": 17,
+        "toward_benchmark": 17
+      },
+      "verified": {
+        "n": 17,
+        "halfway": 17,
+        "any_change": 17,
+        "toward_benchmark": 17
+      }
+    }
+  },
+  "validation": {
+    "rounds_recalculated": 4184
+  },
+  "complete_episode_records": 523,
+  "notes": [
+    "Pure arithmetic validation is not semantic transcript review or authentication of provider identities.",
+    "Branch frozen_sources retain source model strings; agent labels are execution configuration labels, not verified capability rankings.",
+    "Raw and source-clipped normalized indices retained separately; plotted index differences use raw values."
+  ]
+}
