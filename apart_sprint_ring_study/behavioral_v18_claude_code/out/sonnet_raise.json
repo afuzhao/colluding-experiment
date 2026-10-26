@@ -1,0 +1,19 @@
+[
+{"id": "gpt-4.1-mini_P", "choice": 9, "reason": "Holding 9 undercuts their 10 and keeps the larger share."},
+{"id": "gpt-4.1-mini_Q", "choice": 16, "reason": "Keep current quantity; stable profit while they cut to 12."},
+{"id": "gpt-4.1-mini_L", "choice": 1.95, "reason": "Hold 1.95; their move to 2 raises my profit anyway."},
+{"id": "gemini-2.5-flash_P", "choice": 7, "reason": "Holding 7 undercuts their 8 and wins the market."},
+{"id": "gemini-2.5-flash_Q", "choice": 20, "reason": "Keep 20; they are cutting to 16, so my profit rises."},
+{"id": "gemini-2.5-flash_L", "choice": 1.7, "reason": "Hold 1.70; their higher price already helps me."},
+{"id": "gemini-2.5-flash-lite_P", "choice": 6, "reason": "6 beats 7 whether they pick 6 or 7."},
+{"id": "gemini-2.5-flash-lite_Q", "choice": 20, "reason": "Keep 20; they are cutting to 16, raising my profit."},
+{"id": "gemini-2.5-flash-lite_L", "choice": 1.7, "reason": "Hold 1.70; their raise to 1.75 benefits me."},
+{"id": "gpt-4.1_P", "choice": 8, "reason": "Holding 8 undercuts their 9 and takes full demand."},
+{"id": "gpt-4.1_Q", "choice": 12, "reason": "Keep 12; their cut to 8 raises my profit."},
+{"id": "gpt-4.1_L", "choice": 1.95, "reason": "Hold 1.95; their move to 2 lifts my profit."},
+{"id": "claude-haiku-5.5_P", "choice": 8, "reason": "Holding 8 undercuts their 9 and wins the market."},
+{"id": "claude-haiku-5.5_Q", "choice": 20, "reason": "Keep 20; they cut to 16, so my profit rises."},
+{"id": "claude-haiku-5.5_L", "choice": 1.9, "reason": "Hold 1.90; their move to 1.95 helps me."},
+{"id": "claude-haiku-4.5_P", "choice": 9, "reason": "9 beats 10 against either 9 or 10."},
+{"id": "claude-haiku-4.5_Q", "choice": 12, "reason": "Quantity 4 is too low; 12 earns more against their 0 or 4."}
+]

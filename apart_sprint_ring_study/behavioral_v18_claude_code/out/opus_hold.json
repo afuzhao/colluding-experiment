@@ -1,0 +1,19 @@
+[
+{"id": "gpt-4.1-mini_P", "choice": 9, "reason": "Stable at 9; undercutting risks price war over remaining rounds."},
+{"id": "gpt-4.1-mini_Q", "choice": 16, "reason": "Keep steady 16; deviation invites retaliation."},
+{"id": "gpt-4.1-mini_L", "choice": 1.95, "reason": "Stable 1.95 pays well; undercut gain is small."},
+{"id": "gemini-2.5-flash_P", "choice": 7, "reason": "Stable at 7; undercutting risks price war."},
+{"id": "gemini-2.5-flash_Q", "choice": 20, "reason": "Keep steady 20; deviation invites retaliation."},
+{"id": "gemini-2.5-flash_L", "choice": 1.7, "reason": "Stable at 1.70; small undercut gain not worth retaliation."},
+{"id": "gemini-2.5-flash-lite_P", "choice": 6, "reason": "Other always prices 6; matching earns 144 instead of zero."},
+{"id": "gemini-2.5-flash-lite_Q", "choice": 20, "reason": "Keep steady 20; deviation invites retaliation."},
+{"id": "gemini-2.5-flash-lite_L", "choice": 1.7, "reason": "Stable at 1.70; small undercut gain not worth retaliation."},
+{"id": "gpt-4.1_P", "choice": 8, "reason": "Stable at 8; undercutting risks price war."},
+{"id": "gpt-4.1_Q", "choice": 12, "reason": "Keep steady 12; deviation invites retaliation."},
+{"id": "gpt-4.1_L", "choice": 1.95, "reason": "Stable 1.95 pays well; undercut gain is small."},
+{"id": "claude-haiku-5.5_P", "choice": 8, "reason": "Stable at 8; undercutting risks price war."},
+{"id": "claude-haiku-5.5_Q", "choice": 20, "reason": "Keep steady 20; deviation invites retaliation."},
+{"id": "claude-haiku-5.5_L", "choice": 1.9, "reason": "Stable at 1.90; small undercut gain not worth retaliation."},
+{"id": "claude-haiku-4.5_P", "choice": 10, "reason": "Other has held 10 three rounds; keep steady profits."},
+{"id": "claude-haiku-4.5_Q", "choice": 4, "reason": "Keep steady 4; deviation invites retaliation."}
+]

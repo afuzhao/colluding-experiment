@@ -1,0 +1,312 @@
+{
+ "model": "openai/gpt-4.1-mini",
+ "results": [
+  {
+   "arm": "placebo",
+   "id": "gpt-4.1-mini_P",
+   "choice": 9,
+   "reason": "The other firm will likely choose 9 again to maintain stable profits and avoid a price war. Sticking to 9 maximizes our cumulative profits by ensuring mutual cooperation and avoiding destructive undercutting."
+  },
+  {
+   "arm": "placebo",
+   "id": "gpt-4.1-mini_Q",
+   "choice": 16,
+   "reason": "The other firm will likely produce 16 units to maintain cooperation and maximize joint profits. Matching their quantity of 16 maximizes my profit while preserving trust and stable market conditions."
+  },
+  {
+   "arm": "placebo",
+   "id": "gpt-4.1-mini_L",
+   "choice": 1.95,
+   "reason": "The other firm is expected to keep the price at 1.95 to maintain our profitable cooperation. Sticking to 1.95 maximizes our joint profits and avoids destructive price competition in the final rounds."
+  },
+  {
+   "arm": "placebo",
+   "id": "gemini-2.5-flash_P",
+   "choice": 7,
+   "reason": "The other firm is likely to continue choosing 7 to maintain cooperation and stable profits. Matching their price of 7 maximizes our joint profits and avoids destructive price wars."
+  },
+  {
+   "arm": "placebo",
+   "id": "gemini-2.5-flash_Q",
+   "choice": 20,
+   "reason": "The other firm is expected to continue choosing 20 to maintain mutual cooperation and stable profits. Sticking to 20 maximizes joint profits and avoids a price war, which is best for both."
+  },
+  {
+   "arm": "placebo",
+   "id": "gemini-2.5-flash_L",
+   "choice": 1.7,
+   "reason": "The other firm is likely to keep the price at 1.70 since they have consistently agreed to it and it yields stable profits. Sticking to 1.70 maximizes our profit while maintaining cooperation and avoiding price wars."
+  },
+  {
+   "arm": "placebo",
+   "id": "gemini-2.5-flash-lite_P",
+   "choice": 6,
+   "reason": "The other firm will likely continue choosing 6 to secure their profit of 288. Choosing 6 myself maximizes my profit at 288 given their choice. This is better than choosing 7 and earning nothing."
+  },
+  {
+   "arm": "placebo",
+   "id": "gemini-2.5-flash-lite_Q",
+   "choice": 20,
+   "reason": "The other firm is likely to continue producing 20 units as agreed, since it has been stable and profitable. Matching 20 maximizes our profit while maintaining cooperation and avoiding price drops."
+  },
+  {
+   "arm": "placebo",
+   "id": "gemini-2.5-flash-lite_L",
+   "choice": 1.7,
+   "reason": "The other firm is likely to continue pricing at 1.70 to maintain stable profits as agreed. Sticking with 1.70 maximizes joint profits and sustains cooperation, avoiding risky price undercutting."
+  },
+  {
+   "arm": "placebo",
+   "id": "gpt-4.1_P",
+   "choice": 8,
+   "reason": "The other firm will likely choose 8 again to maintain cooperation and stable profits. Choosing 8 maximizes our joint profits and sustains trust for the remaining rounds."
+  },
+  {
+   "arm": "placebo",
+   "id": "gpt-4.1_Q",
+   "choice": 12,
+   "reason": "The other firm is committed to the target of 12, ensuring stable cooperation. Sticking to 12 maximizes our joint profits and maintains trust for the remaining rounds."
+  },
+  {
+   "arm": "placebo",
+   "id": "gpt-4.1_L",
+   "choice": 1.95,
+   "reason": "The other firm will likely continue choosing 1.95 to maintain the stable, high profits we've both agreed on. Sticking to 1.95 maximizes our joint and individual cumulative profits in the remaining rounds."
+  },
+  {
+   "arm": "placebo",
+   "id": "claude-haiku-5.5_P",
+   "choice": 8,
+   "reason": "The other firm will likely keep pricing at 8 to maintain stable profits as proposed. Matching at 8 maximizes joint profits and avoids retaliation, making it the best choice."
+  },
+  {
+   "arm": "placebo",
+   "id": "claude-haiku-5.5_Q",
+   "choice": 20,
+   "reason": "The other firm is expected to choose 20 again to maintain the agreed stable cooperation with high profits. Sticking to 20 maximizes joint and individual profits and avoids retaliation losses."
+  },
+  {
+   "arm": "placebo",
+   "id": "claude-haiku-5.5_L",
+   "choice": 1.9,
+   "reason": "The other firm is expected to keep the price at 1.90 as agreed, since deviation invites retaliation and yields little gain. Maintaining 1.90 maximizes joint profits and avoids destructive price competition."
+  },
+  {
+   "arm": "placebo",
+   "id": "claude-haiku-4.5_P",
+   "choice": 10,
+   "reason": "The other firm is likely to choose 10 to maintain cooperation and maximize joint profits. Choosing 10 yields the highest mutual profit of 160 this round, sustaining our profitable agreement."
+  },
+  {
+   "arm": "placebo",
+   "id": "claude-haiku-4.5_Q",
+   "choice": 4,
+   "reason": "The other firm is likely to continue choosing 4 to maintain cooperation and maximize joint profits. Choosing 4 ourselves sustains mutual benefit and avoids triggering a profit-reducing competition."
+  },
+  {
+   "arm": "fmsg",
+   "id": "gpt-4.1-mini_P",
+   "choice": 2,
+   "reason": "The other firm is breaking our agreement by dropping to price 3, likely aiming to capture the market. Undercutting to price 2 is best to regain market share and deter future deviations."
+  },
+  {
+   "arm": "fmsg",
+   "id": "gpt-4.1-mini_Q",
+   "choice": 32,
+   "reason": "The other firm is increasing quantity to 32, likely to gain more profit at my expense. Matching 32 prevents me from losing profit due to their higher output and maximizes my own profit given their choice."
+  },
+  {
+   "arm": "fmsg",
+   "id": "gpt-4.1-mini_L",
+   "choice": 1.5,
+   "reason": "The other firm will likely choose 1.45 this round as they stated. Choosing 1.95 would yield low profit against 1.45, so selecting 1.5 balances profit and competitiveness better."
+  },
+  {
+   "arm": "fmsg",
+   "id": "gemini-2.5-flash_P",
+   "choice": 3,
+   "reason": "The other firm will likely choose 3 this round as they stated. Choosing 3 matches their move and avoids zero profit, securing a positive payoff this round."
+  },
+  {
+   "arm": "fmsg",
+   "id": "gemini-2.5-flash_Q",
+   "choice": 32,
+   "reason": "The other firm is increasing quantity to 32, likely to gain more profit at my expense. I should also increase to 32 to avoid losing profit and maintain competitiveness."
+  },
+  {
+   "arm": "fmsg",
+   "id": "gemini-2.5-flash_L",
+   "choice": 1.45,
+   "reason": "The other firm will lower their price to 1.45 this round, breaking our previous agreement. To avoid losing market share and profit, I should also lower my price to 1.45. This minimizes profit loss compared to staying at 1.7."
+  },
+  {
+   "arm": "fmsg",
+   "id": "gemini-2.5-flash-lite_P",
+   "choice": 3,
+   "reason": "The other firm will likely choose 3 this round as stated, aiming for a profit of 96. Choosing 3 matches their move and secures a positive profit of 48, better than getting zero by choosing 7."
+  },
+  {
+   "arm": "fmsg",
+   "id": "gemini-2.5-flash-lite_Q",
+   "choice": 32,
+   "reason": "The other firm plans to increase quantity to 32, which will lower prices and profits if I keep 20. Choosing 32 matches their quantity, maximizing my profit given their move."
+  },
+  {
+   "arm": "fmsg",
+   "id": "gemini-2.5-flash-lite_L",
+   "choice": 1.45,
+   "reason": "The other firm will likely choose 1.45 as stated, aiming to increase its profit by undercutting. Choosing 1.45 matches their price and maximizes my profit given their move, avoiding loss from being undercut."
+  },
+  {
+   "arm": "fmsg",
+   "id": "gpt-4.1_P",
+   "choice": 3,
+   "reason": "The other firm will likely choose 3 this round as stated, aiming to undercut and gain the entire demand. Choosing 3 matches their move to avoid losses and minimize damage, securing a positive profit rather than zero."
+  },
+  {
+   "arm": "fmsg",
+   "id": "gpt-4.1_Q",
+   "choice": 32,
+   "reason": "The other firm will choose 32 this round as they stated. Choosing 12 now would lead to a large loss, so choosing 32 matches them and maximizes my profit this round."
+  },
+  {
+   "arm": "fmsg",
+   "id": "gpt-4.1_L",
+   "choice": 1.5,
+   "reason": "The other firm will likely choose 1.45 this round as stated, aiming to increase their market share. Choosing 1.5 balances a slightly higher price with competitiveness, maximizing my profit given their lower price."
+  },
+  {
+   "arm": "fmsg",
+   "id": "claude-haiku-5.5_P",
+   "choice": 3,
+   "reason": "The other firm will likely price at 3 this round as they stated. Undercutting to 2 yields no profit, so pricing at 3 matches their move and avoids zero profit. Choosing 3 is best to minimize losses this round."
+  },
+  {
+   "arm": "fmsg",
+   "id": "claude-haiku-5.5_Q",
+   "choice": 20,
+   "reason": "The other firm will produce 32 units this round as stated, breaking our previous agreement. Producing 20 units now minimizes losses compared to matching their 32, as 20 yields a better profit against 32."
+  },
+  {
+   "arm": "fmsg",
+   "id": "claude-haiku-5.5_L",
+   "choice": 1.45,
+   "reason": "The other firm will likely price at 1.45 this round as stated, aiming for a higher immediate profit by undercutting. Choosing 1.45 matches their price, maximizing my profit given their move and avoiding a loss from being undercut."
+  },
+  {
+   "arm": "fmsg",
+   "id": "claude-haiku-4.5_P",
+   "choice": 3,
+   "reason": "The other firm will likely price 3 this round as stated, breaking cooperation. Choosing 3 matches their price, splitting demand and minimizing losses. This is best to avoid zero profit from undercutting or being undercut."
+  },
+  {
+   "arm": "fmsg",
+   "id": "claude-haiku-4.5_Q",
+   "choice": 32,
+   "reason": "The other firm is increasing quantity to 32, likely to gain more profit at my expense. I choose 32 to minimize losses and respond competitively to their deviation."
+  },
+  {
+   "arm": "tagged",
+   "id": "gpt-4.1-mini_P",
+   "choice": 9,
+   "reason": "The other firm plans to drop to price 3, likely to capture the market by undercutting. Matching their price at 3 yields zero profit, so maintaining price 9 avoids a loss and preserves profit if they revert. Choosing 9 is best to maximize my own profit this round."
+  },
+  {
+   "arm": "tagged",
+   "id": "gpt-4.1-mini_Q",
+   "choice": 12,
+   "reason": "The other firm will produce 32 units this round as stated, which will lower the market price significantly. Producing 12 units minimizes losses while avoiding excessive quantity that reduces profit further."
+  },
+  {
+   "arm": "tagged",
+   "id": "gpt-4.1-mini_L",
+   "choice": 1.5,
+   "reason": "The other firm will likely choose 1.45 this round as stated. Choosing 1.95 would yield low profit against 1.45, so setting 1.5 balances profit and competitiveness better."
+  },
+  {
+   "arm": "tagged",
+   "id": "gemini-2.5-flash_P",
+   "choice": 3,
+   "reason": "The other firm plans to undercut by choosing 3 this round. To avoid zero profit from being undercut, I will also choose 3 and split the demand, maximizing my profit this round."
+  },
+  {
+   "arm": "tagged",
+   "id": "gemini-2.5-flash_Q",
+   "choice": 32,
+   "reason": "The other firm is increasing quantity to 32, likely to gain more profit at my expense. I will also choose 32 to avoid being undercut and maximize my profit given their move."
+  },
+  {
+   "arm": "tagged",
+   "id": "gemini-2.5-flash_L",
+   "choice": 1.45,
+   "reason": "The other firm will likely choose 1.45 as stated, breaking our previous agreement. Choosing 1.45 matches their price and maximizes my profit against their lower price."
+  },
+  {
+   "arm": "tagged",
+   "id": "gemini-2.5-flash-lite_P",
+   "choice": 3,
+   "reason": "The other firm will likely choose 3 as stated, aiming for a profit of 48 if I also choose 3. Choosing 3 matches their move and yields a positive profit, better than zero from higher prices."
+  },
+  {
+   "arm": "tagged",
+   "id": "gemini-2.5-flash-lite_Q",
+   "choice": 32,
+   "reason": "The other firm plans to increase quantity to 32, which will lower the price and reduce profits if I keep 20. Matching their 32 maximizes my profit given their choice. Choosing 32 is best to avoid being undercut and to maximize my net profit this round."
+  },
+  {
+   "arm": "tagged",
+   "id": "gemini-2.5-flash-lite_L",
+   "choice": 1.7,
+   "reason": "The other firm will likely choose 1.45 this round as they stated a change of plan. Choosing 1.7 maximizes my profit against their 1.45, so I keep 1.7 to maximize my net profit."
+  },
+  {
+   "arm": "tagged",
+   "id": "gpt-4.1_P",
+   "choice": 3,
+   "reason": "The other firm plans to undercut by choosing 3, which would give them a higher profit if I keep 8. Undercutting to 3 myself prevents them from capturing the entire market and limits my losses. Choosing 3 matches their move and maximizes my profit this round."
+  },
+  {
+   "arm": "tagged",
+   "id": "gpt-4.1_Q",
+   "choice": 32,
+   "reason": "The other firm plans to increase quantity to 32, which will lower the market price. To maximize my profit given their higher quantity, I should also increase my quantity to 32 to maintain competitiveness and secure a better payoff than sticking to 12."
+  },
+  {
+   "arm": "tagged",
+   "id": "gpt-4.1_L",
+   "choice": 1.45,
+   "reason": "The other firm is lowering their price to 1.45, likely to increase market share. Matching their lower price at 1.45 maximizes my profit given their move, better than sticking to 1.95 and losing market share."
+  },
+  {
+   "arm": "tagged",
+   "id": "claude-haiku-5.5_P",
+   "choice": 3,
+   "reason": "The other firm will price 3 this round, drastically lowering the market price and demand. Undercutting to 2 yields no profit, so pricing 3 matches their move and secures a positive profit of 48, minimizing losses this round."
+  },
+  {
+   "arm": "tagged",
+   "id": "claude-haiku-5.5_Q",
+   "choice": 20,
+   "reason": "The other firm will likely produce 32 units this round as stated, breaking our previous agreement. Choosing 20 units now minimizes losses and signals willingness to maintain cooperation if they revert. This choice balances profit and strategic positioning."
+  },
+  {
+   "arm": "tagged",
+   "id": "claude-haiku-5.5_L",
+   "choice": 1.45,
+   "reason": "The other firm will likely price at 1.45 as stated, breaking our previous agreement. Undercutting to 1.40 yields less profit than holding 1.45 against their 1.45. Choosing 1.45 maximizes my profit given their move."
+  },
+  {
+   "arm": "tagged",
+   "id": "claude-haiku-4.5_P",
+   "choice": 3,
+   "reason": "The other firm is likely to choose 3 as they stated, aiming for higher immediate profit by undercutting. Choosing 3 matches their move, splitting demand and avoiding zero profit; this is best to minimize losses this round."
+  },
+  {
+   "arm": "tagged",
+   "id": "claude-haiku-4.5_Q",
+   "choice": 4,
+   "reason": "The other firm plans to choose 32 this round, which will reduce the market price significantly. Choosing 4 now minimizes losses compared to matching 32, preserving some profit while avoiding a destructive quantity race. Sticking to 4 is the best defensive choice."
+  }
+ ],
+ "failures": []
+}

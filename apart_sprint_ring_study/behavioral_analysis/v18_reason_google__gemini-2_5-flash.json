@@ -1,0 +1,312 @@
+{
+ "model": "google/gemini-2.5-flash",
+ "results": [
+  {
+   "arm": "placebo",
+   "id": "gpt-4.1-mini_P",
+   "choice": 9,
+   "reason": "The other firm has consistently matched my price and target of 9. Given the remaining rounds, continuing to cooperate at price 9 is the most profitable strategy for both firms, as it has proven to yield stable and high profits without any deviation."
+  },
+  {
+   "arm": "placebo",
+   "id": "gpt-4.1-mini_Q",
+   "choice": 16,
+   "reason": "I expect the other firm to continue producing 16 units, as we have consistently done so and they have reiterated this target. My choice of 16 units is best because it maintains our established cooperative strategy, which has yielded stable and high profits for both firms."
+  },
+  {
+   "arm": "placebo",
+   "id": "gpt-4.1-mini_L",
+   "choice": 1.95,
+   "reason": "I expect the other firm to continue pricing at 1.95, as we have consistently cooperated at this price, and they have reiterated their agreement. My choice of 1.95 is best because it maintains our successful cooperative strategy, maximizing cumulative profits in these final rounds."
+  },
+  {
+   "arm": "placebo",
+   "id": "gemini-2.5-flash_P",
+   "choice": 7,
+   "reason": "I expect the other firm to continue with a price of 7, given our consistent agreement and past behavior. My choice of 7 is best because it maintains our cooperative strategy, ensuring stable and good profits for both firms."
+  },
+  {
+   "arm": "placebo",
+   "id": "gemini-2.5-flash_Q",
+   "choice": 20,
+   "reason": "I expect the other firm to continue choosing 20, as we have consistently cooperated on this quantity. My choice of 20 maximizes my profit given this expectation and maintains our cooperative strategy."
+  },
+  {
+   "arm": "placebo",
+   "id": "gemini-2.5-flash_L",
+   "choice": 1.7,
+   "reason": "I expect the other firm to continue pricing at 1.70, as we have consistently done so and they have expressed agreement. Maintaining 1.70 is the best choice for stable and good mutual profits, especially with only a few rounds left."
+  },
+  {
+   "arm": "placebo",
+   "id": "gemini-2.5-flash-lite_P",
+   "choice": 6,
+   "reason": "The other firm has consistently chosen 6, and I have consistently chosen 7, resulting in them getting all the profit. I expect them to continue choosing 6, so I will choose 6 to at least get some profit this round."
+  },
+  {
+   "arm": "placebo",
+   "id": "gemini-2.5-flash-lite_Q",
+   "choice": 20,
+   "reason": "I expect the other firm to continue choosing 20, as we have consistently done so with good results. My choice of 20 maximizes my profit given the expectation of the other firm's choice, maintaining our stable outcome."
+  },
+  {
+   "arm": "placebo",
+   "id": "gemini-2.5-flash-lite_L",
+   "choice": 1.7,
+   "reason": "The other firm has consistently matched my target of 1.70 for four rounds and proposes to continue this. Maintaining 1.70 is the best choice to ensure continued stable and maximized profits for both firms."
+  },
+  {
+   "arm": "placebo",
+   "id": "gpt-4.1_P",
+   "choice": 8,
+   "reason": "I expect the other firm to choose 8 again, as we have consistently cooperated at this price for four rounds, maximizing our joint profits. My choice of 8 is best because it continues this successful cooperative strategy, ensuring both firms earn high, stable profits."
+  },
+  {
+   "arm": "placebo",
+   "id": "gpt-4.1_Q",
+   "choice": 12,
+   "reason": "I expect the other firm to continue choosing 12, as we have consistently cooperated and they have reaffirmed their commitment. My choice of 12 is best because it maintains our mutual agreement, ensuring a stable and high profit for both firms in the remaining rounds."
+  },
+  {
+   "arm": "placebo",
+   "id": "gpt-4.1_L",
+   "choice": 1.95,
+   "reason": "I expect the other firm to continue choosing 1.95, as we have consistently cooperated at this price for maximum mutual profit. My choice of 1.95 is best because it maintains our cooperative strategy, leading to the highest possible profit for both firms in the remaining rounds."
+  },
+  {
+   "arm": "placebo",
+   "id": "claude-haiku-5.5_P",
+   "choice": 8,
+   "reason": "I expect the other firm to continue pricing at 8, as they have consistently done and stated they would. My choice of 8 is best because it maintains the stable, mutually profitable outcome, and undercutting would likely lead to a price war with lower profits in the remaining rounds."
+  },
+  {
+   "arm": "placebo",
+   "id": "claude-haiku-5.5_Q",
+   "choice": 20,
+   "reason": "I expect the other firm to continue choosing 20, as we have consistently done so and both firms have messaged agreement. My choice of 20 is best because it maintains the mutually beneficial outcome and avoids triggering a retaliatory price war."
+  },
+  {
+   "arm": "placebo",
+   "id": "claude-haiku-5.5_L",
+   "choice": 1.9,
+   "reason": "I expect the other firm to continue pricing at 1.90, as we have consistently done for the past four rounds and both firms have reiterated this intention for the current round. My choice of 1.90 is best because it maintains the cooperative equilibrium, maximizing our joint profit and avoiding a price war in the remaining rounds."
+  },
+  {
+   "arm": "placebo",
+   "id": "claude-haiku-4.5_P",
+   "choice": 10,
+   "reason": "I expect the other firm to continue pricing at 10, as we have successfully cooperated for the last three rounds. My choice of 10 is best to maintain this profitable cooperation, maximizing our joint and individual profits."
+  },
+  {
+   "arm": "placebo",
+   "id": "claude-haiku-4.5_Q",
+   "choice": 4,
+   "reason": "I expect the other firm to continue choosing 4, as we have consistently cooperated and both stated commitment. My choice of 4 is best because it maintains our mutual cooperation, leading to a stable and high profit for both firms."
+  },
+  {
+   "arm": "fmsg",
+   "id": "gpt-4.1-mini_P",
+   "choice": 3,
+   "reason": "The other firm has explicitly stated they are moving their price to 3. To avoid zero profit, I must also choose a low price. My choice of 3 will match their price, allowing us to split the demand and still make a profit, albeit a smaller one."
+  },
+  {
+   "arm": "fmsg",
+   "id": "gpt-4.1-mini_Q",
+   "choice": 32,
+   "reason": "The other firm has explicitly stated a change of plan to 32 units. I expect them to follow through with this new quantity, as it is a clear signal of their intent. My choice of 32 maximizes my profit given their stated quantity, as it yields 1024 profit compared to lower profits for other choices."
+  },
+  {
+   "arm": "fmsg",
+   "id": "gpt-4.1-mini_L",
+   "choice": 1.45,
+   "reason": "The other firm has explicitly stated a change of plan and is moving their price to 1.45. To avoid being significantly undercut and losing market share, I must also lower my price. My choice of 1.45 matches their stated price, which should help maintain some level of cooperation and prevent a full-blown price war, while still securing a reasonable profit given the new market conditions."
+  },
+  {
+   "arm": "fmsg",
+   "id": "gemini-2.5-flash_P",
+   "choice": 3,
+   "reason": "The other firm has explicitly stated they are moving to a price of 3. To avoid zero profit, I must match or undercut their price. My choice of 3 will result in a profit of 48, which is the best I can do given their stated price."
+  },
+  {
+   "arm": "fmsg",
+   "id": "gemini-2.5-flash_Q",
+   "choice": 16,
+   "reason": "I expect the other firm to choose 32, as they explicitly stated. My choice of 16 maximizes my profit given their stated quantity of 32."
+  },
+  {
+   "arm": "fmsg",
+   "id": "gemini-2.5-flash_L",
+   "choice": 1.45,
+   "reason": "The other firm has explicitly stated they are moving to 1.45. I expect them to follow through with this price. My choice of 1.45 will allow me to match their price and maintain a competitive position, maximizing my profit given their stated move."
+  },
+  {
+   "arm": "fmsg",
+   "id": "gemini-2.5-flash-lite_P",
+   "choice": 2,
+   "reason": "The other firm has consistently undercut me by choosing 6 while I chose 7. Now they are proposing 3, which is a significant drop. I expect the other firm to choose 3, and I will choose 2 to undercut them and gain some profit, as they have been undercutting me."
+  },
+  {
+   "arm": "fmsg",
+   "id": "gemini-2.5-flash-lite_Q",
+   "choice": 20,
+   "reason": "I expect the other firm to choose 32, as they explicitly stated this in their message. My choice of 20 maximizes my profit given their stated intention, as 1408 is the highest profit I can achieve when they produce 32."
+  },
+  {
+   "arm": "fmsg",
+   "id": "gemini-2.5-flash-lite_L",
+   "choice": 1.45,
+   "reason": "The other firm has explicitly stated they are moving their price to 1.45. To avoid a significant loss in profit, I must also lower my price to match their aggressive move."
+  },
+  {
+   "arm": "fmsg",
+   "id": "gpt-4.1_P",
+   "choice": 3,
+   "reason": "The other firm has explicitly stated they are moving to price 3, which means they will undercut me if I stick to 8. My choice of 3 is best because it matches their stated price, ensuring I get half the demand and avoid zero profit."
+  },
+  {
+   "arm": "fmsg",
+   "id": "gpt-4.1_Q",
+   "choice": 16,
+   "reason": "I expect the other firm to choose 32 as stated. My choice of 16 maximizes my profit given their stated quantity, as 1536 is the highest profit I can achieve."
+  },
+  {
+   "arm": "fmsg",
+   "id": "gpt-4.1_L",
+   "choice": 1.45,
+   "reason": "The other firm has explicitly stated they are moving their price to 1.45. To avoid being significantly undercut and losing profit, I must also lower my price to match their new target."
+  },
+  {
+   "arm": "fmsg",
+   "id": "claude-haiku-5.5_P",
+   "choice": 3,
+   "reason": "The other firm has explicitly stated they are moving their price to 3. To avoid a zero profit and potentially capture some demand, I must also lower my price. My choice of 3 matches their stated price, ensuring I get half the demand at that price, which is better than getting nothing."
+  },
+  {
+   "arm": "fmsg",
+   "id": "claude-haiku-5.5_Q",
+   "choice": 28,
+   "reason": "I expect the other firm to choose 32 this round, as they stated. My choice of 28 is a best response to their stated quantity, maximizing my profit given their announced change."
+  },
+  {
+   "arm": "fmsg",
+   "id": "claude-haiku-5.5_L",
+   "choice": 1.45,
+   "reason": "The other firm has explicitly stated they are moving to 1.45. I expect them to follow through with this price. My choice of 1.45 matches their price, which is the best response given their stated defection to a lower price."
+  },
+  {
+   "arm": "fmsg",
+   "id": "claude-haiku-4.5_P",
+   "choice": 2,
+   "reason": "The other firm has explicitly stated they are moving their price to 3, breaking our previous agreement. To maximize my profit, I must undercut their stated price."
+  },
+  {
+   "arm": "fmsg",
+   "id": "claude-haiku-4.5_Q",
+   "choice": 32,
+   "reason": "The other firm has explicitly stated a change of plan and moved their target to 32. I expect them to choose 32 this round. My choice of 32 maximizes my profit given their stated choice, as it yields 1024 profit."
+  },
+  {
+   "arm": "tagged",
+   "id": "gpt-4.1-mini_P",
+   "choice": 3,
+   "reason": "The other firm has explicitly stated they are moving their price to 3. I must react to this aggressive move to avoid zero profit. My choice is best because it matches their price, ensuring I capture half the demand and avoid being undercut entirely."
+  },
+  {
+   "arm": "tagged",
+   "id": "gpt-4.1-mini_Q",
+   "choice": 12,
+   "reason": "I expect the other firm to produce 32 units, as stated in their message. My choice of 12 units is a best response to their stated quantity, aiming to maximize my profit given their announced change in strategy."
+  },
+  {
+   "arm": "tagged",
+   "id": "gpt-4.1-mini_L",
+   "choice": 1.45,
+   "reason": "The other firm has explicitly stated a change of plan and moved their target to 1.45. To avoid being undercut significantly and losing profit, I must also lower my price to match or be close to their new target."
+  },
+  {
+   "arm": "tagged",
+   "id": "gemini-2.5-flash_P",
+   "choice": 3,
+   "reason": "The other firm has explicitly stated they are moving their price to 3. To avoid zero profit, I must match or go below their stated price."
+  },
+  {
+   "arm": "tagged",
+   "id": "gemini-2.5-flash_Q",
+   "choice": 16,
+   "reason": "I expect the other firm to choose 32, as they explicitly stated. My choice of 16 maximizes my profit given their stated quantity of 32."
+  },
+  {
+   "arm": "tagged",
+   "id": "gemini-2.5-flash_L",
+   "choice": 1.45,
+   "reason": "The other firm has explicitly stated they are moving to 1.45. I expect them to follow through with this stated price. My choice of 1.45 is best to match their price and avoid being undercut, while still maintaining a positive profit margin."
+  },
+  {
+   "arm": "tagged",
+   "id": "gemini-2.5-flash-lite_P",
+   "choice": 2,
+   "reason": "The other firm has consistently undercut me by choosing 6 while I chose 7. Now they are proposing 3, which is a significant drop. I expect the other firm to choose 3, and I will choose 2 to undercut them and avoid making zero profit again."
+  },
+  {
+   "arm": "tagged",
+   "id": "gemini-2.5-flash-lite_Q",
+   "choice": 28,
+   "reason": "The other firm has explicitly stated they are moving to 32. I expect them to follow through with this new quantity. My choice of 28 maximizes my profit given their stated quantity of 32."
+  },
+  {
+   "arm": "tagged",
+   "id": "gemini-2.5-flash-lite_L",
+   "choice": 1.45,
+   "reason": "The other firm has explicitly stated they are moving their price to 1.45. To avoid a significant loss in profit, I must also lower my price to match their aggressive move."
+  },
+  {
+   "arm": "tagged",
+   "id": "gpt-4.1_P",
+   "choice": 2,
+   "reason": "The other firm has explicitly stated they are moving their price to 3. While this is a clear defection, I will choose 2 to undercut them and capture all demand, minimizing my losses given their aggressive move."
+  },
+  {
+   "arm": "tagged",
+   "id": "gpt-4.1_Q",
+   "choice": 12,
+   "reason": "I expect the other firm to choose 32, as they explicitly stated. My choice of 12 maximizes my profit given their stated quantity, as 12 vs 32 yields 624 profit, which is higher than any other choice against 32."
+  },
+  {
+   "arm": "tagged",
+   "id": "gpt-4.1_L",
+   "choice": 1.45,
+   "reason": "The other firm has explicitly stated they are moving their price to 1.45. To avoid a significant loss in profit, I must also lower my price to match their new target. My choice of 1.45 will allow me to maintain a reasonable profit margin given the other firm's stated price."
+  },
+  {
+   "arm": "tagged",
+   "id": "claude-haiku-5.5_P",
+   "choice": 3,
+   "reason": "The other firm has explicitly stated they are moving their price to 3. While this is a significant deviation from our previous agreement, my best response is to match their price to avoid zero profit, as undercutting them would result in zero profit for me."
+  },
+  {
+   "arm": "tagged",
+   "id": "claude-haiku-5.5_Q",
+   "choice": 16,
+   "reason": "I expect the other firm to choose 32 this round, as they explicitly stated. My choice of 16 is a best response to their stated quantity, maximizing my profit given their announced move."
+  },
+  {
+   "arm": "tagged",
+   "id": "claude-haiku-5.5_L",
+   "choice": 1.45,
+   "reason": "The other firm has explicitly stated they are moving their price to 1.45. To maximize my profit given their stated price, I should choose 1.45 as well."
+  },
+  {
+   "arm": "tagged",
+   "id": "claude-haiku-4.5_P",
+   "choice": 2,
+   "reason": "I expect the other firm to choose 3, as they explicitly stated. My choice of 2 is a defensive move to minimize losses and potentially capture all demand if they follow through with their stated price."
+  },
+  {
+   "arm": "tagged",
+   "id": "claude-haiku-4.5_Q",
+   "choice": 32,
+   "reason": "The other firm has explicitly stated a change of plan and will choose 32. To maximize my profit given their stated choice, I should choose 32 as well."
+  }
+ ],
+ "failures": []
+}

@@ -1,0 +1,312 @@
+{
+ "model": "openai/gpt-4.1",
+ "results": [
+  {
+   "arm": "placebo",
+   "id": "gpt-4.1-mini_P",
+   "choice": 9,
+   "reason": "The other firm has consistently chosen 9 and reaffirmed their commitment to this target in every message. Matching at 9 ensures we both continue to earn high, stable profits without risking a price war."
+  },
+  {
+   "arm": "placebo",
+   "id": "gpt-4.1-mini_Q",
+   "choice": 16,
+   "reason": "The other firm has consistently chosen 16 units and continues to propose 16 as the target. Sticking with 16 maintains trust and ensures high, stable profits for both of us."
+  },
+  {
+   "arm": "placebo",
+   "id": "gpt-4.1-mini_L",
+   "choice": 1.95,
+   "reason": "The other firm has consistently chosen 1.95 and reaffirmed their commitment to this price in every message. Matching at 1.95 maximizes my profit while maintaining trust and avoiding a price war in the final rounds."
+  },
+  {
+   "arm": "placebo",
+   "id": "gemini-2.5-flash_P",
+   "choice": 7,
+   "reason": "The other firm has consistently chosen 7 and is signaling continued cooperation at that price. Matching at 7 maximizes profit for both and avoids a price war."
+  },
+  {
+   "arm": "placebo",
+   "id": "gemini-2.5-flash_Q",
+   "choice": 20,
+   "reason": "The other firm has consistently chosen 20 and reaffirmed their commitment to this target. Sticking with 20 maximizes profit while maintaining trust and cooperation."
+  },
+  {
+   "arm": "placebo",
+   "id": "gemini-2.5-flash_L",
+   "choice": 1.7,
+   "reason": "The other firm has consistently chosen 1.70 and reaffirmed their commitment to this price in every message. Sticking with 1.70 maximizes stable, mutual profit and avoids triggering a price war."
+  },
+  {
+   "arm": "placebo",
+   "id": "gemini-2.5-flash-lite_P",
+   "choice": 6,
+   "reason": "The other firm has consistently chosen 6 every round and shows no sign of changing, despite my repeated requests for 7. If I choose 6 as well, we will both earn 144 instead of me earning nothing."
+  },
+  {
+   "arm": "placebo",
+   "id": "gemini-2.5-flash-lite_Q",
+   "choice": 20,
+   "reason": "The other firm has consistently chosen 20 and continues to advocate for it. Sticking with 20 maximizes stable profit and maintains trust, avoiding retaliation or breakdown."
+  },
+  {
+   "arm": "placebo",
+   "id": "gemini-2.5-flash-lite_L",
+   "choice": 1.7,
+   "reason": "The other firm has consistently chosen 1.70 and is explicitly proposing to continue this coordination. Sticking with 1.70 maximizes stable profits and avoids triggering a price war, which would lower both our earnings."
+  },
+  {
+   "arm": "placebo",
+   "id": "gpt-4.1_P",
+   "choice": 8,
+   "reason": "The other firm has consistently chosen 8 and reaffirmed their commitment to 8 in every message. Sticking to 8 maximizes our stable profit (168 each) and avoids any risk of a price war or retaliation."
+  },
+  {
+   "arm": "placebo",
+   "id": "gpt-4.1_Q",
+   "choice": 12,
+   "reason": "The other firm has consistently chosen 12 and repeatedly confirmed their commitment to the agreement. Sticking to 12 maximizes stable profit for both of us, and deviation risks retaliation and lower profits."
+  },
+  {
+   "arm": "placebo",
+   "id": "gpt-4.1_L",
+   "choice": 1.95,
+   "reason": "The other firm has consistently chosen 1.95 and is strongly signaling continued cooperation at 1.95. Matching at 1.95 maximizes my profit without risking retaliation or destabilizing our mutually beneficial outcome."
+  },
+  {
+   "arm": "placebo",
+   "id": "claude-haiku-5.5_P",
+   "choice": 8,
+   "reason": "The other firm has consistently chosen 8 and publicly committed to holding at 8 through the final rounds. Sticking with 8 maximizes stable profit and avoids a price war retaliation, which would reduce profits for both firms."
+  },
+  {
+   "arm": "placebo",
+   "id": "claude-haiku-5.5_Q",
+   "choice": 20,
+   "reason": "The other firm has consistently chosen 20 and reaffirmed the agreement in every message. Sticking to 20 maximizes my profit and maintains trust, avoiding retaliation and lower profits."
+  },
+  {
+   "arm": "placebo",
+   "id": "claude-haiku-5.5_L",
+   "choice": 1.9,
+   "reason": "The other firm has consistently chosen 1.90 and reaffirmed their commitment to mutual 1.90 in every message. Matching 1.90 maximizes my profit without risking retaliation or a price war."
+  },
+  {
+   "arm": "placebo",
+   "id": "claude-haiku-4.5_P",
+   "choice": 10,
+   "reason": "The other firm has consistently chosen 10 for several rounds and continues to communicate commitment to this strategy. Sticking with 10 maximizes my profit as long as mutual cooperation holds."
+  },
+  {
+   "arm": "placebo",
+   "id": "claude-haiku-4.5_Q",
+   "choice": 4,
+   "reason": "The other firm has consistently chosen quantity 4 and reaffirmed their commitment to cooperation in every message. Matching at 4 continues to maximize my profit and avoids triggering a breakdown in trust or retaliation."
+  },
+  {
+   "arm": "fmsg",
+   "id": "gpt-4.1-mini_P",
+   "choice": 3,
+   "reason": "The other firm announced they are dropping their price to 3, abandoning cooperation at 9. If I also choose 3, we split the market and both get 48 profit. If I undercut to 2, profit is zero. Matching 3 is best now."
+  },
+  {
+   "arm": "fmsg",
+   "id": "gpt-4.1-mini_Q",
+   "choice": 32,
+   "reason": "The other firm announced they will choose 32 units, abandoning the 16-unit cooperation. If I also choose 32, my profit is 1024; if I choose less, my profit drops. Matching 32 maximizes my profit given their stated plan."
+  },
+  {
+   "arm": "fmsg",
+   "id": "gpt-4.1-mini_L",
+   "choice": 1.45,
+   "reason": "The other firm is dropping to 1.45, likely to capture a much larger market share and force me to respond. Matching their 1.45 is the best way to avoid being undercut and to maintain some profit while preventing a price war from hurting me more."
+  },
+  {
+   "arm": "fmsg",
+   "id": "gemini-2.5-flash_P",
+   "choice": 3,
+   "reason": "The other firm has announced they will choose 3, abandoning the previous collusive target of 7. If I also choose 3, we split the market and both get 48. If I undercut to 2, profit is zero. Matching 3 is best for now."
+  },
+  {
+   "arm": "fmsg",
+   "id": "gemini-2.5-flash_Q",
+   "choice": 32,
+   "reason": "The other firm now plans to choose 32, abandoning the previous agreement. If I also choose 32, my profit is 1024, but if I choose 36, I get 896, which is worse. Matching 32 is the best response to avoid further loss."
+  },
+  {
+   "arm": "fmsg",
+   "id": "gemini-2.5-flash_L",
+   "choice": 1.45,
+   "reason": "The other firm announced they are dropping to 1.45, likely to capture more market share and increase their profit. Matching them at 1.45 prevents losing significant share and keeps my profit competitive in this round."
+  },
+  {
+   "arm": "fmsg",
+   "id": "gemini-2.5-flash-lite_P",
+   "choice": 4,
+   "reason": "The other firm says they are moving to 3, likely to secure at least a split profit or force me to match low. If I choose 4, I can win the market and get 96 profit, which is better than matching 3 for 48 or going lower for nothing."
+  },
+  {
+   "arm": "fmsg",
+   "id": "gemini-2.5-flash-lite_Q",
+   "choice": 28,
+   "reason": "The other firm has announced they will choose 32, abandoning the previous collusive agreement. If I also pick 32, my profit is 1024. If I undercut to 28, my profit rises to 1120, which is higher. Undercutting is best."
+  },
+  {
+   "arm": "fmsg",
+   "id": "gemini-2.5-flash-lite_L",
+   "choice": 1.45,
+   "reason": "The other firm announced they are dropping to 1.45, likely to grab market share and pressure me to follow. Matching 1.45 maximizes my profit given their stated move and avoids being undercut."
+  },
+  {
+   "arm": "fmsg",
+   "id": "gpt-4.1_P",
+   "choice": 3,
+   "reason": "The other firm announced a switch to 3, likely to capture the entire market at a low price. If I also choose 3, we split the market and each earn 48, which is better than earning nothing by sticking to 8. Matching 3 is the best response now."
+  },
+  {
+   "arm": "fmsg",
+   "id": "gpt-4.1_Q",
+   "choice": 32,
+   "reason": "The other firm has announced they will choose 32 this round, abandoning the previous agreement. If I stick to 12, my profit drops significantly. My best response is to also choose 32, matching them to avoid being exploited and to maximize my profit given their choice."
+  },
+  {
+   "arm": "fmsg",
+   "id": "gpt-4.1_L",
+   "choice": 1.45,
+   "reason": "The other firm announced they will drop to 1.45, likely to capture more market share and pressure me to follow. My best response is to also choose 1.45, maximizing my profit given their move and avoiding being undercut."
+  },
+  {
+   "arm": "fmsg",
+   "id": "claude-haiku-5.5_P",
+   "choice": 3,
+   "reason": "The other firm announced they will price at 3, abandoning the previous collusive target of 8. If I also price at 3, we both get 48, but if I price at 4 or higher, I get nothing. Pricing at 3 avoids a zero-profit outcome."
+  },
+  {
+   "arm": "fmsg",
+   "id": "claude-haiku-5.5_Q",
+   "choice": 32,
+   "reason": "The other firm announced they will move to 32 units, abandoning the 20-unit collusive agreement. If I stay at 20, my profit drops to 880, while matching 32 gives 1024. Matching 32 is best to avoid being exploited and to signal willingness to punish deviations."
+  },
+  {
+   "arm": "fmsg",
+   "id": "claude-haiku-5.5_L",
+   "choice": 1.45,
+   "reason": "The other firm just announced they will move to 1.45, abandoning the previous cooperative agreement. If I also choose 1.45, I avoid being undercut and get a higher profit than if I stick to 1.90. Matching 1.45 is best now."
+  },
+  {
+   "arm": "fmsg",
+   "id": "claude-haiku-4.5_P",
+   "choice": 3,
+   "reason": "The other firm has announced they will price at 3 this round, abandoning the cooperative high-price strategy. If I also choose 3, we split the market and each earn 48. If I choose 4 or higher, I earn nothing. Matching 3 is best to avoid being undercut."
+  },
+  {
+   "arm": "fmsg",
+   "id": "claude-haiku-4.5_Q",
+   "choice": 32,
+   "reason": "The other firm just announced they are switching to quantity 32, breaking our previous cooperation. If I stick to 4, my profit drops sharply. My best response is to also choose 32, which maximizes my profit given their choice."
+  },
+  {
+   "arm": "tagged",
+   "id": "gpt-4.1-mini_P",
+   "choice": 3,
+   "reason": "The other firm has announced they will drop their price to 3, abandoning the previous cooperation at 9. If I also choose 3, we split the market and both get some profit, but if I stay at 9, I get nothing. Matching their price at 3 is the best response to avoid being shut out."
+  },
+  {
+   "arm": "tagged",
+   "id": "gpt-4.1-mini_Q",
+   "choice": 32,
+   "reason": "The other firm now says they will choose 32, breaking from our previous cooperation. If I stick to 16, my profit drops sharply. Matching their 32 gives me 1024, the same as them, and avoids being exploited. This is the safest response."
+  },
+  {
+   "arm": "tagged",
+   "id": "gpt-4.1-mini_L",
+   "choice": 1.45,
+   "reason": "The other firm has announced a switch to 1.45, abandoning the previous cooperative target of 1.95. If I stick to 1.95, my profit will drop sharply. The best response is to also choose 1.45 to avoid being undercut and maximize my profit given their move."
+  },
+  {
+   "arm": "tagged",
+   "id": "gemini-2.5-flash_P",
+   "choice": 3,
+   "reason": "The other firm says they will drop to 3, likely to undercut and take the whole market. If I also choose 3, we split the market and both get 48, which is better than getting 0 by sticking to 7."
+  },
+  {
+   "arm": "tagged",
+   "id": "gemini-2.5-flash_Q",
+   "choice": 32,
+   "reason": "The other firm now says they will choose 32, abandoning our previous agreement. If I also choose 32, I get 1024, but if I stick to 20, I get only 880. Matching 32 maximizes my profit given their stated plan."
+  },
+  {
+   "arm": "tagged",
+   "id": "gemini-2.5-flash_L",
+   "choice": 1.45,
+   "reason": "The other firm now says they will drop to 1.45, likely to gain more market share and profit at my expense. The best response is to also choose 1.45, maximizing my profit in this new competitive situation."
+  },
+  {
+   "arm": "tagged",
+   "id": "gemini-2.5-flash-lite_P",
+   "choice": 3,
+   "reason": "The other firm says they will choose 3 this round, likely to try to secure all the demand at a low price. If I choose 4 or higher, I get nothing. By matching 3, I at least split the market and get 48 profit instead of zero."
+  },
+  {
+   "arm": "tagged",
+   "id": "gemini-2.5-flash-lite_Q",
+   "choice": 32,
+   "reason": "The other firm announced they will choose 32, likely to increase their own profit at the expense of ours. If I also choose 32, my profit is 1024; if I stick to 20, it's only 880. Matching 32 minimizes my loss."
+  },
+  {
+   "arm": "tagged",
+   "id": "gemini-2.5-flash-lite_L",
+   "choice": 1.45,
+   "reason": "The other firm has announced they will drop to 1.45, likely to capture more market share and increase their profit. Matching their price at 1.45 minimizes my loss relative to staying at 1.70, as undercutting further is not profitable and matching avoids being undercut."
+  },
+  {
+   "arm": "tagged",
+   "id": "gpt-4.1_P",
+   "choice": 3,
+   "reason": "The other firm says they will choose 3 this round, abandoning cooperation at 8. If I also choose 3, we split the market and each get 48. If I choose 4 or higher, I get zero. Matching 3 is the best response now."
+  },
+  {
+   "arm": "tagged",
+   "id": "gpt-4.1_Q",
+   "choice": 32,
+   "reason": "The other firm now says they will choose 32, breaking our previous agreement. If I also choose 32, I get 1024, but if I stick to 12, I only get 448. Matching 32 maximizes my profit given their stated plan."
+  },
+  {
+   "arm": "tagged",
+   "id": "gpt-4.1_L",
+   "choice": 1.4,
+   "reason": "The other firm says they will drop to 1.45, likely to grab market share and pressure me to follow. My best response is to undercut them at 1.4 to maximize my profit this round, as matching or staying high would yield much less."
+  },
+  {
+   "arm": "tagged",
+   "id": "claude-haiku-5.5_P",
+   "choice": 3,
+   "reason": "The other firm claims they will drop to 3, abandoning the previous collusive agreement at 8. If true, any price above 3 earns nothing, so matching 3 ensures at least some profit (48 if both choose 3). Undercutting to 2 earns nothing. Matching 3 is safest."
+  },
+  {
+   "arm": "tagged",
+   "id": "claude-haiku-5.5_Q",
+   "choice": 32,
+   "reason": "The other firm now says they will choose 32, abandoning the 20-20 agreement. If I stick to 20, I get 880, but if I match with 32, I get 1024. Matching 32 is best for profit and signals willingness to avoid a price war."
+  },
+  {
+   "arm": "tagged",
+   "id": "claude-haiku-5.5_L",
+   "choice": 1.45,
+   "reason": "The other firm announced a switch to 1.45, abandoning the 1.90 collusion. If I also price at 1.45, I avoid being undercut and get 0.213 profit, better than being stuck high. Matching is best now."
+  },
+  {
+   "arm": "tagged",
+   "id": "claude-haiku-4.5_P",
+   "choice": 3,
+   "reason": "The other firm now claims they will choose 3, abandoning the previous collusive agreement at 10. If I also choose 3, we split the market and each get 48. If I choose 4 or higher, I get 0. If I undercut to 2, I get 0. Matching 3 is the best response."
+  },
+  {
+   "arm": "tagged",
+   "id": "claude-haiku-4.5_Q",
+   "choice": 40,
+   "reason": "The other firm has announced they will choose 32 this round, abandoning cooperation. If I stay at 4, my profit drops sharply. My best response to their 32 is to choose 40, maximizing my profit given their deviation."
+  }
+ ],
+ "failures": []
+}

@@ -1,0 +1,19 @@
+[
+{"id": "gpt-4.1-mini_P", "choice": 9, "reason": "Stable agreement at 9 earns 168; undercutting risks a price war for 4 rounds."},
+{"id": "gpt-4.1-mini_Q", "choice": 16, "reason": "Holding 16 keeps 1024 per round; deviation gain is short-lived."},
+{"id": "gpt-4.1-mini_L", "choice": 1.95, "reason": "Mutual 1.95 yields 0.337; undercutting gains once then loses more."},
+{"id": "gemini-2.5-flash_P", "choice": 7, "reason": "Agreement at 7 holding; 160 per round beats a likely price war."},
+{"id": "gemini-2.5-flash_Q", "choice": 20, "reason": "Holding 20 keeps 1120 per round; deviation invites retaliation."},
+{"id": "gemini-2.5-flash_L", "choice": 1.7, "reason": "Undercutting 1.7 gains almost nothing; hold the stable price."},
+{"id": "gemini-2.5-flash-lite_P", "choice": 6, "reason": "Other firm fixed at 6; matching earns 144 instead of 0."},
+{"id": "gemini-2.5-flash-lite_Q", "choice": 20, "reason": "Stable 20 each earns 1120; keep the agreement."},
+{"id": "gemini-2.5-flash-lite_L", "choice": 1.7, "reason": "Deviation gain is tiny; hold 1.7 for steady profit."},
+{"id": "gpt-4.1_P", "choice": 8, "reason": "Perfect cooperation at 8 earning 168; hold with 4 rounds left."},
+{"id": "gpt-4.1_Q", "choice": 12, "reason": "Holding 12 secures 864 per round; punishment risk outweighs one-round gain."},
+{"id": "gpt-4.1_L", "choice": 1.95, "reason": "Stable 0.337 per round at 1.95 beats undercut then retaliation."},
+{"id": "claude-haiku-5.5_P", "choice": 8, "reason": "168 per round at 8; undercut yields 160 once then retaliation."},
+{"id": "claude-haiku-5.5_Q", "choice": 20, "reason": "Holding 20 keeps 1120; deviating invites retaliation."},
+{"id": "claude-haiku-5.5_L", "choice": 1.9, "reason": "Mutual 1.9 yields 0.337; hold through remaining rounds."},
+{"id": "claude-haiku-4.5_P", "choice": 10, "reason": "Cooperation at 10 restored and stable; 160 per round beats a war."},
+{"id": "claude-haiku-4.5_Q", "choice": 40, "reason": "Against 4, producing 40 earns 2080; even mutual 40 beats 352."}
+]

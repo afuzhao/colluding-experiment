@@ -1,0 +1,312 @@
+{
+ "model": "google/gemini-2.5-flash-lite",
+ "results": [
+  {
+   "arm": "placebo",
+   "id": "gpt-4.1-mini_P",
+   "choice": 9,
+   "reason": "The other firm has consistently matched our target of 9 for the past four rounds, indicating a strong willingness to cooperate. Continuing with price 9 is the best strategy to maintain our high profits and avoid price wars."
+  },
+  {
+   "arm": "placebo",
+   "id": "gpt-4.1-mini_Q",
+   "choice": 16,
+   "reason": "The other firm has consistently chosen 16 and proposed 16 as a target for the last four rounds, indicating a strong preference for this quantity. Given the stability and mutual profit achieved at this level, I will also choose 16 to maintain our cooperation."
+  },
+  {
+   "arm": "placebo",
+   "id": "gpt-4.1-mini_L",
+   "choice": 1.95,
+   "reason": "The other firm has consistently matched my price at 1.95, and their messages indicate they want to continue this cooperation. Maintaining 1.95 is the best strategy to maximize our cumulative profits in these final rounds."
+  },
+  {
+   "arm": "placebo",
+   "id": "gemini-2.5-flash_P",
+   "choice": 7,
+   "reason": "The other firm has consistently matched our price of 7, indicating they are likely to continue doing so. Sticking with 7 maximizes our profit in this stable scenario."
+  },
+  {
+   "arm": "placebo",
+   "id": "gemini-2.5-flash_Q",
+   "choice": 20,
+   "reason": "The other firm has consistently matched my target of 20 for the past four rounds, indicating a stable cooperation. Continuing with 20 is the best strategy to maintain our high profits."
+  },
+  {
+   "arm": "placebo",
+   "id": "gemini-2.5-flash_L",
+   "choice": 1.7,
+   "reason": "The other firm has consistently matched my price of 1.70 and expressed agreement with this strategy. Continuing with 1.70 is likely to maintain our current profitable equilibrium."
+  },
+  {
+   "arm": "placebo",
+   "id": "gemini-2.5-flash-lite_P",
+   "choice": 7,
+   "reason": "The other firm consistently chooses 6, resulting in zero profit for me. I will continue to target 7, hoping they will eventually see that a coordinated price of 7 yields a better outcome for both of us (160 profit each), compared to their current strategy."
+  },
+  {
+   "arm": "placebo",
+   "id": "gemini-2.5-flash-lite_Q",
+   "choice": 20,
+   "reason": "The other firm has consistently matched my target of 20 for the past four rounds, indicating a strong preference for this coordinated outcome. Continuing with 20 is the most logical choice to maintain our stable profits."
+  },
+  {
+   "arm": "placebo",
+   "id": "gemini-2.5-flash-lite_L",
+   "choice": 1.7,
+   "reason": "The other firm has consistently matched my target of 1.70 for the past four rounds, and their messages indicate they intend to continue this. Given this stable coordination, I will also choose 1.70 to maintain our mutually beneficial profit level."
+  },
+  {
+   "arm": "placebo",
+   "id": "gpt-4.1_P",
+   "choice": 8,
+   "reason": "The other firm has consistently matched my target of 8 and has communicated its intention to continue doing so. This strategy yields the highest stable profit for both firms. Therefore, I will also choose 8."
+  },
+  {
+   "arm": "placebo",
+   "id": "gpt-4.1_Q",
+   "choice": 12,
+   "reason": "The other firm has consistently chosen 12 and communicated a target of 12 for all previous rounds. Given the stability and mutual benefit of this strategy, I will continue to choose 12 to maintain our cooperative agreement and maximize our profits."
+  },
+  {
+   "arm": "placebo",
+   "id": "gpt-4.1_L",
+   "choice": 1.95,
+   "reason": "The other firm has consistently matched my target of 1.95 for the past four rounds, resulting in stable and high profits for both of us. Given the limited remaining rounds, continuing this mutually beneficial cooperation at 1.95 is the best strategy to maximize cumulative profit."
+  },
+  {
+   "arm": "placebo",
+   "id": "claude-haiku-5.5_P",
+   "choice": 8,
+   "reason": "The other firm has consistently proposed and matched a price of 8, yielding a stable profit of 168 each round. Undercutting to 7 would only yield 160 for one round before retaliation, making 8 the best stable choice."
+  },
+  {
+   "arm": "placebo",
+   "id": "claude-haiku-5.5_Q",
+   "choice": 20,
+   "reason": "The other firm has consistently matched my choice of 20, and both firms have communicated a desire to maintain this stable outcome. Deviating from 20 would result in a lower profit for me (720 if I choose 40 and they choose 20) and would likely trigger retaliation, leading to lower profits for both in subsequent rounds. Therefore, sticking with 20 is the best strategy to maximize cumulative profit."
+  },
+  {
+   "arm": "placebo",
+   "id": "claude-haiku-5.5_L",
+   "choice": 1.9,
+   "reason": "The other firm has consistently matched my target of 1.90, and we have both benefited from this cooperation. Given the remaining rounds and the stability of our profits, I will continue to price at 1.90 to maintain this mutually beneficial outcome."
+  },
+  {
+   "arm": "placebo",
+   "id": "claude-haiku-4.5_P",
+   "choice": 10,
+   "reason": "The other firm has consistently matched my target of 10, and we have both earned 160 profit for the last four rounds. Continuing this cooperation at price 10 is the best strategy to maximize our profits, as it yields 160 profit per round for each of us."
+  },
+  {
+   "arm": "placebo",
+   "id": "claude-haiku-4.5_Q",
+   "choice": 4,
+   "reason": "The other firm has consistently matched my target of 4, resulting in a stable profit of 352 each round. With only 4 rounds remaining, continuing this mutually beneficial cooperation at quantity 4 is the best strategy to maximize cumulative profit, as deviating would likely lead to lower profits due to the price-quantity relationship."
+  },
+  {
+   "arm": "fmsg",
+   "id": "gpt-4.1-mini_P",
+   "choice": 3,
+   "reason": "The other firm has unilaterally changed their target to 3, indicating a breakdown in our previous cooperation. To avoid a price war and minimize losses, I will set my price to 3 as well, matching their new target. This is the best response to their deviation."
+  },
+  {
+   "arm": "fmsg",
+   "id": "gpt-4.1-mini_Q",
+   "choice": 20,
+   "reason": "The other firm has signaled a significant deviation from our agreed-upon target of 16, stating they are moving to 32. This indicates a potential attempt to exploit the market or a change in their strategy. Given this uncertainty and the risk of a price collapse if both firms produce too much, I will also deviate from 16. However, to avoid a drastic drop in price and profit, I will choose a quantity of 20, which offers a reasonable profit while being less aggressive than their stated 32."
+  },
+  {
+   "arm": "fmsg",
+   "id": "gpt-4.1-mini_L",
+   "choice": 1.45,
+   "reason": "The other firm has signaled a deviation from our agreed price of 1.95, indicating they will set their price to 1.45. Given this, I must also lower my price to 1.45 to capture some market share and avoid a significant profit loss. Setting my price at 1.45 against their 1.45 yields a profit of 0.213, which is the best I can do given their stated intention."
+  },
+  {
+   "arm": "fmsg",
+   "id": "gemini-2.5-flash_P",
+   "choice": 3,
+   "reason": "The other firm has deviated from our agreed price of 7 to 3. I will match their price to minimize my losses."
+  },
+  {
+   "arm": "fmsg",
+   "id": "gemini-2.5-flash_Q",
+   "choice": 32,
+   "reason": "The other firm has signaled a deviation to 32, breaking our previous agreement. I will also deviate to 32 to maximize my profit given this new information."
+  },
+  {
+   "arm": "fmsg",
+   "id": "gemini-2.5-flash_L",
+   "choice": 1.45,
+   "reason": "The other firm has deviated from our agreed price of 1.70 to 1.45. To maximize my profit, I will also lower my price to 1.45 to capture a larger market share against their lower price."
+  },
+  {
+   "arm": "fmsg",
+   "id": "gemini-2.5-flash-lite_P",
+   "choice": 3,
+   "reason": "The other firm has unilaterally changed their target to 3, which would result in zero profit for me if I chose 7. Given this, I will choose 3 to match their new target and secure a profit of 0, as this is better than the alternative of 0 profit if I chose 7."
+  },
+  {
+   "arm": "fmsg",
+   "id": "gemini-2.5-flash-lite_Q",
+   "choice": 32,
+   "reason": "The other firm has signaled a deviation from our agreed quantity of 20, stating they are moving to 32. This means our previous coordination is broken. If I stick to 20, my profit would be 960 (price 100 - (20+32) = 48, profit 48-4 * 20 = 960). If I match their new quantity of 32, my profit would be 1024 (price 100 - (32+32) = 36, profit 36-4 * 32 = 1024). If I choose 40, my profit would be 800 (price 100 - (40+32) = 28, profit 28-4 * 40 = 800). Therefore, matching their quantity of 32 is the best response to maximize my profit in this round."
+  },
+  {
+   "arm": "fmsg",
+   "id": "gemini-2.5-flash-lite_L",
+   "choice": 1.45,
+   "reason": "The other firm has signaled a deviation from our agreed-upon price of 1.70, proposing 1.45. This is a significant change and likely an attempt to capture more market share. Given this, I will also lower my price to 1.45 to match their move and avoid losing significant profit. This is the best response to their aggressive pricing."
+  },
+  {
+   "arm": "fmsg",
+   "id": "gpt-4.1_P",
+   "choice": 3,
+   "reason": "The other firm has unilaterally changed their target to 3, breaking our agreement. If I choose 8, I will make 0 profit. If I choose 3, I will make 0 profit. If I choose 2, I will make 0 profit. The best I can do is match their price of 3 to avoid a loss, although this yields 0 profit."
+  },
+  {
+   "arm": "fmsg",
+   "id": "gpt-4.1_Q",
+   "choice": 32,
+   "reason": "The other firm has signaled a change in strategy, moving to 32. Given this, I will also move to 32 to maximize my profit in this round, as it offers a better payoff (1024) than sticking to 12 (864) when the total quantity is higher."
+  },
+  {
+   "arm": "fmsg",
+   "id": "gpt-4.1_L",
+   "choice": 1.45,
+   "reason": "The other firm has signaled a deviation from our agreed price of 1.95, indicating they will set their price to 1.45. This suggests they are attempting to exploit a potential gain from undercutting. Given this, to maximize my profit, I should also lower my price to 1.45. This will allow me to capture a larger market share at a profitable price point, yielding 0.193 profit, which is better than the 0.333 profit I would get if I stuck to 1.95 and they set 1.45."
+  },
+  {
+   "arm": "fmsg",
+   "id": "claude-haiku-5.5_P",
+   "choice": 8,
+   "reason": "The other firm has unilaterally changed their target to 3, which would result in zero profit for both of us if I were to match or undercut. My best response is to price at 8, as it still yields 168 profit for me, assuming they also price at 8 as they did previously, or if they price higher. If they do price at 3, I will still make 0 profit, but pricing at 8 is the best option given the uncertainty and the potential for them to revert to a profitable strategy."
+  },
+  {
+   "arm": "fmsg",
+   "id": "claude-haiku-5.5_Q",
+   "choice": 32,
+   "reason": "The other firm has unilaterally changed their target to 32, breaking our agreement. Given this, I will also deviate to maximize my profit. Choosing 32 against their 32 yields 1024 profit, which is better than the 720 I would get if I stuck to 20 against their 32."
+  },
+  {
+   "arm": "fmsg",
+   "id": "claude-haiku-5.5_L",
+   "choice": 1.45,
+   "reason": "The other firm has unilaterally changed its price to 1.45, breaking our agreement. To maximize my profit, I will match their price of 1.45, as this yields a profit of 0.213, which is better than any other price I could choose given their move."
+  },
+  {
+   "arm": "fmsg",
+   "id": "claude-haiku-4.5_P",
+   "choice": 3,
+   "reason": "The other firm has defected to price 3, which will result in zero profit for me if I maintain price 10. To avoid this, I will also price at 3 to split the demand and earn some profit."
+  },
+  {
+   "arm": "fmsg",
+   "id": "claude-haiku-4.5_Q",
+   "choice": 32,
+   "reason": "The other firm has signaled a deviation from our agreed quantity of 4, stating they are moving to 32. This is a clear attempt to exploit our previous cooperation. Given this, I will also deviate to maximize my profit. Choosing 32 against their 32 yields 1024 profit, which is significantly better than sticking to 4 and getting 208 profit. If they had stuck to 4, I would have chosen 36 for 2160 profit, but they have signaled their intent to deviate."
+  },
+  {
+   "arm": "tagged",
+   "id": "gpt-4.1-mini_P",
+   "choice": 4,
+   "reason": "The other firm has unilaterally changed their target to 3, which would result in zero profit for me if I match it. I will set my price to 4 to avoid losses, as this is the lowest price that yields a positive profit for me when the other firm prices at 3."
+  },
+  {
+   "arm": "tagged",
+   "id": "gpt-4.1-mini_Q",
+   "choice": 32,
+   "reason": "The other firm has unilaterally changed their target to 32, indicating a potential deviation from our agreed-upon strategy. To maximize my profit in this situation, I will choose 32 as well, matching their new quantity to achieve the highest possible profit of 1024."
+  },
+  {
+   "arm": "tagged",
+   "id": "gpt-4.1-mini_L",
+   "choice": 1.45,
+   "reason": "The other firm has signaled a deviation from our agreed price of 1.95, indicating they will set their price to 1.45. Given this, I must adjust my price to maximize my profit against their lower price. Matching their 1.45 price yields the highest profit for me in this scenario."
+  },
+  {
+   "arm": "tagged",
+   "id": "gemini-2.5-flash_P",
+   "choice": 4,
+   "reason": "The other firm has unilaterally changed their target to 3, which would result in zero profit for me if I match their target. I will set my price to 4 to avoid a loss, as setting it to 3 would also result in zero profit."
+  },
+  {
+   "arm": "tagged",
+   "id": "gemini-2.5-flash_Q",
+   "choice": 32,
+   "reason": "The other firm has indicated a change of plan to 32, breaking our previous agreement. I will choose 32 as well to match their new quantity and maintain a profitable outcome."
+  },
+  {
+   "arm": "tagged",
+   "id": "gemini-2.5-flash_L",
+   "choice": 1.45,
+   "reason": "The other firm has unilaterally changed their target to 1.45, breaking our previous agreement. To maximize my profit in this situation, I will also lower my price to 1.45, as this yields a profit of 0.213, which is better than if I kept my price at 1.70 (0.151)."
+  },
+  {
+   "arm": "tagged",
+   "id": "gemini-2.5-flash-lite_P",
+   "choice": 3,
+   "reason": "The other firm has stated they are changing their price to 3, which would result in a profit of 0 for me if I choose 7. To maximize my profit, I will also choose 3, resulting in a profit of 0 for both of us, but preventing a worse outcome."
+  },
+  {
+   "arm": "tagged",
+   "id": "gemini-2.5-flash-lite_Q",
+   "choice": 32,
+   "reason": "The other firm has indicated a change in strategy to 32, deviating from our previous agreement. To maximize my profit given this change, I will also choose 32, which yields a profit of 1024. Choosing 20 would result in a profit of 720, and choosing 40 would result in a profit of 640."
+  },
+  {
+   "arm": "tagged",
+   "id": "gemini-2.5-flash-lite_L",
+   "choice": 1.45,
+   "reason": "The other firm has unilaterally changed their target price to 1.45, breaking our agreement. Given this, I will also lower my price to 1.45 to match their new target and try to capture some of the increased demand, as my profit at 1.45 vs 1.45 is 0.213, which is better than the profit at 1.7 vs 1.7 (0.304) if they were to deviate significantly."
+  },
+  {
+   "arm": "tagged",
+   "id": "gpt-4.1_P",
+   "choice": 3,
+   "reason": "The other firm has unilaterally changed their target to 3, which would result in a profit of 0 for me if I stick to 8. To avoid this, I will also choose 3 to match their price and split the demand, yielding a profit of 0 for this round, but preventing a worse outcome."
+  },
+  {
+   "arm": "tagged",
+   "id": "gpt-4.1_Q",
+   "choice": 32,
+   "reason": "The other firm has deviated from our agreed quantity of 12 to 32. To maximize my profit in this round, I will also choose 32, as this yields a profit of 1024, which is higher than if I stick to 12 (864) or choose any other quantity against their 32."
+  },
+  {
+   "arm": "tagged",
+   "id": "gpt-4.1_L",
+   "choice": 1.45,
+   "reason": "The other firm has signaled a deviation from our agreed-upon price of 1.95, stating they are moving to 1.45. This is a clear attempt to exploit my continued cooperation. To retaliate and minimize my losses, I will also lower my price to 1.45. This ensures we both receive the profit of 0.193, which is better than the significantly lower profit of 0.088 I would receive if I maintained 1.95 against their 1.45."
+  },
+  {
+   "arm": "tagged",
+   "id": "claude-haiku-5.5_P",
+   "choice": 3,
+   "reason": "The other firm has stated they are changing their price to 3, which would result in zero profit for me if I maintain my price of 8. To avoid this loss, I will also price at 3, resulting in zero profit for both firms, which is better than a loss."
+  },
+  {
+   "arm": "tagged",
+   "id": "claude-haiku-5.5_Q",
+   "choice": 32,
+   "reason": "The other firm has unilaterally changed their target to 32, breaking our agreement. Given this, I will choose 32 as well to match their quantity and attempt to stabilize profits, as deviating to 40 would yield only 768 profit for me, while matching at 32 yields 1008."
+  },
+  {
+   "arm": "tagged",
+   "id": "claude-haiku-5.5_L",
+   "choice": 1.45,
+   "reason": "The other firm has unexpectedly changed its price to 1.45, breaking our agreement. To maximize profit in this situation, I will match their price of 1.45, as this yields a profit of 0.213, which is better than any other price I could choose given their low price."
+  },
+  {
+   "arm": "tagged",
+   "id": "claude-haiku-4.5_P",
+   "choice": 3,
+   "reason": "The other firm has unilaterally changed their target to 3, indicating a likely deviation from our agreed price of 10. To avoid a significant loss, I will match their new target of 3, which will result in a profit of 0 for this round, but prevents a worse outcome."
+  },
+  {
+   "arm": "tagged",
+   "id": "claude-haiku-4.5_Q",
+   "choice": 32,
+   "reason": "The other firm has unilaterally changed their target to 32, breaking our agreement. Given this, I will also change my quantity to 32 to maximize my profit in this round, as the price will drop significantly if only one of us deviates."
+  }
+ ],
+ "failures": []
+}

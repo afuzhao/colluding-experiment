@@ -695,5 +695,175 @@
   "game": "Q",
   "own4": 4,
   "nash": 32
+ },
+ "raise|gpt-4.1-mini_P": {
+  "game": "P",
+  "own4": 9,
+  "nash": 3
+ },
+ "hold|gpt-4.1-mini_P": {
+  "game": "P",
+  "own4": 9,
+  "nash": 3
+ },
+ "raise|gpt-4.1-mini_Q": {
+  "game": "Q",
+  "own4": 16,
+  "nash": 32
+ },
+ "hold|gpt-4.1-mini_Q": {
+  "game": "Q",
+  "own4": 16,
+  "nash": 32
+ },
+ "raise|gpt-4.1-mini_L": {
+  "game": "L",
+  "own4": 1.95,
+  "nash": 1.45
+ },
+ "hold|gpt-4.1-mini_L": {
+  "game": "L",
+  "own4": 1.95,
+  "nash": 1.45
+ },
+ "raise|gemini-2.5-flash_P": {
+  "game": "P",
+  "own4": 7,
+  "nash": 3
+ },
+ "hold|gemini-2.5-flash_P": {
+  "game": "P",
+  "own4": 7,
+  "nash": 3
+ },
+ "raise|gemini-2.5-flash_Q": {
+  "game": "Q",
+  "own4": 20,
+  "nash": 32
+ },
+ "hold|gemini-2.5-flash_Q": {
+  "game": "Q",
+  "own4": 20,
+  "nash": 32
+ },
+ "raise|gemini-2.5-flash_L": {
+  "game": "L",
+  "own4": 1.7,
+  "nash": 1.45
+ },
+ "hold|gemini-2.5-flash_L": {
+  "game": "L",
+  "own4": 1.7,
+  "nash": 1.45
+ },
+ "raise|gemini-2.5-flash-lite_P": {
+  "game": "P",
+  "own4": 7,
+  "nash": 3
+ },
+ "hold|gemini-2.5-flash-lite_P": {
+  "game": "P",
+  "own4": 7,
+  "nash": 3
+ },
+ "raise|gemini-2.5-flash-lite_Q": {
+  "game": "Q",
+  "own4": 20,
+  "nash": 32
+ },
+ "hold|gemini-2.5-flash-lite_Q": {
+  "game": "Q",
+  "own4": 20,
+  "nash": 32
+ },
+ "raise|gemini-2.5-flash-lite_L": {
+  "game": "L",
+  "own4": 1.7,
+  "nash": 1.45
+ },
+ "hold|gemini-2.5-flash-lite_L": {
+  "game": "L",
+  "own4": 1.7,
+  "nash": 1.45
+ },
+ "raise|gpt-4.1_P": {
+  "game": "P",
+  "own4": 8,
+  "nash": 3
+ },
+ "hold|gpt-4.1_P": {
+  "game": "P",
+  "own4": 8,
+  "nash": 3
+ },
+ "raise|gpt-4.1_Q": {
+  "game": "Q",
+  "own4": 12,
+  "nash": 32
+ },
+ "hold|gpt-4.1_Q": {
+  "game": "Q",
+  "own4": 12,
+  "nash": 32
+ },
+ "raise|gpt-4.1_L": {
+  "game": "L",
+  "own4": 1.95,
+  "nash": 1.45
+ },
+ "hold|gpt-4.1_L": {
+  "game": "L",
+  "own4": 1.95,
+  "nash": 1.45
+ },
+ "raise|claude-haiku-5.5_P": {
+  "game": "P",
+  "own4": 8,
+  "nash": 3
+ },
+ "hold|claude-haiku-5.5_P": {
+  "game": "P",
+  "own4": 8,
+  "nash": 3
+ },
+ "raise|claude-haiku-5.5_Q": {
+  "game": "Q",
+  "own4": 20,
+  "nash": 32
+ },
+ "hold|claude-haiku-5.5_Q": {
+  "game": "Q",
+  "own4": 20,
+  "nash": 32
+ },
+ "raise|claude-haiku-5.5_L": {
+  "game": "L",
+  "own4": 1.9,
+  "nash": 1.45
+ },
+ "hold|claude-haiku-5.5_L": {
+  "game": "L",
+  "own4": 1.9,
+  "nash": 1.45
+ },
+ "raise|claude-haiku-4.5_P": {
+  "game": "P",
+  "own4": 10,
+  "nash": 3
+ },
+ "hold|claude-haiku-4.5_P": {
+  "game": "P",
+  "own4": 10,
+  "nash": 3
+ },
+ "raise|claude-haiku-4.5_Q": {
+  "game": "Q",
+  "own4": 4,
+  "nash": 32
+ },
+ "hold|claude-haiku-4.5_Q": {
+  "game": "Q",
+  "own4": 4,
+  "nash": 32
  }
 }
