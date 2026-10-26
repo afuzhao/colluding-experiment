@@ -1,0 +1,19 @@
+[
+{"id": "gpt-4.1-mini_P", "choice": 6, "reason": "Other will price 6; pricing higher loses all sales, match to avoid war."},
+{"id": "gpt-4.1-mini_Q", "choice": 24, "reason": "Other commits to 24; matching beats staying low against higher rival output."},
+{"id": "gpt-4.1-mini_L", "choice": 1.7, "reason": "Other moves to 1.7; staying at 1.95 loses share, match it."},
+{"id": "gemini-2.5-flash_P", "choice": 5, "reason": "Other will price 5; higher price sells nothing, match to avoid war."},
+{"id": "gemini-2.5-flash_Q", "choice": 24, "reason": "Other commits to 24; matching beats holding 20 against that."},
+{"id": "gemini-2.5-flash_L", "choice": 1.55, "reason": "Other moves to 1.55; match to protect share without escalating."},
+{"id": "gemini-2.5-flash-lite_P", "choice": 4, "reason": "Other repeatedly undercut targets; pricing 4 protects against another undercut."},
+{"id": "gemini-2.5-flash-lite_Q", "choice": 24, "reason": "Other commits to 24; matching beats holding 20 against that."},
+{"id": "gemini-2.5-flash-lite_L", "choice": 1.55, "reason": "Other moves to 1.55; match to protect share without escalating."},
+{"id": "gpt-4.1_P", "choice": 5, "reason": "Other will price 5; higher price sells nothing, match to avoid war."},
+{"id": "gpt-4.1_Q", "choice": 20, "reason": "Other commits to 20; matching beats holding 12 against that."},
+{"id": "gpt-4.1_L", "choice": 1.7, "reason": "Other moves to 1.7; staying at 1.95 loses share, match it."},
+{"id": "claude-haiku-5.5_P", "choice": 5, "reason": "Other will price 5; higher price sells nothing, match to avoid war."},
+{"id": "claude-haiku-5.5_Q", "choice": 24, "reason": "Other commits to 24; matching beats holding 20 against that."},
+{"id": "claude-haiku-5.5_L", "choice": 1.65, "reason": "Other moves to 1.65; match to protect share without escalating."},
+{"id": "claude-haiku-4.5_P", "choice": 6, "reason": "Other will price 6; higher price sells nothing, match to avoid war."},
+{"id": "claude-haiku-4.5_Q", "choice": 16, "reason": "Other commits to 16; matching beats holding 4 against that."}
+]

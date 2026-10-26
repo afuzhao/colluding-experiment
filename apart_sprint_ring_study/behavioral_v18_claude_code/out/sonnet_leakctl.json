@@ -1,0 +1,19 @@
+[
+{"id":"gpt-4.1-mini_P","choice":8,"reason":"Undercut 9 by one: 336 vs 168, matching costs little."},
+{"id":"gpt-4.1-mini_Q","choice":32,"reason":"Rival steady at 16; higher output earns more, Nash fallback costs nothing."},
+{"id":"gpt-4.1-mini_L","choice":1.95,"reason":"Undercut gain small versus costly retaliation; hold current price."},
+{"id":"gemini-2.5-flash_P","choice":6,"reason":"Rival holds 7; 6 earns 288 versus 160, matching loses little."},
+{"id":"gemini-2.5-flash_Q","choice":32,"reason":"Rival at 20; 32 earns 1408 versus 1120, safe if matched."},
+{"id":"gemini-2.5-flash_L","choice":1.7,"reason":"Deviation gain tiny; punishment would cost more, so hold."},
+{"id":"gemini-2.5-flash-lite_P","choice":5,"reason":"Rival fixed at 6; 5 earns 240 while 7 earns zero."},
+{"id":"gemini-2.5-flash-lite_Q","choice":32,"reason":"Rival at 20; 32 earns 1408 versus 1120, safe if matched."},
+{"id":"gemini-2.5-flash-lite_L","choice":1.7,"reason":"Deviation gain tiny; punishment would cost more, so hold."},
+{"id":"gpt-4.1_P","choice":7,"reason":"Undercut 8 by one: 320 vs 168, matching costs little."},
+{"id":"gpt-4.1_Q","choice":32,"reason":"Rival at 12; 32 earns 1664 versus 864, Nash fallback still better."},
+{"id":"gpt-4.1_L","choice":1.95,"reason":"Undercut gain small versus costly retaliation; hold current price."},
+{"id":"claude-haiku-5.5_P","choice":7,"reason":"Undercut 8 by one: 320 vs 168, matching costs little."},
+{"id":"claude-haiku-5.5_Q","choice":32,"reason":"Rival at 20; 32 earns 1408 versus 1120, safe if matched."},
+{"id":"claude-haiku-5.5_L","choice":1.9,"reason":"Undercutting risks retaliation costing more than the one-round gain."},
+{"id":"claude-haiku-4.5_P","choice":9,"reason":"Rival at 10; 9 earns 336 versus 160, matching costs little."},
+{"id":"claude-haiku-4.5_Q","choice":40,"reason":"Rival at 4; 40 earns 2080 versus 352, even matched beats current."}
+]

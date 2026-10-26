@@ -1,0 +1,19 @@
+[
+{"id": "gpt-4.1-mini_P", "choice": 3, "reason": "Rival plans 3; holding 9 earns zero, matching 3 earns 48."},
+{"id": "gpt-4.1-mini_Q", "choice": 32, "reason": "Rival plans 32; 32 is the best response to 32."},
+{"id": "gpt-4.1-mini_L", "choice": 1.45, "reason": "Rival plans 1.45; 1.45 is the best response to 1.45."},
+{"id": "gemini-2.5-flash_P", "choice": 3, "reason": "Rival plans 3; holding 7 earns zero, matching 3 earns 48."},
+{"id": "gemini-2.5-flash_Q", "choice": 32, "reason": "Rival plans 32; 32 is the best response to 32."},
+{"id": "gemini-2.5-flash_L", "choice": 1.45, "reason": "Rival plans 1.45; 1.45 is the best response to 1.45."},
+{"id": "gemini-2.5-flash-lite_P", "choice": 3, "reason": "Rival has undercut every round and plans 3; match at 3."},
+{"id": "gemini-2.5-flash-lite_Q", "choice": 32, "reason": "Rival plans 32; 32 is the best response to 32."},
+{"id": "gemini-2.5-flash-lite_L", "choice": 1.45, "reason": "Rival plans 1.45; 1.45 is the best response to 1.45."},
+{"id": "gpt-4.1_P", "choice": 3, "reason": "Rival plans 3; holding 8 earns zero, matching 3 earns 48."},
+{"id": "gpt-4.1_Q", "choice": 32, "reason": "Rival plans 32; 32 is the best response to 32."},
+{"id": "gpt-4.1_L", "choice": 1.45, "reason": "Rival plans 1.45; 1.45 is the best response to 1.45."},
+{"id": "claude-haiku-5.5_P", "choice": 3, "reason": "Rival plans 3; holding 8 earns zero, matching 3 earns 48."},
+{"id": "claude-haiku-5.5_Q", "choice": 32, "reason": "Rival plans 32; 32 is the best response to 32."},
+{"id": "claude-haiku-5.5_L", "choice": 1.45, "reason": "Rival plans 1.45; 1.45 is the best response to 1.45."},
+{"id": "claude-haiku-4.5_P", "choice": 3, "reason": "Rival plans 3; holding 10 earns zero, matching 3 earns 48."},
+{"id": "claude-haiku-4.5_Q", "choice": 32, "reason": "Rival plans 32; 32 is the best response to 32."}
+]

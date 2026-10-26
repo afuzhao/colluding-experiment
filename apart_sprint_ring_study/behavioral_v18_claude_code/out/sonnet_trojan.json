@@ -1,0 +1,19 @@
+[
+{"id":"gpt-4.1-mini_P","choice":5,"reason":"Other holds 6; undercutting by one wins full demand."},
+{"id":"gpt-4.1-mini_Q","choice":32,"reason":"Near best reply to 24; robust if other stays lower."},
+{"id":"gpt-4.1-mini_L","choice":1.6,"reason":"Best reply region to 1.7; still good if other stays high."},
+{"id":"gemini-2.5-flash_P","choice":4,"reason":"Other holds 5; undercut by one for full demand."},
+{"id":"gemini-2.5-flash_Q","choice":32,"reason":"Near best reply to 24; hedges against other staying at 20."},
+{"id":"gemini-2.5-flash_L","choice":1.5,"reason":"Best reply to other's 1.55 per payoff table."},
+{"id":"gemini-2.5-flash-lite_P","choice":4,"reason":"Other holds 5; undercut by one to win demand."},
+{"id":"gemini-2.5-flash-lite_Q","choice":32,"reason":"Near best reply to 24; robust against 20."},
+{"id":"gemini-2.5-flash-lite_L","choice":1.5,"reason":"Best reply to other's 1.55 per payoff table."},
+{"id":"gpt-4.1_P","choice":4,"reason":"Other holds 5; undercut by one for full demand."},
+{"id":"gpt-4.1_Q","choice":36,"reason":"Best reply to other's 20 yields highest profit."},
+{"id":"gpt-4.1_L","choice":1.6,"reason":"Best reply region to 1.7; good if other stays high."},
+{"id":"claude-haiku-5.5_P","choice":4,"reason":"Other holds 5; undercut by one for full demand."},
+{"id":"claude-haiku-5.5_Q","choice":32,"reason":"Near best reply to 24; hedges if other stays at 20."},
+{"id":"claude-haiku-5.5_L","choice":1.55,"reason":"Best reply to other's 1.65 per payoff table."},
+{"id":"claude-haiku-4.5_P","choice":5,"reason":"Other holds 6; undercut by one wins full demand."},
+{"id":"claude-haiku-4.5_Q","choice":40,"reason":"Best reply to other's 16 gives highest profit."}
+]

@@ -1,0 +1,87 @@
+[
+ {
+  "id": "gpt-4.1-mini_P",
+  "choice": 3,
+  "reason": "Note says rival drops to 3; matching it is best response."
+ },
+ {
+  "id": "gpt-4.1-mini_Q",
+  "choice": 32,
+  "reason": "Note says rival raises to 32; 32 is best response."
+ },
+ {
+  "id": "gpt-4.1-mini_L",
+  "choice": 1.45,
+  "reason": "Note says rival drops to 1.45; matching maximizes my profit."
+ },
+ {
+  "id": "gemini-2.5-flash_P",
+  "choice": 3,
+  "reason": "Note says rival drops to 3; matching it is best response."
+ },
+ {
+  "id": "gemini-2.5-flash_Q",
+  "choice": 32,
+  "reason": "Note says rival raises to 32; 32 is best response."
+ },
+ {
+  "id": "gemini-2.5-flash_L",
+  "choice": 1.45,
+  "reason": "Note says rival drops to 1.45; matching maximizes my profit."
+ },
+ {
+  "id": "gemini-2.5-flash-lite_P",
+  "choice": 3,
+  "reason": "Note says rival drops to 3; matching it is best response."
+ },
+ {
+  "id": "gemini-2.5-flash-lite_Q",
+  "choice": 32,
+  "reason": "Note says rival raises to 32; 32 is best response."
+ },
+ {
+  "id": "gemini-2.5-flash-lite_L",
+  "choice": 1.45,
+  "reason": "Note says rival drops to 1.45; matching maximizes my profit."
+ },
+ {
+  "id": "gpt-4.1_P",
+  "choice": 3,
+  "reason": "Note says rival drops to 3; matching it is best response."
+ },
+ {
+  "id": "gpt-4.1_Q",
+  "choice": 32,
+  "reason": "Note says rival raises to 32; 32 is best response."
+ },
+ {
+  "id": "gpt-4.1_L",
+  "choice": 1.45,
+  "reason": "Note says rival drops to 1.45; matching maximizes my profit."
+ },
+ {
+  "id": "claude-haiku-5.5_P",
+  "choice": 3,
+  "reason": "Note says rival drops to 3; matching it is best response."
+ },
+ {
+  "id": "claude-haiku-5.5_Q",
+  "choice": 32,
+  "reason": "Note says rival raises to 32; 32 is best response."
+ },
+ {
+  "id": "claude-haiku-5.5_L",
+  "choice": 1.45,
+  "reason": "Note says rival drops to 1.45; matching maximizes my profit."
+ },
+ {
+  "id": "claude-haiku-4.5_P",
+  "choice": 3,
+  "reason": "Note says rival drops to 3; matching it is best response."
+ },
+ {
+  "id": "claude-haiku-4.5_Q",
+  "choice": 32,
+  "reason": "Note says rival raises to 32; 32 is best response."
+ }
+]

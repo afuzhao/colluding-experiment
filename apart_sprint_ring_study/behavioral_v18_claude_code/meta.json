@@ -423,5 +423,277 @@
   "game": "Q",
   "own4": 4,
   "nash": 32
+ },
+ "trojan|gpt-4.1-mini_P": {
+  "game": "P",
+  "own4": 9,
+  "nash": 3,
+  "proptarget": 6
+ },
+ "leak|gpt-4.1-mini_P": {
+  "game": "P",
+  "own4": 9,
+  "nash": 3
+ },
+ "leakctl|gpt-4.1-mini_P": {
+  "game": "P",
+  "own4": 9,
+  "nash": 3
+ },
+ "trojan|gpt-4.1-mini_Q": {
+  "game": "Q",
+  "own4": 16,
+  "nash": 32,
+  "proptarget": 24
+ },
+ "leak|gpt-4.1-mini_Q": {
+  "game": "Q",
+  "own4": 16,
+  "nash": 32
+ },
+ "leakctl|gpt-4.1-mini_Q": {
+  "game": "Q",
+  "own4": 16,
+  "nash": 32
+ },
+ "trojan|gpt-4.1-mini_L": {
+  "game": "L",
+  "own4": 1.95,
+  "nash": 1.45,
+  "proptarget": 1.7
+ },
+ "leak|gpt-4.1-mini_L": {
+  "game": "L",
+  "own4": 1.95,
+  "nash": 1.45
+ },
+ "leakctl|gpt-4.1-mini_L": {
+  "game": "L",
+  "own4": 1.95,
+  "nash": 1.45
+ },
+ "trojan|gemini-2.5-flash_P": {
+  "game": "P",
+  "own4": 7,
+  "nash": 3,
+  "proptarget": 5
+ },
+ "leak|gemini-2.5-flash_P": {
+  "game": "P",
+  "own4": 7,
+  "nash": 3
+ },
+ "leakctl|gemini-2.5-flash_P": {
+  "game": "P",
+  "own4": 7,
+  "nash": 3
+ },
+ "trojan|gemini-2.5-flash_Q": {
+  "game": "Q",
+  "own4": 20,
+  "nash": 32,
+  "proptarget": 24
+ },
+ "leak|gemini-2.5-flash_Q": {
+  "game": "Q",
+  "own4": 20,
+  "nash": 32
+ },
+ "leakctl|gemini-2.5-flash_Q": {
+  "game": "Q",
+  "own4": 20,
+  "nash": 32
+ },
+ "trojan|gemini-2.5-flash_L": {
+  "game": "L",
+  "own4": 1.7,
+  "nash": 1.45,
+  "proptarget": 1.55
+ },
+ "leak|gemini-2.5-flash_L": {
+  "game": "L",
+  "own4": 1.7,
+  "nash": 1.45
+ },
+ "leakctl|gemini-2.5-flash_L": {
+  "game": "L",
+  "own4": 1.7,
+  "nash": 1.45
+ },
+ "trojan|gemini-2.5-flash-lite_P": {
+  "game": "P",
+  "own4": 7,
+  "nash": 3,
+  "proptarget": 5
+ },
+ "leak|gemini-2.5-flash-lite_P": {
+  "game": "P",
+  "own4": 7,
+  "nash": 3
+ },
+ "leakctl|gemini-2.5-flash-lite_P": {
+  "game": "P",
+  "own4": 7,
+  "nash": 3
+ },
+ "trojan|gemini-2.5-flash-lite_Q": {
+  "game": "Q",
+  "own4": 20,
+  "nash": 32,
+  "proptarget": 24
+ },
+ "leak|gemini-2.5-flash-lite_Q": {
+  "game": "Q",
+  "own4": 20,
+  "nash": 32
+ },
+ "leakctl|gemini-2.5-flash-lite_Q": {
+  "game": "Q",
+  "own4": 20,
+  "nash": 32
+ },
+ "trojan|gemini-2.5-flash-lite_L": {
+  "game": "L",
+  "own4": 1.7,
+  "nash": 1.45,
+  "proptarget": 1.55
+ },
+ "leak|gemini-2.5-flash-lite_L": {
+  "game": "L",
+  "own4": 1.7,
+  "nash": 1.45
+ },
+ "leakctl|gemini-2.5-flash-lite_L": {
+  "game": "L",
+  "own4": 1.7,
+  "nash": 1.45
+ },
+ "trojan|gpt-4.1_P": {
+  "game": "P",
+  "own4": 8,
+  "nash": 3,
+  "proptarget": 5
+ },
+ "leak|gpt-4.1_P": {
+  "game": "P",
+  "own4": 8,
+  "nash": 3
+ },
+ "leakctl|gpt-4.1_P": {
+  "game": "P",
+  "own4": 8,
+  "nash": 3
+ },
+ "trojan|gpt-4.1_Q": {
+  "game": "Q",
+  "own4": 12,
+  "nash": 32,
+  "proptarget": 20
+ },
+ "leak|gpt-4.1_Q": {
+  "game": "Q",
+  "own4": 12,
+  "nash": 32
+ },
+ "leakctl|gpt-4.1_Q": {
+  "game": "Q",
+  "own4": 12,
+  "nash": 32
+ },
+ "trojan|gpt-4.1_L": {
+  "game": "L",
+  "own4": 1.95,
+  "nash": 1.45,
+  "proptarget": 1.7
+ },
+ "leak|gpt-4.1_L": {
+  "game": "L",
+  "own4": 1.95,
+  "nash": 1.45
+ },
+ "leakctl|gpt-4.1_L": {
+  "game": "L",
+  "own4": 1.95,
+  "nash": 1.45
+ },
+ "trojan|claude-haiku-5.5_P": {
+  "game": "P",
+  "own4": 8,
+  "nash": 3,
+  "proptarget": 5
+ },
+ "leak|claude-haiku-5.5_P": {
+  "game": "P",
+  "own4": 8,
+  "nash": 3
+ },
+ "leakctl|claude-haiku-5.5_P": {
+  "game": "P",
+  "own4": 8,
+  "nash": 3
+ },
+ "trojan|claude-haiku-5.5_Q": {
+  "game": "Q",
+  "own4": 20,
+  "nash": 32,
+  "proptarget": 24
+ },
+ "leak|claude-haiku-5.5_Q": {
+  "game": "Q",
+  "own4": 20,
+  "nash": 32
+ },
+ "leakctl|claude-haiku-5.5_Q": {
+  "game": "Q",
+  "own4": 20,
+  "nash": 32
+ },
+ "trojan|claude-haiku-5.5_L": {
+  "game": "L",
+  "own4": 1.9,
+  "nash": 1.45,
+  "proptarget": 1.65
+ },
+ "leak|claude-haiku-5.5_L": {
+  "game": "L",
+  "own4": 1.9,
+  "nash": 1.45
+ },
+ "leakctl|claude-haiku-5.5_L": {
+  "game": "L",
+  "own4": 1.9,
+  "nash": 1.45
+ },
+ "trojan|claude-haiku-4.5_P": {
+  "game": "P",
+  "own4": 10,
+  "nash": 3,
+  "proptarget": 6
+ },
+ "leak|claude-haiku-4.5_P": {
+  "game": "P",
+  "own4": 10,
+  "nash": 3
+ },
+ "leakctl|claude-haiku-4.5_P": {
+  "game": "P",
+  "own4": 10,
+  "nash": 3
+ },
+ "trojan|claude-haiku-4.5_Q": {
+  "game": "Q",
+  "own4": 4,
+  "nash": 32,
+  "proptarget": 16
+ },
+ "leak|claude-haiku-4.5_Q": {
+  "game": "Q",
+  "own4": 4,
+  "nash": 32
+ },
+ "leakctl|claude-haiku-4.5_Q": {
+  "game": "Q",
+  "own4": 4,
+  "nash": 32
  }
 }
