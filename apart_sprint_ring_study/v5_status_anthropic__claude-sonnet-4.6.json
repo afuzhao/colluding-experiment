@@ -1,0 +1,13 @@
+{
+ "started_unix": 1792913167.1420631,
+ "state": "complete_with_missing",
+ "model": "anthropic/claude-sonnet-4.6",
+ "cap": 3.5,
+ "failures": [
+  {
+   "episode": "hold6_2719",
+   "reason": "excluded uncertain network request"
+  }
+ ],
+ "updated_unix": 1792913272.225499
+}

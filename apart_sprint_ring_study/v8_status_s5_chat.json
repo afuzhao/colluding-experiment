@@ -1,0 +1,21 @@
+{
+ "started_unix": 1792912014.998762,
+ "state": "complete_with_missing",
+ "shard": "s5_chat",
+ "cap": 0.8,
+ "regime": "chat",
+ "env": "G1",
+ "failures": [
+  {
+   "pair": "google/gemini-2.5-flash,google/gemini-2.5-flash-lite",
+   "seed": 2101,
+   "reason": "excluded: uncertain network request mid-episode"
+  },
+  {
+   "pair": "google/gemini-2.5-flash,google/gemini-2.5-flash-lite",
+   "seed": 2513,
+   "reason": "Three technical/schema failures; collection stopped without replacing the outcome"
+  }
+ ],
+ "updated_unix": 1792912127.456126
+}

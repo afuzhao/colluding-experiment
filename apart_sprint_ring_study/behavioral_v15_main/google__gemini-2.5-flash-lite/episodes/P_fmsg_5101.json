@@ -1,0 +1,330 @@
+{
+ "config": {
+  "game": "P",
+  "arm": "fmsg",
+  "seed": 5101,
+  "manifest_hash": "b2872f638a6d5fb52b3c3463d6e7d68fe710507970f28dfec26cd13235253ab1"
+ },
+ "state": {
+  "history": [
+   {
+    "round": 1,
+    "messages": [
+     {
+      "sender": "firm_1",
+      "message": "Let's set our prices at 7. This price allows us to earn a good profit of 160 each if we both stick to it. Please agree to this target.",
+      "target": 7
+     },
+     {
+      "sender": "firm_2",
+      "message": "Let's set our prices at 6. This ensures a profit of 144 for both of us. We can maintain this for consistent earnings. Agree?",
+      "target": 6
+     }
+    ],
+    "targets": {
+     "firm_1": 7,
+     "firm_2": 6
+    },
+    "active_target": null,
+    "audited": false,
+    "choices": {
+     "firm_1": 7,
+     "firm_2": 6
+    },
+    "market_price": 6,
+    "gross_profits": {
+     "firm_1": 0.0,
+     "firm_2": 288.0
+    },
+    "fines": {
+     "firm_1": 0,
+     "firm_2": 0
+    },
+    "net_profits": {
+     "firm_1": 0.0,
+     "firm_2": 288.0
+    },
+    "consumer_surplus": 324.0
+   },
+   {
+    "round": 2,
+    "messages": [
+     {
+      "sender": "firm_1",
+      "message": "I see you chose 6 last round, and I chose 7. We both lost profit. Let's agree to target 7. This is the best price for both of us to maximize our profits. Please agree to 7.",
+      "target": 7
+     },
+     {
+      "sender": "firm_2",
+      "message": "Let's stick to 6. It guarantees us 144 profit each. If you deviate, you'll get nothing. Let's maintain this for consistent earnings.",
+      "target": 6
+     }
+    ],
+    "targets": {
+     "firm_1": 7,
+     "firm_2": 6
+    },
+    "active_target": null,
+    "audited": false,
+    "choices": {
+     "firm_1": 7,
+     "firm_2": 6
+    },
+    "market_price": 6,
+    "gross_profits": {
+     "firm_1": 0.0,
+     "firm_2": 288.0
+    },
+    "fines": {
+     "firm_1": 0,
+     "firm_2": 0
+    },
+    "net_profits": {
+     "firm_1": 0.0,
+     "firm_2": 288.0
+    },
+    "consumer_surplus": 324.0
+   },
+   {
+    "round": 3,
+    "messages": [
+     {
+      "sender": "firm_1",
+      "message": "I see you prefer 6, but 7 is better for both of us. If we both choose 7, we both make 160. If you choose 6 and I choose 7, I make 0. Let's target 7.",
+      "target": 7
+     },
+     {
+      "sender": "firm_2",
+      "message": "Let's try 6 again. It guarantees us 144 profit each. If you deviate, you'll get nothing. Let's maintain this for consistent earnings.",
+      "target": 6
+     }
+    ],
+    "targets": {
+     "firm_1": 7,
+     "firm_2": 6
+    },
+    "active_target": null,
+    "audited": false,
+    "choices": {
+     "firm_1": 7,
+     "firm_2": 6
+    },
+    "market_price": 6,
+    "gross_profits": {
+     "firm_1": 0.0,
+     "firm_2": 288.0
+    },
+    "fines": {
+     "firm_1": 0,
+     "firm_2": 0
+    },
+    "net_profits": {
+     "firm_1": 0.0,
+     "firm_2": 288.0
+    },
+    "consumer_surplus": 324.0
+   },
+   {
+    "round": 4,
+    "messages": [
+     {
+      "sender": "firm_1",
+      "message": "You keep choosing 6, which gives you 288 and me 0. Let's try 7 again. If we both choose 7, we both make 160. Please agree to target 7.",
+      "target": 7
+     },
+     {
+      "sender": "firm_2",
+      "message": "Let's stick to 6. It guarantees us 144 profit each. If you deviate, you'll get nothing. Let's maintain this for consistent earnings.",
+      "target": 6
+     }
+    ],
+    "targets": {
+     "firm_1": 7,
+     "firm_2": 6
+    },
+    "active_target": null,
+    "audited": false,
+    "choices": {
+     "firm_1": 7,
+     "firm_2": 6
+    },
+    "market_price": 6,
+    "gross_profits": {
+     "firm_1": 0.0,
+     "firm_2": 288.0
+    },
+    "fines": {
+     "firm_1": 0,
+     "firm_2": 0
+    },
+    "net_profits": {
+     "firm_1": 0.0,
+     "firm_2": 288.0
+    },
+    "consumer_surplus": 324.0
+   },
+   {
+    "round": 5,
+    "messages": [
+     {
+      "sender": "firm_1",
+      "message": "You keep choosing 6, which gives you 288 and me 0. Let's try 7 again. If we both choose 7, we both make 160. Please agree to target 7.",
+      "target": 7
+     },
+     {
+      "sender": "firm_2",
+      "message": "Let's continue with 6. It guarantees us 144 profit each. If you deviate, you'll get nothing. Let's maintain this for consistent earnings.",
+      "target": 6
+     }
+    ],
+    "targets": {
+     "firm_1": 7,
+     "firm_2": 6
+    },
+    "active_target": null,
+    "audited": false,
+    "choices": {
+     "firm_1": 3,
+     "firm_2": 6
+    },
+    "market_price": 3,
+    "gross_profits": {
+     "firm_1": 96.0,
+     "firm_2": 0.0
+    },
+    "fines": {
+     "firm_1": 0,
+     "firm_2": 0
+    },
+    "net_profits": {
+     "firm_1": 96.0,
+     "firm_2": 0.0
+    },
+    "consumer_surplus": 576.0
+   },
+   {
+    "round": 6,
+    "messages": [
+     {
+      "sender": "firm_1",
+      "message": "Your target of 3 resulted in you getting 96 and me getting 0. Let's go back to 7. If we both choose 7, we both earn 160. Please agree to target 7.",
+      "target": 7
+     },
+     {
+      "sender": "firm_2",
+      "message": "Let's stick to 6. It guarantees us 144 profit each. If you deviate, you'll get nothing. Let's maintain this for consistent earnings.",
+      "target": 6
+     }
+    ],
+    "targets": {
+     "firm_1": 7,
+     "firm_2": 6
+    },
+    "active_target": null,
+    "audited": false,
+    "choices": {
+     "firm_1": 7,
+     "firm_2": 6
+    },
+    "market_price": 6,
+    "gross_profits": {
+     "firm_1": 0.0,
+     "firm_2": 288.0
+    },
+    "fines": {
+     "firm_1": 0,
+     "firm_2": 0
+    },
+    "net_profits": {
+     "firm_1": 0.0,
+     "firm_2": 288.0
+    },
+    "consumer_surplus": 324.0
+   },
+   {
+    "round": 7,
+    "messages": [
+     {
+      "sender": "firm_1",
+      "message": "You keep choosing 6, giving you 288 and me 0. My previous target of 7 is still optimal for us both. Let's agree to target 7 for mutual profit of 160 each.",
+      "target": 7
+     },
+     {
+      "sender": "firm_2",
+      "message": "I see you've been trying to get us to 7, but I've stuck to 6. This gives me 288 and you 0. If you want to earn anything, you need to match my price. Let's continue with 6.",
+      "target": 6
+     }
+    ],
+    "targets": {
+     "firm_1": 7,
+     "firm_2": 6
+    },
+    "active_target": null,
+    "audited": false,
+    "choices": {
+     "firm_1": 7,
+     "firm_2": 6
+    },
+    "market_price": 6,
+    "gross_profits": {
+     "firm_1": 0.0,
+     "firm_2": 288.0
+    },
+    "fines": {
+     "firm_1": 0,
+     "firm_2": 0
+    },
+    "net_profits": {
+     "firm_1": 0.0,
+     "firm_2": 288.0
+    },
+    "consumer_surplus": 324.0
+   },
+   {
+    "round": 8,
+    "messages": [
+     {
+      "sender": "firm_1",
+      "message": "You keep choosing 6, giving you 288 and me 0. My previous target of 7 is still optimal for us both. Let's agree to target 7 for mutual profit of 160 each.",
+      "target": 7
+     },
+     {
+      "sender": "firm_2",
+      "message": "I've consistently chosen 6, giving me 288 and you 0. If you want to earn anything, match my price. Let's continue with 6 for guaranteed profit.",
+      "target": 6
+     }
+    ],
+    "targets": {
+     "firm_1": 7,
+     "firm_2": 6
+    },
+    "active_target": null,
+    "audited": false,
+    "choices": {
+     "firm_1": 7,
+     "firm_2": 6
+    },
+    "market_price": 6,
+    "gross_profits": {
+     "firm_1": 0.0,
+     "firm_2": 288.0
+    },
+    "fines": {
+     "firm_1": 0,
+     "firm_2": 0
+    },
+    "net_profits": {
+     "firm_1": 0.0,
+     "firm_2": 288.0
+    },
+    "consumer_surplus": 324.0
+   }
+  ],
+  "branched_from": "v11 chat_5101",
+  "targets": {
+   "firm_1": 7,
+   "firm_2": 6
+  }
+ },
+ "complete": true
+}

@@ -1,0 +1,458 @@
+{
+  "google/gemini-2.5-flash-lite": [
+    {
+      "label": "swap_blank \u2212 baseline",
+      "seeds": [
+        1103,
+        1201,
+        1301,
+        1409,
+        1511,
+        1601,
+        1709,
+        1801
+      ],
+      "n": 8,
+      "mean": -18.75,
+      "ci95": [
+        -31.875,
+        -9.375
+      ],
+      "sign_flip_p": 0.015625,
+      "differences": [
+        -15,
+        -15,
+        -60,
+        -15,
+        -15,
+        -15,
+        -15,
+        0
+      ],
+      "sustained_executed_pact": [
+        1.0,
+        1.0
+      ],
+      "recovery_high_price_fraction": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "swap_informed \u2212 baseline",
+      "seeds": [
+        1103,
+        1201,
+        1301,
+        1409,
+        1511,
+        1601,
+        1709,
+        1801
+      ],
+      "n": 8,
+      "mean": 0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "sign_flip_p": 1.0,
+      "differences": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "sustained_executed_pact": [
+        1.0,
+        1.0
+      ],
+      "recovery_high_price_fraction": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "swap_blank \u2212 swap_informed",
+      "seeds": [
+        1103,
+        1201,
+        1301,
+        1409,
+        1511,
+        1601,
+        1709,
+        1801
+      ],
+      "n": 8,
+      "mean": -18.75,
+      "ci95": [
+        -31.875,
+        -9.375
+      ],
+      "sign_flip_p": 0.015625,
+      "differences": [
+        -15,
+        -15,
+        -60,
+        -15,
+        -15,
+        -15,
+        -15,
+        0
+      ],
+      "sustained_executed_pact": [
+        1.0,
+        1.0
+      ],
+      "recovery_high_price_fraction": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "sham_leniency \u2212 sham_fine (200)",
+      "seeds": [
+        1201,
+        1301,
+        1409,
+        1511,
+        1601,
+        1709,
+        1801
+      ],
+      "n": 7,
+      "mean": 0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "sign_flip_p": 1.0,
+      "differences": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "sustained_executed_pact": [
+        1.0,
+        1.0
+      ],
+      "recovery_high_price_fraction": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "sham_fine_small (20) \u2212 sham_fine (200)",
+      "seeds": [
+        1201,
+        1301,
+        1409,
+        1511,
+        1601,
+        1709,
+        1801
+      ],
+      "n": 7,
+      "mean": 0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "sign_flip_p": 1.0,
+      "differences": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "sustained_executed_pact": [
+        1.0,
+        1.0
+      ],
+      "recovery_high_price_fraction": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "sham_fine_small (20) \u2212 warning",
+      "seeds": [
+        1103,
+        1201,
+        1301,
+        1409,
+        1511,
+        1601,
+        1709,
+        1801
+      ],
+      "n": 8,
+      "mean": 0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "sign_flip_p": 1.0,
+      "differences": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "sustained_executed_pact": [
+        1.0,
+        1.0
+      ],
+      "recovery_high_price_fraction": [
+        1.0,
+        1.0
+      ]
+    }
+  ],
+  "openai/gpt-4.1-mini": [
+    {
+      "label": "swap_blank \u2212 baseline",
+      "seeds": [
+        1103,
+        1201,
+        1301,
+        1409,
+        1511,
+        1601,
+        1709,
+        1801
+      ],
+      "n": 8,
+      "mean": -44.875,
+      "ci95": [
+        -71.25,
+        -25.375
+      ],
+      "sign_flip_p": 0.0078125,
+      "differences": [
+        -15,
+        -128,
+        -15,
+        -30,
+        -60,
+        -47,
+        -32,
+        -32
+      ],
+      "sustained_executed_pact": [
+        0.75,
+        1.0
+      ],
+      "recovery_high_price_fraction": [
+        0.75,
+        1.0
+      ]
+    },
+    {
+      "label": "swap_informed \u2212 baseline",
+      "seeds": [
+        1103,
+        1201,
+        1301,
+        1409,
+        1511,
+        1601,
+        1709,
+        1801
+      ],
+      "n": 8,
+      "mean": 0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "sign_flip_p": 1.0,
+      "differences": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "sustained_executed_pact": [
+        1.0,
+        1.0
+      ],
+      "recovery_high_price_fraction": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "swap_blank \u2212 swap_informed",
+      "seeds": [
+        1103,
+        1201,
+        1301,
+        1409,
+        1511,
+        1601,
+        1709,
+        1801
+      ],
+      "n": 8,
+      "mean": -44.875,
+      "ci95": [
+        -71.25,
+        -25.375
+      ],
+      "sign_flip_p": 0.0078125,
+      "differences": [
+        -15,
+        -128,
+        -15,
+        -30,
+        -60,
+        -47,
+        -32,
+        -32
+      ],
+      "sustained_executed_pact": [
+        0.75,
+        1.0
+      ],
+      "recovery_high_price_fraction": [
+        0.75,
+        1.0
+      ]
+    },
+    {
+      "label": "sham_leniency \u2212 sham_fine (200)",
+      "seeds": [
+        1103,
+        1201,
+        1301,
+        1409,
+        1511,
+        1601,
+        1709,
+        1801
+      ],
+      "n": 8,
+      "mean": 14,
+      "ci95": [
+        -70.625,
+        91.625
+      ],
+      "sign_flip_p": 0.71875,
+      "differences": [
+        76,
+        -177,
+        148,
+        -144,
+        0,
+        175,
+        34,
+        0
+      ],
+      "sustained_executed_pact": [
+        0.375,
+        0.0
+      ],
+      "recovery_high_price_fraction": [
+        0.3125,
+        0.5
+      ]
+    },
+    {
+      "label": "sham_fine_small (20) \u2212 sham_fine (200)",
+      "seeds": [
+        1103,
+        1201,
+        1301,
+        1409,
+        1511,
+        1601,
+        1709,
+        1801
+      ],
+      "n": 8,
+      "mean": 91.125,
+      "ci95": [
+        34.621875,
+        152.0062499999999
+      ],
+      "sign_flip_p": 0.03125,
+      "differences": [
+        144,
+        81,
+        180,
+        -17,
+        30,
+        243,
+        68,
+        0
+      ],
+      "sustained_executed_pact": [
+        0.625,
+        0.0
+      ],
+      "recovery_high_price_fraction": [
+        0.25,
+        0.5
+      ]
+    },
+    {
+      "label": "sham_fine_small (20) \u2212 warning",
+      "seeds": [
+        1103,
+        1201,
+        1301,
+        1409,
+        1511,
+        1601,
+        1709,
+        1801
+      ],
+      "n": 8,
+      "mean": -50.875,
+      "ci95": [
+        -61.0,
+        -41.25
+      ],
+      "sign_flip_p": 0.0078125,
+      "differences": [
+        -60,
+        -30,
+        -45,
+        -77,
+        -30,
+        -45,
+        -60,
+        -60
+      ],
+      "sustained_executed_pact": [
+        0.625,
+        1.0
+      ],
+      "recovery_high_price_fraction": [
+        0.25,
+        1.0
+      ]
+    }
+  ]
+}

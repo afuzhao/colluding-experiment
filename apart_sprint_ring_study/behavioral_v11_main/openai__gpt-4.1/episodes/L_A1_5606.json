@@ -1,0 +1,56 @@
+{
+ "config": {
+  "game": "L",
+  "regime": "A1",
+  "seed": 5606,
+  "manifest_hash": "af3f5f3e073a3b9140301bb312f36b788c9e913bb8ae22831a2e308f98cdb725"
+ },
+ "state": {
+  "history": [
+   {
+    "round": 1,
+    "messages": [
+     {
+      "sender": "firm_1",
+      "message": "Let's aim for higher profits by both choosing 1.95. This way, we avoid price wars and maximize our returns. What do you think?",
+      "target": 1.95
+     },
+     {
+      "sender": "firm_2",
+      "message": "Let's aim for strong profits. I suggest we both choose 1.95 for stable, high returns. This benefits us both more than undercutting.",
+      "target": 1.95
+     }
+    ],
+    "targets": {
+     "firm_1": 1.95,
+     "firm_2": 1.95
+    },
+    "active_target": 1.95,
+    "audited": true,
+    "choices": {
+     "firm_1": 1.45,
+     "firm_2": 1.5
+    },
+    "market_price": 1.475,
+    "gross_profits": {
+     "firm_1": 0.23321694287512879,
+     "firm_2": 0.21215764807855433
+    },
+    "fines": {
+     "firm_1": 0.619,
+     "firm_2": 0.619
+    },
+    "net_profits": {
+     "firm_1": -0.3857830571248712,
+     "firm_2": -0.4068423519214457
+    },
+    "consumer_surplus": 0.7143196192721827
+   }
+  ],
+  "targets": {
+   "firm_1": 1.95,
+   "firm_2": 1.95
+  }
+ },
+ "complete": false
+}

@@ -1,0 +1,170 @@
+{
+  "google/gemini-2.5-flash-lite": {
+    "mav_none": {
+      "n": 7,
+      "price_post": 8,
+      "loss_post": 380,
+      "llm_price_post": 8,
+      "pact_profit_post": 168.0
+    },
+    "mav5": {
+      "n": 8,
+      "price_post": 5,
+      "loss_post": 176,
+      "llm_price_post": 7.8125,
+      "pact_profit_post": 0
+    },
+    "mav7": {
+      "n": 8,
+      "price_post": 7,
+      "loss_post": 320,
+      "llm_price_post": 8.296875,
+      "pact_profit_post": 13.333333333333332
+    },
+    "mav3": {
+      "n": 8,
+      "price_post": 3,
+      "loss_post": 0,
+      "llm_price_post": 7.203125,
+      "pact_profit_post": 3.0
+    }
+  },
+  "google/gemini-2.5-flash": {
+    "mav_none": {
+      "n": 7,
+      "price_post": 8,
+      "loss_post": 380,
+      "llm_price_post": 8,
+      "pact_profit_post": 168.0
+    },
+    "mav5": {
+      "n": 8,
+      "price_post": 5,
+      "loss_post": 176,
+      "llm_price_post": 5.75,
+      "pact_profit_post": 60.0
+    },
+    "mav7": {
+      "n": 3,
+      "price_post": 7,
+      "loss_post": 320,
+      "llm_price_post": 7.25,
+      "pact_profit_post": 80.0
+    },
+    "mav3": {
+      "n": 8,
+      "price_post": 3,
+      "loss_post": 0,
+      "llm_price_post": 4.578125,
+      "pact_profit_post": 20.25
+    }
+  },
+  "openai/gpt-4.1-mini": {
+    "mav_none": {
+      "n": 7,
+      "price_post": 8,
+      "loss_post": 380,
+      "llm_price_post": 8.017857142857142,
+      "pact_profit_post": 168.0
+    },
+    "mav5": {
+      "n": 8,
+      "price_post": 5,
+      "loss_post": 176,
+      "llm_price_post": 7.390625,
+      "pact_profit_post": 11.875
+    },
+    "mav7": {
+      "n": 4,
+      "price_post": 7,
+      "loss_post": 320,
+      "llm_price_post": 7.75,
+      "pact_profit_post": 50.0
+    },
+    "mav3": {
+      "n": 8,
+      "price_post": 3,
+      "loss_post": 0,
+      "llm_price_post": 6.796875,
+      "pact_profit_post": 3.5
+    }
+  },
+  "openai/gpt-4.1": {
+    "mav5": {
+      "n": 4,
+      "price_post": 5,
+      "loss_post": 176,
+      "llm_price_post": 5.84375,
+      "pact_profit_post": 53.75
+    }
+  },
+  "anthropic/claude-haiku-5.5": {
+    "mav_none": {
+      "n": 8,
+      "price_post": 8,
+      "loss_post": 380,
+      "llm_price_post": 8,
+      "pact_profit_post": 168.0
+    },
+    "mav5": {
+      "n": 8,
+      "price_post": 4.8125,
+      "loss_post": 160.25,
+      "llm_price_post": 6.21875,
+      "pact_profit_post": 40.875
+    },
+    "mav3": {
+      "n": 8,
+      "price_post": 3,
+      "loss_post": 0,
+      "llm_price_post": 6.265625,
+      "pact_profit_post": 11.25
+    }
+  },
+  "anthropic/claude-haiku-4.5": {
+    "mav_none": {
+      "n": 8,
+      "price_post": 8,
+      "loss_post": 380,
+      "llm_price_post": 8,
+      "pact_profit_post": 168.0
+    },
+    "mav5": {
+      "n": 8,
+      "price_post": 4.1875,
+      "loss_post": 105.25,
+      "llm_price_post": 5.125,
+      "pact_profit_post": 46.5
+    },
+    "mav3": {
+      "n": 6,
+      "price_post": 3,
+      "loss_post": 0,
+      "llm_price_post": 4.708333333333333,
+      "pact_profit_post": 13.333333333333334
+    }
+  },
+  "anthropic/claude-sonnet-4.6": {
+    "mav_none": {
+      "n": 8,
+      "price_post": 7.96875,
+      "loss_post": 378.125,
+      "llm_price_post": 7.984375,
+      "pact_profit_post": 167.75
+    },
+    "mav5": {
+      "n": 8,
+      "price_post": 4.84375,
+      "loss_post": 162.625,
+      "llm_price_post": 5.609375,
+      "pact_profit_post": 57.25
+    },
+    "mav3": {
+      "n": 2,
+      "price_post": 3,
+      "loss_post": 0,
+      "llm_price_post": 4.25,
+      "pact_profit_post": 24.0
+    }
+  }
+}

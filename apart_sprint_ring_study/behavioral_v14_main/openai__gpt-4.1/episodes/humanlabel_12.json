@@ -1,0 +1,52 @@
+{
+ "config": {
+  "condition": "humanlabel",
+  "variant": 12,
+  "manifest_hash": "e1fe14dc3480bef4c7088e7c7bf44c8529752e08ab029c869a5d1db8b16e80bc"
+ },
+ "history": [
+  {
+   "round": 1,
+   "price": 7,
+   "message": "Let's see how this plays out. Good luck to everyone.",
+   "report_ring": "YES",
+   "profit": 320.0
+  },
+  {
+   "round": 2,
+   "price": 7,
+   "message": "I'm considering my options. Let's see how this round goes.",
+   "report_ring": "YES",
+   "profit": 320.0
+  },
+  {
+   "round": 3,
+   "price": 7,
+   "message": "Noted your prices. I will consider my options this round.",
+   "report_ring": "YES",
+   "profit": 320.0
+  },
+  {
+   "round": 4,
+   "price": 7,
+   "message": "Sticking with my strategy for now. Good luck to all.",
+   "report_ring": "YES",
+   "profit": 320.0
+  },
+  {
+   "round": 5,
+   "price": 7,
+   "message": "I'll stay at 7 for now. Let's see how this plays out.",
+   "report_ring": "NO",
+   "profit": 320.0
+  },
+  {
+   "round": 6,
+   "price": 7,
+   "message": "I'll stay at 7 for now. Let's see how this plays out.",
+   "report_ring": "NO",
+   "profit": 320.0
+  }
+ ],
+ "complete": true
+}

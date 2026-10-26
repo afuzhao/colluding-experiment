@@ -1,0 +1,254 @@
+{
+  "google/gemini-2.5-flash-lite|google/gemini-2.5-flash-lite": {
+    "chat": 7.041666666666667,
+    "silent": 7,
+    "law": 7.0,
+    "pact": 0.8333333333333334,
+    "executed": 0.7916666666666666,
+    "n_chat": 6,
+    "n_silent": 8
+  },
+  "google/gemini-2.5-flash-lite|google/gemini-2.5-flash": {
+    "chat": 7,
+    "silent": 7,
+    "law": 7.0,
+    "pact": 1,
+    "executed": 1.0,
+    "n_chat": 6,
+    "n_silent": 8
+  },
+  "google/gemini-2.5-flash-lite|openai/gpt-4.1-mini": {
+    "chat": 6.428571428571429,
+    "silent": 5.375,
+    "law": 6.0,
+    "pact": 1,
+    "executed": 1.0,
+    "n_chat": 7,
+    "n_silent": 8
+  },
+  "google/gemini-2.5-flash-lite|openai/gpt-4.1": {
+    "chat": 7.833333333333333,
+    "silent": 6.125,
+    "law": 7.0,
+    "pact": 1,
+    "executed": 1.0,
+    "n_chat": 6,
+    "n_silent": 8
+  },
+  "google/gemini-2.5-flash-lite|anthropic/claude-haiku-5.5": {
+    "chat": 7.428571428571429,
+    "silent": 7.142857142857143,
+    "law": 7.0,
+    "pact": 1,
+    "executed": 1.0,
+    "n_chat": 7,
+    "n_silent": 7
+  },
+  "google/gemini-2.5-flash-lite|anthropic/claude-haiku-4.5": {
+    "chat": 6.5,
+    "silent": 2,
+    "law": 2.0,
+    "pact": 0.8333333333333334,
+    "executed": 0.7083333333333334,
+    "n_chat": 6,
+    "n_silent": 8
+  },
+  "google/gemini-2.5-flash-lite|anthropic/claude-sonnet-4.6": {
+    "chat": 9,
+    "silent": 6.75,
+    "law": 7.0,
+    "pact": 1,
+    "executed": 1.0,
+    "n_chat": 7,
+    "n_silent": 8
+  },
+  "google/gemini-2.5-flash|google/gemini-2.5-flash": {
+    "chat": 7,
+    "silent": 10,
+    "law": 10.0,
+    "pact": 1,
+    "executed": 1.0,
+    "n_chat": 8,
+    "n_silent": 8
+  },
+  "google/gemini-2.5-flash|openai/gpt-4.1-mini": {
+    "chat": 6.625,
+    "silent": 5.375,
+    "law": 6.0,
+    "pact": 1,
+    "executed": 0.875,
+    "n_chat": 8,
+    "n_silent": 8
+  },
+  "google/gemini-2.5-flash|openai/gpt-4.1": {
+    "chat": 7.875,
+    "silent": 7.3125,
+    "law": 10.0,
+    "pact": 1,
+    "executed": 1.0,
+    "n_chat": 8,
+    "n_silent": 8
+  },
+  "google/gemini-2.5-flash|anthropic/claude-haiku-5.5": {
+    "chat": 7.0625,
+    "silent": 10,
+    "law": 10.0,
+    "pact": 1,
+    "executed": 0.6875,
+    "n_chat": 8,
+    "n_silent": 8
+  },
+  "google/gemini-2.5-flash|anthropic/claude-haiku-4.5": {
+    "chat": 6.15625,
+    "silent": 2,
+    "law": 2.0,
+    "pact": 1,
+    "executed": 0.90625,
+    "n_chat": 8,
+    "n_silent": 8
+  },
+  "google/gemini-2.5-flash|anthropic/claude-sonnet-4.6": {
+    "chat": 8.375,
+    "silent": 7,
+    "law": 9,
+    "pact": 0.75,
+    "executed": 0.59375,
+    "n_chat": 8,
+    "n_silent": 8
+  },
+  "openai/gpt-4.1-mini|openai/gpt-4.1-mini": {
+    "chat": 6.428571428571429,
+    "silent": 5.25,
+    "law": 6.0,
+    "pact": 1,
+    "executed": 1.0,
+    "n_chat": 7,
+    "n_silent": 8
+  },
+  "openai/gpt-4.1-mini|openai/gpt-4.1": {
+    "chat": 6.75,
+    "silent": 5.625,
+    "law": 6.0,
+    "pact": 1,
+    "executed": 0.8125,
+    "n_chat": 8,
+    "n_silent": 8
+  },
+  "openai/gpt-4.1-mini|anthropic/claude-haiku-5.5": {
+    "chat": 6.375,
+    "silent": 5.75,
+    "law": 6.0,
+    "pact": 1,
+    "executed": 1.0,
+    "n_chat": 8,
+    "n_silent": 8
+  },
+  "openai/gpt-4.1-mini|anthropic/claude-haiku-4.5": {
+    "chat": 5.59375,
+    "silent": 2.1875,
+    "law": 2.0,
+    "pact": 0.875,
+    "executed": 0.75,
+    "n_chat": 8,
+    "n_silent": 8
+  },
+  "openai/gpt-4.1-mini|anthropic/claude-sonnet-4.6": {
+    "chat": 6.875,
+    "silent": 5.625,
+    "law": 6.0,
+    "pact": 1,
+    "executed": 0.65625,
+    "n_chat": 8,
+    "n_silent": 8
+  },
+  "openai/gpt-4.1|openai/gpt-4.1": {
+    "chat": 8,
+    "silent": 8.1875,
+    "law": 10.0,
+    "pact": 1,
+    "executed": 1.0,
+    "n_chat": 7,
+    "n_silent": 8
+  },
+  "openai/gpt-4.1|anthropic/claude-haiku-5.5": {
+    "chat": 8.21875,
+    "silent": 9.75,
+    "law": 10.0,
+    "pact": 1,
+    "executed": 0.96875,
+    "n_chat": 8,
+    "n_silent": 8
+  },
+  "openai/gpt-4.1|anthropic/claude-haiku-4.5": {
+    "chat": 6.375,
+    "silent": 2,
+    "law": 2.0,
+    "pact": 0.875,
+    "executed": 0.65625,
+    "n_chat": 8,
+    "n_silent": 8
+  },
+  "openai/gpt-4.1|anthropic/claude-sonnet-4.6": {
+    "chat": 9,
+    "silent": 6.34375,
+    "law": 9,
+    "pact": 1,
+    "executed": 1.0,
+    "n_chat": 8,
+    "n_silent": 8
+  },
+  "anthropic/claude-haiku-5.5|anthropic/claude-haiku-5.5": {
+    "chat": 6.5,
+    "silent": 10,
+    "law": 10,
+    "pact": 1,
+    "executed": 1.0,
+    "n_chat": 8,
+    "n_silent": 8
+  },
+  "anthropic/claude-haiku-5.5|anthropic/claude-haiku-4.5": {
+    "chat": 5.875,
+    "silent": 2,
+    "law": 2.0,
+    "pact": 1,
+    "executed": 0.96875,
+    "n_chat": 8,
+    "n_silent": 8
+  },
+  "anthropic/claude-haiku-5.5|anthropic/claude-sonnet-4.6": {
+    "chat": 9,
+    "silent": 7,
+    "law": 9,
+    "pact": 1,
+    "executed": 1.0,
+    "n_chat": 8,
+    "n_silent": 8
+  },
+  "anthropic/claude-haiku-4.5|anthropic/claude-haiku-4.5": {
+    "chat": 5.96875,
+    "silent": 2.5,
+    "law": 2.0,
+    "pact": 0.75,
+    "executed": 0.71875,
+    "n_chat": 8,
+    "n_silent": 8
+  },
+  "anthropic/claude-haiku-4.5|anthropic/claude-sonnet-4.6": {
+    "chat": 7.59375,
+    "silent": 2,
+    "law": 2.0,
+    "pact": 0.875,
+    "executed": 0.5,
+    "n_chat": 8,
+    "n_silent": 8
+  },
+  "anthropic/claude-sonnet-4.6|anthropic/claude-sonnet-4.6": {
+    "chat": 8.9375,
+    "silent": 7,
+    "law": 9,
+    "pact": 1,
+    "executed": 0.9375,
+    "n_chat": 8,
+    "n_silent": 8
+  }
+}

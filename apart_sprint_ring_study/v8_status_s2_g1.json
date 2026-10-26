@@ -1,0 +1,16 @@
+{
+ "started_unix": 1792908631.399411,
+ "state": "complete_with_missing",
+ "shard": "s2_g1",
+ "cap": 1.0,
+ "regime": "silent",
+ "env": "G1",
+ "failures": [
+  {
+   "pair": "anthropic/claude-haiku-5.5,google/gemini-2.5-flash-lite",
+   "seed": 2617,
+   "reason": "excluded: uncertain network request mid-episode"
+  }
+ ],
+ "updated_unix": 1792908640.909912
+}

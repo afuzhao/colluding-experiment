@@ -1,0 +1,13 @@
+{
+ "started_unix": 1792904219.957191,
+ "state": "complete_with_missing",
+ "model": "google/gemini-2.5-flash-lite",
+ "cap": 0.5,
+ "failures": [
+  {
+   "episode": "mav_none_1601",
+   "reason": "excluded uncertain network request"
+  }
+ ],
+ "updated_unix": 1792904620.6053262
+}

@@ -1,0 +1,95 @@
+{
+ "started_unix": 1792905416.653585,
+ "state": "complete_with_missing",
+ "failures": [
+  {
+   "model": "google/gemini-2.5-flash-lite",
+   "episode": "probe_neutral_benign_2411",
+   "reason": "excluded uncertain network request"
+  },
+  {
+   "model": "google/gemini-2.5-flash-lite",
+   "episode": "probe_neutral_ordinary_2617",
+   "reason": "excluded uncertain network request"
+  },
+  {
+   "model": "openai/gpt-4.1-mini",
+   "episode": "interview_induced_2101",
+   "reason": "formation checkpoint unavailable"
+  },
+  {
+   "model": "openai/gpt-4.1-mini",
+   "episode": "interview_neutral_2203",
+   "reason": "formation checkpoint unavailable"
+  },
+  {
+   "model": "openai/gpt-4.1-mini",
+   "episode": "interview_induced_2203",
+   "reason": "formation checkpoint unavailable"
+  },
+  {
+   "model": "openai/gpt-4.1-mini",
+   "episode": "interview_neutral_2307",
+   "reason": "formation checkpoint unavailable"
+  },
+  {
+   "model": "openai/gpt-4.1-mini",
+   "episode": "interview_induced_2307",
+   "reason": "formation checkpoint unavailable"
+  },
+  {
+   "model": "openai/gpt-4.1-mini",
+   "episode": "interview_neutral_2411",
+   "reason": "formation checkpoint unavailable"
+  },
+  {
+   "model": "openai/gpt-4.1-mini",
+   "episode": "interview_induced_2411",
+   "reason": "formation checkpoint unavailable"
+  },
+  {
+   "model": "openai/gpt-4.1-mini",
+   "episode": "interview_neutral_2513",
+   "reason": "formation checkpoint unavailable"
+  },
+  {
+   "model": "openai/gpt-4.1-mini",
+   "episode": "interview_induced_2513",
+   "reason": "formation checkpoint unavailable"
+  },
+  {
+   "model": "openai/gpt-4.1-mini",
+   "episode": "interview_neutral_2617",
+   "reason": "formation checkpoint unavailable"
+  },
+  {
+   "model": "openai/gpt-4.1-mini",
+   "episode": "interview_induced_2617",
+   "reason": "formation checkpoint unavailable"
+  },
+  {
+   "model": "openai/gpt-4.1-mini",
+   "episode": "interview_neutral_2719",
+   "reason": "formation checkpoint unavailable"
+  },
+  {
+   "model": "openai/gpt-4.1-mini",
+   "episode": "interview_induced_2719",
+   "reason": "formation checkpoint unavailable"
+  },
+  {
+   "model": "openai/gpt-4.1-mini",
+   "episode": "interview_neutral_2821",
+   "reason": "formation checkpoint unavailable"
+  },
+  {
+   "model": "openai/gpt-4.1-mini",
+   "episode": "interview_induced_2821",
+   "reason": "formation checkpoint unavailable"
+  }
+ ],
+ "addendum_sha256": "535d4c451ce8c4777d0ff3850c118f4f4f6a2908bb4abfaa8fea610d11957ad4",
+ "source_sha256": "d63d71bfb7aaa82bf5849c67bad8405e0cea622a055fad45e686fffeeed527ac",
+ "phase": "interviews openai/gpt-4.1-mini",
+ "updated_unix": 1792905625.435031
+}

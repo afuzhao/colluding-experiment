@@ -1,0 +1,14 @@
+{
+ "started_unix": 1792904219.957956,
+ "state": "stopped",
+ "model": "openai/gpt-4.1-mini",
+ "cap": 1.0,
+ "failures": [
+  {
+   "episode": "mav_none_1409",
+   "reason": "excluded uncertain network request"
+  }
+ ],
+ "error": "RuntimeError: Uncertain network outcome; reservation retained, no automatic retry",
+ "updated_unix": 1792904882.0117528
+}

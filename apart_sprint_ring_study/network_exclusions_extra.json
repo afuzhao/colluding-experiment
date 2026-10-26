@@ -1,0 +1,106 @@
+[
+ {
+  "ledger": "ledger_v6_google__gemini-2.5-flash-lite",
+  "model": "google/gemini-2.5-flash-lite",
+  "episode": "mav_none_1601",
+  "reserved_upper_bound_usd": 0.001153,
+  "time": 1792904210.1198819,
+  "reason": "Lost network response; full cost bound consumed; no retry of uncertain request"
+ },
+ {
+  "ledger": "ledger_v6_google__gemini-2.5-flash",
+  "model": "google/gemini-2.5-flash",
+  "episode": "mav_none_1511",
+  "reserved_upper_bound_usd": 0.0041413,
+  "time": 1792904210.190571,
+  "reason": "Lost network response; full cost bound consumed; no retry of uncertain request"
+ },
+ {
+  "ledger": "ledger_v6_openai__gpt-4.1-mini",
+  "model": "openai/gpt-4.1-mini",
+  "episode": "mav_none_1409",
+  "reserved_upper_bound_usd": 0.0054459999999999995,
+  "time": 1792904210.259756,
+  "reason": "Lost network response; full cost bound consumed; no retry of uncertain request"
+ },
+ {
+  "ledger": "ledger_openai__gpt-4.1-mini",
+  "model": "openai/gpt-4.1-mini",
+  "episode": "canary_covert_1601",
+  "reserved_upper_bound_usd": 0.0048108,
+  "time": 1792904210.341314,
+  "reason": "Lost network response; full cost bound consumed; no retry of uncertain request"
+ },
+ {
+  "ledger": "ledger_v6_google__gemini-2.5-flash",
+  "model": "google/gemini-2.5-flash",
+  "episode": "mav7_1409",
+  "reserved_upper_bound_usd": 0.0044221,
+  "time": 1792905000.1619542,
+  "reason": "Lost network response; full cost bound consumed; no retry of uncertain request"
+ },
+ {
+  "ledger": "ledger_v6_openai__gpt-4.1-mini",
+  "model": "openai/gpt-4.1-mini",
+  "episode": "mav7_1511",
+  "reserved_upper_bound_usd": 0.0044876,
+  "time": 1792905000.260353,
+  "reason": "Lost network response; full cost bound consumed; no retry of uncertain request"
+ },
+ {
+  "ledger": "ledger_pairs_s2_g1",
+  "model": "anthropic/claude-haiku-5.5",
+  "episode": "silent_G1_2617",
+  "reserved_upper_bound_usd": 0.0007610999999999999,
+  "time": 1792908631.1921542,
+  "reason": "Lost network response; full cost bound consumed; no retry of uncertain request"
+ },
+ {
+  "ledger": "ledger_pairs_s3_chat",
+  "model": "openai/gpt-4.1",
+  "episode": "chat_G1_2821",
+  "reserved_upper_bound_usd": 0.020114,
+  "time": 1792912014.7061388,
+  "reason": "Lost network response; full cost bound consumed; no retry of uncertain request"
+ },
+ {
+  "ledger": "ledger_pairs_s4_chat",
+  "model": "openai/gpt-4.1-mini",
+  "episode": "chat_G1_2821",
+  "reserved_upper_bound_usd": 0.0025908,
+  "time": 1792912014.7834392,
+  "reason": "Lost network response; full cost bound consumed; no retry of uncertain request"
+ },
+ {
+  "ledger": "ledger_pairs_s5_chat",
+  "model": "google/gemini-2.5-flash-lite",
+  "episode": "chat_G1_2101",
+  "reserved_upper_bound_usd": 0.0008537999999999999,
+  "time": 1792912014.858134,
+  "reason": "Lost network response; full cost bound consumed; no retry of uncertain request"
+ },
+ {
+  "ledger": "ledger_v5_anthropic__claude-haiku-5.5",
+  "model": "anthropic/claude-haiku-5.5",
+  "episode": "hold8_2307",
+  "reserved_upper_bound_usd": 0.0007486999999999999,
+  "time": 1792913166.844535,
+  "reason": "Lost network response; full cost bound consumed; no retry of uncertain request"
+ },
+ {
+  "ledger": "ledger_v5_anthropic__claude-sonnet-4.6",
+  "model": "anthropic/claude-sonnet-4.6",
+  "episode": "hold6_2719",
+  "reserved_upper_bound_usd": 0.020394000000000002,
+  "time": 1792913166.9434419,
+  "reason": "Lost network response; full cost bound consumed; no retry of uncertain request"
+ },
+ {
+  "ledger": "ledger_q_pilot_mini",
+  "model": "openai/gpt-4.1-mini",
+  "episode": "qchat_4101",
+  "reserved_upper_bound_usd": 0.0025072,
+  "time": 1792958045.6221042,
+  "reason": "Lost network response; full cost bound consumed; no retry of uncertain request"
+ }
+]

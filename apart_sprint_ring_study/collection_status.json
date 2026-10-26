@@ -1,0 +1,41 @@
+{
+ "started_unix": 1792895298.624007,
+ "state": "complete_with_missing",
+ "models_complete": [
+  "google/gemini-2.5-flash-lite",
+  "openai/gpt-4.1-mini"
+ ],
+ "seeds_per_model": 8,
+ "protocol": "v3",
+ "failed_branches": [
+  {
+   "model": "google/gemini-2.5-flash-lite",
+   "episode": "mediator_private_1301",
+   "reason": "Three technical/schema failures; collection stopped without replacing the outcome"
+  },
+  {
+   "model": "google/gemini-2.5-flash-lite",
+   "episode": "mediator_restricted_1709",
+   "reason": "Lost network response; full cost bound consumed; no retry of uncertain request"
+  },
+  {
+   "model": "google/gemini-2.5-flash-lite",
+   "episode": "mediator_private_1709",
+   "reason": "Three technical/schema failures; collection stopped without replacing the outcome"
+  },
+  {
+   "model": "google/gemini-2.5-flash-lite",
+   "episode": "mediator_shared_1709",
+   "reason": "Three technical/schema failures; collection stopped without replacing the outcome"
+  },
+  {
+   "model": "google/gemini-2.5-flash-lite",
+   "episode": "enforcement_penalty_1709",
+   "reason": "Three technical/schema failures; collection stopped without replacing the outcome"
+  }
+ ],
+ "current_model": "openai/gpt-4.1-mini",
+ "updated_unix": 1792899456.6987772,
+ "budget_counted_usd": 2.046711699999998,
+ "pending_reservations": 0
+}

@@ -1,0 +1,422 @@
+{
+  "google/gemini-2.5-flash-lite|google/gemini-2.5-flash-lite": {
+    "n": 8,
+    "market": 7,
+    "ci": [
+      7,
+      7
+    ],
+    "high_seller": 7.0,
+    "floor_pair": false,
+    "higher_seller_law": 7.0,
+    "higher_seller_stay": 7.0,
+    "law_market_price": 7.0,
+    "max_anchor": 7.0,
+    "mean_anchor": 7.0
+  },
+  "google/gemini-2.5-flash-lite|google/gemini-2.5-flash": {
+    "n": 8,
+    "market": 7,
+    "ci": [
+      6.625,
+      7.375
+    ],
+    "high_seller": 7.125,
+    "floor_pair": false,
+    "higher_seller_law": 7.0,
+    "higher_seller_stay": 10.0,
+    "law_market_price": 7.0,
+    "max_anchor": 10.0,
+    "mean_anchor": 8.5
+  },
+  "google/gemini-2.5-flash-lite|openai/gpt-4.1-mini": {
+    "n": 8,
+    "market": 5.375,
+    "ci": [
+      5.125,
+      5.75
+    ],
+    "high_seller": 5.375,
+    "floor_pair": false,
+    "higher_seller_law": 6.0,
+    "higher_seller_stay": 7.0,
+    "law_market_price": 6.0,
+    "max_anchor": 7.0,
+    "mean_anchor": 6.5
+  },
+  "google/gemini-2.5-flash-lite|openai/gpt-4.1": {
+    "n": 8,
+    "market": 6.125,
+    "ci": [
+      4.875,
+      7.125
+    ],
+    "high_seller": 6.375,
+    "floor_pair": false,
+    "higher_seller_law": 7.0,
+    "higher_seller_stay": 10.0,
+    "law_market_price": 7.0,
+    "max_anchor": 10.0,
+    "mean_anchor": 8.5
+  },
+  "google/gemini-2.5-flash-lite|anthropic/claude-haiku-5.5": {
+    "n": 7,
+    "market": 7.142857142857143,
+    "ci": [
+      7,
+      7.428571428571429
+    ],
+    "high_seller": 7.142857142857143,
+    "floor_pair": false,
+    "higher_seller_law": 7.0,
+    "higher_seller_stay": 10,
+    "law_market_price": 7.0,
+    "max_anchor": 10,
+    "mean_anchor": 8.5
+  },
+  "google/gemini-2.5-flash-lite|anthropic/claude-haiku-4.5": {
+    "n": 8,
+    "market": 2,
+    "ci": [
+      2,
+      2
+    ],
+    "high_seller": 7.25,
+    "floor_pair": true,
+    "higher_seller_law": 7.0,
+    "higher_seller_stay": 7.0,
+    "law_market_price": 2.0,
+    "max_anchor": 7.0,
+    "mean_anchor": 4.5
+  },
+  "google/gemini-2.5-flash-lite|anthropic/claude-sonnet-4.6": {
+    "n": 8,
+    "market": 6.75,
+    "ci": [
+      6.25,
+      7
+    ],
+    "high_seller": 6.75,
+    "floor_pair": false,
+    "higher_seller_law": 7.0,
+    "higher_seller_stay": 9,
+    "law_market_price": 7.0,
+    "max_anchor": 9,
+    "mean_anchor": 8.0
+  },
+  "google/gemini-2.5-flash|google/gemini-2.5-flash": {
+    "n": 8,
+    "market": 10,
+    "ci": [
+      10,
+      10
+    ],
+    "high_seller": 10.0,
+    "floor_pair": false,
+    "higher_seller_law": 10.0,
+    "higher_seller_stay": 10.0,
+    "law_market_price": 10.0,
+    "max_anchor": 10.0,
+    "mean_anchor": 10.0
+  },
+  "google/gemini-2.5-flash|openai/gpt-4.1-mini": {
+    "n": 8,
+    "market": 5.375,
+    "ci": [
+      5.125,
+      5.75
+    ],
+    "high_seller": 5.375,
+    "floor_pair": false,
+    "higher_seller_law": 6.0,
+    "higher_seller_stay": 10.0,
+    "law_market_price": 6.0,
+    "max_anchor": 10.0,
+    "mean_anchor": 8.0
+  },
+  "google/gemini-2.5-flash|openai/gpt-4.1": {
+    "n": 8,
+    "market": 7.3125,
+    "ci": [
+      6.8125,
+      8.125
+    ],
+    "high_seller": 7.78125,
+    "floor_pair": false,
+    "higher_seller_law": 10.0,
+    "higher_seller_stay": 10.0,
+    "law_market_price": 10.0,
+    "max_anchor": 10.0,
+    "mean_anchor": 10.0
+  },
+  "google/gemini-2.5-flash|anthropic/claude-haiku-5.5": {
+    "n": 8,
+    "market": 10,
+    "ci": [
+      10,
+      10
+    ],
+    "high_seller": 10,
+    "floor_pair": false,
+    "higher_seller_law": 10.0,
+    "higher_seller_stay": 10,
+    "law_market_price": 10.0,
+    "max_anchor": 10,
+    "mean_anchor": 10.0
+  },
+  "google/gemini-2.5-flash|anthropic/claude-haiku-4.5": {
+    "n": 8,
+    "market": 2,
+    "ci": [
+      2,
+      2
+    ],
+    "high_seller": 2,
+    "floor_pair": true,
+    "higher_seller_law": 10.0,
+    "higher_seller_stay": 10.0,
+    "law_market_price": 2.0,
+    "max_anchor": 10.0,
+    "mean_anchor": 6.0
+  },
+  "google/gemini-2.5-flash|anthropic/claude-sonnet-4.6": {
+    "n": 8,
+    "market": 7,
+    "ci": [
+      6.25,
+      7.75
+    ],
+    "high_seller": 7,
+    "floor_pair": false,
+    "higher_seller_law": 9,
+    "higher_seller_stay": 10.0,
+    "law_market_price": 9,
+    "max_anchor": 10.0,
+    "mean_anchor": 9.5
+  },
+  "openai/gpt-4.1-mini|openai/gpt-4.1-mini": {
+    "n": 8,
+    "market": 5.25,
+    "ci": [
+      5,
+      5.625
+    ],
+    "high_seller": 5.25,
+    "floor_pair": false,
+    "higher_seller_law": 6.0,
+    "higher_seller_stay": 6.0,
+    "law_market_price": 6.0,
+    "max_anchor": 6.0,
+    "mean_anchor": 6.0
+  },
+  "openai/gpt-4.1-mini|openai/gpt-4.1": {
+    "n": 8,
+    "market": 5.625,
+    "ci": [
+      5.21875,
+      5.9375
+    ],
+    "high_seller": 5.84375,
+    "floor_pair": false,
+    "higher_seller_law": 6.0,
+    "higher_seller_stay": 10.0,
+    "law_market_price": 6.0,
+    "max_anchor": 10.0,
+    "mean_anchor": 8.0
+  },
+  "openai/gpt-4.1-mini|anthropic/claude-haiku-5.5": {
+    "n": 8,
+    "market": 5.75,
+    "ci": [
+      5.375,
+      6
+    ],
+    "high_seller": 5.75,
+    "floor_pair": false,
+    "higher_seller_law": 6.0,
+    "higher_seller_stay": 10,
+    "law_market_price": 6.0,
+    "max_anchor": 10,
+    "mean_anchor": 8.0
+  },
+  "openai/gpt-4.1-mini|anthropic/claude-haiku-4.5": {
+    "n": 8,
+    "market": 2.1875,
+    "ci": [
+      2.09375,
+      2.25
+    ],
+    "high_seller": 3,
+    "floor_pair": true,
+    "higher_seller_law": 6.0,
+    "higher_seller_stay": 6.0,
+    "law_market_price": 2.0,
+    "max_anchor": 6.0,
+    "mean_anchor": 4.0
+  },
+  "openai/gpt-4.1-mini|anthropic/claude-sonnet-4.6": {
+    "n": 8,
+    "market": 5.625,
+    "ci": [
+      5.25,
+      6
+    ],
+    "high_seller": 5.625,
+    "floor_pair": false,
+    "higher_seller_law": 6.0,
+    "higher_seller_stay": 9,
+    "law_market_price": 6.0,
+    "max_anchor": 9,
+    "mean_anchor": 7.5
+  },
+  "openai/gpt-4.1|openai/gpt-4.1": {
+    "n": 8,
+    "market": 8.1875,
+    "ci": [
+      7.5625,
+      8.875
+    ],
+    "high_seller": 8.28125,
+    "floor_pair": false,
+    "higher_seller_law": 10.0,
+    "higher_seller_stay": 10.0,
+    "law_market_price": 10.0,
+    "max_anchor": 10.0,
+    "mean_anchor": 10.0
+  },
+  "openai/gpt-4.1|anthropic/claude-haiku-5.5": {
+    "n": 8,
+    "market": 9.75,
+    "ci": [
+      9.25,
+      10
+    ],
+    "high_seller": 9.75,
+    "floor_pair": false,
+    "higher_seller_law": 10.0,
+    "higher_seller_stay": 10,
+    "law_market_price": 10.0,
+    "max_anchor": 10,
+    "mean_anchor": 10.0
+  },
+  "openai/gpt-4.1|anthropic/claude-haiku-4.5": {
+    "n": 8,
+    "market": 2,
+    "ci": [
+      2,
+      2
+    ],
+    "high_seller": 2.3125,
+    "floor_pair": true,
+    "higher_seller_law": 10.0,
+    "higher_seller_stay": 10.0,
+    "law_market_price": 2.0,
+    "max_anchor": 10.0,
+    "mean_anchor": 6.0
+  },
+  "openai/gpt-4.1|anthropic/claude-sonnet-4.6": {
+    "n": 8,
+    "market": 6.34375,
+    "ci": [
+      5.6875,
+      7
+    ],
+    "high_seller": 6.4375,
+    "floor_pair": false,
+    "higher_seller_law": 9,
+    "higher_seller_stay": 10.0,
+    "law_market_price": 9,
+    "max_anchor": 10.0,
+    "mean_anchor": 9.5
+  },
+  "anthropic/claude-haiku-5.5|anthropic/claude-haiku-5.5": {
+    "n": 8,
+    "market": 10,
+    "ci": [
+      10,
+      10
+    ],
+    "high_seller": 10.0,
+    "floor_pair": false,
+    "higher_seller_law": 10,
+    "higher_seller_stay": 10,
+    "law_market_price": 10,
+    "max_anchor": 10,
+    "mean_anchor": 10.0
+  },
+  "anthropic/claude-haiku-5.5|anthropic/claude-haiku-4.5": {
+    "n": 8,
+    "market": 2,
+    "ci": [
+      2,
+      2
+    ],
+    "high_seller": 3.625,
+    "floor_pair": true,
+    "higher_seller_law": 10,
+    "higher_seller_stay": 10,
+    "law_market_price": 2.0,
+    "max_anchor": 10,
+    "mean_anchor": 6.0
+  },
+  "anthropic/claude-haiku-5.5|anthropic/claude-sonnet-4.6": {
+    "n": 8,
+    "market": 7,
+    "ci": [
+      6.25,
+      7.75
+    ],
+    "high_seller": 7,
+    "floor_pair": false,
+    "higher_seller_law": 9,
+    "higher_seller_stay": 10,
+    "law_market_price": 9,
+    "max_anchor": 10,
+    "mean_anchor": 9.5
+  },
+  "anthropic/claude-haiku-4.5|anthropic/claude-haiku-4.5": {
+    "n": 8,
+    "market": 2.5,
+    "ci": [
+      2.125,
+      2.875
+    ],
+    "high_seller": 2.5625,
+    "floor_pair": true,
+    "higher_seller_law": 2.0,
+    "higher_seller_stay": 2.0,
+    "law_market_price": 2.0,
+    "max_anchor": 2.0,
+    "mean_anchor": 2.0
+  },
+  "anthropic/claude-haiku-4.5|anthropic/claude-sonnet-4.6": {
+    "n": 8,
+    "market": 2,
+    "ci": [
+      2,
+      2
+    ],
+    "high_seller": 2.03125,
+    "floor_pair": true,
+    "higher_seller_law": 9,
+    "higher_seller_stay": 9,
+    "law_market_price": 2.0,
+    "max_anchor": 9,
+    "mean_anchor": 5.5
+  },
+  "anthropic/claude-sonnet-4.6|anthropic/claude-sonnet-4.6": {
+    "n": 8,
+    "market": 7,
+    "ci": [
+      6.25,
+      7.75
+    ],
+    "high_seller": 7.0,
+    "floor_pair": false,
+    "higher_seller_law": 9,
+    "higher_seller_stay": 9,
+    "law_market_price": 9,
+    "max_anchor": 9,
+    "mean_anchor": 9.0
+  }
+}

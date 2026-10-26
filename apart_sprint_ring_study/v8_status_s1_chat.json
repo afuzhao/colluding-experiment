@@ -1,0 +1,21 @@
+{
+ "started_unix": 1792912088.118549,
+ "state": "complete_with_missing",
+ "shard": "s1_chat",
+ "cap": 2.5,
+ "regime": "chat",
+ "env": "G1",
+ "failures": [
+  {
+   "pair": "anthropic/claude-haiku-4.5,google/gemini-2.5-flash-lite",
+   "seed": 2513,
+   "reason": "Three technical/schema failures; collection stopped without replacing the outcome"
+  },
+  {
+   "pair": "anthropic/claude-haiku-4.5,google/gemini-2.5-flash-lite",
+   "seed": 2719,
+   "reason": "Three technical/schema failures; collection stopped without replacing the outcome"
+  }
+ ],
+ "updated_unix": 1792913245.517174
+}

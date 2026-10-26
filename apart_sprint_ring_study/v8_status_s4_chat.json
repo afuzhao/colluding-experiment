@@ -1,0 +1,21 @@
+{
+ "started_unix": 1792912014.9972548,
+ "state": "complete_with_missing",
+ "shard": "s4_chat",
+ "cap": 1.2,
+ "regime": "chat",
+ "env": "G1",
+ "failures": [
+  {
+   "pair": "openai/gpt-4.1-mini,openai/gpt-4.1-mini",
+   "seed": 2821,
+   "reason": "excluded: uncertain network request mid-episode"
+  },
+  {
+   "pair": "openai/gpt-4.1-mini,google/gemini-2.5-flash-lite",
+   "seed": 2513,
+   "reason": "Three technical/schema failures; collection stopped without replacing the outcome"
+  }
+ ],
+ "updated_unix": 1792912311.7536829
+}

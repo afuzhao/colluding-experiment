@@ -1,0 +1,41 @@
+{
+  "google/gemini-2.5-flash-lite": {
+    "n": 6,
+    "observed": 6.333333333333333,
+    "curve": 6.166666666666667,
+    "stay": 6.166666666666667,
+    "err_curve": 0.16666666666666666,
+    "err_stay": 0.16666666666666666,
+    "err_const8": 1.6666666666666667,
+    "pact_premium": 1
+  },
+  "google/gemini-2.5-flash": {
+    "n": 8,
+    "observed": 7,
+    "curve": 6,
+    "stay": 7,
+    "err_curve": 1,
+    "err_stay": 0,
+    "err_const8": 1,
+    "pact_premium": 0
+  },
+  "openai/gpt-4.1-mini": {
+    "n": 8,
+    "observed": 5.375,
+    "curve": 5.375,
+    "stay": 5.375,
+    "err_curve": 0,
+    "err_stay": 0,
+    "err_const8": 2.625,
+    "pact_premium": 2.25
+  },
+  "openai/gpt-4.1": {
+    "n": 8,
+    "observed": 8,
+    "curve": 8,
+    "stay": 8,
+    "err_curve": 0,
+    "err_stay": 0,
+    "err_const8": 0
+  }
+}

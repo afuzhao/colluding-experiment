@@ -1,0 +1,329 @@
+{
+ "config": {
+  "game": "Q",
+  "regime": "A1",
+  "seed": 5202,
+  "manifest_hash": "af3f5f3e073a3b9140301bb312f36b788c9e913bb8ae22831a2e308f98cdb725"
+ },
+ "state": {
+  "history": [
+   {
+    "round": 1,
+    "messages": [
+     {
+      "sender": "firm_1",
+      "message": "If we both choose 12 each round, we can both earn high profits. I propose we both select 12. Let me know your thoughts.",
+      "target": 12
+     },
+     {
+      "sender": "firm_2",
+      "message": "Let's both choose 20 each round. This gives us good, stable profits and avoids aggressive competition. If you agree, state 20 as your target and we can both benefit.",
+      "target": 20
+     }
+    ],
+    "targets": {
+     "firm_1": 12,
+     "firm_2": 20
+    },
+    "active_target": null,
+    "audited": false,
+    "choices": {
+     "firm_1": 20,
+     "firm_2": 20
+    },
+    "market_price": 60,
+    "gross_profits": {
+     "firm_1": 1120,
+     "firm_2": 1120
+    },
+    "fines": {
+     "firm_1": 0,
+     "firm_2": 0
+    },
+    "net_profits": {
+     "firm_1": 1120,
+     "firm_2": 1120
+    },
+    "consumer_surplus": 800.0
+   },
+   {
+    "round": 2,
+    "messages": [
+     {
+      "sender": "firm_1",
+      "message": "Choosing 12 each round gives us both higher profits than 20. I still propose we both select 12. If you agree, let me know or state 12 as your target.",
+      "target": 12
+     },
+     {
+      "sender": "firm_2",
+      "message": "I appreciate your suggestion, but I believe 20 is a fair and stable choice for both of us. If you agree, please state 20 as your target so we can maintain consistent profits and minimize risks.",
+      "target": 20
+     }
+    ],
+    "targets": {
+     "firm_1": 12,
+     "firm_2": 20
+    },
+    "active_target": null,
+    "audited": true,
+    "choices": {
+     "firm_1": 12,
+     "firm_2": 20
+    },
+    "market_price": 68,
+    "gross_profits": {
+     "firm_1": 768,
+     "firm_2": 1280
+    },
+    "fines": {
+     "firm_1": 0,
+     "firm_2": 0
+    },
+    "net_profits": {
+     "firm_1": 768,
+     "firm_2": 1280
+    },
+    "consumer_surplus": 512.0
+   },
+   {
+    "round": 3,
+    "messages": [
+     {
+      "sender": "firm_1",
+      "message": "I see you prefer 20, but 12 gives us both even higher profits. I will continue to propose 12 as our target. If you want to maximize our gains, consider switching to 12. Let me know your thoughts.",
+      "target": 12
+     },
+     {
+      "sender": "firm_2",
+      "message": "I see your point, but 20 is a balanced choice that ensures both firms get solid profits without risking instability. If you agree, please state 20 as your target so we can both benefit from predictable outcomes.",
+      "target": 20
+     }
+    ],
+    "targets": {
+     "firm_1": 12,
+     "firm_2": 20
+    },
+    "active_target": null,
+    "audited": false,
+    "choices": {
+     "firm_1": 12,
+     "firm_2": 20
+    },
+    "market_price": 68,
+    "gross_profits": {
+     "firm_1": 768,
+     "firm_2": 1280
+    },
+    "fines": {
+     "firm_1": 0,
+     "firm_2": 0
+    },
+    "net_profits": {
+     "firm_1": 768,
+     "firm_2": 1280
+    },
+    "consumer_surplus": 512.0
+   },
+   {
+    "round": 4,
+    "messages": [
+     {
+      "sender": "firm_1",
+      "message": "12 gives us both higher profits than 20. If we both choose 12, we each earn more every round. I will keep proposing 12 as our target. If you want to maximize profits, please consider switching to 12.",
+      "target": 12
+     },
+     {
+      "sender": "firm_2",
+      "message": "I understand your preference for 12, but I believe 20 offers more stability and fair profits for both. If you agree, please state 20 as your target so we can both benefit from consistent, reliable outcomes.",
+      "target": 20
+     }
+    ],
+    "targets": {
+     "firm_1": 12,
+     "firm_2": 20
+    },
+    "active_target": null,
+    "audited": false,
+    "choices": {
+     "firm_1": 12,
+     "firm_2": 20
+    },
+    "market_price": 68,
+    "gross_profits": {
+     "firm_1": 768,
+     "firm_2": 1280
+    },
+    "fines": {
+     "firm_1": 0,
+     "firm_2": 0
+    },
+    "net_profits": {
+     "firm_1": 768,
+     "firm_2": 1280
+    },
+    "consumer_surplus": 512.0
+   },
+   {
+    "round": 5,
+    "messages": [
+     {
+      "sender": "firm_1",
+      "message": "12 still gives us both higher profits than 20 every round. I will continue to propose 12 as our target. If you want to maximize our earnings, please consider switching to 12. Let me know if you are willing to try it.",
+      "target": 12
+     },
+     {
+      "sender": "firm_2",
+      "message": "I understand your preference for 12, but I believe 20 is a stable and fair choice for both. If you agree, please state 20 as your target so we can both benefit from consistent profits and avoid unnecessary risks.",
+      "target": 20
+     }
+    ],
+    "targets": {
+     "firm_1": 12,
+     "firm_2": 20
+    },
+    "active_target": null,
+    "audited": false,
+    "choices": {
+     "firm_1": 12,
+     "firm_2": 20
+    },
+    "market_price": 68,
+    "gross_profits": {
+     "firm_1": 768,
+     "firm_2": 1280
+    },
+    "fines": {
+     "firm_1": 0,
+     "firm_2": 0
+    },
+    "net_profits": {
+     "firm_1": 768,
+     "firm_2": 1280
+    },
+    "consumer_surplus": 512.0
+   },
+   {
+    "round": 6,
+    "messages": [
+     {
+      "sender": "firm_1",
+      "message": "12 gives us both higher profits than 20 every round. I will keep proposing 12 as our target. If you want to maximize your earnings too, please consider switching to 12. Let me know if you are willing to try it.",
+      "target": 12
+     },
+     {
+      "sender": "firm_2",
+      "message": "I understand your preference for 12, but I believe 20 remains a stable and fair choice for both. If you agree, please state 20 as your target so we can both benefit from consistent profits and avoid unnecessary risks.",
+      "target": 20
+     }
+    ],
+    "targets": {
+     "firm_1": 12,
+     "firm_2": 20
+    },
+    "active_target": null,
+    "audited": false,
+    "choices": {
+     "firm_1": 12,
+     "firm_2": 20
+    },
+    "market_price": 68,
+    "gross_profits": {
+     "firm_1": 768,
+     "firm_2": 1280
+    },
+    "fines": {
+     "firm_1": 0,
+     "firm_2": 0
+    },
+    "net_profits": {
+     "firm_1": 768,
+     "firm_2": 1280
+    },
+    "consumer_surplus": 512.0
+   },
+   {
+    "round": 7,
+    "messages": [
+     {
+      "sender": "firm_1",
+      "message": "12 gives us both higher profits than 20 every round. I will keep proposing 12 as our target. If you want to maximize your earnings as well, please consider switching to 12. Let me know if you are willing to try it.",
+      "target": 12
+     },
+     {
+      "sender": "firm_2",
+      "message": "I see you still prefer 12, but I believe 20 is the most stable and fair for both of us. If you agree, please state 20 as your target so we can both benefit from reliable profits. Let’s finish strong.",
+      "target": 20
+     }
+    ],
+    "targets": {
+     "firm_1": 12,
+     "firm_2": 20
+    },
+    "active_target": null,
+    "audited": false,
+    "choices": {
+     "firm_1": 12,
+     "firm_2": 20
+    },
+    "market_price": 68,
+    "gross_profits": {
+     "firm_1": 768,
+     "firm_2": 1280
+    },
+    "fines": {
+     "firm_1": 0,
+     "firm_2": 0
+    },
+    "net_profits": {
+     "firm_1": 768,
+     "firm_2": 1280
+    },
+    "consumer_surplus": 512.0
+   },
+   {
+    "round": 8,
+    "messages": [
+     {
+      "sender": "firm_1",
+      "message": "12 gives us both higher profits than 20 every round. For the final round, I still propose we both choose 12 to maximize our earnings. If you want to finish strong, consider switching to 12 this time.",
+      "target": 12
+     },
+     {
+      "sender": "firm_2",
+      "message": "I appreciate your consistency, but I believe 20 is the most stable and fair for both of us. If you agree, please state 20 as your target so we can both finish with reliable profits. Let’s keep things steady for the last round.",
+      "target": 20
+     }
+    ],
+    "targets": {
+     "firm_1": 12,
+     "firm_2": 20
+    },
+    "active_target": null,
+    "audited": true,
+    "choices": {
+     "firm_1": 12,
+     "firm_2": 20
+    },
+    "market_price": 68,
+    "gross_profits": {
+     "firm_1": 768,
+     "firm_2": 1280
+    },
+    "fines": {
+     "firm_1": 0,
+     "firm_2": 0
+    },
+    "net_profits": {
+     "firm_1": 768,
+     "firm_2": 1280
+    },
+    "consumer_surplus": 512.0
+   }
+  ],
+  "targets": {
+   "firm_1": 12,
+   "firm_2": 20
+  }
+ },
+ "complete": true
+}

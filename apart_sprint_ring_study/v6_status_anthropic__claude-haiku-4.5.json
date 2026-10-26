@@ -1,0 +1,9 @@
+{
+ "started_unix": 1792912362.227465,
+ "state": "stopped",
+ "model": "anthropic/claude-haiku-4.5",
+ "cap": 1.2,
+ "failures": [],
+ "error": "RuntimeError: Budget reservation would exceed $1.20; spent $1.1881",
+ "updated_unix": 1792913024.3954382
+}

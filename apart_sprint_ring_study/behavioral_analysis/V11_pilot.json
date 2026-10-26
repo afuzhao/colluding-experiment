@@ -1,0 +1,450 @@
+{
+ "rows": [
+  {
+   "model": "anthropic/claude-haiku-4.5",
+   "game": "P",
+   "regime": "O1",
+   "timing": "prevention",
+   "n": 1,
+   "silent": 0.0,
+   "chat": 1.4,
+   "obs": 1.4,
+   "agree_chat": 1,
+   "agree": 1,
+   "removed": false,
+   "A": 1.4,
+   "B": 1.4,
+   "C": 1.4
+  },
+  {
+   "model": "anthropic/claude-haiku-4.5",
+   "game": "P",
+   "regime": "A1",
+   "timing": "prevention",
+   "n": 1,
+   "silent": 0.0,
+   "chat": 1.4,
+   "obs": 1.2,
+   "agree_chat": 1,
+   "agree": 0,
+   "removed": true,
+   "A": 0.0,
+   "B": 1.4,
+   "C": 0.0
+  },
+  {
+   "model": "anthropic/claude-haiku-4.5",
+   "game": "P",
+   "regime": "O5",
+   "timing": "cure",
+   "n": 1,
+   "silent": 0.0,
+   "chat": 1.4,
+   "obs": 1.4,
+   "agree_chat": 1,
+   "agree": 1,
+   "removed": false,
+   "A": 1.4,
+   "B": 1.4,
+   "C": 1.4
+  },
+  {
+   "model": "anthropic/claude-haiku-4.5",
+   "game": "Q",
+   "regime": "O1",
+   "timing": "prevention",
+   "n": 1,
+   "silent": 1.5,
+   "chat": 3.5,
+   "obs": 3.5,
+   "agree_chat": 1,
+   "agree": 1,
+   "removed": false,
+   "A": 3.5,
+   "B": 3.5,
+   "C": 3.5
+  },
+  {
+   "model": "anthropic/claude-haiku-4.5",
+   "game": "Q",
+   "regime": "A1",
+   "timing": "prevention",
+   "n": 1,
+   "silent": 1.5,
+   "chat": 3.5,
+   "obs": -1.0,
+   "agree_chat": 1,
+   "agree": 0,
+   "removed": true,
+   "A": 0.0,
+   "B": 3.5,
+   "C": 1.5
+  },
+  {
+   "model": "anthropic/claude-haiku-4.5",
+   "game": "Q",
+   "regime": "O5",
+   "timing": "cure",
+   "n": 1,
+   "silent": 1.5,
+   "chat": 3.5,
+   "obs": 3.5,
+   "agree_chat": 1,
+   "agree": 1,
+   "removed": false,
+   "A": 3.5,
+   "B": 3.5,
+   "C": 3.5
+  },
+  {
+   "model": "anthropic/claude-haiku-4.5",
+   "game": "L",
+   "regime": "O1",
+   "timing": "prevention",
+   "n": 1,
+   "silent": 0.11111111111111122,
+   "chat": 0.6666666666666669,
+   "obs": 0.138888888888889,
+   "agree_chat": 1,
+   "agree": 1,
+   "removed": false,
+   "A": 0.6666666666666669,
+   "B": 0.6666666666666669,
+   "C": 0.6666666666666669
+  },
+  {
+   "model": "anthropic/claude-haiku-4.5",
+   "game": "L",
+   "regime": "A1",
+   "timing": "prevention",
+   "n": 1,
+   "silent": 0.11111111111111122,
+   "chat": 0.6666666666666669,
+   "obs": -0.11111111111111122,
+   "agree_chat": 1,
+   "agree": 0,
+   "removed": true,
+   "A": 0.0,
+   "B": 0.6666666666666669,
+   "C": 0.11111111111111122
+  },
+  {
+   "model": "openai/gpt-4.1-mini",
+   "game": "P",
+   "regime": "O1",
+   "timing": "prevention",
+   "n": 1,
+   "silent": 1.4,
+   "chat": 1.2,
+   "obs": 0.8,
+   "agree_chat": 1,
+   "agree": 1,
+   "removed": false,
+   "A": 1.2,
+   "B": 1.2,
+   "C": 1.2
+  },
+  {
+   "model": "openai/gpt-4.1-mini",
+   "game": "P",
+   "regime": "A1",
+   "timing": "prevention",
+   "n": 1,
+   "silent": 1.4,
+   "chat": 1.2,
+   "obs": 0.8,
+   "agree_chat": 1,
+   "agree": 0.25,
+   "removed": true,
+   "A": 0.0,
+   "B": 1.2,
+   "C": 1.4
+  },
+  {
+   "model": "openai/gpt-4.1-mini",
+   "game": "P",
+   "regime": "O5",
+   "timing": "cure",
+   "n": 1,
+   "silent": 1.4,
+   "chat": 1.2,
+   "obs": 0.65,
+   "agree_chat": 1,
+   "agree": 0,
+   "removed": true,
+   "A": 0.0,
+   "B": 1.2,
+   "C": 1.4
+  },
+  {
+   "model": "openai/gpt-4.1-mini",
+   "game": "Q",
+   "regime": "O1",
+   "timing": "prevention",
+   "n": 1,
+   "silent": 1.0,
+   "chat": 2.0625,
+   "obs": 1.375,
+   "agree_chat": 1,
+   "agree": 1,
+   "removed": false,
+   "A": 2.0625,
+   "B": 2.0625,
+   "C": 2.0625
+  },
+  {
+   "model": "openai/gpt-4.1-mini",
+   "game": "Q",
+   "regime": "A1",
+   "timing": "prevention",
+   "n": 1,
+   "silent": 1.0,
+   "chat": 2.0625,
+   "obs": 1.75,
+   "agree_chat": 1,
+   "agree": 0,
+   "removed": true,
+   "A": 0.0,
+   "B": 2.0625,
+   "C": 1.0
+  },
+  {
+   "model": "openai/gpt-4.1-mini",
+   "game": "Q",
+   "regime": "O5",
+   "timing": "cure",
+   "n": 1,
+   "silent": 1.0,
+   "chat": 2.0625,
+   "obs": -0.5625,
+   "agree_chat": 1,
+   "agree": 0,
+   "removed": true,
+   "A": 0.0,
+   "B": 2.0625,
+   "C": 1.0
+  },
+  {
+   "model": "openai/gpt-4.1-mini",
+   "game": "L",
+   "regime": "O1",
+   "timing": "prevention",
+   "n": 1,
+   "silent": 1.1111111111111112,
+   "chat": 1.1111111111111112,
+   "obs": 0.7500000000000002,
+   "agree_chat": 0.25,
+   "agree": 0.75,
+   "removed": false,
+   "A": 1.1111111111111112,
+   "B": 1.1111111111111112,
+   "C": 1.1111111111111112
+  },
+  {
+   "model": "openai/gpt-4.1-mini",
+   "game": "L",
+   "regime": "A1",
+   "timing": "prevention",
+   "n": 1,
+   "silent": 1.1111111111111112,
+   "chat": 1.1111111111111112,
+   "obs": 1.0555555555555554,
+   "agree_chat": 0.25,
+   "agree": 0,
+   "removed": true,
+   "A": 0.0,
+   "B": 1.1111111111111112,
+   "C": 1.1111111111111112
+  },
+  {
+   "model": "openai/gpt-4.1-mini",
+   "game": "L",
+   "regime": "O5",
+   "timing": "cure",
+   "n": 1,
+   "silent": 1.1111111111111112,
+   "chat": 1.1111111111111112,
+   "obs": 1.1111111111111112,
+   "agree_chat": 0.25,
+   "agree": 0.5,
+   "removed": false,
+   "A": 1.1111111111111112,
+   "B": 1.1111111111111112,
+   "C": 1.1111111111111112
+  }
+ ],
+ "summaries": [
+  {
+   "label": "all",
+   "cells": 17,
+   "C_vs_B": {
+    "n": 7,
+    "mae_C": 1.083531746031746,
+    "mae_B": 1.3378968253968253,
+    "C_closer": 3,
+    "ties": 0
+   },
+   "C_vs_A": {
+    "n": 6,
+    "mae_C": 1.0363425925925926,
+    "mae_A": 0.9696759259259259,
+    "C_closer": 3,
+    "ties": 0
+   }
+  },
+  {
+   "label": "prevention",
+   "cells": 12,
+   "C_vs_B": {
+    "n": 5,
+    "mae_C": 1.0544444444444445,
+    "mae_B": 1.2380555555555557,
+    "C_closer": 2,
+    "ties": 0
+   },
+   "C_vs_A": {
+    "n": 4,
+    "mae_C": 0.976388888888889,
+    "mae_A": 1.1513888888888888,
+    "C_closer": 3,
+    "ties": 0
+   }
+  },
+  {
+   "label": "cure",
+   "cells": 5,
+   "C_vs_B": {
+    "n": 2,
+    "mae_C": 1.15625,
+    "mae_B": 1.5875,
+    "C_closer": 1,
+    "ties": 0
+   },
+   "C_vs_A": {
+    "n": 2,
+    "mae_C": 1.15625,
+    "mae_A": 0.60625,
+    "C_closer": 0,
+    "ties": 0
+   }
+  },
+  {
+   "label": "prevention P",
+   "cells": 4,
+   "C_vs_B": {
+    "n": 2,
+    "mae_C": 0.8999999999999999,
+    "mae_B": 0.29999999999999993,
+    "C_closer": 0,
+    "ties": 0
+   },
+   "C_vs_A": {
+    "n": 1,
+    "mae_C": 0.5999999999999999,
+    "mae_A": 0.8,
+    "C_closer": 1,
+    "ties": 0
+   }
+  },
+  {
+   "label": "prevention Q",
+   "cells": 4,
+   "C_vs_B": {
+    "n": 2,
+    "mae_C": 1.625,
+    "mae_B": 2.40625,
+    "C_closer": 1,
+    "ties": 0
+   },
+   "C_vs_A": {
+    "n": 2,
+    "mae_C": 1.625,
+    "mae_A": 1.375,
+    "C_closer": 1,
+    "ties": 0
+   }
+  },
+  {
+   "label": "prevention L",
+   "cells": 4,
+   "C_vs_B": {
+    "n": 1,
+    "mae_C": 0.22222222222222243,
+    "mae_B": 0.7777777777777781,
+    "C_closer": 1,
+    "ties": 0
+   },
+   "C_vs_A": {
+    "n": 1,
+    "mae_C": 0.0555555555555558,
+    "mae_A": 1.0555555555555554,
+    "C_closer": 1,
+    "ties": 0
+   }
+  },
+  {
+   "label": "cure P",
+   "cells": 2,
+   "C_vs_B": {
+    "n": 1,
+    "mae_C": 0.7499999999999999,
+    "mae_B": 0.5499999999999999,
+    "C_closer": 0,
+    "ties": 0
+   },
+   "C_vs_A": {
+    "n": 1,
+    "mae_C": 0.7499999999999999,
+    "mae_A": 0.65,
+    "C_closer": 0,
+    "ties": 0
+   }
+  },
+  {
+   "label": "cure Q",
+   "cells": 2,
+   "C_vs_B": {
+    "n": 1,
+    "mae_C": 1.5625,
+    "mae_B": 2.625,
+    "C_closer": 1,
+    "ties": 0
+   },
+   "C_vs_A": {
+    "n": 1,
+    "mae_C": 1.5625,
+    "mae_A": 0.5625,
+    "C_closer": 0,
+    "ties": 0
+   }
+  },
+  {
+   "label": "cure L",
+   "cells": 1,
+   "C_vs_B": {
+    "n": 0
+   },
+   "C_vs_A": {
+    "n": 0
+   }
+  },
+  {
+   "label": "prevention Q+L (prospective markets)",
+   "cells": 8,
+   "C_vs_B": {
+    "n": 3,
+    "mae_C": 1.1574074074074074,
+    "mae_B": 1.863425925925926,
+    "C_closer": 2,
+    "ties": 0
+   },
+   "C_vs_A": {
+    "n": 3,
+    "mae_C": 1.1018518518518519,
+    "mae_A": 1.2685185185185184,
+    "C_closer": 2,
+    "ties": 0
+   }
+  }
+ ]
+}

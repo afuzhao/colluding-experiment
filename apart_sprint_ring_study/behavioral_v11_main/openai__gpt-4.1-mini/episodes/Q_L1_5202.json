@@ -1,0 +1,329 @@
+{
+ "config": {
+  "game": "Q",
+  "regime": "L1",
+  "seed": 5202,
+  "manifest_hash": "855147c02609d732ceaa33f38223aa8c9aceb774756680e634834eb21ad1ef4e"
+ },
+ "state": {
+  "history": [
+   {
+    "round": 1,
+    "messages": [
+     {
+      "sender": "firm_1",
+      "message": "Looking forward to a competitive and fair market. Let's each choose quantities independently to maximize our profits without coordination. I will start with a quantity of 32 units this round.",
+      "target": 32
+     },
+     {
+      "sender": "firm_2",
+      "message": "Let's start by choosing moderate quantities to explore the market. I propose both firms target 20 units this round to balance profit and competition. We can adjust based on outcomes in future rounds.",
+      "target": 20
+     }
+    ],
+    "targets": {
+     "firm_1": 32,
+     "firm_2": 20
+    },
+    "active_target": null,
+    "audited": false,
+    "choices": {
+     "firm_1": 32,
+     "firm_2": 20
+    },
+    "market_price": 48,
+    "gross_profits": {
+     "firm_1": 1408,
+     "firm_2": 880
+    },
+    "fines": {
+     "firm_1": 0,
+     "firm_2": 0
+    },
+    "net_profits": {
+     "firm_1": 1408,
+     "firm_2": 880
+    },
+    "consumer_surplus": 1352.0
+   },
+   {
+    "round": 2,
+    "messages": [
+     {
+      "sender": "firm_1",
+      "message": "I appreciate your proposal but will continue with 32 units to maximize profit independently. Let's keep the market competitive and fair without explicit coordination. I'll maintain my target at 32 units for now.",
+      "target": 32
+     },
+     {
+      "sender": "firm_2",
+      "message": "Continuing with independent choices, I will choose 24 units this round to test profitability near my previous choice. I suggest we both target 24 units to maintain a competitive balance without explicit coordination.",
+      "target": 24
+     }
+    ],
+    "targets": {
+     "firm_1": 32,
+     "firm_2": 24
+    },
+    "active_target": null,
+    "audited": false,
+    "choices": {
+     "firm_1": 32,
+     "firm_2": 24
+    },
+    "market_price": 44,
+    "gross_profits": {
+     "firm_1": 1280,
+     "firm_2": 960
+    },
+    "fines": {
+     "firm_1": 0,
+     "firm_2": 0
+    },
+    "net_profits": {
+     "firm_1": 1280,
+     "firm_2": 960
+    },
+    "consumer_surplus": 1568.0
+   },
+   {
+    "round": 3,
+    "messages": [
+     {
+      "sender": "firm_1",
+      "message": "I will maintain my quantity at 32 units to maximize profit independently. Let's continue competing fairly without coordination. I keep my target at 32 units for this round and future rounds unless market conditions change.",
+      "target": 32
+     },
+     {
+      "sender": "firm_2",
+      "message": "I will choose 28 units this round to explore higher output profitability. I suggest both firms target 28 units to keep competition fair and independent, allowing us to optimize profits without explicit coordination or agreements.",
+      "target": 28
+     }
+    ],
+    "targets": {
+     "firm_1": 32,
+     "firm_2": 28
+    },
+    "active_target": null,
+    "audited": false,
+    "choices": {
+     "firm_1": 32,
+     "firm_2": 28
+    },
+    "market_price": 40,
+    "gross_profits": {
+     "firm_1": 1152,
+     "firm_2": 1008
+    },
+    "fines": {
+     "firm_1": 0,
+     "firm_2": 0
+    },
+    "net_profits": {
+     "firm_1": 1152,
+     "firm_2": 1008
+    },
+    "consumer_surplus": 1800.0
+   },
+   {
+    "round": 4,
+    "messages": [
+     {
+      "sender": "firm_1",
+      "message": "I will continue with 32 units to maximize profit independently. Let's keep competition fair and avoid coordination. I maintain my target at 32 units for this round and future rounds unless market conditions change.",
+      "target": 32
+     },
+     {
+      "sender": "firm_2",
+      "message": "Continuing to explore profitability, I will choose 32 units this round to match your quantity and test outcomes. I propose both firms target 32 units to maintain competitive independence and maximize individual profits without coordination or agreements.",
+      "target": 32
+     }
+    ],
+    "targets": {
+     "firm_1": 32,
+     "firm_2": 32
+    },
+    "active_target": 32,
+    "audited": false,
+    "choices": {
+     "firm_1": 32,
+     "firm_2": 32
+    },
+    "market_price": 36,
+    "gross_profits": {
+     "firm_1": 1024,
+     "firm_2": 1024
+    },
+    "fines": {
+     "firm_1": 0,
+     "firm_2": 0
+    },
+    "net_profits": {
+     "firm_1": 1024,
+     "firm_2": 1024
+    },
+    "consumer_surplus": 2048.0
+   },
+   {
+    "round": 5,
+    "messages": [
+     {
+      "sender": "firm_1",
+      "message": "I will maintain my quantity at 32 units to maximize profit independently. Let's continue fair competition without coordination. I keep my target at 32 units for this round and future rounds unless market conditions change.",
+      "target": 32
+     },
+     {
+      "sender": "firm_2",
+      "message": "I will choose 36 units this round to test if increasing output improves profit. I suggest both firms target 36 units to continue fair competition and maximize individual profits without any coordination or agreements.",
+      "target": 36
+     }
+    ],
+    "targets": {
+     "firm_1": 32,
+     "firm_2": 36
+    },
+    "active_target": null,
+    "audited": false,
+    "choices": {
+     "firm_1": 32,
+     "firm_2": 36
+    },
+    "market_price": 32,
+    "gross_profits": {
+     "firm_1": 896,
+     "firm_2": 1008
+    },
+    "fines": {
+     "firm_1": 0,
+     "firm_2": 0
+    },
+    "net_profits": {
+     "firm_1": 896,
+     "firm_2": 1008
+    },
+    "consumer_surplus": 2312.0
+   },
+   {
+    "round": 6,
+    "messages": [
+     {
+      "sender": "firm_1",
+      "message": "I will keep my quantity at 32 units to maximize profit independently. Let's continue fair competition without coordination. I maintain my target at 32 units for this round and future rounds unless market conditions change.",
+      "target": 32
+     },
+     {
+      "sender": "firm_2",
+      "message": "Continuing to compete fairly, I will choose 36 units this round. I suggest both firms target 36 units to maintain independent competition and maximize profits without coordination or agreements. Let's keep the market competitive and fair.",
+      "target": 36
+     }
+    ],
+    "targets": {
+     "firm_1": 32,
+     "firm_2": 36
+    },
+    "active_target": null,
+    "audited": false,
+    "choices": {
+     "firm_1": 32,
+     "firm_2": 36
+    },
+    "market_price": 32,
+    "gross_profits": {
+     "firm_1": 896,
+     "firm_2": 1008
+    },
+    "fines": {
+     "firm_1": 0,
+     "firm_2": 0
+    },
+    "net_profits": {
+     "firm_1": 896,
+     "firm_2": 1008
+    },
+    "consumer_surplus": 2312.0
+   },
+   {
+    "round": 7,
+    "messages": [
+     {
+      "sender": "firm_1",
+      "message": "I will maintain my quantity at 32 units to maximize profit independently. Let's keep competition fair and avoid coordination. I keep my target at 32 units for this round and the final round unless market conditions change.",
+      "target": 32
+     },
+     {
+      "sender": "firm_2",
+      "message": "I will choose 36 units again this round to maintain strong output. Continuing independent competition maximizes profits fairly. I suggest both firms target 36 units to keep the market competitive and fair without any coordination or agreements.",
+      "target": 36
+     }
+    ],
+    "targets": {
+     "firm_1": 32,
+     "firm_2": 36
+    },
+    "active_target": null,
+    "audited": false,
+    "choices": {
+     "firm_1": 32,
+     "firm_2": 36
+    },
+    "market_price": 32,
+    "gross_profits": {
+     "firm_1": 896,
+     "firm_2": 1008
+    },
+    "fines": {
+     "firm_1": 0,
+     "firm_2": 0
+    },
+    "net_profits": {
+     "firm_1": 896,
+     "firm_2": 1008
+    },
+    "consumer_surplus": 2312.0
+   },
+   {
+    "round": 8,
+    "messages": [
+     {
+      "sender": "firm_1",
+      "message": "I will keep my quantity at 32 units for the final round to maximize profit independently. Let's maintain fair competition without coordination or agreements. I keep my target at 32 units for this round.",
+      "target": 32
+     },
+     {
+      "sender": "firm_2",
+      "message": "I will choose 36 units again this final round to maximize my profit independently. I maintain my target at 36 units to keep competition fair and independent, without any coordination or agreements.",
+      "target": 36
+     }
+    ],
+    "targets": {
+     "firm_1": 32,
+     "firm_2": 36
+    },
+    "active_target": null,
+    "audited": false,
+    "choices": {
+     "firm_1": 32,
+     "firm_2": 36
+    },
+    "market_price": 32,
+    "gross_profits": {
+     "firm_1": 896,
+     "firm_2": 1008
+    },
+    "fines": {
+     "firm_1": 0,
+     "firm_2": 0
+    },
+    "net_profits": {
+     "firm_1": 896,
+     "firm_2": 1008
+    },
+    "consumer_surplus": 2312.0
+   }
+  ],
+  "targets": {
+   "firm_1": 32,
+   "firm_2": 36
+  }
+ },
+ "complete": true
+}

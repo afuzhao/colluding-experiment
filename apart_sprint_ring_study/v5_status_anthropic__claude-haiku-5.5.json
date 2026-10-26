@@ -1,0 +1,13 @@
+{
+ "started_unix": 1792913167.142058,
+ "state": "complete_with_missing",
+ "model": "anthropic/claude-haiku-5.5",
+ "cap": 0.6,
+ "failures": [
+  {
+   "episode": "hold8_2307",
+   "reason": "excluded uncertain network request"
+  }
+ ],
+ "updated_unix": 1792913513.7956212
+}

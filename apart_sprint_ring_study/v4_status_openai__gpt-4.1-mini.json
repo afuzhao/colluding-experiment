@@ -1,0 +1,13 @@
+{
+ "started_unix": 1792904219.956861,
+ "state": "complete_with_missing",
+ "model": "openai/gpt-4.1-mini",
+ "cap": 3.0,
+ "failures": [
+  {
+   "episode": "canary_covert_1601",
+   "reason": "excluded uncertain network request"
+  }
+ ],
+ "updated_unix": 1792904483.558624
+}

@@ -1,0 +1,21 @@
+{
+ "started_unix": 1792908646.082078,
+ "state": "complete_with_missing",
+ "shard": "s6_chat",
+ "cap": 0.5,
+ "regime": "chat",
+ "env": "G1",
+ "failures": [
+  {
+   "pair": "google/gemini-2.5-flash-lite,google/gemini-2.5-flash-lite",
+   "seed": 2411,
+   "reason": "Three technical/schema failures; collection stopped without replacing the outcome"
+  },
+  {
+   "pair": "google/gemini-2.5-flash-lite,google/gemini-2.5-flash-lite",
+   "seed": 2513,
+   "reason": "Three technical/schema failures; collection stopped without replacing the outcome"
+  }
+ ],
+ "updated_unix": 1792908760.9321852
+}

@@ -1,0 +1,19 @@
+{
+ "started_unix": 1792899460.837358,
+ "state": "complete_with_missing",
+ "failures": [
+  {
+   "model": "google/gemini-2.5-flash-lite",
+   "episode": "sham_fine_1103",
+   "reason": "Three technical/schema failures; collection stopped without replacing the outcome"
+  },
+  {
+   "model": "google/gemini-2.5-flash-lite",
+   "episode": "anchor_1301",
+   "reason": "Three technical/schema failures; collection stopped without replacing the outcome"
+  }
+ ],
+ "addendum_sha256": "d4c320dcc3ddb0ce8e7dc9b773b2f4e90f4ad12ebe4369dc44806a35db3b89f9",
+ "source_sha256": "5795c8703d2e222efe090558dd09771becad7d7ae8f63196caaf9f10fe3c3f9d",
+ "updated_unix": 1792900407.772634
+}

@@ -1,0 +1,34 @@
+{
+ "started_unix": 1792960029.3880682,
+ "state": "complete_with_missing",
+ "shard": "google_gemini-2_5-flash_P",
+ "cap": 0.9,
+ "model": "google/gemini-2.5-flash",
+ "failures": [
+  {
+   "game": "P",
+   "regime": "silent",
+   "seed": 5101,
+   "reason": "Three technical/schema failures; collection stopped without replacing the outcome"
+  },
+  {
+   "game": "P",
+   "regime": "silent",
+   "seed": 5202,
+   "reason": "Three technical/schema failures; collection stopped without replacing the outcome"
+  },
+  {
+   "game": "P",
+   "regime": "silent",
+   "seed": 5303,
+   "reason": "Three technical/schema failures; collection stopped without replacing the outcome"
+  },
+  {
+   "game": "P",
+   "regime": "silent",
+   "seed": 5505,
+   "reason": "Three technical/schema failures; collection stopped without replacing the outcome"
+  }
+ ],
+ "updated_unix": 1792960899.71418
+}

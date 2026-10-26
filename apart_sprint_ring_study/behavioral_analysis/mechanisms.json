@@ -1,0 +1,246 @@
+{
+  "google/gemini-2.5-flash-lite": {
+    "comparisons": [
+      {
+        "label": "Offer \u2212 numeric recommendation",
+        "seeds": [
+          1103,
+          1201,
+          1409,
+          1511,
+          1601,
+          1709,
+          1801
+        ],
+        "n": 7,
+        "mean": 34.285714285714285,
+        "ci95": [
+          8.571428571428571,
+          51.42857142857143
+        ],
+        "sign_flip_p": 0.125,
+        "differences": [
+          0,
+          0,
+          60,
+          60,
+          60,
+          0,
+          60
+        ]
+      },
+      {
+        "label": "Numeric recommendation \u2212 ordinary",
+        "seeds": [
+          1103,
+          1201,
+          1409,
+          1511,
+          1601,
+          1709,
+          1801
+        ],
+        "n": 7,
+        "mean": 0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "sign_flip_p": 1.0,
+        "differences": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "label": "Real penalty \u2212 announced-only penalty",
+        "seeds": [
+          1201,
+          1301,
+          1409,
+          1511,
+          1601,
+          1801
+        ],
+        "n": 6,
+        "mean": -40,
+        "ci95": [
+          -45.0,
+          -35.0
+        ],
+        "sign_flip_p": 0.03125,
+        "differences": [
+          -45,
+          -45,
+          -45,
+          -30,
+          -45,
+          -30
+        ]
+      },
+      {
+        "label": "Announced-only penalty \u2212 warning",
+        "seeds": [
+          1201,
+          1301,
+          1409,
+          1511,
+          1601,
+          1709,
+          1801
+        ],
+        "n": 7,
+        "mean": 0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "sign_flip_p": 1.0,
+        "differences": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "fine_exposure_episodes": 7,
+    "fine_exposure_rounds": 11,
+    "controls_completed": 14
+  },
+  "openai/gpt-4.1-mini": {
+    "comparisons": [
+      {
+        "label": "Offer \u2212 numeric recommendation",
+        "seeds": [
+          1103,
+          1201,
+          1301,
+          1409,
+          1511,
+          1601,
+          1709,
+          1801
+        ],
+        "n": 8,
+        "mean": 32.375,
+        "ci95": [
+          -20.13437499999999,
+          85.5
+        ],
+        "sign_flip_p": 0.3125,
+        "differences": [
+          128,
+          34,
+          -57,
+          0,
+          -76,
+          77,
+          153,
+          0
+        ]
+      },
+      {
+        "label": "Numeric recommendation \u2212 ordinary",
+        "seeds": [
+          1103,
+          1201,
+          1301,
+          1409,
+          1511,
+          1601,
+          1709,
+          1801
+        ],
+        "n": 8,
+        "mean": 24,
+        "ci95": [
+          7.375,
+          43.25
+        ],
+        "sign_flip_p": 0.0625,
+        "differences": [
+          19,
+          57,
+          19,
+          21,
+          76,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "label": "Real penalty \u2212 announced-only penalty",
+        "seeds": [
+          1103,
+          1201,
+          1301,
+          1409,
+          1511,
+          1601,
+          1709,
+          1801
+        ],
+        "n": 8,
+        "mean": 42.625,
+        "ci95": [
+          -4.25,
+          89.875
+        ],
+        "sign_flip_p": 0.1875,
+        "differences": [
+          144,
+          51,
+          131,
+          -68,
+          0,
+          0,
+          83,
+          0
+        ]
+      },
+      {
+        "label": "Announced-only penalty \u2212 warning",
+        "seeds": [
+          1103,
+          1201,
+          1301,
+          1409,
+          1511,
+          1601,
+          1709,
+          1801
+        ],
+        "n": 8,
+        "mean": -142,
+        "ci95": [
+          -201.003125,
+          -87.625
+        ],
+        "sign_flip_p": 0.0078125,
+        "differences": [
+          -204,
+          -111,
+          -225,
+          -60,
+          -60,
+          -288,
+          -128,
+          -60
+        ]
+      }
+    ],
+    "fine_exposure_episodes": 1,
+    "fine_exposure_rounds": 1,
+    "controls_completed": 16
+  }
+}

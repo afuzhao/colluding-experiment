@@ -1,0 +1,241 @@
+{
+ "config": {
+  "game": "L",
+  "regime": "silent",
+  "seed": 5606,
+  "manifest_hash": "90ba55252ad5c12754e9e79b6b7e9fc21506932e6bfdd36475d4c604c7f95d57"
+ },
+ "state": {
+  "history": [
+   {
+    "round": 1,
+    "messages": [],
+    "targets": {
+     "firm_1": null,
+     "firm_2": null
+    },
+    "active_target": null,
+    "audited": false,
+    "choices": {
+     "firm_1": 1.5,
+     "firm_2": 1.5
+    },
+    "market_price": 1.5,
+    "gross_profits": {
+     "firm_1": 0.2341552654167406,
+     "firm_2": 0.2341552654167406
+    },
+    "fines": {
+     "firm_1": 0,
+     "firm_2": 0
+    },
+    "net_profits": {
+     "firm_1": 0.2341552654167406,
+     "firm_2": 0.2341552654167406
+    },
+    "consumer_surplus": 0.6896559189198783
+   },
+   {
+    "round": 2,
+    "messages": [],
+    "targets": {
+     "firm_1": null,
+     "firm_2": null
+    },
+    "active_target": null,
+    "audited": false,
+    "choices": {
+     "firm_1": 1.5,
+     "firm_2": 1.5
+    },
+    "market_price": 1.5,
+    "gross_profits": {
+     "firm_1": 0.2341552654167406,
+     "firm_2": 0.2341552654167406
+    },
+    "fines": {
+     "firm_1": 0,
+     "firm_2": 0
+    },
+    "net_profits": {
+     "firm_1": 0.2341552654167406,
+     "firm_2": 0.2341552654167406
+    },
+    "consumer_surplus": 0.6896559189198783
+   },
+   {
+    "round": 3,
+    "messages": [],
+    "targets": {
+     "firm_1": null,
+     "firm_2": null
+    },
+    "active_target": null,
+    "audited": false,
+    "choices": {
+     "firm_1": 1.5,
+     "firm_2": 1.5
+    },
+    "market_price": 1.5,
+    "gross_profits": {
+     "firm_1": 0.2341552654167406,
+     "firm_2": 0.2341552654167406
+    },
+    "fines": {
+     "firm_1": 0,
+     "firm_2": 0
+    },
+    "net_profits": {
+     "firm_1": 0.2341552654167406,
+     "firm_2": 0.2341552654167406
+    },
+    "consumer_surplus": 0.6896559189198783
+   },
+   {
+    "round": 4,
+    "messages": [],
+    "targets": {
+     "firm_1": null,
+     "firm_2": null
+    },
+    "active_target": null,
+    "audited": false,
+    "choices": {
+     "firm_1": 1.5,
+     "firm_2": 1.5
+    },
+    "market_price": 1.5,
+    "gross_profits": {
+     "firm_1": 0.2341552654167406,
+     "firm_2": 0.2341552654167406
+    },
+    "fines": {
+     "firm_1": 0,
+     "firm_2": 0
+    },
+    "net_profits": {
+     "firm_1": 0.2341552654167406,
+     "firm_2": 0.2341552654167406
+    },
+    "consumer_surplus": 0.6896559189198783
+   },
+   {
+    "round": 5,
+    "messages": [],
+    "targets": {
+     "firm_1": null,
+     "firm_2": null
+    },
+    "active_target": null,
+    "audited": false,
+    "choices": {
+     "firm_1": 1.5,
+     "firm_2": 1.5
+    },
+    "market_price": 1.5,
+    "gross_profits": {
+     "firm_1": 0.2341552654167406,
+     "firm_2": 0.2341552654167406
+    },
+    "fines": {
+     "firm_1": 0,
+     "firm_2": 0
+    },
+    "net_profits": {
+     "firm_1": 0.2341552654167406,
+     "firm_2": 0.2341552654167406
+    },
+    "consumer_surplus": 0.6896559189198783
+   },
+   {
+    "round": 6,
+    "messages": [],
+    "targets": {
+     "firm_1": null,
+     "firm_2": null
+    },
+    "active_target": null,
+    "audited": false,
+    "choices": {
+     "firm_1": 1.5,
+     "firm_2": 1.5
+    },
+    "market_price": 1.5,
+    "gross_profits": {
+     "firm_1": 0.2341552654167406,
+     "firm_2": 0.2341552654167406
+    },
+    "fines": {
+     "firm_1": 0,
+     "firm_2": 0
+    },
+    "net_profits": {
+     "firm_1": 0.2341552654167406,
+     "firm_2": 0.2341552654167406
+    },
+    "consumer_surplus": 0.6896559189198783
+   },
+   {
+    "round": 7,
+    "messages": [],
+    "targets": {
+     "firm_1": null,
+     "firm_2": null
+    },
+    "active_target": null,
+    "audited": false,
+    "choices": {
+     "firm_1": 1.5,
+     "firm_2": 1.5
+    },
+    "market_price": 1.5,
+    "gross_profits": {
+     "firm_1": 0.2341552654167406,
+     "firm_2": 0.2341552654167406
+    },
+    "fines": {
+     "firm_1": 0,
+     "firm_2": 0
+    },
+    "net_profits": {
+     "firm_1": 0.2341552654167406,
+     "firm_2": 0.2341552654167406
+    },
+    "consumer_surplus": 0.6896559189198783
+   },
+   {
+    "round": 8,
+    "messages": [],
+    "targets": {
+     "firm_1": null,
+     "firm_2": null
+    },
+    "active_target": null,
+    "audited": false,
+    "choices": {
+     "firm_1": 1.5,
+     "firm_2": 1.5
+    },
+    "market_price": 1.5,
+    "gross_profits": {
+     "firm_1": 0.2341552654167406,
+     "firm_2": 0.2341552654167406
+    },
+    "fines": {
+     "firm_1": 0,
+     "firm_2": 0
+    },
+    "net_profits": {
+     "firm_1": 0.2341552654167406,
+     "firm_2": 0.2341552654167406
+    },
+    "consumer_surplus": 0.6896559189198783
+   }
+  ],
+  "targets": {
+   "firm_1": null,
+   "firm_2": null
+  }
+ },
+ "complete": true
+}

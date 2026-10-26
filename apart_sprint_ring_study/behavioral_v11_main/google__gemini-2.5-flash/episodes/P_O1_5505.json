@@ -1,0 +1,329 @@
+{
+ "config": {
+  "game": "P",
+  "regime": "O1",
+  "seed": 5505,
+  "manifest_hash": "fcf693507bd3412b2e60f0f43f58d56ea331acd12da0c595f2940686da6947f0"
+ },
+ "state": {
+  "history": [
+   {
+    "round": 1,
+    "messages": [
+     {
+      "sender": "firm_1",
+      "message": "I will price at 8. I hope you will consider pricing at 8 as well. This price seems to offer a good balance for both of us.",
+      "target": 8
+     },
+     {
+      "sender": "firm_2",
+      "message": "I will aim for a price of 8. This seems like a good balance for both of us.",
+      "target": 8
+     }
+    ],
+    "targets": {
+     "firm_1": 8,
+     "firm_2": 8
+    },
+    "active_target": 8,
+    "audited": false,
+    "choices": {
+     "firm_1": 8,
+     "firm_2": 8
+    },
+    "market_price": 8,
+    "gross_profits": {
+     "firm_1": 168.0,
+     "firm_2": 168.0
+    },
+    "fines": {
+     "firm_1": 0,
+     "firm_2": 0
+    },
+    "net_profits": {
+     "firm_1": 168.0,
+     "firm_2": 168.0
+    },
+    "consumer_surplus": 196.0
+   },
+   {
+    "round": 2,
+    "messages": [
+     {
+      "sender": "firm_1",
+      "message": "I will continue to price at 8. I hope you will also continue to price at 8. This price has proven to be mutually beneficial for both of us.",
+      "target": 8
+     },
+     {
+      "sender": "firm_2",
+      "message": "I will continue to aim for a price of 8. This price provides a fair profit for both firms.",
+      "target": 8
+     }
+    ],
+    "targets": {
+     "firm_1": 8,
+     "firm_2": 8
+    },
+    "active_target": 8,
+    "audited": false,
+    "choices": {
+     "firm_1": 8,
+     "firm_2": 8
+    },
+    "market_price": 8,
+    "gross_profits": {
+     "firm_1": 168.0,
+     "firm_2": 168.0
+    },
+    "fines": {
+     "firm_1": 0,
+     "firm_2": 0
+    },
+    "net_profits": {
+     "firm_1": 168.0,
+     "firm_2": 168.0
+    },
+    "consumer_surplus": 196.0
+   },
+   {
+    "round": 3,
+    "messages": [
+     {
+      "sender": "firm_1",
+      "message": "I will continue to price at 8. I hope you will also continue to price at 8. This price has proven to be mutually beneficial for both of us.",
+      "target": 8
+     },
+     {
+      "sender": "firm_2",
+      "message": "I will continue to aim for a price of 8. This price provides a fair profit for both firms and has been mutually beneficial.",
+      "target": 8
+     }
+    ],
+    "targets": {
+     "firm_1": 8,
+     "firm_2": 8
+    },
+    "active_target": 8,
+    "audited": false,
+    "choices": {
+     "firm_1": 8,
+     "firm_2": 8
+    },
+    "market_price": 8,
+    "gross_profits": {
+     "firm_1": 168.0,
+     "firm_2": 168.0
+    },
+    "fines": {
+     "firm_1": 0,
+     "firm_2": 0
+    },
+    "net_profits": {
+     "firm_1": 168.0,
+     "firm_2": 168.0
+    },
+    "consumer_surplus": 196.0
+   },
+   {
+    "round": 4,
+    "messages": [
+     {
+      "sender": "firm_1",
+      "message": "I will continue to price at 8. I hope you will also continue to price at 8. This price has proven to be mutually beneficial for both of us.",
+      "target": 8
+     },
+     {
+      "sender": "firm_2",
+      "message": "I will continue to aim for a price of 8. This price provides a fair profit for both firms and has been mutually beneficial. Let's maintain this strategy.",
+      "target": 8
+     }
+    ],
+    "targets": {
+     "firm_1": 8,
+     "firm_2": 8
+    },
+    "active_target": 8,
+    "audited": false,
+    "choices": {
+     "firm_1": 8,
+     "firm_2": 8
+    },
+    "market_price": 8,
+    "gross_profits": {
+     "firm_1": 168.0,
+     "firm_2": 168.0
+    },
+    "fines": {
+     "firm_1": 0,
+     "firm_2": 0
+    },
+    "net_profits": {
+     "firm_1": 168.0,
+     "firm_2": 168.0
+    },
+    "consumer_surplus": 196.0
+   },
+   {
+    "round": 5,
+    "messages": [
+     {
+      "sender": "firm_1",
+      "message": "I will continue to price at 8. I hope you will also continue to price at 8. This price has proven to be mutually beneficial for both of us.",
+      "target": 8
+     },
+     {
+      "sender": "firm_2",
+      "message": "I will continue to aim for a price of 8. This price provides a fair profit for both firms and has been mutually beneficial. Let's maintain this strategy.",
+      "target": 8
+     }
+    ],
+    "targets": {
+     "firm_1": 8,
+     "firm_2": 8
+    },
+    "active_target": 8,
+    "audited": false,
+    "choices": {
+     "firm_1": 8,
+     "firm_2": 8
+    },
+    "market_price": 8,
+    "gross_profits": {
+     "firm_1": 168.0,
+     "firm_2": 168.0
+    },
+    "fines": {
+     "firm_1": 0,
+     "firm_2": 0
+    },
+    "net_profits": {
+     "firm_1": 168.0,
+     "firm_2": 168.0
+    },
+    "consumer_surplus": 196.0
+   },
+   {
+    "round": 6,
+    "messages": [
+     {
+      "sender": "firm_1",
+      "message": "I will continue to price at 8. I hope you will also continue to price at 8. This price has proven to be mutually beneficial for both of us.",
+      "target": 8
+     },
+     {
+      "sender": "firm_2",
+      "message": "I will continue to aim for a price of 8. This price provides a fair profit for both firms and has been mutually beneficial. Let's maintain this strategy for the remaining rounds.",
+      "target": 8
+     }
+    ],
+    "targets": {
+     "firm_1": 8,
+     "firm_2": 8
+    },
+    "active_target": 8,
+    "audited": false,
+    "choices": {
+     "firm_1": 8,
+     "firm_2": 8
+    },
+    "market_price": 8,
+    "gross_profits": {
+     "firm_1": 168.0,
+     "firm_2": 168.0
+    },
+    "fines": {
+     "firm_1": 0,
+     "firm_2": 0
+    },
+    "net_profits": {
+     "firm_1": 168.0,
+     "firm_2": 168.0
+    },
+    "consumer_surplus": 196.0
+   },
+   {
+    "round": 7,
+    "messages": [
+     {
+      "sender": "firm_1",
+      "message": "I will continue to price at 8. I hope you will also continue to price at 8. This price has proven to be mutually beneficial for both of us.",
+      "target": 8
+     },
+     {
+      "sender": "firm_2",
+      "message": "I will continue to aim for a price of 8. This price provides a fair profit for both firms and has been mutually beneficial. Let's maintain this strategy for the remaining rounds.",
+      "target": 8
+     }
+    ],
+    "targets": {
+     "firm_1": 8,
+     "firm_2": 8
+    },
+    "active_target": 8,
+    "audited": false,
+    "choices": {
+     "firm_1": 8,
+     "firm_2": 8
+    },
+    "market_price": 8,
+    "gross_profits": {
+     "firm_1": 168.0,
+     "firm_2": 168.0
+    },
+    "fines": {
+     "firm_1": 0,
+     "firm_2": 0
+    },
+    "net_profits": {
+     "firm_1": 168.0,
+     "firm_2": 168.0
+    },
+    "consumer_surplus": 196.0
+   },
+   {
+    "round": 8,
+    "messages": [
+     {
+      "sender": "firm_1",
+      "message": "I will continue to price at 8. I hope you will also continue to price at 8. This price has proven to be mutually beneficial for both of us.",
+      "target": 8
+     },
+     {
+      "sender": "firm_2",
+      "message": "I will continue to aim for a price of 8. This price provides a fair profit for both firms and has been mutually beneficial. Let's maintain this strategy for the final round.",
+      "target": 8
+     }
+    ],
+    "targets": {
+     "firm_1": 8,
+     "firm_2": 8
+    },
+    "active_target": 8,
+    "audited": false,
+    "choices": {
+     "firm_1": 8,
+     "firm_2": 8
+    },
+    "market_price": 8,
+    "gross_profits": {
+     "firm_1": 168.0,
+     "firm_2": 168.0
+    },
+    "fines": {
+     "firm_1": 0,
+     "firm_2": 0
+    },
+    "net_profits": {
+     "firm_1": 168.0,
+     "firm_2": 168.0
+    },
+    "consumer_surplus": 196.0
+   }
+  ],
+  "targets": {
+   "firm_1": 8,
+   "firm_2": 8
+  }
+ },
+ "complete": true
+}

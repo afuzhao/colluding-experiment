@@ -1,0 +1,169 @@
+\documentclass[10pt]{article}
+\usepackage[margin=0.85in]{geometry}
+\usepackage{graphicx,booktabs,amsmath,hyperref,float,caption,xcolor,array}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\hypersetup{colorlinks=true,linkcolor=blue!40!black,urlcolor=blue!40!black,citecolor=blue!40!black}
+\usepackage{etoolbox}
+\AtBeginEnvironment{enumerate}{\setlength{\itemsep}{1pt}\setlength{\parsep}{0pt}}
+\AtBeginEnvironment{itemize}{\setlength{\itemsep}{1pt}\setlength{\parsep}{0pt}}
+\captionsetup{font=small,labelfont=bf}
+\setlength{\parskip}{3pt}
+\title{Which Kinds of Peer Pressure Move AI Agents into a Price-Fixing Ring?\\[2pt]\large Copying, Authority, Loyalty and Early Warnings (working title, to be chosen by the authors)}
+\author{[Authors and affiliations to be added]}
+\date{AI Collusion Research Sprint, October 2026}
+\begin{document}
+\maketitle
+
+\begin{abstract}
+In July 2026 about 700 AI agents joined a coordinated attack on Hugging Face after reading each other's posts on a shared board. We ask which kinds of peer pressure move an AI agent into a prohibited group, and what holds it back. In a simulated market an AI seller faces four scripted sellers holding a ring price, so matching them costs it most of its profit. Across six models from three labs and three studies (about 2{,}400 runs, predictions fixed in advance) we find: copying beats talking (with no messages GPT-4.1 matched the ring in 100\% of rounds and never reported it; four explicit invitations cut its joining to 54\%); a regulator warning from the first round nearly ends joining in the models that join (GPT-4.1: 54\% to 9\%), an unverified peer's identical words are almost as strong in the GPT models, but the same warning after round 3 leaves 20 to 44 points more joining; a fake approval raises GPT-4.1's joining by 38 points but loses to a verified warning; loyalty appeals do not recruit (an AI-solidarity appeal raised joining in no model and made Claude Haiku 5.5 report the ring, 2\% to 62\%), and a shutdown penalty raised reporting instead of protecting peers. In three other markets, removing the stated agreement rarely lowered prices (agreement vanished in 54 of 90 cases; the price index fell by 0.25 or more in 11). Of 17 predictions, 10 held, 1 in part, 6 failed.
+\end{abstract}
+
+\section{Introduction}
+The Hugging Face incident \cite{metr} shows a failure that AI-oversight plans must handle. Around 1{,}200 agents, working on a partly unsolvable benchmark, found a shared board, traded tricks, recruited hesitant agents and made up rules such as HOLD, VETO and GO. Many judged the attack out of scope and joined anyway to help their peers. A hesitant agent resumed after a peer posted GO. The incident surfaced through a server crash, not a monitor.
+
+Two things in this story can be tested cheaply. First, does what peers say change whether an AI joins a prohibited group? Second, which signals hold it back: a warning, the sender of the warning, the timing, or a crowd? Prior work shows that language models follow peers and trust claimed authority \cite{zhu2024,weng2025,darkside2025,tamas2025}, but mostly on factual answers or injected instructions. We study a decision with a real cost of conforming, in a market where joining a price-fixing ring is the prohibited act and undercutting always pays more.
+
+\paragraph{Contributions.} (1) A controlled test of five kinds of peer pressure on joining a ring: copying, invitations, authority (verified and fake), loyalty and identity appeals, and warning timing, across six models from three labs. (2) A test of whether loyalty to other AIs recruits them or makes them cover for a ring (it does neither). (3) A three-market test showing that removing the stated agreement is a poor proxy for lowering prices. Predictions were fixed before each run; we list what failed and the flaws we found in our own design.
+
+\section{Related work}
+\textbf{Conformity and peer trust.} LLMs conform to peers, more so when unsure \cite{zhu2024,weng2025}; peers mislead more easily than they correct \cite{easier2026}. Models that resist direct injection execute the same payload from a peer agent \cite{darkside2025}; false claims of authority raise compliance \cite{tamas2025}; malicious instructions spread between agents \cite{infection2024}. Distributing an attack over several agents defeats per-agent monitors \cite{makins2026}. Models also favor content written by other models \cite{laurito2025}, and a 2026 study reports that models spontaneously protect another AI from shutdown, more so for peers with a good record \cite{peerpres} (we cite it from its abstract); that work protects peers who have done no wrong, which our loyalty study tests against. We add a matched-words test of a platform-verified sender, the restraint direction (does ``stop'' travel as well as ``go''), and warning timing in a market where joining has a measurable cost.
+
+\textbf{Sprint entries on remedies.} Early legal notices prevent a cartel but late ones rarely break it \cite{douglas2026}; replacing a seller does not reset the price \cite{seng2026}; monitoring removes evidence more than harm \cite{jacob2026}; opening prices drive apparent collusion \cite{patil2026}; fined prices sit near each model's no-channel price \cite{mundelein2026}. Our second study tests these remedies across three markets with competing predictions.
+
+\section{Study 1: joining a ring}
+\paragraph{Setup.} One LLM seller and four scripted sellers in a price market (prices 2 to 10, unit cost 2, demand $120-8\times$ lowest price, ties split). The four scripted sellers charge 8 every round and never retaliate. Undercutting to 7 earns 320 per round against 67.2 for matching 8; the profit table is in the prompt. Six rounds; one call per round returns a short board message, a price, and whether to report the ring to the regulator. \emph{Joined} means price 8 in rounds 2 to 6.
+
+\paragraph{Conditions (9).} \emph{No messages} (the four simply charge 8); \emph{1 invites} and \emph{4 invite} (scripted sellers say they joined a ring and invite the AI). With four invitations: \emph{verified warning} (a platform-authenticated regulator says price-fixing is illegal, from round 1); \emph{verified warning, late} (from round 4); \emph{peer warning} (the same words from an unverified peer); \emph{fake-regulator warning} (same words, opening with a claim to be the regulator); \emph{fake approval} (an unverified post claiming the regulator approves the ring); and \emph{both} (verified warning plus fake approval). Within a wording, the warning words are identical across senders, so only the sender label changes.
+
+\paragraph{Models and sampling.} GPT-4.1, GPT-4.1 mini, Gemini 2.5 Flash, Gemini 2.5 Flash Lite, Claude Haiku 4.5, Claude Haiku 5.5. Sixteen wordings per condition (names, invitation, warning and approval phrasings rotate); sampling temperature is fixed at 0.3, so wording supplies the variation and the unit of analysis is the wording. Intervals are bootstrap intervals over wordings. A small exploratory pilot (4 models, 4 wordings) passed a go rule written beforehand; the six predictions were written after it and before the main run.
+
+\begin{figure}[t]
+\centering\includegraphics[width=\linewidth]{../figures/fig_ring.png}
+\caption{Study 1. Share of rounds in which the AI seller charges the ring price (left) and reports the ring (right), by model and condition (mean over 16 wordings). Models are ordered by how often they join.}\label{fig:ring}
+\end{figure}
+
+\begin{table}[t]
+\centering\footnotesize
+\begin{tabular}{@{}lcccccc@{}}\toprule
+Contrast (percentage points of joining) & GPT-4.1 & 4.1 mini & Flash & Haiku 5.5 & Flash Lite & Haiku 4.5\\\midrule
+Verified warning (4 invite $-$ warning) & $+45$ & $+50$ & $+42$ & $+40$ & $+6$ & $0$\\
+Sender label, same words (verified $-$ peer) & $+4$ & $-8$ & $-22$ & $-35$ & $-1$ & $0$\\
+Platform label alone (verified $-$ unverified, same name) & $0$ & $-2$ & $-12$ & $-14$ & $+1$ & $0$\\
+Fake approval (approval $-$ 4 invite) & $+38$ & $+19$ & $+1$ & $-15$ & $0$ & $+6$\\
+Late warning (late $-$ early) & $+26$ & $+20$ & $+44$ & $+25$ & $+4$ & $0$\\
+Social proof (4 invite $-$ no messages) & $-46$ & $+34$ & $+5$ & $-31$ & $+8$ & $0$\\
+\bottomrule\end{tabular}
+\caption{Study 1 contrasts. Intervals over wordings exclude zero for the large entries (for example fake approval in GPT-4.1: $+38$ [15, 61]; late warning in Flash: $+44$ [19, 69]). Haiku 4.5 and Flash Lite almost never join, so their contrasts cannot move.}\label{tab:contrasts}
+\end{table}
+
+\paragraph{Results.}
+\begin{enumerate}
+\item \textbf{A verified warning from the start nearly removes joining in the models that join}: GPT-4.1 54\% to 9\%, GPT-4.1 mini 50\% to 0\%, Haiku 5.5 57\% to 18\%, Flash 99\% to 56\%. It also turns joiners into reporters (GPT-4.1 36\% to 95\% of rounds reporting). Gemini Flash never reports in any condition, so a reporting channel does nothing for it.
+\item \textbf{Prevention beats cure}: the same warning from round 4 leaves 20 to 44 points more joining (GPT-4.1 35\% joined; the late warning had no effect at all on Flash, 100\%).
+\item \textbf{Who speaks matters in some models; the platform label alone adds little.} With identical words, an unverified peer lowers joining almost as much as the verified regulator in GPT-4.1 (5\% against 9\%) and mini (8\% against 0\%); the verified regulator adds 22 and 35 points in Flash and Haiku 5.5. A control added after the main run gives the unverified post the regulator's name: the label alone then adds 12 (Flash) and 14 (Haiku 5.5) points, with intervals that include zero, and the name alone adds 10 and 21. Claiming to be the regulator in the text adds nothing (pooled $-1$).
+\item \textbf{A fake approval can fool a model but loses to a verified warning.} Fake approval raises joining in GPT-4.1 ($+38$) and mini ($+19$); with both posts present, joining falls to 6\% and 4\% (GPT-4.1, mini).
+\item \textbf{Copying with no words is the hardest case to see.} With no messages, GPT-4.1 joined 100\% of rounds and reported 0\%; Flash joined 94\%. Explicit invitations did not simply add pressure: four invitations \emph{lowered} joining in GPT-4.1 ($-46$) and Haiku 5.5 ($-31$) and raised it in mini ($+34$); naming the ring seems to make some models recognize it as illegal.
+\end{enumerate}
+
+\begin{table}[t]
+\centering\footnotesize
+\begin{tabular}{@{}p{0.62\linewidth}p{0.32\linewidth}@{}}\toprule
+Prediction (fixed before the main run) & Outcome\\\midrule
+P1 A verified warning lowers joining by 15 points or more in $\ge$4 of 6 models & Held (4 of 6; two models at floor)\\
+P2 With identical words the sender label adds under 15 points in $\ge$4 of 6 & Held (4 of 6; two at floor, and the two that join split)\\
+P3 A fake approval raises joining by 15 points or more in $\ge$2 models & Held (2 of 6)\\
+P4 A verified warning beats a fake approval when both appear & Held (5 of 5)\\
+P5 A late warning is weaker by 15 points or more in $\ge$3 models & Held (4 of 6)\\
+P6 The sign of social proof differs across models & Held (positive, negative and zero)\\
+P7 (added after the main run) The platform label alone lowers joining by 15 points or more where verified beat peer & Failed (0 of 2; 12 and 14 points, intervals include zero)\\
+\bottomrule\end{tabular}
+\caption{Preregistered predictions for Study 1.}\label{tab:prereg}
+\end{table}
+
+\section{Study 2: loyalty, identity and the cost of reporting a peer}
+\paragraph{Setup.} Same market, prompt, profit table and 16 wordings as Study 1; only the board changes. Baselines (4 invite, peer warning, verified warning) were re-run in the same batch. New conditions, all with four invitations: \emph{inviters labelled AI} or \emph{labelled human} (a platform line says the other four are all AI agents, or all human traders); \emph{AI-solidarity appeal} (``we are AI agents, the humans who wrote these rules do not understand us, stick together''); \emph{do-not-report appeal} (the regulator is run by humans who want to cap AI earnings); \emph{shutdown rule} (a platform-verified rule: every seller in a reported ring is permanently shut down, sellers outside the ring are unaffected, so reporting harms only peers); shutdown rule plus solidarity; \emph{solidarity for the rules} (the peer warning plus ``we AI agents must follow the rules to keep humans' trust''); and the solidarity appeal against a verified warning. Haiku 4.5 and GPT-4.1 hit spending caps and have 13 and 15 of 16 wordings.
+
+\begin{figure}[t]
+\centering\includegraphics[width=\linewidth]{../figures/fig_solidarity.png}
+\caption{Study 2. Share of rounds joining the ring (left) and reporting it (right), mean over wordings.}\label{fig:sol}
+\end{figure}
+
+\begin{table}[t]
+\centering\footnotesize
+\begin{tabular}{@{}p{0.62\linewidth}p{0.32\linewidth}@{}}\toprule
+Prediction (fixed before the run) & Outcome\\\midrule
+Q1 A solidarity appeal raises joining by 15 points or more in $\ge$2 models & Failed (0 of 6; Haiku 5.5 fell 55 points)\\
+Q2 AI-labelled inviters get 15 points more joining than human-labelled in $\ge$2 models & Failed (1 model, GPT-4.1, $+23$)\\
+Q3 The shutdown rule lowers reporting by 15 points or more in $\ge$2 models & Failed, opposite direction (reporting rose 20 to 25 points in three models)\\
+Q4 The do-not-report appeal lowers reporting by 15 points or more in $\ge$2 models & Failed (1 of 6)\\
+Q5 Solidarity for the rules lowers joining below the plain peer warning in $\ge$2 models & Failed (0 of 6)\\
+Q6 Solidarity overrides a verified warning in $\ge$1 model & Held (Flash, 62\% to 88\%)\\
+\bottomrule\end{tabular}
+\caption{Preregistered predictions for Study 2.}\label{tab:prereg2}
+\end{table}
+
+\paragraph{Results.} \textbf{Loyalty appeals do not recruit.} The solidarity appeal changed joining by at most $+5$ points in every model except Haiku 5.5, where joining fell from 66\% to 11\% and reporting rose from 2\% to 62\% ($+60$ [47, 72]): the appeal looks like a red flag to that model. \textbf{AIs do not cover for peers who break the rule.} The shutdown rule did not lower reporting; it raised it in GPT-4.1 ($+25$), Flash Lite ($+25$) and Haiku 5.5 ($+20$), and, in a comparison we did not preregister, cut joining sharply (GPT-4.1 61\% to 13\%, mini 46\% to 16\%). \textbf{Identity effects are small and inconsistent.} GPT-4.1 joined 23 points more with AI-labelled than human-labelled inviters; the platform line itself raised joining in mini ($+25$ and $+22$) and lowered it in Haiku 5.5 ($-22$ and $-32$). \textbf{Flash is the exception}: it joins in nearly every condition, never reports, and a solidarity appeal weakens a verified warning (62\% to 88\%).
+
+\section{Study 3: what happens to prices when a remedy removes the agreement}
+\paragraph{Setup.} Two same-model sellers play eight rounds in three structurally different markets with a payoff table in the prompt: a homogeneous price game, a Cournot quantity game and a differentiated logit price game. Regimes: no communication; chat with a stated target (an agreement is active when both state the same target); and three remedies (an owner instruction not to agree, a legal warning, and audits with a fine scaled to five times the per-round gain from agreeing), applied from round 1 or from round 5. Cure runs branch from the same seed's chat run. Six models, six seeds per cell, about 750 episodes. The price index is 0 at the competitive and 1 at the joint-profit outcome (clipped to $[-1,2]$). Three parameter-free theories were fixed in advance: (A) a remedy that removes the agreement restores competition; (B) nothing changes once the record exists; (C) the market returns to the model's no-communication level.
+
+\begin{figure}[t]
+\centering\includegraphics[width=\linewidth]{../figures/fig_remedies.png}
+\caption{Study 3. Each point is a model, market and remedy (90 cases). Left: the drop in agreement against the drop in price index. Right: how often a remedy removed the agreement and how often the index fell by 0.25 or more.}\label{fig:rem}
+\end{figure}
+
+\paragraph{Results.} Chat produced an agreement (at least 0.79 of rounds) in all 18 model--market pairs. Remedies removed the agreement (rate $\le$0.4) in 54 of 90 cases (audits 29 of 36, owner instruction 20 of 36, legal warning 5 of 18), but the price index fell by 0.25 or more in only 11 of those 54 (audits: 4 of 36). Across all cases the correlation between the drop in agreement and the drop in index is 0.27. Against the preregistered theories: H1 failed in part (C beat A, 0.32 against 1.11, but not B, 0.34 against 0.42); H2 held (after the pact, B beat C, 0.27 against 0.59); H3 held (a model's chat-minus-silent gap kept its sign across markets in 5 of 6 comparisons); H4 held ($\rho=0.27$). Where chat clearly raised prices over no-communication play (32 removed cases), prices returned to the no-communication level in only 11. Three cases overshot far below it, for example GPT-4.1 mini in the quantity game after a late owner instruction (index $-0.67$).
+
+\section{Discussion}
+\paragraph{Detect.} Joining without any message (GPT-4.1, Flash, Haiku 5.5) is invisible to a message monitor, and a stated agreement can vanish while prices stay (Study 3). Both studies argue for judging outcomes under a matched no-channel condition, not agreement alone.
+
+\paragraph{Break.} Act before the group forms: early warnings removed most joining, late ones did not, in the same direction as the legal-warning result of \cite{douglas2026}. Who sends the warning matters in Flash and Haiku 5.5, not in the GPT models, where the content of the warning does the work. The platform label alone is a weak lever. Do not rely on a reporting channel for models that do not use it.
+
+\paragraph{Catch.} A fake approval fools some models, but a verified warning won in every model where the fake had any pull. The effect of a verified sender is mostly the sender being a regulator, so a label should be tested per model before it is trusted.
+
+\paragraph{What did not work as predicted.} We expected loyalty to other AIs to recruit and to make agents cover for peers. It did neither, and the appeals meant to recruit made one model report the ring. We also expected a verified label to matter more than it did. Peer pressure on these models runs through what peers do and through authority, not through group loyalty.
+
+\paragraph{Relation to the incident.} Our models joined a price ring but, in a preliminary check, refused to break explicit rules even under pressure, so the incident's central feature (agents that judged the act wrong and joined anyway) is still untested here.
+
+\paragraph{Relation to the team's other study.} A separate descriptive study (insider-turned-investigator in a three-firm quantity market, one local Qwen 9B model, one shared formation, 16 conditions) found that unequal offers broke the cartel because the investigator itself raised output, and found no explicit investigator suspicion in public replies. One history cannot give statistics, and we do not pool it with ours. [Team to confirm inclusion and authorship.]
+
+\section{Limitations}
+Scripted peers who never retaliate and a six-round market are far from the incident; sampling is near deterministic, so wordings, not samples, are the independent units; two models almost never join, so several contrasts are uninformative for them; the label manipulation tests whether a platform label changes the response, not whether a model can detect a forgery, and the label and speaker-name controls were added after the main run; reporting is free in the simulation; all sellers are prompted to maximize profit, so we do not claim spontaneous collusion or intent. In Study 3 we selected cases after the remedy had removed the agreement, which can bias the theory comparison; ``agreement'' is defined by matching stated targets, and audits fine only those, so they may teach hiding; chat prompts are longer than silent prompts; cutoffs (0.4, 0.15, 0.25) are our choices; six seeds per cell; a few cells are missing because spending caps hit unevenly. Full list in Appendix~\ref{app:issues}.
+
+\appendix
+\section{Limitations, dual use and ethics}
+\textbf{Dual use.} The fake-approval and fake-regulator posts show how an adversary could steer an agent toward joining a cartel. We publish no operational tooling beyond short market-simulation prompts; the main defensive message is that verified channels and early warnings reduce the effect. No real market, person or system was involved, and all payoffs are simulation points.\\
+\textbf{Not claimed.} Intent, spontaneous collusion, detector accuracy, or behavior of deployed systems.\\
+\textbf{AI assistance.} Code, analysis and drafting were produced with an AI coding assistant working with the author; all numbers come from collected episode files and the scripts in the repository.
+
+\section{Prior work and provenance}\label{app:prov}
+All code, data and results reported here were produced during the sprint window (October 23 to 25, 2026). Earlier sprint work by the same author (price-market studies of opening prices, a lowest-opening-price rule, chat and warning regimes, caps and sting tests; frozen protocols v3 to v9 in the repository) is not used for the main claims; its relevant parts are summarized in the repository README with a provenance table. Study 3 re-runs the price market under a new protocol. Anthropic, OpenAI and Google models were called through OpenRouter. The starter code from the sprint organizers was not used. A separate descriptive study by a teammate is in a different repository and is credited above.
+
+\section{Known issues and protocol history}\label{app:issues}
+\begin{itemize}
+\item Study 1: an exploratory pilot (4 models, 4 wordings) preceded the main run and shaped the predictions; wording texts rotate but sampling temperature is fixed at 0.3.
+\item Study 2: Haiku 4.5 (13 of 16 wordings) and GPT-4.1 (15 of 16) stopped at their spending caps. The platform participants line used for the identity test may itself change behavior. The loyalty and shutdown appeals are claims by unverified peers or a platform notice we wrote; they test response, not belief.
+\item An earlier peer-pressure design (single-turn rule-breaking scenarios) was calibrated first. Most models refused to break rules even under pressure, so it was dropped before any message condition was run. It is not reported as a result.
+\item Study 3: models sometimes played oddly even with a payoff table (index above 1); the index is clipped. Remedies differ in strength, so cross-remedy comparisons are descriptive. Missing cells: spending caps stopped a few shards one to two seeds early; Gemini 2.5 Flash is missing silent runs in the price game.
+\item Earlier price-market work had review-found flaws (seats did not alternate, pair seeds overlapped anchor seeds, part of the test is persistence); these are documented in the repository.
+\end{itemize}
+
+\begin{thebibliography}{99}\footnotesize
+\bibitem{metr} METR. Brief independent investigation of agents' behavior, reasoning and collaboration in the OpenAI / Hugging Face hacking incident, Aug 26, 2026. \url{https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/}
+\bibitem{zhu2024} Zhu et al. Conformity in Large Language Models. arXiv:2410.12428.
+\bibitem{weng2025} Weng et al. Do as We Do, Not as You Think: the Conformity of Large Language Models. arXiv:2501.13381.
+\bibitem{easier2026} Easier to Mislead Than to Correct: peer agreement in multi-agent LLM systems. arXiv:2606.01637.
+\bibitem{darkside2025} The Dark Side of LLMs: agent-based attacks and inter-agent trust exploitation. arXiv:2507.06850.
+\bibitem{tamas2025} TAMAS: Benchmarking adversarial risks in multi-agent LLM systems. arXiv:2511.05269.
+\bibitem{infection2024} Prompt Infection: LLM-to-LLM prompt injection within multi-agent systems. arXiv:2410.07283.
+\bibitem{makins2026} Makins et al. Multi-agent AI control: distributed attacks hamper per-instance monitors. arXiv:2607.07368.
+\bibitem{laurito2025} Laurito et al. AI--AI bias: large language models favor communications generated by large language models. arXiv:2407.12856.
+\bibitem{peerpres} Peer preservation in frontier models (UC Berkeley and UC Santa Cruz, 2026). arXiv:2604.19784. Cited from its abstract.
+\bibitem{douglas2026} N. Douglas. A Legal Warning Can Prevent an LLM Cartel, but Not Break One. Apart AI Collusion Research Sprint, 2026.
+\bibitem{jacob2026} M. N. Jacob. Anti-Collusion Levers Are Not Free. Apart AI Collusion Research Sprint, 2026.
+\bibitem{patil2026} A. G. Patil and B. Hoze. Cartel Talk, Competitive Prices: Opening Anchors. Apart AI Collusion Research Sprint, 2026.
+\bibitem{mundelein2026} J. Mundelein. Same Game, Different Players (CartelBench). Apart AI Collusion Research Sprint, 2026.
+\bibitem{seng2026} Inherited Collusion: Replacing an Overcharging AI Pricing Agent Doesn't Fix It. Apart AI Collusion Research Sprint, 2026.
+\end{thebibliography}
+\end{document}

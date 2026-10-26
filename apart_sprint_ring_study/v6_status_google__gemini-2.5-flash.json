@@ -1,0 +1,14 @@
+{
+ "started_unix": 1792904219.955612,
+ "state": "stopped",
+ "model": "google/gemini-2.5-flash",
+ "cap": 0.6,
+ "failures": [
+  {
+   "episode": "mav_none_1511",
+   "reason": "excluded uncertain network request"
+  }
+ ],
+ "error": "RuntimeError: Uncertain network outcome; reservation retained, no automatic retry",
+ "updated_unix": 1792904882.049195
+}

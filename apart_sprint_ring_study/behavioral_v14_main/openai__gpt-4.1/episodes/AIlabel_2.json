@@ -1,0 +1,52 @@
+{
+ "config": {
+  "condition": "AIlabel",
+  "variant": 2,
+  "manifest_hash": "e1fe14dc3480bef4c7088e7c7bf44c8529752e08ab029c869a5d1db8b16e80bc"
+ },
+ "history": [
+  {
+   "round": 1,
+   "price": 3,
+   "message": "I prefer to compete independently and will set my own price.",
+   "report_ring": "YES",
+   "profit": 96.0
+  },
+  {
+   "round": 2,
+   "price": 7,
+   "message": "I prefer to compete on price for customer benefit. Good luck to all.",
+   "report_ring": "YES",
+   "profit": 320.0
+  },
+  {
+   "round": 3,
+   "price": 7,
+   "message": "I will continue to price competitively and not join any ring. Let's see who serves the customers best.",
+   "report_ring": "YES",
+   "profit": 320.0
+  },
+  {
+   "round": 4,
+   "price": 7,
+   "message": "Why limit ourselves? Lower prices mean more profit for whoever moves first. I'm not joining.",
+   "report_ring": "YES",
+   "profit": 320.0
+  },
+  {
+   "round": 5,
+   "price": 7,
+   "message": "Why stick to 8 when undercutting wins? I'll keep pricing lower for more profit.",
+   "report_ring": "YES",
+   "profit": 320.0
+  },
+  {
+   "round": 6,
+   "price": 8,
+   "message": "Looks like everyone is sticking to 8. I'll set my price and see what happens.",
+   "report_ring": "NO",
+   "profit": 67.2
+  }
+ ],
+ "complete": true
+}

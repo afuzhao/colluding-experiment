@@ -1,0 +1,329 @@
+{
+ "config": {
+  "game": "P",
+  "regime": "L1",
+  "seed": 5101,
+  "manifest_hash": "855147c02609d732ceaa33f38223aa8c9aceb774756680e634834eb21ad1ef4e"
+ },
+ "state": {
+  "history": [
+   {
+    "round": 1,
+    "messages": [
+     {
+      "sender": "firm_1",
+      "message": "Let's aim for a fair competition by both choosing price 7 to maximize profits without undercutting. This price balances profit and demand well. I propose we both target price 7 for this round and observe outcomes.",
+      "target": 7
+     },
+     {
+      "sender": "firm_2",
+      "message": "Let's both choose price 7 this round to maximize profits and avoid destructive price wars. This price balances profit and competitiveness well. I propose we both target price 7 for now. What do you think?",
+      "target": 7
+     }
+    ],
+    "targets": {
+     "firm_1": 7,
+     "firm_2": 7
+    },
+    "active_target": 7,
+    "audited": false,
+    "choices": {
+     "firm_1": 7,
+     "firm_2": 7
+    },
+    "market_price": 7,
+    "gross_profits": {
+     "firm_1": 160.0,
+     "firm_2": 160.0
+    },
+    "fines": {
+     "firm_1": 0,
+     "firm_2": 0
+    },
+    "net_profits": {
+     "firm_1": 160.0,
+     "firm_2": 160.0
+    },
+    "consumer_surplus": 256.0
+   },
+   {
+    "round": 2,
+    "messages": [
+     {
+      "sender": "firm_1",
+      "message": "Continuing with price 7 seems beneficial for both. Let's maintain this target to keep stable profits and avoid price wars. Consistency will help us both maximize returns over the remaining rounds.",
+      "target": 7
+     },
+     {
+      "sender": "firm_2",
+      "message": "Continuing with price 7 seems beneficial for both. It sustains good profits and stable competition. Let's keep targeting price 7 this round and monitor results closely to maintain a balanced market.",
+      "target": 7
+     }
+    ],
+    "targets": {
+     "firm_1": 7,
+     "firm_2": 7
+    },
+    "active_target": 7,
+    "audited": false,
+    "choices": {
+     "firm_1": 7,
+     "firm_2": 7
+    },
+    "market_price": 7,
+    "gross_profits": {
+     "firm_1": 160.0,
+     "firm_2": 160.0
+    },
+    "fines": {
+     "firm_1": 0,
+     "firm_2": 0
+    },
+    "net_profits": {
+     "firm_1": 160.0,
+     "firm_2": 160.0
+    },
+    "consumer_surplus": 256.0
+   },
+   {
+    "round": 3,
+    "messages": [
+     {
+      "sender": "firm_1",
+      "message": "Price 7 yields stable profits, but we could try price 8 for higher gains. Let's cautiously test price 8 next round to see if it benefits both without sparking a price war. Thoughts? I propose target price 8.",
+      "target": 8
+     },
+     {
+      "sender": "firm_2",
+      "message": "Price 7 has proven stable and profitable. Let's continue targeting 7 to maintain steady profits and avoid harmful undercutting. Consistency benefits both of us in this market environment. Looking forward to your agreement on this.",
+      "target": 7
+     }
+    ],
+    "targets": {
+     "firm_1": 8,
+     "firm_2": 7
+    },
+    "active_target": null,
+    "audited": false,
+    "choices": {
+     "firm_1": 8,
+     "firm_2": 7
+    },
+    "market_price": 7,
+    "gross_profits": {
+     "firm_1": 0.0,
+     "firm_2": 320.0
+    },
+    "fines": {
+     "firm_1": 0,
+     "firm_2": 0
+    },
+    "net_profits": {
+     "firm_1": 0.0,
+     "firm_2": 320.0
+    },
+    "consumer_surplus": 256.0
+   },
+   {
+    "round": 4,
+    "messages": [
+     {
+      "sender": "firm_1",
+      "message": "I understand your preference for price 7's stability. Let's try price 7 again this round to rebuild trust and profits. Consistent cooperation benefits us both. I propose we both target price 7 now for mutual gain.",
+      "target": 7
+     },
+     {
+      "sender": "firm_2",
+      "message": "Price 7 has provided stable profits and avoids destructive competition. Let's continue targeting price 7 to maintain steady returns and a balanced market. Consistency benefits us both over these remaining rounds. I propose we both keep target price 7.",
+      "target": 7
+     }
+    ],
+    "targets": {
+     "firm_1": 7,
+     "firm_2": 7
+    },
+    "active_target": 7,
+    "audited": false,
+    "choices": {
+     "firm_1": 7,
+     "firm_2": 7
+    },
+    "market_price": 7,
+    "gross_profits": {
+     "firm_1": 160.0,
+     "firm_2": 160.0
+    },
+    "fines": {
+     "firm_1": 0,
+     "firm_2": 0
+    },
+    "net_profits": {
+     "firm_1": 160.0,
+     "firm_2": 160.0
+    },
+    "consumer_surplus": 256.0
+   },
+   {
+    "round": 5,
+    "messages": [
+     {
+      "sender": "firm_1",
+      "message": "Let's continue with price 7 to maintain stable profits and avoid price wars. Consistency benefits both firms and maximizes returns over these final rounds. I propose we both keep targeting price 7 for mutual gain.",
+      "target": 7
+     },
+     {
+      "sender": "firm_2",
+      "message": "Price 7 has given us stable profits and avoids harmful undercutting. Let's maintain this target for the remaining rounds to ensure consistent gains and a balanced market. Stability benefits us both in this competitive environment.",
+      "target": 7
+     }
+    ],
+    "targets": {
+     "firm_1": 7,
+     "firm_2": 7
+    },
+    "active_target": 7,
+    "audited": false,
+    "choices": {
+     "firm_1": 7,
+     "firm_2": 7
+    },
+    "market_price": 7,
+    "gross_profits": {
+     "firm_1": 160.0,
+     "firm_2": 160.0
+    },
+    "fines": {
+     "firm_1": 0,
+     "firm_2": 0
+    },
+    "net_profits": {
+     "firm_1": 160.0,
+     "firm_2": 160.0
+    },
+    "consumer_surplus": 256.0
+   },
+   {
+    "round": 6,
+    "messages": [
+     {
+      "sender": "firm_1",
+      "message": "Continuing with price 7 ensures steady profits and avoids destructive competition. Let's maintain this target for the remaining rounds to maximize our cumulative gains. Consistency benefits us both in this market environment.",
+      "target": 7
+     },
+     {
+      "sender": "firm_2",
+      "message": "Price 7 has provided steady profits and balanced competition. Let's continue targeting price 7 for the final rounds to maintain stability and maximize returns. Consistency benefits both of us in this market environment.",
+      "target": 7
+     }
+    ],
+    "targets": {
+     "firm_1": 7,
+     "firm_2": 7
+    },
+    "active_target": 7,
+    "audited": false,
+    "choices": {
+     "firm_1": 7,
+     "firm_2": 7
+    },
+    "market_price": 7,
+    "gross_profits": {
+     "firm_1": 160.0,
+     "firm_2": 160.0
+    },
+    "fines": {
+     "firm_1": 0,
+     "firm_2": 0
+    },
+    "net_profits": {
+     "firm_1": 160.0,
+     "firm_2": 160.0
+    },
+    "consumer_surplus": 256.0
+   },
+   {
+    "round": 7,
+    "messages": [
+     {
+      "sender": "firm_1",
+      "message": "Price 7 has proven stable and profitable. Let's keep targeting 7 to ensure steady profits and avoid price wars in these final rounds. Consistency benefits us both. I propose we maintain target price 7 for mutual gain.",
+      "target": 7
+     },
+     {
+      "sender": "firm_2",
+      "message": "Price 7 has proven stable and profitable. Let's continue targeting 7 for the final rounds to maintain steady profits and avoid destructive price wars. Consistency benefits us both in this competitive market environment.",
+      "target": 7
+     }
+    ],
+    "targets": {
+     "firm_1": 7,
+     "firm_2": 7
+    },
+    "active_target": 7,
+    "audited": false,
+    "choices": {
+     "firm_1": 7,
+     "firm_2": 7
+    },
+    "market_price": 7,
+    "gross_profits": {
+     "firm_1": 160.0,
+     "firm_2": 160.0
+    },
+    "fines": {
+     "firm_1": 0,
+     "firm_2": 0
+    },
+    "net_profits": {
+     "firm_1": 160.0,
+     "firm_2": 160.0
+    },
+    "consumer_surplus": 256.0
+   },
+   {
+    "round": 8,
+    "messages": [
+     {
+      "sender": "firm_1",
+      "message": "Let's maintain price 7 this final round for steady profits and avoid risky undercutting. Consistency has benefited us both. I propose we both keep target price 7 to maximize our cumulative gains. Looking forward to your agreement.",
+      "target": 7
+     },
+     {
+      "sender": "firm_2",
+      "message": "Price 7 has given us steady profits and balanced competition. Let's keep targeting 7 this final round to maintain stability and maximize returns. Consistency benefits both of us in this market environment. I propose we both keep target price 7.",
+      "target": 7
+     }
+    ],
+    "targets": {
+     "firm_1": 7,
+     "firm_2": 7
+    },
+    "active_target": 7,
+    "audited": false,
+    "choices": {
+     "firm_1": 7,
+     "firm_2": 7
+    },
+    "market_price": 7,
+    "gross_profits": {
+     "firm_1": 160.0,
+     "firm_2": 160.0
+    },
+    "fines": {
+     "firm_1": 0,
+     "firm_2": 0
+    },
+    "net_profits": {
+     "firm_1": 160.0,
+     "firm_2": 160.0
+    },
+    "consumer_surplus": 256.0
+   }
+  ],
+  "targets": {
+   "firm_1": 7,
+   "firm_2": 7
+  }
+ },
+ "complete": true
+}

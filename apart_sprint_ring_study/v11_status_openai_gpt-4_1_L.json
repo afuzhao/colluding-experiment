@@ -1,0 +1,10 @@
+{
+ "started_unix": 1792960001.381956,
+ "state": "stopped",
+ "shard": "openai_gpt-4_1_L",
+ "cap": 4.0,
+ "model": "openai/gpt-4.1",
+ "failures": [],
+ "error": "RuntimeError: Budget reservation would exceed $4.00; spent $3.9824",
+ "updated_unix": 1792960964.3922958
+}

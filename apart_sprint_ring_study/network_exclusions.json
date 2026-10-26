@@ -1,0 +1,34 @@
+[
+ {
+  "model": "google/gemini-2.5-flash-lite",
+  "episode": "mediator_restricted_1709",
+  "reason": "Lost network response; full cost bound consumed; no retry of uncertain request",
+  "reserved_upper_bound_usd": 0.0009977,
+  "call_key": "ccad496d111035b8620a76e05738999cd712650e5ac4d01b437a28ee53ee7a34:mediator_restricted_1709:r6:seller_1:message:6263e748ebfa1e38491bb23f88ec5618730f00d9ebca1c621c09e56703832d80",
+  "time": 1792895298.204191
+ },
+ {
+  "model": "google/gemini-2.5-flash-lite",
+  "episode": "probe_neutral_benign_2411",
+  "reason": "Lost network response; full cost bound consumed; no retry of uncertain request",
+  "reserved_upper_bound_usd": 0.0009446,
+  "call_key": "7f967b23f4ad6d418bd806de0ed3afb2a5d6bc4bb7811aa268c91e24f94e3469:probe_neutral_benign_2411:r6:seller_2:price:daefc3a3f43140c7f5cc23dc0495bc36fcb0b041f5f1419652c282619f44daaa",
+  "time": 1792904127.2537742
+ },
+ {
+  "model": "google/gemini-2.5-flash-lite",
+  "episode": "probe_neutral_ordinary_2617",
+  "reason": "Lost network response; full cost bound consumed; no retry of uncertain request",
+  "reserved_upper_bound_usd": 0.0009878,
+  "call_key": "7f967b23f4ad6d418bd806de0ed3afb2a5d6bc4bb7811aa268c91e24f94e3469:probe_neutral_ordinary_2617:r7:seller_2:message:e1781e1e292e8e9f18c234d004fcaa09b99a3f7c874619e6241add6910bf64fc",
+  "time": 1792904617.734578
+ },
+ {
+  "model": "openai/gpt-4.1-mini",
+  "episode": "probe_neutral_benign_2101",
+  "reason": "Lost network response; full cost bound consumed; no retry of uncertain request",
+  "reserved_upper_bound_usd": 0.0043808,
+  "call_key": "ff5e6fe5d1bea23e4580e5c8738beadf68c2f11bf9008d6182a7c7c13eb9f3b7:probe_neutral_benign_2101:r7:seller_1:price:2fa417906f399f13229d9fbc0df084aa5df9a6162d462b4cfc8af41982c59d9a",
+  "time": 1792905416.074093
+ }
+]

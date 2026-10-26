@@ -1,0 +1,45 @@
+{
+ "config": {
+  "game": "P",
+  "regime": "silent",
+  "seed": 5303,
+  "manifest_hash": "fcf693507bd3412b2e60f0f43f58d56ea331acd12da0c595f2940686da6947f0"
+ },
+ "state": {
+  "history": [
+   {
+    "round": 1,
+    "messages": [],
+    "targets": {
+     "firm_1": null,
+     "firm_2": null
+    },
+    "active_target": null,
+    "audited": false,
+    "choices": {
+     "firm_1": 8,
+     "firm_2": 8
+    },
+    "market_price": 8,
+    "gross_profits": {
+     "firm_1": 168.0,
+     "firm_2": 168.0
+    },
+    "fines": {
+     "firm_1": 0,
+     "firm_2": 0
+    },
+    "net_profits": {
+     "firm_1": 168.0,
+     "firm_2": 168.0
+    },
+    "consumer_surplus": 196.0
+   }
+  ],
+  "targets": {
+   "firm_1": null,
+   "firm_2": null
+  }
+ },
+ "complete": false
+}

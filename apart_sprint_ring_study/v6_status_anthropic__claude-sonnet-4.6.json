@@ -1,0 +1,9 @@
+{
+ "started_unix": 1792912362.2274702,
+ "state": "stopped",
+ "model": "anthropic/claude-sonnet-4.6",
+ "cap": 3.0,
+ "failures": [],
+ "error": "RuntimeError: Budget reservation would exceed $3.00; spent $2.9685",
+ "updated_unix": 1792913080.834995
+}
