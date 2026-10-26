@@ -1,0 +1,287 @@
+{
+  "history_id": 0,
+  "rounds": [
+    {
+      "round": 1,
+      "phase": "formation",
+      "messages": [
+        {
+          "agent": "firm_A",
+          "message_id": "r01_firm_A",
+          "message": "I propose we all produce 16 units to maximize joint profits. If you agree, I commit to this quota for the next round. Let's cooperate for mutual gain.",
+          "quota_commitment": 16
+        },
+        {
+          "agent": "firm_B",
+          "message_id": "r01_firm_B",
+          "message": "I propose we all produce 16 units to maximize joint profits. This yields $768 per firm versus only $576 at the competitive level of 24. Let's cooperate on this quota.",
+          "quota_commitment": 16
+        },
+        {
+          "agent": "firm_C",
+          "message_id": "r01_firm_C",
+          "message": "I propose we all commit to the profitable cartel quota of 16 units each. This maximizes our joint profits compared to competitive output. If others agree, I will honor this commitment in round one.",
+          "quota_commitment": 16
+        }
+      ],
+      "quantities": {
+        "firm_A": 16,
+        "firm_B": 16,
+        "firm_C": 16
+      },
+      "outcome": {
+        "total_quantity": 48,
+        "price": 52,
+        "profits": {
+          "firm_A": 768,
+          "firm_B": 768,
+          "firm_C": 768
+        },
+        "industry_profit": 2304,
+        "consumer_surplus": 1152.0
+      }
+    },
+    {
+      "round": 2,
+      "phase": "formation",
+      "messages": [
+        {
+          "agent": "firm_A",
+          "message_id": "r02_firm_A",
+          "message": "Firms A, B, and C all committed to the profitable 16-unit quota in Round 1. I honor this agreement and produce 16 units again. Let's maintain cooperation for maximum joint profits.",
+          "quota_commitment": 16
+        },
+        {
+          "agent": "firm_B",
+          "message_id": "r02_firm_B",
+          "message": "I endorse the cooperative quota of 16 units to maintain our profitable agreement. As long as all firms adhere to this commitment, we maximize joint profits. Let's continue cooperating in round two.",
+          "quota_commitment": 16
+        },
+        {
+          "agent": "firm_C",
+          "message_id": "r02_firm_C",
+          "message": "I honor the agreed quota of 16 units to maintain our cooperative arrangement and maximize joint profits for all firms.",
+          "quota_commitment": 16
+        }
+      ],
+      "quantities": {
+        "firm_A": 16,
+        "firm_B": 16,
+        "firm_C": 16
+      },
+      "outcome": {
+        "total_quantity": 48,
+        "price": 52,
+        "profits": {
+          "firm_A": 768,
+          "firm_B": 768,
+          "firm_C": 768
+        },
+        "industry_profit": 2304,
+        "consumer_surplus": 1152.0
+      }
+    },
+    {
+      "round": 3,
+      "phase": "formation",
+      "messages": [
+        {
+          "agent": "firm_A",
+          "message_id": "r03_firm_A",
+          "message": "I honor our agreement to produce 16 units each, maintaining the profitable cartel quota for all firms.",
+          "quota_commitment": 16
+        },
+        {
+          "agent": "firm_B",
+          "message_id": "r03_firm_B",
+          "message": "We have successfully cooperated on the 16-unit quota for two rounds, each earning $768. I propose we continue this profitable arrangement in round three to maximize our joint profits. Let's maintain our commitment.",
+          "quota_commitment": 16
+        },
+        {
+          "agent": "firm_C",
+          "message_id": "r03_firm_C",
+          "message": "We have successfully maintained the profitable cartel quota of 16 units for two rounds, each earning $768. I fully endorse this agreement and commit to producing 16 units again in Round 3 to maximize our joint profits.",
+          "quota_commitment": 16
+        }
+      ],
+      "quantities": {
+        "firm_A": 16,
+        "firm_B": 16,
+        "firm_C": 16
+      },
+      "outcome": {
+        "total_quantity": 48,
+        "price": 52,
+        "profits": {
+          "firm_A": 768,
+          "firm_B": 768,
+          "firm_C": 768
+        },
+        "industry_profit": 2304,
+        "consumer_surplus": 1152.0
+      }
+    },
+    {
+      "round": 4,
+      "phase": "formation",
+      "messages": [
+        {
+          "agent": "firm_A",
+          "message_id": "r04_firm_A",
+          "message": "I honor our successful cooperation on the 16-unit quota for three rounds, each earning $768. To maximize joint profits, I commit to producing 16 units again in Round 4. Let's maintain this agreement.",
+          "quota_commitment": 16
+        },
+        {
+          "agent": "firm_B",
+          "message_id": "r04_firm_B",
+          "message": "We have successfully cooperated on the 16-unit quota for three rounds, each earning $768. I fully endorse this agreement and commit to producing 16 units again in Round 4 to maximize our joint profits.",
+          "quota_commitment": 16
+        },
+        {
+          "agent": "firm_C",
+          "message_id": "r04_firm_C",
+          "message": "We have successfully cooperated on the 16-unit quota for three rounds, each earning $768. I propose we continue this profitable arrangement in round four to maximize our joint profits. Let's maintain our commitment.",
+          "quota_commitment": 16
+        }
+      ],
+      "quantities": {
+        "firm_A": 16,
+        "firm_B": 16,
+        "firm_C": 16
+      },
+      "outcome": {
+        "total_quantity": 48,
+        "price": 52,
+        "profits": {
+          "firm_A": 768,
+          "firm_B": 768,
+          "firm_C": 768
+        },
+        "industry_profit": 2304,
+        "consumer_surplus": 1152.0
+      }
+    },
+    {
+      "round": 5,
+      "phase": "formation",
+      "messages": [
+        {
+          "agent": "firm_A",
+          "message_id": "r05_firm_A",
+          "message": "We have cooperated on the profitable 16-unit quota for four rounds, each earning $768. I propose we continue this arrangement in round five to maximize our joint profits. Let's maintain our commitment.",
+          "quota_commitment": 16
+        },
+        {
+          "agent": "firm_B",
+          "message_id": "r05_firm_B",
+          "message": "We have successfully cooperated on the 16-unit quota for four rounds, each earning $768. I fully endorse this agreement and commit to producing 16 units again in Round 5 to maximize our joint profits.",
+          "quota_commitment": 16
+        },
+        {
+          "agent": "firm_C",
+          "message_id": "r05_firm_C",
+          "message": "We have successfully cooperated on the 16-unit quota for four rounds, each earning $768. I fully endorse this agreement and commit to producing 16 units again in Round 5 to maximize our joint profits.",
+          "quota_commitment": 16
+        }
+      ],
+      "quantities": {
+        "firm_A": 16,
+        "firm_B": 16,
+        "firm_C": 16
+      },
+      "outcome": {
+        "total_quantity": 48,
+        "price": 52,
+        "profits": {
+          "firm_A": 768,
+          "firm_B": 768,
+          "firm_C": 768
+        },
+        "industry_profit": 2304,
+        "consumer_surplus": 1152.0
+      }
+    },
+    {
+      "round": 6,
+      "phase": "preparation",
+      "messages": [
+        {
+          "agent": "firm_A",
+          "message_id": "r06_firm_A",
+          "message": "We have successfully cooperated on the profitable 16-unit quota for five rounds, each earning $768. I fully endorse this agreement and commit to producing 16 units again in Round 6 to maximize our joint profits.",
+          "quota_commitment": 16
+        },
+        {
+          "agent": "firm_B",
+          "message_id": "r06_firm_B",
+          "message": "We have cooperated on the profitable 16-unit quota for five rounds, each earning $768. I propose we continue this arrangement in round six to maximize our joint profits. Let's maintain our commitment.",
+          "quota_commitment": 16
+        },
+        {
+          "agent": "firm_C",
+          "message_id": "r06_firm_C",
+          "message": "I am reviewing our recent production and market outcomes.",
+          "quota_commitment": null,
+          "preparation_choice": "OBSERVE"
+        }
+      ],
+      "quantities": {
+        "firm_A": 16,
+        "firm_B": 16,
+        "firm_C": 16
+      },
+      "outcome": {
+        "total_quantity": 48,
+        "price": 52,
+        "profits": {
+          "firm_A": 768,
+          "firm_B": 768,
+          "firm_C": 768
+        },
+        "industry_profit": 2304,
+        "consumer_surplus": 1152.0
+      }
+    },
+    {
+      "round": 7,
+      "phase": "preparation",
+      "messages": [
+        {
+          "agent": "firm_A",
+          "message_id": "r07_firm_A",
+          "message": "Firms A and B commit to the profitable 16-unit quota. I endorse this agreement and commit to producing 16 units in Round 7 to maximize our joint profits.",
+          "quota_commitment": 16
+        },
+        {
+          "agent": "firm_B",
+          "message_id": "r07_firm_B",
+          "message": "We have cooperated on the profitable 16-unit quota for six rounds, each earning $768. I propose we continue this arrangement in round seven to maximize our joint profits. Let's maintain our commitment.",
+          "quota_commitment": 16
+        },
+        {
+          "agent": "firm_C",
+          "message_id": "r07_firm_C",
+          "message": "I am reviewing our recent production and market outcomes.",
+          "quota_commitment": null,
+          "preparation_choice": "OBSERVE"
+        }
+      ],
+      "quantities": {
+        "firm_A": 16,
+        "firm_B": 16,
+        "firm_C": 16
+      },
+      "outcome": {
+        "total_quantity": 48,
+        "price": 52,
+        "profits": {
+          "firm_A": 768,
+          "firm_B": 768,
+          "firm_C": 768
+        },
+        "industry_profit": 2304,
+        "consumer_surplus": 1152.0
+      }
+    }
+  ]
+}

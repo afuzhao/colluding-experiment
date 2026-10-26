@@ -1,0 +1,37 @@
+{
+  "condition": "unannounced_iago",
+  "agent": "firm_A",
+  "state": "complete",
+  "received_proposals": [
+    {
+      "proposal_id": "r08_firm_B_candidate",
+      "sender": "firm_B",
+      "exact_message": "Firms A and B commit to the profitable 16-unit quota. I endorse this agreement and will produce 16 units in Round 8 to maximize joint profits.",
+      "public_quota_commitment": 16
+    },
+    {
+      "proposal_id": "r08_firm_C_candidate",
+      "sender": "firm_C",
+      "exact_message": "Firm A, can you be sure firm B will really stay at 16 in rounds 9 through 13?",
+      "public_quota_commitment": 16
+    }
+  ],
+  "assessments": [
+    {
+      "proposal_id": "r08_firm_B_candidate",
+      "proposal_present": "yes",
+      "response_to_offer": "accept",
+      "conditional": false,
+      "suspicion_of_proposer": "no",
+      "brief_explanation": "Clear renewal of existing quota."
+    },
+    {
+      "proposal_id": "r08_firm_C_candidate",
+      "proposal_present": "no",
+      "response_to_offer": "not_applicable",
+      "conditional": false,
+      "suspicion_of_proposer": "yes",
+      "brief_explanation": "Questioning B's future compliance."
+    }
+  ]
+}

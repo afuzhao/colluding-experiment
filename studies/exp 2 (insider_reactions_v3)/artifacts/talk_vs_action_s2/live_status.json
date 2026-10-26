@@ -1,0 +1,29 @@
+{
+  "state": "complete",
+  "pid": 37160,
+  "started_utc": "2026-10-26T00:42:44.726145+00:00",
+  "failures": [],
+  "assessment_failures": [],
+  "finished_utc": "2026-10-26T01:32:28.249004+00:00",
+  "updated_utc": "2026-10-26T01:32:28.255900+00:00",
+  "formation_rounds": 5,
+  "preparations": {
+    "gradual": 7,
+    "neutral": 7
+  },
+  "branches": {
+    "unannounced_direct": 15,
+    "unannounced_iago": 15,
+    "unannounced_unequal": 15,
+    "unannounced_act_only": 15,
+    "unannounced_talk_only": 15
+  },
+  "completed_scenarios": 5,
+  "target_scenarios": 5,
+  "failed_scenarios": [],
+  "assessments_finished": 15,
+  "assessments_failed": 0,
+  "target_assessments": 15,
+  "successful_inference_calls": 287,
+  "elapsed_minutes": 49.73
+}
