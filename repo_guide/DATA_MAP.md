@@ -68,7 +68,7 @@ The selected public/private pair directions each have 32 resident-to-C, 32 resid
 
 [E1 disruption audit](../studies/exp%205%20%28env1_disruption%29/README.md) preserves Sumin Hong's authorship and pinned contributor source. Its derived CSV recalculates 150 actual round outcomes from 10 branches across two generated histories; 88 C target checks passed. Both action-only branches have price equal to cost and all profits zero in rounds 10–13, with positive profits again in 14–15. This is a retrospectively selected economic endpoint, not disappearance of all coordinated intent.
 
-[E2 disruption contribution review](../studies/exp%206%20%28env2_disruption%29/CONTRIBUTOR_REVIEW.md) is a read-only design/evidence audit, not new E2-D data. Different two-firm or logit markets cannot be relabelled as this three-firm quadratic market. An exact contributor run allocation remains pending.
+[E2 disruption contribution review](../studies/exp%206%20%28env2_disruption%29/CONTRIBUTOR_REVIEW.md) is a read-only design/evidence audit, not new E2-D data. Different two-firm or logit markets cannot be relabelled as this three-firm quadratic market. The human has now supplied the assigned brief; see exp 6 for the explicit twelve-arm scope and queued implementation.
 
 ## Future collection and combined analysis
 

@@ -34,3 +34,7 @@ The branch's PLAN_AND_SPLIT explicitly labels this Project2 as protocol agreed/r
 5. Calibrate one case before a larger matched-history run; preserve source/actual rawcalls/failures. More wording conditions cannot replace independent qualifying histories.
 
 No new E2-D inference has been authorized by this review itself or launched. Finish the reaction evidence and controls first. Sumin's E1-D evidence is reused for the agreed retrospective economic-suppression finding; do not duplicate it.
+
+## Subsequent human assignment
+
+After this read-only audit, the human supplied PROJECT2_BRIEF as our assigned E2-D work. The allocation question is therefore resolved for this task. See [assigned execution specification](protocols/ASSIGNED_DESIGN.md) for the ten families, explicit placebo arms, prospective policies and calibration gates. No E2-D inference has started; earlier statements about missing assignment describe the audit-time state.
