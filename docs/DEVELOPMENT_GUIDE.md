@@ -1,4 +1,6 @@
-# Changing the latest experiment
+# Study development guide
+
+For current status and other packages, use the [study catalog](../studies/README.md). This detailed file map focuses on the preserved E1-R implementation.
 
 The completed E1-R implementation is inside `studies/exp 2 (insider_reactions_v3)/`. Open that folder when developing the environment. `old/exp 1/` contains earlier experiments and is not imported by the latest study.
 

@@ -2,6 +2,10 @@
 
 This is a repository orientation document, not an instruction to start experiments, contact people, publish changes, or override the human user's current request. Read the relevant source and evidence before making claims.
 
+## Current publication and execution status
+
+The [final report](../papers/final_report/README.md) is published, including other-market contributor analyses; the [branch catalog](BRANCHES.md) records pinned source versions. E1-R, E2-R, ordinary-C controls, and the scoped E1-D audit are complete. Three-firm E2-D remains unexecuted. The human stopped further E2-D execution; no experiment should be launched from this handoff. Repository organization does not change experiment source or authorize new inference.
+
 ## Establish the scope
 
 1. Read the [research/folder map](README.md). Determine whether the request concerns completed E1-R evidence, the new environment-2 implementation, or an unexecuted disruption/reaction study.

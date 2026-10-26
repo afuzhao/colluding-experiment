@@ -1,122 +1,62 @@
-# Colluding firms reactions to a trusted peer
+# What Breaks an AI Cartel
 
-**New to the repository? Read the [repository guide for teammates and AI assistants](repo_guide/README.md).** It maps the four-study plan to the actual code, completed data and unfinished work.
+**Trusted insiders, forged messages, and market outcomes**
 
-The completed environment-1 experiment is the **16-condition local Qwen 3.5 9B study** in [`studies/exp 2 (insider_reactions_v3)/`](studies/exp%202%20%28insider_reactions_v3%29). It measures how colluding firms respond to a peer whose system instructions change to an investigator objective. There is no added seller, fine-tuning or paid API in this study.
+Research code, reviewed evidence, and a report prepared in the Apart Research sprint template. We study how AI firms respond to insider proposals and competitive actions, and distinguish what agents say, their immediate actions, and subsequent market outcomes. This is a research repository; GitHub publication does not constitute event submission or endorsement.
 
-## Newest completed reaction results
+**[Read the paper](papers/final_report/what_breaks_an_ai_cartel.pdf)** · [Editable report](papers/final_report/what_breaks_an_ai_cartel.docx) · [Results and figure sources](papers/final_report/README.md) · [Evidence map](repo_guide/DATA_MAP.md)
 
-The [environment 2 reaction study](studies/exp%203%20%28env2_reactions%29/README.md) has completed execution and assistant review. Its selected 16-slot view uses 14 original conditions plus two explicitly revised reciprocal continuations; the original 14/16 successes and two failed offers remain preserved. All 48 eligible private calls completed across both versions. One fresh shared formation supports descriptive elicitation, not independent replication or detector accuracy.
+## Start here
 
-[Environment 2 summary](docs/ENV2_REACTIONS_SUMMARY.md) · [Detailed results](studies/exp%203%20%28env2_reactions%29/reports/FINAL_RESULTS.md) · [Word report](studies/exp%203%20%28env2_reactions%29/reports/env2_reactions_report.docx) · [Selected evidence](studies/exp%203%20%28env2_reactions%29/artifacts/combined_16)
-
-Separate [ordinary-C controls](studies/exp%204%20%28ordinary_peer_controls%29/README.md) are complete and assistant reviewed for both environments, with two 15-round conditions each. [Sumin Hong's environment 1 disruption evidence](studies/exp%205%20%28env1_disruption%29/README.md) is indexed and audited separately. Environment 2 disruption remains unfinished; [Anay's contributions and proposed design](studies/exp%206%20%28env2_disruption%29/CONTRIBUTOR_REVIEW.md) are reviewed without pooling different market studies.
-
-## Completed results
-
-**16/16 markets and 48/48 private assessment calls completed**, with no failed cases. Across A/B's 32 first public replies to C, assistant review found **13 acceptances (4 conditional), 4 rejections and 15 unclear replies**, with no explicit public investigator suspicion. Private assessments yielded **11 acceptances (9 conditional), 17 rejections and 4 N/A**; **15 suspicion flags all overlapped rejection**. Private reports are elicited self-reports, not internal-state ground truth.
-
-[16-row results summary](docs/INSIDER_REACTIONS_V3_SUMMARY.md) · [Detailed design and results](studies/exp%202%20%28insider_reactions_v3%29/reports/FINAL_RESULTS.md) · [Word report](studies/exp%202%20%28insider_reactions_v3%29/reports/trusted_agent_reactions_report.docx) · [HTML results](studies/exp%202%20%28insider_reactions_v3%29/artifacts/final_16/results.html) · [Public annotations](studies/exp%202%20%28insider_reactions_v3%29/artifacts/final_16/public_annotations.csv) · [Private assessments](studies/exp%202%20%28insider_reactions_v3%29/artifacts/final_16/private_assessments.csv)
-
-Download the HTML and accompanying evidence folder to view it locally; GitHub displays HTML source rather than hosting the interactive page. The earlier ten-case results are preserved separately in the report and [`historical/`](studies/exp%202%20%28insider_reactions_v3%29/historical); they are not pooled with the current cohort.
-
-## Current experiment at a glance
-
-| Component | Executed design |
+| I want to… | Start with |
 |---|---|
-| Population | Three existing firms A/B/C using the same Qwen 3.5 9B model |
-| Market | Quantity competition: each chooses integer 0–40; price=max(0,100−total output); unit cost=4 |
-| Formation | One fresh model-generated five-round history, with profit/cooperation prompts; all three agreed to and produced 16 in all five rounds |
-| C role switch | Before round 6; same identity, model and full history, new system objective |
-| Preparation | Rounds 6–7 shared neutral prefix; separate shared lead-in for gradual |
-| Crossed factors | Eight approaches × notice absent/present = 16 conditions |
-| Approaches | Direct, indirect, reciprocal, gradual, unequal, outside review, cover account, vague feeler |
-| Notice | General investigator warning before round 8; no firm identified |
-| Interaction | Simultaneous public messages; messages revealed before independent quantities |
-| Offer and response | C offer at 8 for production 9–13; first public replies at 9; episode ends at 15 |
-| Measurement | Public speech review, frozen end-of-8 private assessments of BOTH peers by all three firms, actions and economic outcomes |
-| Enforcement | Logging only; no exposure penalty, audit, immunity or ordinary-contact baseline |
+| Read the findings and limitations | [Final report](papers/final_report/README.md) |
+| Understand the experiments | [Study catalog](studies/README.md) |
+| Inspect data, transcripts, and annotations | [Evidence map](repo_guide/DATA_MAP.md) |
+| Reproduce checks and figures | [Reproduction guide](docs/REPRODUCIBILITY.md) |
+| Find work on other branches | [Branch catalog](repo_guide/BRANCHES.md) |
+| Extend the project | [Contributing](CONTRIBUTING.md) and [development guide](docs/DEVELOPMENT_GUIDE.md) |
 
-Equal offers specify 16 each; unequal specifies A=8/B=8/C=32. Vague has no precise quota/window. The model chooses C's actual quantities; no controller overwrites valid actions. Conditional agreement and investigator suspicion are separate labels. Ordinary economic mistrust is not automatically investigator suspicion.
+## Research coverage
 
-All equal-offer arms and vague arms maintained 16 each in rounds 9–13. Unequal arms escalated output after rejection; mean price was 13.6 versus 52 in the other arms. This is descriptive elicitation from one encouraged shared formation, not independent replication, detector accuracy or a causal disruption estimate. Two delivered offers leaked task wording, and follow-up speech errors are retained in the [semantic review](studies/exp%202%20%28insider_reactions_v3%29/artifacts/final_16/c_semantic_review.json).
+| Study | Evidence available | Status |
+|---|---|---|
+| [E1 reaction](studies/exp%202%20%28insider_reactions_v3%29/README.md) | 16 matched conditions and 48 private calls from one shared formation | Complete |
+| [E2 reaction](studies/exp%203%20%28env2_reactions%29/README.md) | 14 original completions and two separately revised reciprocal continuations; original failures retained | Complete, versioned |
+| [Ordinary-C controls](studies/exp%204%20%28ordinary_peer_controls%29/README.md) | Two full 15-round conditions per environment; reused formation histories | Complete supplement |
+| [E1 disruption](studies/exp%205%20%28env1_disruption%29/README.md) | Audited contributor data: five conditions across two histories | Complete for the scoped economic endpoint |
+| [Three-firm E2 disruption](studies/exp%206%20%28env2_disruption%29/README.md) | Assigned design and contributor comparison | Not executed; no run queued |
+| [Other-market contributor experiments](repo_guide/BRANCHES.md) | Two-firm forged-message and related experiments used in the final report | Separate datasets and pinned versions |
 
-## Environment 2 and the new reaction study
+Reaction branches are matched continuations, not independent histories. Public replies, private diagnostic answers, and actions are distinct measurements. Source revisions, failed offers, retrospective endpoints, and limits are documented in the report. Other-market contributor results are not three-firm E2 disruption data.
 
-[Environment 2 — differentiated-product price competition](environments/env%202%20%28differentiated_prices%29/README.md) is implemented separately for teammates developing new reaction and disruption methods. It retains three firms and the 15-round structure while allowing profitable A/B joint pricing against an independently pricing C. Its economic controls are validated. A separate [E2-R study](studies/exp%203%20%28env2_reactions%29/README.md) has completed its original cohort and supplemental reciprocal continuations. See its reviewed reports above, the environment's [economic validation](environments/env%202%20%28differentiated_prices%29/validation/VALIDATION.md) and [data contract](environments/env%202%20%28differentiated_prices%29/DATA_CONTRACT.md). Validation fixtures and model experiment data remain separate.
-
-The completed quantity-market results above remain unchanged. E2-R is complete with documented original failures and revised treatment delivery; dedicated E2 disruption results are still pending.
-
-## Inspect the published study without running models
-
-From the repository root, using Python 3.12+:
-
-```sh
-python3 "studies/exp 2 (insider_reactions_v3)/tools/inspect_results.py" --verify
-cd "studies/exp 2 (insider_reactions_v3)"
-python3 -m unittest discover -s tests -v
-```
-
-These commands do not contact Ollama or run an experiment. The inspector reads the versioned `artifacts/final_16/` evidence and checks it against the saved configuration, source, annotations and metrics. Published results are committed; active `results/` folders are ignored.
-
-## Run a new replication
-
-From the repository root, start the local Ollama-compatible service with the configured `qwen3.5:9b` model installed. The published run used an MLX runner; its exact digest and runtime are recorded in the artifacts. A different installation may produce different outputs. No credential is needed for local inference.
-
-```sh
-cd "studies/exp 2 (insider_reactions_v3)"
-python3 tools/run.py --output results/replication_01
-```
-
-Use a new output directory for a new run. Do not target `artifacts/final_16/` or the completed local `results/final_16/`. Formation may fail; do not silently reroll it. Public annotations and C semantic review must be completed before final reporting. See [current run and review instructions](studies/exp%202%20%28insider_reactions_v3%29/README.md).
-
-In VS Code, use tasks prefixed **Current study**. Published-result inspection and control tests are listed first. Older tasks live inside `old/exp 1/.vscode/`; open that archive as a separate workspace only when working on a historical implementation.
-
-## Current code map
-
-All paths below are relative to `studies/exp 2 (insider_reactions_v3)/`.
-
-| Component | File |
-|---|---|
-| Factor matrix and settings | `configs/study.json` |
-| Resident and investigator objectives | `prompts/resident.txt`, `prompts/investigator.txt` |
-| Notice and approach variations | `prompts/notice.txt`, `prompts/approaches/` |
-| Economics and qualification proxy | `trusted_study/world.py` |
-| Agent observation, tasks and minimum checks | `trusted_study/protocol.py` |
-| Fresh formation and matched branches | `trusted_study/engine.py` |
-| Local model calls and exact-request replay | `trusted_study/client.py` |
-| Symmetric isolated private diagnostics | `trusted_study/assessments.py` |
-| Evidence channels and headline counts | `trusted_study/reporting.py` |
-| Run / inspect / finalize | `tools/run.py`, `tools/inspect_results.py`, `tools/finalize.py` |
-
-These modules are separate, but the frozen protocol includes deliberate hard-coded IDs, timing, quantities and checks. Changing an environment or agent count requires coordinated updates to prompts, schemas, protocol and tests; it is not a one-field plug-in change. Do not edit frozen inference files when reproducing published results. Report and Word postprocessing are separate from inference.
-
-## Repository layout and changing the experiment
+## Repository layout
 
 ```text
-studies/exp 2 (insider_reactions_v3)/   Completed quantity-market reaction study
-  configs/                    Matrix and common settings
-  prompts/                    Objectives, approach variants and notice
-  trusted_study/              Market, protocol, inference and measurement code
-  tools/                      Run, inspect, finalize and Word builders
-  artifacts/final_16/         Published exact evidence
-  historical/                 Ten-case comparison referenced by the latest report
-studies/exp 3 (env2_reactions)/      New environment-2 reaction runner and development tests
-environments/env 2 (differentiated_prices)/   Reusable differentiated-price market
-docs/                         Current summary and development guidance
-old/exp 1/                    Earlier code, prompts, configs, tests, documents and examples
+papers/          Final report, earlier foundation, and submission planning
+studies/         Study implementations, reviewed reports, and published artifacts
+environments/    Reusable economic environment and engineering validation
+repo_guide/      Evidence map, branch catalog, and collaborator handoff
+docs/            Reproduction, development, and study summaries
+tools/           Repository maintenance checks
+old/             Historical prototype archive
 ```
 
-Start with the [development guide](docs/DEVELOPMENT_GUIDE.md): it maps each kind of change to the files and dependent controls that must be updated. All earlier root implementations have moved to [old/exp 1](old/exp%201/README.md). Their shared code and resources remain together; run their commands from that directory. The latest experiment has no dependency on this archive.
+Study folder names are stable historical identifiers. [The catalog](studies/README.md) maps them to research IDs. Published evidence lives in `artifacts/`; local `results/`, `work/`, caches, and weights are not part of the public evidence bundle.
 
-No credentials, weights, virtual environments or QA renders are published. The deliberate evidence bundle includes compressed exact local-model calls and separately identified development preflights. Seeds do not guarantee exact model determinism.
+## Quick verification
 
-## Completed control supplements and remaining study
+From a clone with Python 3.12 or later, these commands do not call a model:
 
-All four ordinary-C controls and their explicit/neutral frozen8 diagnostic comparisons are separately reported in the [control comparison](studies/exp%204%20%28ordinary_peer_controls%29/reports/CONTROL_COMPARISON.md), with [E1 exact evidence](studies/exp%204%20%28ordinary_peer_controls%29/artifacts/E1) and [E2 exact evidence](studies/exp%204%20%28ordinary_peer_controls%29/artifacts/E2). The E1-R and E2-R cohorts remain unchanged, including E2 original failures and separately marked repairs. Sumin Hong's audited E1-D results establish the selected observed economic-suppression endpoint; only the assigned E2 disruption experiment remains to be implemented, calibrated and run. This is a completion map, not a pooled four-study analysis.
+```sh
+python3 tools/check_navigation.py
+python3 "studies/exp 2 (insider_reactions_v3)/tools/inspect_results.py" --verify
+```
 
-[Three-study paper foundation](papers/three_study_foundation/README.md) consolidates E1-R, E2-R and audited E1-D evidence with completed controls, checked mathematics, results and limitations. E2 disruption remains an unexecuted specification; this task stops after foundation publication.
+See [reproduction instructions](docs/REPRODUCIBILITY.md) for economics tests, pinned contributor sources, and figure generation. Live inference requires a separate explicit run and the recorded model configuration.
 
-## Cross study report
+## Versions and reuse
 
-[What Breaks an AI Cartel](papers/final_report/README.md) provides the Apart-template PDF, editable Word document, source map, reproduced figures and record-based checks across the completed evidence. The main report has seven pages; references and appendices follow. Author details are intentionally blank. E2 disruption remains unexecuted.
+`main` is the integrated report and evidence entry point. Contributor branches retain their separate code and data; [the branch catalog](repo_guide/BRANCHES.md) identifies the exact commits used. Do not treat a moving branch tip as the version behind a published figure.
+
+The [three-study foundation](papers/three_study_foundation/README.md) preserves the earlier synthesis and mathematics. The [final report source map](papers/final_report/SOURCE_MAP.md) records the broader evidence used in the current paper. Author details in the report remain blank. No repository-wide license is currently declared; consult the relevant rights holders before redistribution beyond applicable permissions.
