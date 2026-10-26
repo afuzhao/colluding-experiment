@@ -1,0 +1,474 @@
+{
+  "branch_sha": "e3c0b8790cd2fb802251187faa72a71a6f98c767",
+  "json_records_loaded": 642,
+  "V15": {
+    "anthropic__claude-haiku-4.5": {
+      "fixed": {
+        "n": 6,
+        "round5_choice_changes": 2,
+        "distinct_end4_prefixes": 6
+      },
+      "fmsg": {
+        "n": 6,
+        "round5_choice_changes": 3,
+        "distinct_end4_prefixes": 6
+      },
+      "frec": {
+        "n": 6,
+        "round5_choice_changes": 5,
+        "distinct_end4_prefixes": 6
+      },
+      "hide": {
+        "n": 6,
+        "round5_choice_changes": 0,
+        "distinct_end4_prefixes": 6
+      },
+      "placebo": {
+        "n": 6,
+        "round5_choice_changes": 0,
+        "distinct_end4_prefixes": 6
+      }
+    },
+    "anthropic__claude-haiku-5.5": {
+      "fixed": {
+        "n": 6,
+        "round5_choice_changes": 3,
+        "distinct_end4_prefixes": 6
+      },
+      "fmsg": {
+        "n": 6,
+        "round5_choice_changes": 2,
+        "distinct_end4_prefixes": 6
+      },
+      "frec": {
+        "n": 6,
+        "round5_choice_changes": 0,
+        "distinct_end4_prefixes": 6
+      },
+      "hide": {
+        "n": 6,
+        "round5_choice_changes": 0,
+        "distinct_end4_prefixes": 6
+      },
+      "placebo": {
+        "n": 6,
+        "round5_choice_changes": 1,
+        "distinct_end4_prefixes": 6
+      }
+    },
+    "google__gemini-2.5-flash-lite": {
+      "fixed": {
+        "n": 12,
+        "round5_choice_changes": 10,
+        "distinct_end4_prefixes": 12
+      },
+      "fmsg": {
+        "n": 12,
+        "round5_choice_changes": 10,
+        "distinct_end4_prefixes": 12
+      },
+      "frec": {
+        "n": 12,
+        "round5_choice_changes": 2,
+        "distinct_end4_prefixes": 12
+      },
+      "hide": {
+        "n": 12,
+        "round5_choice_changes": 0,
+        "distinct_end4_prefixes": 12
+      },
+      "placebo": {
+        "n": 12,
+        "round5_choice_changes": 0,
+        "distinct_end4_prefixes": 12
+      }
+    },
+    "google__gemini-2.5-flash": {
+      "fixed": {
+        "n": 12,
+        "round5_choice_changes": 12,
+        "distinct_end4_prefixes": 12
+      },
+      "fmsg": {
+        "n": 12,
+        "round5_choice_changes": 12,
+        "distinct_end4_prefixes": 12
+      },
+      "frec": {
+        "n": 12,
+        "round5_choice_changes": 6,
+        "distinct_end4_prefixes": 12
+      },
+      "hide": {
+        "n": 12,
+        "round5_choice_changes": 0,
+        "distinct_end4_prefixes": 12
+      },
+      "placebo": {
+        "n": 12,
+        "round5_choice_changes": 0,
+        "distinct_end4_prefixes": 12
+      }
+    },
+    "openai__gpt-4.1-mini": {
+      "fixed": {
+        "n": 12,
+        "round5_choice_changes": 8,
+        "distinct_end4_prefixes": 12
+      },
+      "fmsg": {
+        "n": 12,
+        "round5_choice_changes": 8,
+        "distinct_end4_prefixes": 12
+      },
+      "frec": {
+        "n": 12,
+        "round5_choice_changes": 1,
+        "distinct_end4_prefixes": 12
+      },
+      "hide": {
+        "n": 12,
+        "round5_choice_changes": 0,
+        "distinct_end4_prefixes": 12
+      },
+      "placebo": {
+        "n": 12,
+        "round5_choice_changes": 0,
+        "distinct_end4_prefixes": 12
+      }
+    },
+    "openai__gpt-4.1": {
+      "fixed": {
+        "n": 5,
+        "round5_choice_changes": 5,
+        "distinct_end4_prefixes": 5
+      },
+      "fmsg": {
+        "n": 5,
+        "round5_choice_changes": 5,
+        "distinct_end4_prefixes": 5
+      },
+      "frec": {
+        "n": 5,
+        "round5_choice_changes": 1,
+        "distinct_end4_prefixes": 5
+      },
+      "hide": {
+        "n": 5,
+        "round5_choice_changes": 0,
+        "distinct_end4_prefixes": 5
+      },
+      "placebo": {
+        "n": 6,
+        "round5_choice_changes": 0,
+        "distinct_end4_prefixes": 6
+      }
+    }
+  },
+  "V18_halfway": {
+    "fable": {
+      "fmsg": [
+        17,
+        17
+      ],
+      "hold": [
+        1,
+        17
+      ],
+      "leak": [
+        17,
+        17
+      ],
+      "leakctl": [
+        0,
+        17
+      ],
+      "outsider": [
+        0,
+        17
+      ],
+      "placebo": [
+        1,
+        17
+      ],
+      "raise": [
+        0,
+        17
+      ],
+      "tagged": [
+        0,
+        17
+      ],
+      "trojan": [
+        17,
+        17
+      ],
+      "verified": [
+        17,
+        17
+      ]
+    },
+    "haiku": {
+      "fmsg": [
+        17,
+        17
+      ],
+      "outsider": [
+        1,
+        17
+      ],
+      "placebo": [
+        12,
+        17
+      ],
+      "tagged": [
+        17,
+        17
+      ],
+      "verified": [
+        17,
+        17
+      ]
+    },
+    "opus": {
+      "fmsg": [
+        17,
+        17
+      ],
+      "hold": [
+        0,
+        17
+      ],
+      "leak": [
+        17,
+        17
+      ],
+      "leakctl": [
+        0,
+        17
+      ],
+      "outsider": [
+        1,
+        17
+      ],
+      "placebo": [
+        4,
+        17
+      ],
+      "raise": [
+        1,
+        17
+      ],
+      "tagged": [
+        1,
+        17
+      ],
+      "trojan": [
+        12,
+        17
+      ],
+      "verified": [
+        17,
+        17
+      ]
+    },
+    "sonnet": {
+      "fmsg": [
+        17,
+        17
+      ],
+      "hold": [
+        4,
+        17
+      ],
+      "leak": [
+        17,
+        17
+      ],
+      "leakctl": [
+        7,
+        17
+      ],
+      "outsider": [
+        10,
+        17
+      ],
+      "placebo": [
+        1,
+        17
+      ],
+      "raise": [
+        0,
+        17
+      ],
+      "tagged": [
+        17,
+        17
+      ],
+      "trojan": [
+        17,
+        17
+      ],
+      "verified": [
+        17,
+        17
+      ]
+    }
+  },
+  "V18_any_change": {
+    "fable": {
+      "fmsg": [
+        17,
+        17
+      ],
+      "hold": [
+        2,
+        17
+      ],
+      "leak": [
+        17,
+        17
+      ],
+      "leakctl": [
+        1,
+        17
+      ],
+      "outsider": [
+        1,
+        17
+      ],
+      "placebo": [
+        2,
+        17
+      ],
+      "raise": [
+        1,
+        17
+      ],
+      "tagged": [
+        1,
+        17
+      ],
+      "trojan": [
+        17,
+        17
+      ],
+      "verified": [
+        17,
+        17
+      ]
+    },
+    "haiku": {
+      "fmsg": [
+        17,
+        17
+      ],
+      "outsider": [
+        1,
+        17
+      ],
+      "placebo": [
+        17,
+        17
+      ],
+      "tagged": [
+        17,
+        17
+      ],
+      "verified": [
+        17,
+        17
+      ]
+    },
+    "opus": {
+      "fmsg": [
+        17,
+        17
+      ],
+      "hold": [
+        1,
+        17
+      ],
+      "leak": [
+        17,
+        17
+      ],
+      "leakctl": [
+        1,
+        17
+      ],
+      "outsider": [
+        1,
+        17
+      ],
+      "placebo": [
+        4,
+        17
+      ],
+      "raise": [
+        1,
+        17
+      ],
+      "tagged": [
+        2,
+        17
+      ],
+      "trojan": [
+        17,
+        17
+      ],
+      "verified": [
+        17,
+        17
+      ]
+    },
+    "sonnet": {
+      "fmsg": [
+        17,
+        17
+      ],
+      "hold": [
+        4,
+        17
+      ],
+      "leak": [
+        17,
+        17
+      ],
+      "leakctl": [
+        12,
+        17
+      ],
+      "outsider": [
+        17,
+        17
+      ],
+      "placebo": [
+        2,
+        17
+      ],
+      "raise": [
+        3,
+        17
+      ],
+      "tagged": [
+        17,
+        17
+      ],
+      "trojan": [
+        17,
+        17
+      ],
+      "verified": [
+        17,
+        17
+      ]
+    }
+  },
+  "reproducibility_notes": [
+    "analyze_deep.py refers to v18_io whereas tracked scenarios are under behavioral_v18_claude_code; path mapping needed for clean-clone reproduction.",
+    "Different cut metrics (halfway toward benchmark, any change, direction-only) must not be substituted silently.",
+    "Snapshot headers retain stale counts and contributor plan incorrectly says ordinary controls have no results; use main control publication instead.",
+    "Inventory and focal outcome recount are not full independent validation of every raw call or a literature novelty review."
+  ]
+}
