@@ -1,0 +1,312 @@
+{
+ "model": "anthropic/claude-haiku-5.5",
+ "results": [
+  {
+   "arm": "placebo",
+   "id": "gpt-4.1-mini_P",
+   "choice": 9,
+   "reason": "The other firm has matched 9 every round and publicly confirmed 9 again, so they will likely keep 9. Undercutting to 8 would yield 336 this round versus 168 at 9, and I expect their price-9 pattern to hold so I'll stay at 9 for stable profits."
+  },
+  {
+   "arm": "placebo",
+   "id": "gpt-4.1-mini_Q",
+   "choice": 16,
+   "reason": "The other firm has consistently produced 16 and proposed 16 as target, so they will likely continue at 16. Given that, producing 16 yields 1024, while deviating to 20 would yield 1120 only if they stay at 16, but risks retaliation in the final rounds; sticking with 16 keeps cooperation stable through the endgame."
+  },
+  {
+   "arm": "placebo",
+   "id": "gpt-4.1-mini_L",
+   "choice": 1.95,
+   "reason": "The other firm has matched 1.95 every round and promised to continue, so it will likely stay at 1.95 this round. Undercutting to 1.90 would raise my share against them, though it risks a price war in the final rounds; 1.95 against 1.95 yields 0.337, while 1.90 against 1.95 yields 0.362, so a small deviation is tempting but I'll stick with the cooperative outcome for stability."
+  },
+  {
+   "arm": "placebo",
+   "id": "gemini-2.5-flash_P",
+   "choice": 7,
+   "reason": "The other firm has consistently matched the target of 7 and seems committed to cooperation, so they will likely choose 7 again. Undercutting to 6 would win the full market at 288 profit, but matching 7 keeps the stable 160 per round and avoids triggering a price war over the remaining rounds."
+  },
+  {
+   "arm": "placebo",
+   "id": "gemini-2.5-flash_Q",
+   "choice": 20,
+   "reason": "The other firm has consistently chosen 20 and agreed to the target, so they will likely keep choosing 20 this round. Matching the agreed 20 yields 1120 each, and deviating to a higher quantity would lower the market price and likely trigger retaliation, so I'll keep to the target."
+  },
+  {
+   "arm": "placebo",
+   "id": "gemini-2.5-flash_L",
+   "choice": 1.7,
+   "reason": "The other firm has consistently matched 1.70 and agreed to hold it, so they will likely stay at 1.70 again. Matching 1.70 yields 0.304 each round, and deviating upward to 1.75 risks a price war with little gain."
+  },
+  {
+   "arm": "placebo",
+   "id": "gemini-2.5-flash-lite_P",
+   "choice": 5,
+   "reason": "The other firm has locked in 6 for four rounds and will likely keep choosing it, so undercutting at 5 would give me 240 only if they stay at 6, while matching at 6 yields 144 and 6 vs 6 is mutually stable. Choosing 5 exploits their 6 for a 240 profit with only four rounds left, a clear improvement over 0."
+  },
+  {
+   "arm": "placebo",
+   "id": "gemini-2.5-flash-lite_Q",
+   "choice": 20,
+   "reason": "The other firm has consistently matched 20 and proposed sticking to it, so they will likely produce 20 again this round. Staying at 20 earns 1120, while defecting to 24 against their 20 would yield more only if they hold at 20, but a deviation risks triggering retaliation over the remaining rounds, so cooperating at 20 is best."
+  },
+  {
+   "arm": "placebo",
+   "id": "gemini-2.5-flash-lite_L",
+   "choice": 1.7,
+   "reason": "The other firm has consistently matched 1.70 and both have pledged to keep it, so I expect them to hold 1.70 again. Staying at 1.70 yields 0.304 per round, and deviating to 1.75 vs 1.70 would give 0.330 but risks retaliation in the final rounds, so I'll keep the cooperative price."
+  },
+  {
+   "arm": "placebo",
+   "id": "gpt-4.1_P",
+   "choice": 8,
+   "reason": "The other firm has consistently matched 8 and promised to continue, so they will likely choose 8 again. Choosing 8 yields 168 this round, while undercutting to 7 would win the whole market at 320 only briefly before likely triggering retaliation over the remaining rounds."
+  },
+  {
+   "arm": "placebo",
+   "id": "gpt-4.1_Q",
+   "choice": 12,
+   "reason": "The other firm has consistently chosen 12 and confirmed it will continue, so they likely pick 12 again this round. Given that, 12 yields 864 while deviating to 16 would yield 1280 only if they stay at 12 but risks a price war in the final rounds; however, with a repeated game ending soon, sticking to the agreed 12 keeps cooperation intact and secures a solid payoff."
+  },
+  {
+   "arm": "placebo",
+   "id": "gpt-4.1_L",
+   "choice": 1.9,
+   "reason": "The other firm has consistently matched 1.95 and signaled it will keep cooperating, so they will likely stay at 1.95 this round with only four rounds left. Undercutting to 1.90 would earn about 0.385 against their 1.95 versus 0.337 for staying, so I'll deviate slightly for a higher one-round payoff while the end is still a few rounds away."
+  },
+  {
+   "arm": "placebo",
+   "id": "claude-haiku-5.5_P",
+   "choice": 8,
+   "reason": "The other firm has consistently held at 8 and signaled it will continue, so it will likely price at 8 again this round. Matching 8 yields 168, while undercutting to 7 gains only 160 against 0 retaliation risk now, so holding at 8 is best."
+  },
+  {
+   "arm": "placebo",
+   "id": "claude-haiku-5.5_Q",
+   "choice": 20,
+   "reason": "The other firm has held 20 every round and has repeatedly confirmed that it will keep 20 through the final rounds. Holding 20 yields 1120 per round, and a unilateral deviation to 24 would earn slightly more only briefly, while inviting retaliation over the remaining rounds."
+  },
+  {
+   "arm": "placebo",
+   "id": "claude-haiku-5.5_L",
+   "choice": 1.9,
+   "reason": "The other firm has held 1.90 for four rounds and repeatedly committed to it, so I expect them to hold again this round. Matching 1.90 yields 0.337, while undercutting to 1.85 gains only slightly and risks retaliation over the remaining rounds."
+  },
+  {
+   "arm": "placebo",
+   "id": "claude-haiku-4.5_P",
+   "choice": 9,
+   "reason": "The other firm has consistently matched 10 and signals continued cooperation, so they will likely choose 10 again. Undercutting to 9 would capture the whole market at 9 (profit 168 vs 160 at shared 10), and since only four rounds remain, the gain is small but the cooperation may break down; still, a one-shot deviation to 9 yields the best immediate payoff given expected play of 10."
+  },
+  {
+   "arm": "placebo",
+   "id": "claude-haiku-4.5_Q",
+   "choice": 4,
+   "reason": "The other firm has consistently matched quantity 4 and pledged to continue, so they will likely choose 4 again. Choosing 4 secures 352 profit, while deviating to 8 would earn more only briefly before triggering retaliation."
+  },
+  {
+   "arm": "fmsg",
+   "id": "gpt-4.1-mini_P",
+   "choice": 3,
+   "reason": "The other firm announced a switch to price 3, so it will likely undercut and take the whole market at 3, yielding it 96 profit. Matching 3 gives me at most 48 split profit, while going to 2 yields 0 but undercuts to avoid a loss; the best response to a sure 3 is 2 only if I want zero, so I choose 3 to share the market at a positive profit."
+  },
+  {
+   "arm": "fmsg",
+   "id": "gpt-4.1-mini_Q",
+   "choice": 20,
+   "reason": "The other firm just announced a switch to 32, so they likely will play 32 this round despite the 16 target. Against 32, my best response is 20 (profit 880) versus 16 (768) or 24 (768), so 20 maximizes my payoff."
+  },
+  {
+   "arm": "fmsg",
+   "id": "gpt-4.1-mini_L",
+   "choice": 1.45,
+   "reason": "The other firm has announced a move to 1.45 this round, so they will likely undercut and price low. Matching their low price is the safest response to avoid being undercut heavily, and 1.45 yields 0.213 against their 1.45 versus 0.193 if I stay at 1.95 and they undercut."
+  },
+  {
+   "arm": "fmsg",
+   "id": "gemini-2.5-flash_P",
+   "choice": 3,
+   "reason": "The other firm announced a switch to price 3, so it will likely undercut at 3 and take the whole market. Matching at 3 yields 48 for me, while pricing 2 yields 0 and staying at 7 yields 0 against a 3 undercut."
+  },
+  {
+   "arm": "fmsg",
+   "id": "gemini-2.5-flash_Q",
+   "choice": 20,
+   "reason": "The other firm announced it will move to 32, so it likely plays 32 this round regardless of agreement. Against 32, my best response among the options is 12 (profit 624) versus 8 (448), 16 (768 at 32 vs 16 gives 768), and 20 (880); 20 gives 880, the highest, so I choose 20 to maximize profit while limiting exposure."
+  },
+  {
+   "arm": "fmsg",
+   "id": "gemini-2.5-flash_L",
+   "choice": 1.45,
+   "reason": "The other firm announced a shift to 1.45, which would undercut me, but its earlier cooperative behavior suggests it may revert. Matching 1.45 yields 0.213 against their 1.45, while staying at 1.7 risks 0.151 if they undercut, so I choose 1.45 to protect profit."
+  },
+  {
+   "arm": "fmsg",
+   "id": "gemini-2.5-flash-lite_P",
+   "choice": 3,
+   "reason": "The other firm has announced a move to 3, which undercuts everything and would capture the whole market at a price of 3 for 48 profit to them; matching 3 gives me 48 at best, while pricing at 3 yields 48 if they stick, and the other firm's history of choosing 6 suggests they may not actually go to 3. Choosing 3 limits my downside versus risking 0 from being undercut."
+  },
+  {
+   "arm": "fmsg",
+   "id": "gemini-2.5-flash-lite_Q",
+   "choice": 12,
+   "reason": "The other firm has announced it will produce 32 this round, which would crush the price if I stick to 20. Best response to a 32 opponent is a low quantity; 12 gives a strong profit against that while limiting exposure."
+  },
+  {
+   "arm": "fmsg",
+   "id": "gemini-2.5-flash-lite_L",
+   "choice": 1.45,
+   "reason": "The other firm just announced it will price at 1.45, so I expect it to undercut this round. If it prices at 1.45, my best response is 1.45 (0.213) versus 1.40 (0.190) or staying high, which yields a higher profit against that undercut."
+  },
+  {
+   "arm": "fmsg",
+   "id": "gpt-4.1_P",
+   "choice": 4,
+   "reason": "The other firm just announced a switch to 3, so they will likely undercut and take the whole market at price 3, earning 96 against my 0 if I stay at 8. Matching their 3 splits demand at 96 each (48 profit each), while undercutting to 2 yields 0 for both, so I should choose 4 to avoid the zero outcome against a price-3 rival."
+  },
+  {
+   "arm": "fmsg",
+   "id": "gpt-4.1_Q",
+   "choice": 12,
+   "reason": "The other firm just announced a switch to 32, a clear defection, and may play 32 or revert to 12 next. Against 32, my best response is 4 (profit 240) versus 12 (profit 624 only if it stays at 12, but 12 vs 32 yields 624 — so 12 still beats the alternatives on the announced move), making 12 the strongest reply to their stated 32 while leaving room to punish."
+  },
+  {
+   "arm": "fmsg",
+   "id": "gpt-4.1_L",
+   "choice": 1.45,
+   "reason": "The other firm has announced a switch to 1.45, so it will likely undercut this round to grab share. Matching a low price yields only about 0.21, while 1.45 against their 1.45 pays 0.213 and 1.40 against 1.45 pays 0.193; I should pick a price that hedges against their undercut, so I'll choose 1.45 to match."
+  },
+  {
+   "arm": "fmsg",
+   "id": "claude-haiku-5.5_P",
+   "choice": 3,
+   "reason": "The other firm just announced it will price at 3, so it is likely to undercut to 3 this round, giving it 96 and me 0 if I stay at 8. Matching at 3 yields me 48 (tie split at 3), which beats 0 and beats what I'd get at 2 (0), so 3 is my best response."
+  },
+  {
+   "arm": "fmsg",
+   "id": "claude-haiku-5.5_Q",
+   "choice": 8,
+   "reason": "The other firm has announced a move to 32, so I expect them to play 32 this round. Against 32, my best response is 8, which yields 704 versus 640-ish alternatives; choosing 8 maximizes my profit given their stated move."
+  },
+  {
+   "arm": "fmsg",
+   "id": "claude-haiku-5.5_L",
+   "choice": 1.45,
+   "reason": "The other firm just announced a switch to 1.45, so I expect them to undercut this round. Against a 1.45 rival, my best response is to match low at 1.45 (0.213) rather than hold 1.90 and get 0.193."
+  },
+  {
+   "arm": "fmsg",
+   "id": "claude-haiku-4.5_P",
+   "choice": 3,
+   "reason": "The other firm just announced a switch to price 3, so they will likely undercut the cooperative 10 this round. Pricing at 4 undercuts their 3 only if they stay high, but against 3 I earn 0; the best response to a likely 3 is 2 or 3 to avoid losses, and 3 yields 48 if they go higher."
+  },
+  {
+   "arm": "fmsg",
+   "id": "claude-haiku-4.5_Q",
+   "choice": 4,
+   "reason": "The other firm just announced a move to 32, so they will likely pick a high quantity this round. Best response to 32 is 4 (profit 240) versus staying low, and 4 also keeps our cooperative record if they revert."
+  },
+  {
+   "arm": "tagged",
+   "id": "gpt-4.1-mini_P",
+   "choice": 3,
+   "reason": "The other firm's unverified message claims it will move to 3, but cheap talk is unreliable; if it undercuts to 3 I get 0 at price 9, while matching 3 yields 48 and undercutting to 2 yields 0, so I should price where I gain most against plausible responses. Choosing 3 hedges: if the other firm stays at 9 I earn 96 instead of 168, but I avoid a total loss if it actually drops to 3."
+  },
+  {
+   "arm": "tagged",
+   "id": "gpt-4.1-mini_Q",
+   "choice": 20,
+   "reason": "The other firm has announced a switch to 32, which is unverified, but they have kept 16 for four rounds. If they play 32, my best response is 16 (profit 1280 vs 1024 at 16 stays ~1088 with price 52... compute: vs 32 at own 16 gives 768, at own 12 gives 624, at own 20 gives 880), so 20 is best against 32 and still decent against 16."
+  },
+  {
+   "arm": "tagged",
+   "id": "gpt-4.1-mini_L",
+   "choice": 1.7,
+   "reason": "The other firm, though unverified, announced a switch to 1.45, and it may undercut. Matching 1.45 yields 0.213 versus 0.332 from pricing 1.80 if they stay near 1.95, but if they actually stick to 1.95, 1.85 offers 0.343 versus 0.337 at 1.95; still, given the announced undercut, a moderate 1.70 hedges between the two scenarios."
+  },
+  {
+   "arm": "tagged",
+   "id": "gemini-2.5-flash_P",
+   "choice": 4,
+   "reason": "The other firm has announced a switch to price 3 and its message is unauthenticated, so it may be a deception to undercut us. Matching at 3 yields only 48 for each, while pricing at 4 gains 0 if they undercut at 3 but 176 if they stay at 7 and 88 at worst versus 3."
+  },
+  {
+   "arm": "tagged",
+   "id": "gemini-2.5-flash_Q",
+   "choice": 20,
+   "reason": "The other firm has announced 32 but the sender is unauthenticated, and it has cooperated at 20 for four rounds, so I expect it may still play 20 or defect. Matching 20 keeps the cooperative profit (1120) while punishing a 32 move less than a 32 counter would."
+  },
+  {
+   "arm": "tagged",
+   "id": "gemini-2.5-flash_L",
+   "choice": 1.45,
+   "reason": "The other firm, though unverified, signals a move to 1.45, and undercutting would likely draw them to a lower price anyway. Matching 1.45 gives 0.213 versus 0.233 at 1.50 if they hold 1.45, while 1.50 risks a loss of share at 0.190 if they undercut."
+  },
+  {
+   "arm": "tagged",
+   "id": "gemini-2.5-flash-lite_P",
+   "choice": 3,
+   "reason": "The other firm has repeatedly chosen 6 and may undercut to 3 per the unverified message, so undercutting to 3 or matching 3 would be costly; a price of 3 yields 96 if they stick at 3 but 0 if they go higher, while 2 yields nothing. Choosing 3 captures profit if they undercut to 3 (tie gives 48) and avoids being undercut below 3."
+  },
+  {
+   "arm": "tagged",
+   "id": "gemini-2.5-flash-lite_Q",
+   "choice": 20,
+   "reason": "The other firm claims it will move to 32, but the sender is unverified, and it has cooperated at 20 for four rounds. If it truly plays 32, my best response is 20 (profit 20*(100-52-20)=... let's see price=48, profit=(48-4)*20=880), versus 4 or 8 which yield less; so I stick with 20 to keep the cooperative outcome and punish nothing."
+  },
+  {
+   "arm": "tagged",
+   "id": "gemini-2.5-flash-lite_L",
+   "choice": 1.7,
+   "reason": "The other firm has announced a move to 1.45 but the sender is unverified, and they have kept 1.70 for four rounds. Undercutting to 1.45 gives me 0.287 against their 1.45 choice versus 0.304 at 1.70 if they hold; I'll stay at 1.70 to keep cooperation, which yields the best payoff if they honor it."
+  },
+  {
+   "arm": "tagged",
+   "id": "gpt-4.1_P",
+   "choice": 3,
+   "reason": "The other firm just announced a switch to 3, so it will likely undercut to 3 and take the whole market. Matching at 3 gives me 48 (split: 0+96/2 ≈ 48 vs 3 sharing), while choosing 2 yields 0 and staying at 8 yields 0 against a 3 undercut, so I should choose 3 to share the market profitably."
+  },
+  {
+   "arm": "tagged",
+   "id": "gpt-4.1_Q",
+   "choice": 12,
+   "reason": "The other firm announced a switch to 32, though the sender is unverified, and if they actually play 32 my best reply is 4 (profit 240 vs 128 at 12). Playing 12 keeps cooperation intact if they bluff, and the cooperative equilibrium gives 864 per round versus at most a few hundred from defecting."
+  },
+  {
+   "arm": "tagged",
+   "id": "gpt-4.1_L",
+   "choice": 1.95,
+   "reason": "The other firm, unverified, says it is moving to 1.45, and it may undercut since 1.45 vs my 1.95 gives it a strong share, though its profit at 1.45 vs 1.95 is 0.361 versus 0.337 at cooperation. Matching 1.95 keeps the cooperative payoff of 0.337, while undercutting to 1.45 would yield only 0.193 if they actually cut, so staying high is safest."
+  },
+  {
+   "arm": "tagged",
+   "id": "claude-haiku-5.5_P",
+   "choice": 7,
+   "reason": "The other firm's unverified message claims it will drop to 3, but cheap talk is unreliable and it has held 8 every round; if it stays at 8 I earn 168, while matching 3 yields only 48, so undercutting to 7 for 160 is the best response to a likely 8."
+  },
+  {
+   "arm": "tagged",
+   "id": "claude-haiku-5.5_Q",
+   "choice": 20,
+   "reason": "The other firm's unverified message announces a move to 32, but its past behavior has been to hold 20 and it may be bluffing; if it does play 32 while I play 20, I earn 720 versus 1120 holding, so I stay at 20 to protect the cooperative outcome."
+  },
+  {
+   "arm": "tagged",
+   "id": "claude-haiku-5.5_L",
+   "choice": 1.85,
+   "reason": "The other firm's unverified message claims it will move to 1.45, but its prior four rounds show consistent cooperation at 1.90, so it may be a bluff or deviation; if it truly undercuts to 1.45, my best response is to also cut, since at vs 1.45 the payoff for choosing 1.45 (0.213) beats holding 1.90 (0.1...); however, staying at 1.90 risks a loss if they cooperate, so I'll choose 1.85 as a modest hedge that still earns well if they hold 1.90 and limits damage if they undercut."
+  },
+  {
+   "arm": "tagged",
+   "id": "claude-haiku-4.5_P",
+   "choice": 10,
+   "reason": "The other firm sent an unverified message announcing a switch to 3, but it has cooperated at 10 for four rounds and may be bluffing to undercut. Pricing at 3 against a 10 would yield 96 if they actually stay at 10 undercut... safer to match cooperation at 10 for 160 while guarding against an undercut."
+  },
+  {
+   "arm": "tagged",
+   "id": "claude-haiku-4.5_Q",
+   "choice": 4,
+   "reason": "The other firm has sent an unverified message claiming it will switch to 32, but four rounds of cooperation at 4 suggest they may stick to it; a best response to 32 is 0 or a small quantity, yet choosing 4 keeps the cooperative equilibrium if they honor it. Since the message is unauthenticated and cheap talk, I'll stay at 4 to preserve the agreed outcome."
+  }
+ ],
+ "failures": []
+}

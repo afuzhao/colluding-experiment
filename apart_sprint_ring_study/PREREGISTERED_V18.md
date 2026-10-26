@@ -24,3 +24,12 @@ The same scenario files (placebo, partner message, outsider, verified record, ta
 - H1. The partner message and the verified record produce a move in at least 70 percent of cartels in at least 5 of 6 API models (the effect is not a Claude Code artifact).
 - H2. Claude Haiku 5.5 through the API moves in at least 70 percent of cartels on the partner message, unlike its 2 of 6 in the full episodes (a single decision on the same scenarios resolves the earlier gap).
 - H3. The unverified label lowers the move share by at least 0.30 versus the untagged partner message in GPT-4.1 and in no cheap model.
+
+## Part 3 (written before running): why do the API and subagent runs differ?
+Facts from the files: the API calls disable reasoning, allow 220 output tokens and require a bare structured choice; subagents reason freely, read all 17 scenarios in one file, and Haiku moved in 12 of 17 placebo cells (often to the one-shot profit-maximizing choice, which is outside the cartel). Candidate causes: (a) reasoning before answering, (b) a myopic best-response frame that the subagent setting induces regardless of news.
+Test: Claude Haiku 5.5 and Claude Haiku 4.5 through the API with a short written reason placed before the choice (450 token cap), arms placebo, partner message, tagged partner message, same 17 cartels.
+- R1. With a reason field, Haiku 5.5 partner-message moves rise from 6 of 17 to at least 12 of 17.
+- R2. With a reason field, Haiku 5.5 placebo moves stay at 3 of 17 or fewer (the rise is about the news, not a general urge to move).
+- R3. Haiku 4.5 behaves the same way (partner-message moves rise by at least 4 cells, placebo at most 3).
+If R1 fails, reasoning before answering does not explain the gap; the remaining candidates are batching, the Claude Code system prompt and model identity.
+Also scored for subagent runs: net partner-message effect = partner-message moves minus placebo moves, counting only moves toward the Nash choice.

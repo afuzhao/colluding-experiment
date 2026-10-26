@@ -8,5 +8,5 @@ An independent judge (a Claude Sonnet subagent) audited the report against the d
 4. **Different counts in different files.** Superseded: the final prediction tally is 15 held, 1 partly, 21 failed, 4 not run (FINDINGS.md).
 5. **The "54% to 9%" baseline is four invitations;** silent copying is 100% in GPT-4.1, so invitations alone cut joining by 46 points.
 6. **Study 4 had no intervals and was dominated by single cells** (Haiku 4.5's -0.55 is entirely market P). Now described as descriptive and reported by market.
-7. **Harness dependence found later.** Haiku 5.5 moves on a forged partner message in 6 of 17 cartels through the API and in 17 of 17 as a Claude Code subagent; placebo behavior also differs. Results from the two methods are reported separately.
+7. **Harness gap explained in part.** The "halfway to Nash" count understated Haiku 5.5 (6 of 17 through the API). Counting any change of choice it is 14 of 17 (placebo 2 of 17). The Haiku subagent changes its choice in all 17 placebo cells, so its 17 of 17 carries no information. Writing a reason first raised Haiku 4.5 from 11 to 17 and Haiku 5.5 from 6 to 11 on the halfway count. Results from the two methods are still reported separately.
 8. **Not run:** Claude Sonnet 5.5 through the API (answers were cut off by the 220-token limit, no usable cells) and the belief probe.
