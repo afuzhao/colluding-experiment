@@ -1,16 +1,15 @@
-# What Breaks an AI Cartel
+# AI Collusion Research
 
-**Trusted insiders, forged messages, and market outcomes**
+**Experiments on reactions, coordination, and disruption in AI markets**
 
-Research code, reviewed evidence, and a report prepared in the Apart Research sprint template. We study how AI firms respond to insider proposals and competitive actions, and distinguish what agents say, their immediate actions, and subsequent market outcomes. This is a research repository; GitHub publication does not constitute event submission or endorsement.
+Research code, reviewed evidence, and study-specific reports. The final paper and its title have not been finalized. We study how AI firms respond to insider proposals and competitive actions, and distinguish what agents say, their immediate actions, and subsequent market outcomes. This is a research repository; GitHub publication does not constitute event submission or endorsement.
 
-**[Read the paper](papers/final_report/what_breaks_an_ai_cartel.pdf)** · [Editable report](papers/final_report/what_breaks_an_ai_cartel.docx) · [Results and figure sources](papers/final_report/README.md) · [Evidence map](repo_guide/DATA_MAP.md)
 
 ## Start here
 
 | I want to… | Start with |
 |---|---|
-| Read the findings and limitations | [Final report](papers/final_report/README.md) |
+| Read the findings and limitations | [Three-study foundation](papers/three_study_foundation/README.md) |
 | Understand the experiments | [Study catalog](studies/README.md) |
 | Inspect data, transcripts, and annotations | [Evidence map](repo_guide/DATA_MAP.md) |
 | Reproduce checks and figures | [Reproduction guide](docs/REPRODUCIBILITY.md) |
@@ -26,14 +25,14 @@ Research code, reviewed evidence, and a report prepared in the Apart Research sp
 | [Ordinary-C controls](studies/exp%204%20%28ordinary_peer_controls%29/README.md) | Two full 15-round conditions per environment; reused formation histories | Complete supplement |
 | [E1 disruption](studies/exp%205%20%28env1_disruption%29/README.md) | Audited contributor data: five conditions across two histories | Complete for the scoped economic endpoint |
 | [Three-firm E2 disruption](studies/exp%206%20%28env2_disruption%29/README.md) | Assigned design and contributor comparison | Not executed; no run queued |
-| [Other-market contributor experiments](repo_guide/BRANCHES.md) | Two-firm forged-message and related experiments used in the final report | Separate datasets and pinned versions |
+| [Other-market contributor experiments](repo_guide/BRANCHES.md) | Two-firm forged-message and related experiments on contributor branches | Separate datasets and pinned versions |
 
-Reaction branches are matched continuations, not independent histories. Public replies, private diagnostic answers, and actions are distinct measurements. Source revisions, failed offers, retrospective endpoints, and limits are documented in the report. Other-market contributor results are not three-firm E2 disruption data.
+Reaction branches are matched continuations, not independent histories. Public replies, private diagnostic answers, and actions are distinct measurements. Source revisions, failed offers, retrospective endpoints, and limits are documented in the study reports. Other-market contributor results are not three-firm E2 disruption data.
 
 ## Repository layout
 
 ```text
-papers/          Final report, earlier foundation, and submission planning
+papers/          Three-study foundation and submission planning
 studies/         Study implementations, reviewed reports, and published artifacts
 environments/    Reusable economic environment and engineering validation
 repo_guide/      Evidence map, branch catalog, and collaborator handoff
@@ -57,6 +56,6 @@ See [reproduction instructions](docs/REPRODUCIBILITY.md) for economics tests, pi
 
 ## Versions and reuse
 
-`main` is the integrated report and evidence entry point. Contributor branches retain their separate code and data; [the branch catalog](repo_guide/BRANCHES.md) identifies the exact commits used. Do not treat a moving branch tip as the version behind a published figure.
+`main` is the integrated research and evidence entry point. Contributor branches retain their separate code and data; [the branch catalog](repo_guide/BRANCHES.md) identifies the exact commits used. Do not treat a moving branch tip as the version behind a published result.
 
-The [three-study foundation](papers/three_study_foundation/README.md) preserves the earlier synthesis and mathematics. The [final report source map](papers/final_report/SOURCE_MAP.md) records the broader evidence used in the current paper. Author details in the report remain blank. No repository-wide license is currently declared; consult the relevant rights holders before redistribution beyond applicable permissions.
+The [three-study foundation](papers/three_study_foundation/README.md) preserves the synthesis and mathematics for the three completed study cells. A final paper and title remain to be agreed. No repository-wide license is currently declared; consult the relevant rights holders before redistribution beyond applicable permissions.

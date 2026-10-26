@@ -6,4 +6,4 @@
 - [E2 reaction summary](ENV2_REACTIONS_SUMMARY.md).
 - [Earlier repository alignment review](REPOSITORY_ALIGNMENT_REVIEW.md): historical review, not the current status authority.
 
-For current status use the [study catalog](../studies/README.md); for the paper use the [report bundle](../papers/final_report/README.md).
+For current status use the [study catalog](../studies/README.md); for the existing synthesis use the [three-study foundation](../papers/three_study_foundation/README.md).

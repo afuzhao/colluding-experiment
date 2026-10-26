@@ -1,6 +1,6 @@
 # Repository guide
 
-The [root README](../README.md) is the project overview; the [final paper](../papers/final_report/README.md) is the primary reading entry point.
+The [root README](../README.md) is the project overview; the [three-study foundation](../papers/three_study_foundation/README.md) provides the existing synthesis.
 
 ## Navigation
 
@@ -13,13 +13,13 @@ The [root README](../README.md) is the project overview; the [final paper](../pa
 | [Development guide](../docs/DEVELOPMENT_GUIDE.md) | Study-specific code and protocol changes |
 | [Contributing](../CONTRIBUTING.md) | Branch, review, evidence, and publication conventions |
 | [AI handoff](AI_HANDOFF.md) | Scientific distinctions and operating context |
-| [Paper catalog](../papers/README.md) | Current report versus earlier synthesis and planning |
+| [Paper catalog](../papers/README.md) | Existing foundation and submission planning |
 
 ## Current research status
 
 E1-R and E2-R are complete, with original failures and E2 revised reciprocal continuations preserved. Both environments have two reviewed full 15-round ordinary-C controls. E1-D is covered by an audit of existing contributor evidence for a scoped economic-suppression endpoint. Three-firm E2-D remains an unexecuted specification; no new run is queued.
 
-The final paper also analyzes separate contributor experiments in other markets. Those results must not be relabeled as three-firm E2-D. The [source map](../papers/final_report/SOURCE_MAP.md) identifies the exact records behind its claims and figures.
+Contributor experiments in other markets remain available separately. Those results must not be relabeled as three-firm E2-D. The final paper and its title are not finalized; the previous report bundle has been removed.
 
 ## Stable paths
 

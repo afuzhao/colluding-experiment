@@ -2,7 +2,6 @@
   "inventory_date": "2026-10-26",
   "repository": "afuzhao/colluding-experiment",
   "default_branch": "main",
-  "report_baseline": "65c82a226f7765886bc73529ce0d19e63997446d",
   "branches": [
     {
       "name": "main",
@@ -12,7 +11,7 @@
       "name": "sumin/disruption",
       "role": "quantity disruption source",
       "observed_tip": "a10db995c8d0e8206d4ae935118cf9b8727fc067",
-      "report_commits": [
+      "audited_commits": [
         "a10db995c8d0e8206d4ae935118cf9b8727fc067"
       ]
     },
@@ -20,7 +19,7 @@
       "name": "anay/apart-sprint-ring-study",
       "role": "separate market and message experiments",
       "observed_tip": "07a92fc01832d131cb7d77970ea3ff0e73a53b55",
-      "report_commits": [
+      "audited_commits": [
         "e3c0b8790cd2fb802251187faa72a71a6f98c767",
         "07a92fc01832d131cb7d77970ea3ff0e73a53b55"
       ]

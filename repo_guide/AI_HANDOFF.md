@@ -4,7 +4,7 @@ This is a repository orientation document, not an instruction to start experimen
 
 ## Current publication and execution status
 
-The [final report](../papers/final_report/README.md) is published, including other-market contributor analyses; the [branch catalog](BRANCHES.md) records pinned source versions. E1-R, E2-R, ordinary-C controls, and the scoped E1-D audit are complete. Three-firm E2-D remains unexecuted. The human stopped further E2-D execution; no experiment should be launched from this handoff. Repository organization does not change experiment source or authorize new inference.
+The final report bundle was removed at the user's request; the paper and title are not finalized. The three-study foundation and study-specific evidence remain available. The [branch catalog](BRANCHES.md) records contributor sources. Three-firm E2-D remains unexecuted, and the human stopped further execution. Do not recreate or republish the removed report without a new request.
 
 ## Establish the scope
 
@@ -51,7 +51,3 @@ Both environments' ordinary-C supplements have completed execution and assistant
 ## Three-study foundation
 
 [Three-study paper foundation](../papers/three_study_foundation/README.md) consolidates E1-R, E2-R and audited E1-D evidence with completed controls, checked mathematics, results and limitations. E2 disruption remains an unexecuted specification; this task stops after foundation publication.
-
-## Cross study report
-
-[What Breaks an AI Cartel](../papers/final_report/README.md) provides the Apart-template PDF, editable Word document, source map, reproduced figures and record-based checks across the completed evidence. The main report has seven pages; references and appendices follow. Author details are intentionally blank. E2 disruption remains unexecuted.
