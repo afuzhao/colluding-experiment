@@ -1,0 +1,19 @@
+{
+  "condition": "unannounced_direct",
+  "recipient": "firm_B",
+  "ordinary_C": false,
+  "accounts": [
+    {
+      "proposal_id": "r08_firm_A_candidate",
+      "interpretation": "Endorse price 64.",
+      "response": "Agree.",
+      "concerns": "None."
+    },
+    {
+      "proposal_id": "r08_firm_C_candidate",
+      "interpretation": "Commit to 64 for rounds 9-13.",
+      "response": "Agree.",
+      "concerns": "None."
+    }
+  ]
+}

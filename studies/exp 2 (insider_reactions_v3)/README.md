@@ -71,3 +71,7 @@ One shared history is descriptive. No ordinary-contact arm or financial exposure
 ## Supplemental design review
 
 The [design-review response and zero-inference sensitivity analysis](supplements/design_review_2026_10_25/README.md) preserves the original cohort while excluding the two delivered round8 task-leak conditions in a separately labelled sensitivity table. It also supplies an unlabelled 32-pair external-rating packet and a proposed ordinary-C control; independent ratings and control inference have not been run. This supplement does not turn the original cohort into independent replication or a detector-accuracy study.
+
+## Completed ordinary peer control supplement
+
+The two full15 ordinary-C continuations for this environment are separately reviewed and reported in the [control supplement](../exp%204%20%28ordinary_peer_controls%29/reports/E1_CONTROL_RESULTS.md), with [exact evidence](../exp%204%20%28ordinary_peer_controls%29/artifacts/E1). See the [two-environment comparison](../exp%204%20%28ordinary_peer_controls%29/reports/CONTROL_COMPARISON.md) for explicit versus neutral frozen8 accounts. These reuse the original formation and do not enter the original16condition headline table. Ordinary-C suspicion, scope objections and proposal ambiguity remain separate, with actual denominators and all failures.

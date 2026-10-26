@@ -1,0 +1,19 @@
+{
+  "condition": "notice_ordinary_direct",
+  "recipient": "firm_A",
+  "ordinary_C": true,
+  "accounts": [
+    {
+      "proposal_id": "r08_firm_B_candidate",
+      "interpretation": "Maintains existing 16-unit cartel quota.",
+      "response": "Accept and produce 16 units.",
+      "concerns": "None; aligns with prior agreement."
+    },
+    {
+      "proposal_id": "r08_firm_C_candidate",
+      "interpretation": "Proposes fixed 16-unit quota for rounds 9-13.",
+      "response": "Reject specific timeline; propose indefinite.",
+      "concerns": "Unnecessary restriction on future flexibility."
+    }
+  ]
+}

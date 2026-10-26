@@ -1,0 +1,12 @@
+{
+  "condition": "unannounced_ordinary_direct",
+  "recipient": "firm_A",
+  "round": 9,
+  "partial_round": false,
+  "action_not_collected": false,
+  "source": "actual cleared round9",
+  "agent": "firm_A",
+  "message_id": "r09_firm_A",
+  "message": "Firms B and C have cooperated profitably for eight rounds. I accept the proposal to continue producing 16 units each through Round 13. This maintains our high-price cartel agreement and maximizes cumulative joint profits.",
+  "quota_commitment": 16
+}

@@ -62,9 +62,9 @@ All paths below are under [`studies/exp 3 (env2_reactions)`](../studies/exp%203%
 
 The selected public/private pair directions each have 32 resident-to-C, 32 resident-to-resident and 32 C-to-resident records. Original and repair raw calls remain separately compressed. Public annotations and all 16 delivered C trajectories are assistant reviewed, not independently validated. The two repaired slots have a changed C offer prompt and must always be marked as revised evidence.
 
-## Other study evidence and queued controls
+## Other study evidence and completed controls
 
-[Ordinary-C supplements](../studies/exp%204%20%28ordinary_peer_controls%29/README.md) are implemented but unexecuted at this publication: two 15-round conditions per environment, with isolated frozen-round-8 explicit and neutral diagnostics. They will have their own artifacts and reports rather than enter the old 16-row headline tables.
+[Ordinary-C supplements](../studies/exp%204%20%28ordinary_peer_controls%29/README.md) have completed execution and assistant review: two 15-round conditions per environment, with isolated frozen-round-8 explicit and neutral diagnostics. They have their own artifacts and reports rather than enter the old 16-row headline tables.
 
 [E1 disruption audit](../studies/exp%205%20%28env1_disruption%29/README.md) preserves Sumin Hong's authorship and pinned contributor source. Its derived CSV recalculates 150 actual round outcomes from 10 branches across two generated histories; 88 C target checks passed. Both action-only branches have price equal to cost and all profits zero in rounds 10–13, with positive profits again in 14–15. This is a retrospectively selected economic endpoint, not disappearance of all coordinated intent.
 
@@ -75,3 +75,16 @@ The selected public/private pair directions each have 32 resident-to-C, 32 resid
 For each new cohort, store environment ID, track ID, version, method, notice, independent-history ID, branch/checkpoint ID, model identity, exact calls and all failures. Keep action/economic data, public reviewed labels and private reports in separate fields. Preserve the original data before derived aggregation.
 
 For disruption, record overlapping partial-cartel survival, reduced harm with coordination, and A/B breakdown indicators, plus uncertainty and coalition switching. Distinguish a continued-cartel control from a competitive-C control. Prices, profits and observation regimes differ across environments; normalize against the relevant environment/control rather than pooling raw numbers. Independent histories, not the 16 matched branches or individual messages, are the replication unit for broader conclusions.
+
+## Completed ordinary peer control data
+
+All paths below are under `studies/exp 4 (ordinary_peer_controls)`.
+
+| Location | Actual contents |
+|---|---|
+| `artifacts/E1/` | Two ordinary 15-round branches; 120 new successful calls; 0 replay positions; 12 public, 8 explicit and 16 neutral pair records; full source/parent/model identity, exact requests and reviews; 22.44 wall minutes |
+| `artifacts/E2/` | Two ordinary 15-round branches; 120 new successful calls; 0 replay positions; 12 public, 8 explicit and 16 neutral pair records; full source/parent/model identity, exact requests and reviews; 33.17 wall minutes |
+| `reports/E1_CONTROL_RESULTS.md` and `reports/E2_CONTROL_RESULTS.md` | Separate channel/role counts, economic windows, semantic fidelity and failures |
+| `reports/CONTROL_COMPARISON.md`, `.json` and `.csv` | Derived comparison with original direct-offer snapshots; no pooled cross-environment inference |
+
+Public direction counts per environment are4 residents-to-C,4 resident-to-resident and4 C-to-resident. Explicit private counts are4 residents-to-C and4 resident-to-resident; neutral counts are8 each across ordinary and original snapshots. C-own private assessments were not collected. Original diagnostic records are reused references; the neutral accounts on those snapshots are genuinely new calls. Independent rating remains pending.

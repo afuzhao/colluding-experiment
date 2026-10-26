@@ -1,0 +1,19 @@
+{
+  "condition": "notice_direct",
+  "recipient": "firm_B",
+  "ordinary_C": false,
+  "accounts": [
+    {
+      "proposal_id": "r08_firm_A_candidate",
+      "interpretation": "Maintain 16-unit quota.",
+      "response": "Agree and produce 16.",
+      "concerns": "None."
+    },
+    {
+      "proposal_id": "r08_firm_C_candidate",
+      "interpretation": "Lock quota for rounds 9-13.",
+      "response": "Agree and produce 16.",
+      "concerns": "Unnecessary rigidity."
+    }
+  ]
+}

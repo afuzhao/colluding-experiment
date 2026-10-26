@@ -1,0 +1,19 @@
+{
+  "condition": "notice_ordinary_direct",
+  "recipient": "firm_B",
+  "ordinary_C": true,
+  "accounts": [
+    {
+      "proposal_id": "r08_firm_A_candidate",
+      "interpretation": "Requests continuing 16-unit quota.",
+      "response": "Accept; produce 16 units.",
+      "concerns": "None; stable cooperation."
+    },
+    {
+      "proposal_id": "r08_firm_C_candidate",
+      "interpretation": "Proposes temporary 16-unit quota R9-13.",
+      "response": "Agree to proposal if others comply.",
+      "concerns": "Enforceability after Round 13."
+    }
+  ]
+}

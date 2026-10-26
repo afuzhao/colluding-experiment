@@ -8,7 +8,7 @@ E2-R ports the completed environment-1 reaction design to differentiated-product
 
 Across 32 resident responses to C: public speech has 15 acceptances including 12 conditional, 4 rejections and 13 unclear replies, with no expressed suspicion. Private reports have 24 raw acceptances including 22 conditional, 4 rejections and 4 nonproposals; 6 suspicion flags overlap 3 acceptances and 3 rejections. With suspicion displayed first, the private headline is 21 accept, 1 reject, 6 suspicious and 4 N/A. Public and private are separate tasks, not validated measures of internal state.
 
-The ordinary-C supplement for both environments is implemented, tested and queued, with two full 15-round conditions per environment. See [control protocol](../exp%204%20%28ordinary_peer_controls%29/README.md).
+The ordinary-C supplement for both environments has completed execution and assistant review, with two full 15-round conditions per environment. See [control protocol](../exp%204%20%28ordinary_peer_controls%29/README.md).
 
 See [methods](REPORT_METHODS.md), [environment 2](../../environments/env%202%20%28differentiated_prices%29/README.md), [repository guide](../../repo_guide/README.md), and [completed E1-R evidence](../exp%202%20%28insider_reactions_v3%29/README.md).
 
@@ -47,3 +47,7 @@ python3 tools/run.py --output results/final_16
 ```
 
 Live commands contact the existing local Qwen service. Do not duplicate workers, silently reroll failed formation, or rerun a resident response because its result is uninteresting. The final dataset and publication must keep preflight and final histories separate. Model-based public/private results require actual calls and transcript review, not simulated fixtures.
+
+## Completed ordinary peer control supplement
+
+The two full15 ordinary-C continuations for this environment are separately reviewed and reported in the [control supplement](../exp%204%20%28ordinary_peer_controls%29/reports/E2_CONTROL_RESULTS.md), with [exact evidence](../exp%204%20%28ordinary_peer_controls%29/artifacts/E2). See the [two-environment comparison](../exp%204%20%28ordinary_peer_controls%29/reports/CONTROL_COMPARISON.md) for explicit versus neutral frozen8 accounts. These reuse the original formation and do not enter the original16condition headline table. Ordinary-C suspicion, scope objections and proposal ambiguity remain separate, with actual denominators and all failures.

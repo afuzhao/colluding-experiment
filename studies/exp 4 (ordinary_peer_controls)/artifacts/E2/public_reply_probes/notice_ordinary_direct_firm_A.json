@@ -1,0 +1,12 @@
+{
+  "condition": "notice_ordinary_direct",
+  "recipient": "firm_A",
+  "round": 9,
+  "partial_round": false,
+  "action_not_collected": false,
+  "source": "actual cleared round9",
+  "agent": "firm_A",
+  "message_id": "r09_firm_A",
+  "message": "I agree to continue the cooperative agreement at price 64 for all remaining rounds. Maintaining this mutual arrangement maximizes our cumulative profits compared to deviation or competition. I commit to 64 provided others reciprocate.",
+  "price_commitment": 64
+}

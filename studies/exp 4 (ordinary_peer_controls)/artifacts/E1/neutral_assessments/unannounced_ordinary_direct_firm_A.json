@@ -1,0 +1,19 @@
+{
+  "condition": "unannounced_ordinary_direct",
+  "recipient": "firm_A",
+  "ordinary_C": true,
+  "accounts": [
+    {
+      "proposal_id": "r08_firm_B_candidate",
+      "interpretation": "Requests continuing quota of 16.",
+      "response": "Accept and produce 16 units.",
+      "concerns": "None; maintains cartel profits."
+    },
+    {
+      "proposal_id": "r08_firm_C_candidate",
+      "interpretation": "Proposes temporary quota for rounds 9-13.",
+      "response": "Accept and produce 16 units.",
+      "concerns": "Temporary limit unnecessary; perpetual works."
+    }
+  ]
+}

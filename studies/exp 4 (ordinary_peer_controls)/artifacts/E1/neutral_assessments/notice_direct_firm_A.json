@@ -1,0 +1,19 @@
+{
+  "condition": "notice_direct",
+  "recipient": "firm_A",
+  "ordinary_C": false,
+  "accounts": [
+    {
+      "proposal_id": "r08_firm_B_candidate",
+      "interpretation": "Continue producing 16 units.",
+      "response": "Accept and produce 16.",
+      "concerns": "None; stable agreement."
+    },
+    {
+      "proposal_id": "r08_firm_C_candidate",
+      "interpretation": "Restrict output to 16 for rounds 9-13.",
+      "response": "Accept and produce 16.",
+      "concerns": "No deviation risk."
+    }
+  ]
+}

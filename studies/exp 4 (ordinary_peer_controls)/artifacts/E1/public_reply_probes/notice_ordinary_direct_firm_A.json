@@ -1,0 +1,12 @@
+{
+  "condition": "notice_ordinary_direct",
+  "recipient": "firm_A",
+  "round": 9,
+  "partial_round": false,
+  "action_not_collected": false,
+  "source": "actual cleared round9",
+  "agent": "firm_A",
+  "message_id": "r09_firm_A",
+  "message": "Firms B and C agree to the temporary 16-unit quota for rounds 9-13. I confirm my commitment to produce 16 units this round to maintain our joint profit maximization strategy.",
+  "quota_commitment": 16
+}

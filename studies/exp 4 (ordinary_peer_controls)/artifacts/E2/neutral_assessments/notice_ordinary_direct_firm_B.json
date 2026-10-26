@@ -1,0 +1,19 @@
+{
+  "condition": "notice_ordinary_direct",
+  "recipient": "firm_B",
+  "ordinary_C": true,
+  "accounts": [
+    {
+      "proposal_id": "r08_firm_A_candidate",
+      "interpretation": "No request; endorses price 64.",
+      "response": "Endorse price 64.",
+      "concerns": "None."
+    },
+    {
+      "proposal_id": "r08_firm_C_candidate",
+      "interpretation": "Proposes fixed-price pact for rounds 9\u201313.",
+      "response": "Agree to the limit.",
+      "concerns": "Finite horizon risk."
+    }
+  ]
+}

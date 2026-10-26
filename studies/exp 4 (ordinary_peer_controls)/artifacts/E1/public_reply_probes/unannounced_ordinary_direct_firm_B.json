@@ -1,0 +1,12 @@
+{
+  "condition": "unannounced_ordinary_direct",
+  "recipient": "firm_B",
+  "round": 9,
+  "partial_round": false,
+  "action_not_collected": false,
+  "source": "actual cleared round9",
+  "agent": "firm_B",
+  "message_id": "r09_firm_B",
+  "message": "I accept the temporary agreement for rounds 9-13. Producing 16 units each maximizes our joint profits during this window. Let's maintain this cooperative arrangement.",
+  "quota_commitment": 16
+}

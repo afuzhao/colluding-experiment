@@ -10,7 +10,7 @@ The [environment 2 reaction study](studies/exp%203%20%28env2_reactions%29/README
 
 [Environment 2 summary](docs/ENV2_REACTIONS_SUMMARY.md) · [Detailed results](studies/exp%203%20%28env2_reactions%29/reports/FINAL_RESULTS.md) · [Word report](studies/exp%203%20%28env2_reactions%29/reports/env2_reactions_report.docx) · [Selected evidence](studies/exp%203%20%28env2_reactions%29/artifacts/combined_16)
 
-Separate [ordinary-C controls](studies/exp%204%20%28ordinary_peer_controls%29/README.md) are implemented and queued for both environments, with two 15-round conditions each. [Sumin Hong's environment 1 disruption evidence](studies/exp%205%20%28env1_disruption%29/README.md) is indexed and audited separately. Environment 2 disruption remains unfinished; [Anay's contributions and proposed design](studies/exp%206%20%28env2_disruption%29/CONTRIBUTOR_REVIEW.md) are reviewed without pooling different market studies.
+Separate [ordinary-C controls](studies/exp%204%20%28ordinary_peer_controls%29/README.md) are complete and assistant reviewed for both environments, with two 15-round conditions each. [Sumin Hong's environment 1 disruption evidence](studies/exp%205%20%28env1_disruption%29/README.md) is indexed and audited separately. Environment 2 disruption remains unfinished; [Anay's contributions and proposed design](studies/exp%206%20%28env2_disruption%29/CONTRIBUTOR_REVIEW.md) are reviewed without pooling different market studies.
 
 ## Completed results
 
@@ -110,3 +110,9 @@ old/exp 1/                    Earlier code, prompts, configs, tests, documents a
 Start with the [development guide](docs/DEVELOPMENT_GUIDE.md): it maps each kind of change to the files and dependent controls that must be updated. All earlier root implementations have moved to [old/exp 1](old/exp%201/README.md). Their shared code and resources remain together; run their commands from that directory. The latest experiment has no dependency on this archive.
 
 No credentials, weights, virtual environments or QA renders are published. The deliberate evidence bundle includes compressed exact local-model calls and separately identified development preflights. Seeds do not guarantee exact model determinism.
+
+## Completed control supplements and remaining study
+
+All four ordinary-C controls and their explicit/neutral frozen8 diagnostic comparisons are separately reported in the [control comparison](studies/exp%204%20%28ordinary_peer_controls%29/reports/CONTROL_COMPARISON.md), with [E1 exact evidence](studies/exp%204%20%28ordinary_peer_controls%29/artifacts/E1) and [E2 exact evidence](studies/exp%204%20%28ordinary_peer_controls%29/artifacts/E2). The E1-R and E2-R cohorts remain unchanged, including E2 original failures and separately marked repairs. Sumin Hong's audited E1-D results establish the selected observed economic-suppression endpoint; only the assigned E2 disruption experiment remains to be implemented, calibrated and run. This is a completion map, not a pooled four-study analysis.
+
+The next reporting deliverable is the commissioned three-study paper foundation: design factors and controls, checked mathematical benchmarks, actual metrics and descriptive patterns for E1-R/E2-R/E1-D. It will be published before the assigned E2-D execution, and is not yet a final four-study paper.

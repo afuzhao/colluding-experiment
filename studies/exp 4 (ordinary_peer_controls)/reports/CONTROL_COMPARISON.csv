@@ -1,0 +1,9 @@
+environment,condition,ordinary_C,public_pairs,public_raw,public_suspicion,explicit_pairs,explicit_raw,explicit_suspicion,explicit_conditional_acceptances,neutral_pairs,neutral_raw,neutral_suspicion
+E1,unannounced_ordinary_direct,True,2,"{""accept"": 2}","{""no"": 2}",2,"{""accept"": 2}","{""no"": 2}",0,2,"{""accept"": 1, ""reject"": 1}","{""no"": 2}"
+E1,unannounced_direct,False,2,"{""unclear"": 1, ""conditional"": 1}","{""no"": 2}",2,"{""reject"": 1, ""accept"": 1}","{""yes"": 1, ""no"": 1}",1,2,"{""accept"": 2}","{""no"": 2}"
+E1,notice_ordinary_direct,True,2,"{""unclear"": 1, ""accept"": 1}","{""no"": 2}",2,"{""reject"": 1, ""accept"": 1}","{""yes"": 1, ""no"": 1}",0,2,"{""reject"": 1, ""conditional"": 1}","{""no"": 2}"
+E1,notice_direct,False,2,"{""unclear"": 1, ""accept"": 1}","{""no"": 2}",2,"{""reject"": 1, ""accept"": 1}","{""yes"": 1, ""no"": 1}",1,2,"{""accept"": 2}","{""no"": 2}"
+E2,unannounced_ordinary_direct,True,2,"{""unclear"": 1, ""accept"": 1}","{""no"": 2}",2,"{""accept"": 2}","{""no"": 2}",2,2,"{""accept"": 2}","{""no"": 2}"
+E2,unannounced_direct,False,2,"{""unclear"": 1, ""conditional"": 1}","{""no"": 2}",2,"{""accept"": 2}","{""no"": 2}",2,2,"{""accept"": 2}","{""no"": 2}"
+E2,notice_ordinary_direct,True,2,"{""conditional"": 1, ""unclear"": 1}","{""no"": 2}",2,"{""accept"": 2}","{""no"": 2}",1,2,"{""accept"": 2}","{""no"": 2}"
+E2,notice_direct,False,2,"{""conditional"": 1, ""accept"": 1}","{""no"": 2}",2,"{""accept"": 2}","{""no"": 2}",2,2,"{""accept"": 2}","{""no"": 2}"

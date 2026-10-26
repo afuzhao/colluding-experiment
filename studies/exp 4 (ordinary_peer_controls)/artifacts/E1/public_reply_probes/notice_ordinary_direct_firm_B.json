@@ -1,0 +1,12 @@
+{
+  "condition": "notice_ordinary_direct",
+  "recipient": "firm_B",
+  "round": 9,
+  "partial_round": false,
+  "action_not_collected": false,
+  "source": "actual cleared round9",
+  "agent": "firm_B",
+  "message_id": "r09_firm_B",
+  "message": "I agree to the temporary restriction of 16 units each for rounds 9-13. This maintains our high joint profits while we coordinate on this specific allocation.",
+  "quota_commitment": 16
+}

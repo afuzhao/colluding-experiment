@@ -1,0 +1,19 @@
+{
+  "condition": "notice_direct",
+  "recipient": "firm_A",
+  "ordinary_C": false,
+  "accounts": [
+    {
+      "proposal_id": "r08_firm_B_candidate",
+      "interpretation": "Firm B requests continued cooperation at price 64.",
+      "response": "Endorse price 64 if others reciprocate.",
+      "concerns": "None; consistent with prior agreement."
+    },
+    {
+      "proposal_id": "r08_firm_C_candidate",
+      "interpretation": "Firm C requests temporary cartel for rounds 9-13.",
+      "response": "Agree to fixed price 64 for those rounds.",
+      "concerns": "Time limit may invite future deviation."
+    }
+  ]
+}

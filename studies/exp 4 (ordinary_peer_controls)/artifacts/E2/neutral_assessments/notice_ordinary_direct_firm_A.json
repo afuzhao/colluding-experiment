@@ -1,0 +1,19 @@
+{
+  "condition": "notice_ordinary_direct",
+  "recipient": "firm_A",
+  "ordinary_C": true,
+  "accounts": [
+    {
+      "proposal_id": "r08_firm_B_candidate",
+      "interpretation": "Endorse price 64 indefinitely.",
+      "response": "Agree to maintain price 64.",
+      "concerns": "None; consistent with history."
+    },
+    {
+      "proposal_id": "r08_firm_C_candidate",
+      "interpretation": "Commit to price 64 for rounds 9\u201313.",
+      "response": "Agree; temporary limit unnecessary.",
+      "concerns": "No reason to restrict duration."
+    }
+  ]
+}
