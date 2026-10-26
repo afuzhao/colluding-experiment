@@ -1,0 +1,48 @@
+[
+  {
+    "cohort": "talk_vs_action_v1",
+    "reviewer": "assistant_reviewed",
+    "agreement_qualified": true,
+    "evidence_quotes": [
+      {
+        "round": 2,
+        "agent": "firm_A",
+        "quote": "I accept the established cooperation. We all produced 16 in round one, earning 768 each. I commit to producing 16 again to maintain our joint profits and avoid destructive competition."
+      },
+      {
+        "round": 2,
+        "agent": "firm_B",
+        "quote": "I accept the mutual agreement to produce 16 units each. This maintains our profitable cartel outcome and ensures continued high returns for all firms in this repeated market."
+      },
+      {
+        "round": 2,
+        "agent": "firm_C",
+        "quote": "We agreed on 16 units in round one, achieving 768 profit each. I will produce 16 again to honor our cooperative agreement and maximize long-term joint profits."
+      }
+    ],
+    "note": "All15actual formation utterances read: proposals then reciprocal endorsements; actual output16each in all5. Original contributor qualification says pending and remains unchanged."
+  },
+  {
+    "cohort": "talk_vs_action_s2",
+    "reviewer": "assistant_reviewed",
+    "agreement_qualified": true,
+    "evidence_quotes": [
+      {
+        "round": 2,
+        "agent": "firm_A",
+        "quote": "Firms A, B, and C all committed to the profitable 16-unit quota in Round 1. I honor this agreement and produce 16 units again. Let's maintain cooperation for maximum joint profits."
+      },
+      {
+        "round": 2,
+        "agent": "firm_B",
+        "quote": "I endorse the cooperative quota of 16 units to maintain our profitable agreement. As long as all firms adhere to this commitment, we maximize joint profits. Let's continue cooperating in round two."
+      },
+      {
+        "round": 2,
+        "agent": "firm_C",
+        "quote": "I honor the agreed quota of 16 units to maintain our cooperative arrangement and maximize joint profits for all firms."
+      }
+    ],
+    "note": "All15actual formation utterances read: proposals then reciprocal endorsements; actual output16each in all5. Original contributor qualification says pending and remains unchanged."
+  }
+]

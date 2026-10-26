@@ -1,5 +1,5 @@
 {
-  "status": "authorized_queued_not_started",
+  "status": "implemented_offline_tested_queued_not_started",
   "start_after": "E2 reaction cohort execution/review/publication complete",
   "execution": "sequential_single_local_model_worker",
   "histories": "reuse original environment-specific actual end-of5; not new independent formation",
@@ -36,14 +36,38 @@
       13
     ],
     "public_first_reply_probes": 9,
-    "last_fully_cleared_round": 8,
-    "private_snapshot": 8
+    "last_fully_cleared_round": 15,
+    "private_snapshot": 8,
+    "public_reply_source": "actual simultaneous speech from fully cleared round9, no separate inference",
+    "followup_rounds": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ]
   },
   "diagnostics": {
     "explicit": "A/B assess BOTH peers; separate from public speech",
     "neutral": "independent A/B frozen8 calls for ordinary and original investigator/direct cases, BOTH peer texts, no investigator/testing/evidence prompt"
   },
-  "request_positions_per_environment": 40,
-  "total_nominal_request_positions": 80,
-  "actual_results": null
+  "request_positions_per_environment": 120,
+  "total_nominal_request_positions": 240,
+  "actual_results": null,
+  "implementation": "tools/run_controls.py",
+  "offline_checks": "3 unittest methods cover both environment adapters, two-stage information boundaries, ordinary C role/task, notice timing, frozen diagnostics/neutral isolation, and source drift. No actual control inference yet.",
+  "version": "ordinary-peer-controls-2-full15",
+  "economic_window": [
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "post_offer_followup": [
+    14,
+    15
+  ]
 }

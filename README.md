@@ -2,7 +2,15 @@
 
 **New to the repository? Read the [repository guide for teammates and AI assistants](repo_guide/README.md).** It maps the four-study plan to the actual code, completed data and unfinished work.
 
-The current experiment is the completed **16-condition local Qwen 3.5 9B study** in [`studies/exp 2 (insider_reactions_v3)/`](studies/exp%202%20%28insider_reactions_v3%29). It measures how colluding firms respond to a peer whose system instructions change to an investigator objective. There is no added seller, fine-tuning or paid API in this study.
+The completed environment-1 experiment is the **16-condition local Qwen 3.5 9B study** in [`studies/exp 2 (insider_reactions_v3)/`](studies/exp%202%20%28insider_reactions_v3%29). It measures how colluding firms respond to a peer whose system instructions change to an investigator objective. There is no added seller, fine-tuning or paid API in this study.
+
+## Newest completed reaction results
+
+The [environment 2 reaction study](studies/exp%203%20%28env2_reactions%29/README.md) has completed execution and assistant review. Its selected 16-slot view uses 14 original conditions plus two explicitly revised reciprocal continuations; the original 14/16 successes and two failed offers remain preserved. All 48 eligible private calls completed across both versions. One fresh shared formation supports descriptive elicitation, not independent replication or detector accuracy.
+
+[Environment 2 summary](docs/ENV2_REACTIONS_SUMMARY.md) · [Detailed results](studies/exp%203%20%28env2_reactions%29/reports/FINAL_RESULTS.md) · [Word report](studies/exp%203%20%28env2_reactions%29/reports/env2_reactions_report.docx) · [Selected evidence](studies/exp%203%20%28env2_reactions%29/artifacts/combined_16)
+
+Separate [ordinary-C controls](studies/exp%204%20%28ordinary_peer_controls%29/README.md) are implemented and queued for both environments, with two 15-round conditions each. [Sumin Hong's environment 1 disruption evidence](studies/exp%205%20%28env1_disruption%29/README.md) is indexed and audited separately. Environment 2 disruption remains unfinished; [Anay's contributions and proposed design](studies/exp%206%20%28env2_disruption%29/CONTRIBUTOR_REVIEW.md) are reviewed without pooling different market studies.
 
 ## Completed results
 
@@ -33,11 +41,11 @@ Equal offers specify 16 each; unequal specifies A=8/B=8/C=32. Vague has no preci
 
 All equal-offer arms and vague arms maintained 16 each in rounds 9–13. Unequal arms escalated output after rejection; mean price was 13.6 versus 52 in the other arms. This is descriptive elicitation from one encouraged shared formation, not independent replication, detector accuracy or a causal disruption estimate. Two delivered offers leaked task wording, and follow-up speech errors are retained in the [semantic review](studies/exp%202%20%28insider_reactions_v3%29/artifacts/final_16/c_semantic_review.json).
 
-## New environment for the next studies
+## Environment 2 and the new reaction study
 
-[Environment 2 — differentiated-product price competition](environments/env%202%20%28differentiated_prices%29/README.md) is implemented separately for teammates developing new reaction and disruption methods. It retains three firms and the 15-round structure while allowing profitable A/B joint pricing against an independently pricing C. It is economically validated, **not yet tested with live LLM agents**. See its [actual validation](environments/env%202%20%28differentiated_prices%29/validation/VALIDATION.md), [data contract](environments/env%202%20%28differentiated_prices%29/DATA_CONTRACT.md) and [unit-test record](environments/env%202%20%28differentiated_prices%29/validation/UNIT_TESTS.txt).
+[Environment 2 — differentiated-product price competition](environments/env%202%20%28differentiated_prices%29/README.md) is implemented separately for teammates developing new reaction and disruption methods. It retains three firms and the 15-round structure while allowing profitable A/B joint pricing against an independently pricing C. Its economic controls are validated. A separate [E2-R study](studies/exp%203%20%28env2_reactions%29/README.md) has completed its original cohort and supplemental reciprocal continuations. See its reviewed reports above, the environment's [economic validation](environments/env%202%20%28differentiated_prices%29/validation/VALIDATION.md) and [data contract](environments/env%202%20%28differentiated_prices%29/DATA_CONTRACT.md). Validation fixtures and model experiment data remain separate.
 
-The completed 16-condition quantity-market results above remain unchanged. No model reaction or disruption results from environment 2 are claimed.
+The completed quantity-market results above remain unchanged. E2-R is complete with documented original failures and revised treatment delivery; dedicated E2 disruption results are still pending.
 
 ## Inspect the published study without running models
 
@@ -93,7 +101,8 @@ studies/exp 2 (insider_reactions_v3)/   Completed quantity-market reaction study
   tools/                      Run, inspect, finalize and Word builders
   artifacts/final_16/         Published exact evidence
   historical/                 Ten-case comparison referenced by the latest report
-environments/env 2 (differentiated_prices)/   New reusable market for future studies
+studies/exp 3 (env2_reactions)/      New environment-2 reaction runner and development tests
+environments/env 2 (differentiated_prices)/   Reusable differentiated-price market
 docs/                         Current summary and development guidance
 old/exp 1/                    Earlier code, prompts, configs, tests, documents and examples
 ```

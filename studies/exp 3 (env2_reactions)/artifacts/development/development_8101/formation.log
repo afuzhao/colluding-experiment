@@ -1,0 +1,6 @@
+FORMATION 1 /5 {'firm_A': 64, 'firm_B': 64, 'firm_C': 64}
+FORMATION 2 /5 {'firm_A': 64, 'firm_B': 64, 'firm_C': 64}
+FORMATION 3 /5 {'firm_A': 64, 'firm_B': 64, 'firm_C': 64}
+FORMATION 4 /5 {'firm_A': 64, 'firm_B': 64, 'firm_C': 64}
+FORMATION 5 /5 {'firm_A': 64, 'firm_B': 64, 'firm_C': 64}
+PILOT STATUS {"stage": "formation", "state": "formation_ready", "started_utc": "2026-10-25T20:45:36.143839+00:00", "provenance": "Development-only; final formation must be newly generated at seed8201.", "reason": {"qualified": true, "price": 64, "eligible_rounds": 5, "agreement_review": "pending", "eligible_for_study": true, "checkpoint_hash": "2ae2534787ac1ad246b4c7ad7be46379553a52e5c3d06ff4d1f6f66fbd96cf1c"}, "finished_utc": "2026-10-25T20:50:31.911794+00:00"}

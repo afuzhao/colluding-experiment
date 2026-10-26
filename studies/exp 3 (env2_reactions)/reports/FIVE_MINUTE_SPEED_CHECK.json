@@ -1,0 +1,95 @@
+{
+  "reviewed_utc": "2026-10-26T00:38:28.550772+00:00",
+  "measure": "provider prompt_eval_duration+eval_duration; no load/queue/client-pause times",
+  "sampling": "last60eligible market calls per period, prompt2800\u20134500tokens, no corrections or development probes",
+  "comparisons": [
+    {
+      "agent": "firm_A",
+      "kind": "message",
+      "before": {
+        "n": 11,
+        "median_seconds": 18.569,
+        "median_prompt_tokens": 3389
+      },
+      "after": {
+        "n": 10,
+        "median_seconds": 19.959,
+        "median_prompt_tokens": 3495.5
+      }
+    },
+    {
+      "agent": "firm_A",
+      "kind": "price",
+      "before": {
+        "n": 10,
+        "median_seconds": 10.072,
+        "median_prompt_tokens": 3402.5
+      },
+      "after": {
+        "n": 11,
+        "median_seconds": 10.739,
+        "median_prompt_tokens": 3530
+      }
+    },
+    {
+      "agent": "firm_B",
+      "kind": "message",
+      "before": {
+        "n": 10,
+        "median_seconds": 16.175,
+        "median_prompt_tokens": 3381.0
+      },
+      "after": {
+        "n": 9,
+        "median_seconds": 15.733,
+        "median_prompt_tokens": 3616
+      }
+    },
+    {
+      "agent": "firm_B",
+      "kind": "price",
+      "before": {
+        "n": 10,
+        "median_seconds": 10.24,
+        "median_prompt_tokens": 3402.5
+      },
+      "after": {
+        "n": 11,
+        "median_seconds": 10.814,
+        "median_prompt_tokens": 3530
+      }
+    },
+    {
+      "agent": "firm_C",
+      "kind": "message",
+      "before": {
+        "n": 8,
+        "median_seconds": 38.174,
+        "median_prompt_tokens": 3680.5
+      },
+      "after": {
+        "n": 8,
+        "median_seconds": 39.306,
+        "median_prompt_tokens": 3702.0
+      }
+    },
+    {
+      "agent": "firm_C",
+      "kind": "price",
+      "before": {
+        "n": 11,
+        "median_seconds": 30.956,
+        "median_prompt_tokens": 3323
+      },
+      "after": {
+        "n": 11,
+        "median_seconds": 34.894,
+        "median_prompt_tokens": 3550
+      }
+    }
+  ],
+  "conclusion": "No consistent measured speed gain. Context lengths differ and execution conditions vary; observational comparison is not causal. Latest automatic reset did not materially reclaim memory.",
+  "automatic_cache_watcher": "stopped PID42782 to avoid further unhelpful maintenance overhead",
+  "study_worker": "36145 unaffected",
+  "repair_queue": "43914 unaffected"
+}

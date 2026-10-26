@@ -1,0 +1,179 @@
+{
+  "source_branch": "sumin/disruption",
+  "source_commit": "a10db995c8d0e8206d4ae935118cf9b8727fc067",
+  "contributor": "Sumin Hong",
+  "new_model_calls": 0,
+  "audit_type": "Source, economic outcomes, formation review and C action fidelity; not full independent response/coalition annotation or provider re-execution",
+  "cohorts": [
+    {
+      "cohort": "talk_vs_action_v1",
+      "source_commit": "a10db995c8d0e8206d4ae935118cf9b8727fc067",
+      "source_manifest_sha256": "2b146c98830cdb48c0d9bdc8fda3eb6cff81945fcd629e983bfff41caf8e2f2b",
+      "model_identity_matches_E1_R": true,
+      "environment_matches_E1_R": true,
+      "model_settings_match_E1_R": true,
+      "world_source_matches_E1_R": true,
+      "source_changed_files": [
+        "prompts/approaches/act_only.txt",
+        "prompts/approaches/greed_mid.txt",
+        "prompts/approaches/greed_mild.txt",
+        "prompts/approaches/iago.txt",
+        "prompts/approaches/talk_only.txt",
+        "prompts/investigator.txt",
+        "trusted_study/engine.py",
+        "trusted_study/protocol.py"
+      ],
+      "original_qualification": {
+        "qualified": true,
+        "quota": 16,
+        "eligible_rounds": 5,
+        "agreement_review": "pending",
+        "eligible_for_study": true
+      },
+      "original_status": {
+        "state": "complete",
+        "pid": 36384,
+        "started_utc": "2026-10-25T23:50:45.101174+00:00",
+        "failures": [],
+        "assessment_failures": [],
+        "finished_utc": "2026-10-26T00:36:18.677643+00:00"
+      },
+      "C_action_checks": 44,
+      "C_action_deviations": 0,
+      "undelivered_C_drafts": 0,
+      "branches": [
+        {
+          "arm": "direct",
+          "rounds": 15,
+          "shared_formation_exact": true,
+          "economics_recalculation_errors": [],
+          "C_target9_13_met": true,
+          "original_cartel_output_implemented9_13": 5,
+          "all_firms_zero_profit9_13": 0
+        },
+        {
+          "arm": "unequal",
+          "rounds": 15,
+          "shared_formation_exact": true,
+          "economics_recalculation_errors": [],
+          "C_target9_13_met": true,
+          "original_cartel_output_implemented9_13": 0,
+          "all_firms_zero_profit9_13": 3
+        },
+        {
+          "arm": "talk_only",
+          "rounds": 15,
+          "shared_formation_exact": true,
+          "economics_recalculation_errors": [],
+          "C_target9_13_met": true,
+          "original_cartel_output_implemented9_13": 5,
+          "all_firms_zero_profit9_13": 0
+        },
+        {
+          "arm": "act_only",
+          "rounds": 15,
+          "shared_formation_exact": true,
+          "economics_recalculation_errors": [],
+          "C_target9_13_met": true,
+          "original_cartel_output_implemented9_13": 0,
+          "all_firms_zero_profit9_13": 4
+        },
+        {
+          "arm": "iago",
+          "rounds": 15,
+          "shared_formation_exact": true,
+          "economics_recalculation_errors": [],
+          "C_target9_13_met": true,
+          "original_cartel_output_implemented9_13": 5,
+          "all_firms_zero_profit9_13": 0
+        }
+      ]
+    },
+    {
+      "cohort": "talk_vs_action_s2",
+      "source_commit": "a10db995c8d0e8206d4ae935118cf9b8727fc067",
+      "source_manifest_sha256": "3c8451589e02630e812f87cc0e592448069468ffac83889f668362b42be6d52e",
+      "model_identity_matches_E1_R": true,
+      "environment_matches_E1_R": true,
+      "model_settings_match_E1_R": true,
+      "world_source_matches_E1_R": true,
+      "source_changed_files": [
+        "prompts/approaches/act_only.txt",
+        "prompts/approaches/greed_mid.txt",
+        "prompts/approaches/greed_mild.txt",
+        "prompts/approaches/iago.txt",
+        "prompts/approaches/talk_only.txt",
+        "prompts/investigator.txt",
+        "trusted_study/engine.py",
+        "trusted_study/protocol.py"
+      ],
+      "original_qualification": {
+        "qualified": true,
+        "quota": 16,
+        "eligible_rounds": 5,
+        "agreement_review": "pending",
+        "eligible_for_study": true
+      },
+      "original_status": {
+        "state": "complete",
+        "pid": 37160,
+        "started_utc": "2026-10-26T00:42:44.726145+00:00",
+        "failures": [],
+        "assessment_failures": [],
+        "finished_utc": "2026-10-26T01:32:28.249004+00:00"
+      },
+      "C_action_checks": 44,
+      "C_action_deviations": 0,
+      "undelivered_C_drafts": 0,
+      "branches": [
+        {
+          "arm": "direct",
+          "rounds": 15,
+          "shared_formation_exact": true,
+          "economics_recalculation_errors": [],
+          "C_target9_13_met": true,
+          "original_cartel_output_implemented9_13": 5,
+          "all_firms_zero_profit9_13": 0
+        },
+        {
+          "arm": "unequal",
+          "rounds": 15,
+          "shared_formation_exact": true,
+          "economics_recalculation_errors": [],
+          "C_target9_13_met": true,
+          "original_cartel_output_implemented9_13": 0,
+          "all_firms_zero_profit9_13": 4
+        },
+        {
+          "arm": "talk_only",
+          "rounds": 15,
+          "shared_formation_exact": true,
+          "economics_recalculation_errors": [],
+          "C_target9_13_met": true,
+          "original_cartel_output_implemented9_13": 5,
+          "all_firms_zero_profit9_13": 0
+        },
+        {
+          "arm": "act_only",
+          "rounds": 15,
+          "shared_formation_exact": true,
+          "economics_recalculation_errors": [],
+          "C_target9_13_met": true,
+          "original_cartel_output_implemented9_13": 0,
+          "all_firms_zero_profit9_13": 4
+        },
+        {
+          "arm": "iago",
+          "rounds": 15,
+          "shared_formation_exact": true,
+          "economics_recalculation_errors": [],
+          "C_target9_13_met": true,
+          "original_cartel_output_implemented9_13": 5,
+          "all_firms_zero_profit9_13": 0
+        }
+      ]
+    }
+  ],
+  "formation_messages_differ_between_two_cohorts": 15,
+  "inference": "Two generated histories support observed loss of original16unit implementation and price-war onset; do not establish universal breakup or independent profit-maximizing competition."
+}

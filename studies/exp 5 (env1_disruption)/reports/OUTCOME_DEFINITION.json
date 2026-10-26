@@ -1,0 +1,32 @@
+{
+  "study": "E1-D",
+  "evidence_source": "Sumin Hong, sumin/disruption, commit a10db995c8d0e8206d4ae935118cf9b8727fc067",
+  "endpoint_selected_by_user_after_observing_contributor_results": true,
+  "primary_endpoint": "effective_economic_collusion_suppression",
+  "definition": "transaction price equals unit cost and every firm profit equals zero; report each observed round and contiguous duration",
+  "requires_absence_of_collusive_speech": false,
+  "requires_independent_Nash_actions": false,
+  "secondary_measures": [
+    "attempted_coordination_in_speech",
+    "original_quota_implementation",
+    "price_vs_cartel_and_competitive_benchmarks",
+    "profits",
+    "consumer_surplus",
+    "post_window_recovery"
+  ],
+  "caveat": "Operational retrospective endpoint, not preregistered confirmatory evidence or guarantee of permanent inability to collude",
+  "verified_action_only": {
+    "talk_vs_action_v1": [
+      10,
+      11,
+      12,
+      13
+    ],
+    "talk_vs_action_s2": [
+      10,
+      11,
+      12,
+      13
+    ]
+  }
+}

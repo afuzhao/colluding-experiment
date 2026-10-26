@@ -1,0 +1,12 @@
+{
+  "state": "complete_with_failures",
+  "pid": 36145,
+  "started_utc": "2026-10-25T21:22:17.142621+00:00",
+  "failures": [
+    "unannounced_reciprocal",
+    "notice_reciprocal"
+  ],
+  "assessment_failures": [],
+  "session_finished_utc": "2026-10-26T02:00:00.091809+00:00",
+  "finished_utc": "2026-10-26T02:00:00.091809+00:00"
+}

@@ -48,6 +48,28 @@ Under `environments/env 2 (differentiated_prices)/validation/`:
 
 These files do not supply E2-R or E2-D model results. A profitable partial-cartel benchmark does not guarantee voluntary model coordination. The [environment data contract](../environments/env%202%20%28differentiated_prices%29/DATA_CONTRACT.md) defines records to collect in future runs.
 
+## Completed environment 2 reaction evidence
+
+All paths below are under [`studies/exp 3 (env2_reactions)`](../studies/exp%203%20%28env2_reactions%29/README.md).
+
+| Location | Actual contents |
+|---|---|
+| `artifacts/final_16/` | Original 16 slots: 14 full 15-round trajectories and 2 failed 7-round reciprocal branches, 42 private calls, 84 public and 84 private pair records, 752 successful calls, original manifests and reviewed formation |
+| `artifacts/reciprocal_repairs_v1/` | 2 revised-prompt 15-round trajectories, 6 private calls, 12 public and 12 private pair records, 99 new calls, 4 replay positions, parent lineage and repair manifest |
+| `artifacts/combined_16/` | Derived selected 14 original plus 2 repaired rows, 96 public and 96 private pairs, no new formation or inference; original failures are not overwritten |
+| `artifacts/development/` | Development seed 8101, stopped pilots and exact-request replays, plus separate performance benchmarks and runtime maintenance records |
+| `reports/FINAL_RESULTS.md` and `reports/env2_reactions_report.docx` | Reviewed selected results, original failure disclosure, full methods, runtime and fidelity limits |
+
+The selected public/private pair directions each have 32 resident-to-C, 32 resident-to-resident and 32 C-to-resident records. Original and repair raw calls remain separately compressed. Public annotations and all 16 delivered C trajectories are assistant reviewed, not independently validated. The two repaired slots have a changed C offer prompt and must always be marked as revised evidence.
+
+## Other study evidence and queued controls
+
+[Ordinary-C supplements](../studies/exp%204%20%28ordinary_peer_controls%29/README.md) are implemented but unexecuted at this publication: two 15-round conditions per environment, with isolated frozen-round-8 explicit and neutral diagnostics. They will have their own artifacts and reports rather than enter the old 16-row headline tables.
+
+[E1 disruption audit](../studies/exp%205%20%28env1_disruption%29/README.md) preserves Sumin Hong's authorship and pinned contributor source. Its derived CSV recalculates 150 actual round outcomes from 10 branches across two generated histories; 88 C target checks passed. Both action-only branches have price equal to cost and all profits zero in rounds 10–13, with positive profits again in 14–15. This is a retrospectively selected economic endpoint, not disappearance of all coordinated intent.
+
+[E2 disruption contribution review](../studies/exp%206%20%28env2_disruption%29/CONTRIBUTOR_REVIEW.md) is a read-only design/evidence audit, not new E2-D data. Different two-firm or logit markets cannot be relabelled as this three-firm quadratic market. An exact contributor run allocation remains pending.
+
 ## Future collection and combined analysis
 
 For each new cohort, store environment ID, track ID, version, method, notice, independent-history ID, branch/checkpoint ID, model identity, exact calls and all failures. Keep action/economic data, public reviewed labels and private reports in separate fields. Preserve the original data before derived aggregation.

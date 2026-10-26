@@ -1,0 +1,6 @@
+{
+  "formation_source": "results/development_8101/checkpoint.json",
+  "preparation_sources": "results/development_8101_revision2/pilot_neutral.json and pilot_gradual.json",
+  "reason": "Only minimum offer validation and combined correction feedback changed; preparation prompts/tasks/validation are unchanged. Reuse actual development prefixes with explicit source provenance. Final seed8201 remains fresh.",
+  "reviewer": "assistant_reviewed"
+}

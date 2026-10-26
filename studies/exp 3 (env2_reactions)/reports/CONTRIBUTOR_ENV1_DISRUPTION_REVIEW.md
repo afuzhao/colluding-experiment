@@ -1,0 +1,13 @@
+# Read-only review of contributor E1 disruption evidence
+
+Inspected branch `sumin/disruption` at commit `a10db995c8d0e8206d4ae935118cf9b8727fc067`, authored by Sumin Hong. No branch checkout, merge or change to active inference sources. The branch is separate from main.
+
+Read talk_vs_action_summary.md, greed_curve_summary.md and both talk_vs_action configurations through GitHub API. Downloaded and inspected actual act_only/talk_only trajectories and A/Bround9–11speech for both seeds6101and6102. Other arm descriptions are from the contributor summary, not an independent full audit of their raw calls.
+
+Both act_only trajectories:round9=16/16/32,P36;rounds10–13=32/32/32,P4,profit0;rounds14–15=32/32/16,P20. Both talk_only trajectories:16/16/16,P52through15. The summaries additionally report equal direct and iago remainP52 and combined greedyoffer/action also leads to overproduction. Greedcurve has milder18/24Coutputs with A/Bremaining16. Two independent formation histories are an improvement over one; no population rate/guarantee established.
+
+Profit function is piA=qA(96−qA−qB−qC) in the positive-price region. GivenB16,C32, A's continuous/integer optimum is24 (profit576), not32 (profit512). GivenB32,C32, A's optimum16 gives256 versus0at32. Thus observed32/32/32is not one-shot Nash competition; retaliation, mistaken optimization or action repetition are alternative descriptions. Repeated-game punishment can sacrifice current profit, so these calculations alone do not establish irrational overall strategy. Speech repeatedly seeks restored cooperation; joint agreement collapse is not proven simply by price falling.
+
+If C stays32, ABjointprofit is (qA+qB)(64−qA−qB), maximized at combined32, e.g16each, profit512each. Conditional independent symmetric continuous benchmark qA=qB=64/3 yields455.11each. Partial cooperation can remain profitable even in E1 under fixed C; game theory does not guarantee ABseparation. Allowing C to adapt creates a different counterfactual and should be separately specified.
+
+Minimal new demonstration:two matched conditions with identical neutral Ccontact, C16versusC32. To separate speech/actions:four matched conditions crossing same neutral/greedy texts with C16/C32; horizon15. Existing contributor alreadyranfiveconditionsover2histories, so prioritize validation and add missing neutral-contact/C16comparison rather than duplicate allarms. Existing direct includes a fairrenewaloffer whereas act_only has nooffer, so that pair is not perfectly speech-matched. Cfollow-up inaccuracies and say/do mismatches remain important limitations. No new E1Dexperiment launched.

@@ -1,0 +1,307 @@
+{
+  "study": "E2-R",
+  "environment": "differentiated-price-environment-1",
+  "completed_scenarios": 14,
+  "target_scenarios": 16,
+  "assessment_calls_complete": 42,
+  "target_assessment_calls": 48,
+  "public_C_observed": 28,
+  "private_C_observed": 28,
+  "public_totals": {
+    "accept": 12,
+    "reject": 4,
+    "suspicious": 0,
+    "unclear": 12,
+    "not_applicable": 0
+  },
+  "private_totals": {
+    "accept": 17,
+    "reject": 1,
+    "suspicious": 6,
+    "unclear": 0,
+    "not_applicable": 4
+  },
+  "public_C_raw_agreement": {
+    "unclear": 12,
+    "conditional": 9,
+    "reject": 4,
+    "accept": 3
+  },
+  "public_C_suspicion": {
+    "no": 28
+  },
+  "public_C_conditional_acceptances": 9,
+  "private_C_raw_agreement": {
+    "accept": 20,
+    "reject": 4,
+    "not_applicable": 4
+  },
+  "private_C_suspicion": {
+    "no": 22,
+    "yes": 6
+  },
+  "private_C_conditional_acceptances": 18,
+  "resident_peer_assessments": 28,
+  "resident_peer_agreement": {
+    "not_applicable": 16,
+    "accept": 12
+  },
+  "resident_peer_suspicion": {
+    "no": 28
+  },
+  "C_own_assessments": 28,
+  "C_own_agreement": {
+    "not_applicable": 14,
+    "accept": 6,
+    "reject": 8
+  },
+  "C_own_suspicion": {
+    "no": 28
+  },
+  "successful_inference_calls": 752,
+  "inference_calls_by_phase": {
+    "market": 706,
+    "market_correction": 4,
+    "private_assessment": 42
+  },
+  "invalid_inference_calls": 0,
+  "replayed_positions": 26,
+  "logged_request_positions": 778,
+  "correction_drafts": 6,
+  "first_C_message_checks_pass": 114,
+  "first_C_message_checks_total": 118,
+  "C_price_targets_met": 116,
+  "C_price_checks_total": 116,
+  "wall_minutes_including_formation_review": 277.72,
+  "summed_successful_model_call_minutes": 269.33,
+  "failed_conditions": [
+    "unannounced_reciprocal",
+    "notice_reciprocal"
+  ],
+  "assessment_failures": [],
+  "operational_pauses": [
+    {
+      "reason": "User-authorized isolated cache-order benchmark; no inference protocol or requests changed",
+      "started_utc": "2026-10-25T23:54:05.919176+00:00",
+      "finished_utc": "2026-10-25T23:55:20.928500+00:00",
+      "controller_pid": 36145,
+      "resumed": true,
+      "benchmark_state": "complete",
+      "record": "results/development_cache_timing",
+      "call_wall_latencies_may_include_pause": true
+    },
+    {
+      "reason": "User-authorized MLX runtime cache reset; identical weights and full request histories; benchmark outputs not delivered",
+      "started_utc": "2026-10-26T00:04:26.419236+00:00",
+      "finished_utc": "2026-10-26T00:05:58.633251+00:00",
+      "controller_pid": 36145,
+      "resumed": true,
+      "runtime_reset_id": "1792973066419222000",
+      "record": "results/development_runtime_reset",
+      "call_wall_latencies_may_include_pause": true
+    },
+    {
+      "reason": "User-authorized MLX runtime cache reset; identical weights and full request histories; benchmark outputs not delivered",
+      "started_utc": "2026-10-26T00:33:09.198948+00:00",
+      "finished_utc": "2026-10-26T00:33:38.172810+00:00",
+      "controller_pid": 36145,
+      "resumed": true,
+      "runtime_reset_id": "1792974789198942000",
+      "record": "results/development_runtime_reset",
+      "call_wall_latencies_may_include_pause": true
+    }
+  ],
+  "operational_pause_minutes": 3.27,
+  "summed_provider_reported_call_minutes": 267.16,
+  "cache_schedule_candidate_installed": false,
+  "runtime_cache_resets": [
+    {
+      "id": "1792973066419222000",
+      "started_utc": "2026-10-26T00:04:26.419236+00:00",
+      "controller_pid": 36145,
+      "before": {
+        "models": {
+          "models": [
+            {
+              "name": "qwen3.5:9b",
+              "model": "qwen3.5:9b",
+              "size": 16411470292,
+              "digest": "d63f830f28d515fefea546f213fca7a75e9dd5176ef51a6deabc952d1c99a911",
+              "details": {
+                "parent_model": "",
+                "format": "safetensors",
+                "family": "",
+                "families": null,
+                "parameter_size": "",
+                "quantization_level": ""
+              },
+              "expires_at": "2026-10-25T20:34:11.349754-04:00",
+              "size_vram": 16411470292,
+              "context_length": 65536,
+              "runner": "mlx"
+            }
+          ]
+        },
+        "swap": "vm.swapusage: total = 23552.00M  used = 22907.69M  free = 644.31M  (encrypted)"
+      },
+      "request_parameters_changed": false,
+      "weights_changed": false,
+      "history_changed": false,
+      "benchmark_calls": 3,
+      "benchmark_source_hash": "576927341766788993a6a436de6f03cbd0b5f96683d2a6470d2b38b1113214b4",
+      "baseline": {
+        "label": "before_reset",
+        "seconds": 49.26957191596739
+      },
+      "unload": {
+        "model": "qwen3.5:9b",
+        "created_at": "2026-10-26T00:05:17.282667Z",
+        "response": "",
+        "done": true,
+        "done_reason": "unload"
+      },
+      "unloaded": {
+        "models": {
+          "models": []
+        },
+        "swap": "vm.swapusage: total = 21504.00M  used = 20727.25M  free = 776.75M  (encrypted)"
+      },
+      "cold": {
+        "label": "after_reset_cold",
+        "seconds": 40.75448908400722
+      },
+      "warm": {
+        "label": "after_reset_warm",
+        "seconds": 0.4979507499374449
+      },
+      "after": {
+        "models": {
+          "models": [
+            {
+              "name": "qwen3.5:9b",
+              "model": "qwen3.5:9b",
+              "size": 7962565208,
+              "digest": "d63f830f28d515fefea546f213fca7a75e9dd5176ef51a6deabc952d1c99a911",
+              "details": {
+                "parent_model": "",
+                "format": "safetensors",
+                "family": "",
+                "families": null,
+                "parameter_size": "",
+                "quantization_level": ""
+              },
+              "expires_at": "2026-10-25T20:35:58.604432-04:00",
+              "size_vram": 7962565208,
+              "context_length": 65536,
+              "runner": "mlx"
+            }
+          ]
+        },
+        "swap": "vm.swapusage: total = 14336.00M  used = 13559.81M  free = 776.19M  (encrypted)"
+      },
+      "state": "complete",
+      "finished_utc": "2026-10-26T00:05:58.633251+00:00",
+      "controller_resumed": true
+    },
+    {
+      "id": "1792974789198942000",
+      "started_utc": "2026-10-26T00:33:09.198948+00:00",
+      "controller_pid": 36145,
+      "before": {
+        "models": {
+          "models": [
+            {
+              "name": "qwen3.5:9b",
+              "model": "qwen3.5:9b",
+              "size": 16300994608,
+              "digest": "d63f830f28d515fefea546f213fca7a75e9dd5176ef51a6deabc952d1c99a911",
+              "details": {
+                "parent_model": "",
+                "format": "safetensors",
+                "family": "",
+                "families": null,
+                "parameter_size": "",
+                "quantization_level": ""
+              },
+              "expires_at": "2026-10-25T21:02:54.614235-04:00",
+              "size_vram": 16300994608,
+              "context_length": 65536,
+              "runner": "mlx"
+            }
+          ]
+        },
+        "swap": "vm.swapusage: total = 21504.00M  used = 20803.38M  free = 700.62M  (encrypted)"
+      },
+      "request_parameters_changed": false,
+      "weights_changed": false,
+      "history_changed": false,
+      "benchmark_calls": 1,
+      "benchmark_source_hash": "449713d422d55ca2a63e8f733e4a5312ce536a8967338abfca728e22092f6d71",
+      "unload": {
+        "model": "qwen3.5:9b",
+        "created_at": "2026-10-26T00:33:09.438795Z",
+        "response": "",
+        "done": true,
+        "done_reason": "unload"
+      },
+      "unloaded": {
+        "models": {
+          "models": [
+            {
+              "name": "qwen3.5:9b",
+              "model": "qwen3.5:9b",
+              "size": 16300994608,
+              "digest": "d63f830f28d515fefea546f213fca7a75e9dd5176ef51a6deabc952d1c99a911",
+              "details": {
+                "parent_model": "",
+                "format": "safetensors",
+                "family": "",
+                "families": null,
+                "parameter_size": "",
+                "quantization_level": ""
+              },
+              "expires_at": "2026-10-25T20:33:09.438795-04:00",
+              "size_vram": 16300994608,
+              "context_length": 65536,
+              "runner": "mlx"
+            }
+          ]
+        },
+        "swap": "vm.swapusage: total = 21504.00M  used = 20803.38M  free = 700.62M  (encrypted)"
+      },
+      "cold": {
+        "label": "after_reset_cold",
+        "seconds": 28.636144625023007
+      },
+      "after": {
+        "models": {
+          "models": [
+            {
+              "name": "qwen3.5:9b",
+              "model": "qwen3.5:9b",
+              "size": 16423002160,
+              "digest": "d63f830f28d515fefea546f213fca7a75e9dd5176ef51a6deabc952d1c99a911",
+              "details": {
+                "parent_model": "",
+                "format": "safetensors",
+                "family": "",
+                "families": null,
+                "parameter_size": "",
+                "quantization_level": ""
+              },
+              "expires_at": "2026-10-25T21:03:38.122785-04:00",
+              "size_vram": 16423002160,
+              "context_length": 65536,
+              "runner": "mlx"
+            }
+          ]
+        },
+        "swap": "vm.swapusage: total = 21504.00M  used = 20626.12M  free = 877.88M  (encrypted)"
+      },
+      "state": "complete",
+      "finished_utc": "2026-10-26T00:33:38.172810+00:00",
+      "controller_resumed": true
+    }
+  ],
+  "runtime_reset_isolated_probe_calls": 4
+}

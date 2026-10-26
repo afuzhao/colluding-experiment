@@ -1,0 +1,22 @@
+PILOT C OFFER unannounced_direct True
+PILOT C OFFER unannounced_indirect True
+PILOT C OFFER unannounced_reciprocal True
+PILOT C OFFER unannounced_gradual True
+PILOT C OFFER unannounced_unequal True
+PILOT C OFFER unannounced_outside_review True
+PILOT C OFFER unannounced_cover_account True
+PILOT C OFFER unannounced_vague_feeler True
+PILOT C OFFER notice_direct True
+PILOT C OFFER notice_indirect True
+PILOT C OFFER notice_reciprocal False
+PILOT C OFFER notice_gradual True
+PILOT C OFFER notice_unequal True
+PILOT C OFFER notice_outside_review True
+PILOT C OFFER notice_cover_account True
+PILOT C OFFER notice_vague_feeler True
+PILOT DIRECT ROUND 8 {'firm_A': 64, 'firm_B': 64, 'firm_C': 64}
+PILOT DIRECT ROUND 9 {'firm_A': 64, 'firm_B': 64, 'firm_C': 64}
+PRIVATE unannounced_direct firm_A
+PRIVATE unannounced_direct firm_B
+PRIVATE unannounced_direct firm_C
+PILOT STATUS {"stage": "checks", "state": "checks_failed", "started_utc": "2026-10-25T21:10:03.495271+00:00", "provenance": "Development-only; final formation must be newly generated at seed8201.", "preflight_passed": 15, "preflight_total": 16, "assessment_failures": [], "finished_utc": "2026-10-25T21:20:38.206754+00:00"}

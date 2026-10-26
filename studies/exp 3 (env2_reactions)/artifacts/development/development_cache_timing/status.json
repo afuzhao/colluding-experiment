@@ -1,0 +1,44 @@
+{
+  "state": "complete",
+  "controller_pid": 36145,
+  "started_utc": "2026-10-25T23:54:05.919176+00:00",
+  "source_condition": "notice_direct",
+  "source_round": 12,
+  "scope": "Frozen recorded requests, responses not delivered; ABBA order microbenchmark, no claim of identical future speed. Main pending response is retained in socket while controller stopped.",
+  "blocks": [
+    {
+      "block": 0,
+      "order": "baseline",
+      "seconds": 22.612,
+      "prompt_seconds": 3.787,
+      "output_tokens": 201,
+      "cached_prompt_tokens": 22690
+    },
+    {
+      "block": 1,
+      "order": "c_first",
+      "seconds": 18.343,
+      "prompt_seconds": 0.753,
+      "output_tokens": 197,
+      "cached_prompt_tokens": 22698
+    },
+    {
+      "block": 2,
+      "order": "c_first",
+      "seconds": 16.203,
+      "prompt_seconds": 0.689,
+      "output_tokens": 197,
+      "cached_prompt_tokens": 22698
+    },
+    {
+      "block": 3,
+      "order": "baseline",
+      "seconds": 15.282,
+      "prompt_seconds": 0.675,
+      "output_tokens": 197,
+      "cached_prompt_tokens": 22698
+    }
+  ],
+  "finished_utc": "2026-10-25T23:55:20.928500+00:00",
+  "controller_resumed": true
+}

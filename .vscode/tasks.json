@@ -91,6 +91,52 @@
         "cwd": "${workspaceFolder}/environments/env 2 (differentiated_prices)"
       },
       "problemMatcher": []
+    },
+    {
+      "label": "Environment 2 reactions: test controls",
+      "type": "process",
+      "command": "python3",
+      "args": [
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}/studies/exp 3 (env2_reactions)"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Environment 2 reactions: inspect live final run",
+      "type": "process",
+      "command": "python3",
+      "args": [
+        "tools/inspect_results.py",
+        "--output",
+        "results/final_16"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}/studies/exp 3 (env2_reactions)"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Environment 2 reactions: inspect published evidence",
+      "type": "process",
+      "command": "python3",
+      "args": [
+        "tools/inspect_results.py",
+        "--output",
+        "artifacts/final_16",
+        "--verify"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}/studies/exp 3 (env2_reactions)"
+      },
+      "problemMatcher": []
     }
   ],
   "inputs": [

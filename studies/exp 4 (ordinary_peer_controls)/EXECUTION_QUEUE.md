@@ -13,7 +13,7 @@ Reuse that environment's actually generated, reviewed end-of-round-5 checkpoint 
 
 Generate the actual ordinary preparation 6–7 and share it across the two notice arms. Before 8 give the same general warning in the notice condition to all firms, naming nobody. At 8 C proposes the original environment's equal quantities or prices for 9–13. Generate simultaneous messages, reveal them, and let all firms choose their own actions; retain deviations and failures. Do not overwrite actions to manufacture a matched history.
 
-Collect A/B's first simultaneous public reply texts at 9. This shortened follow-up does not include round 9 action clearing or claim 15-round market outcomes. Save partial-round reply probes separately rather than pretending round 9 is fully complete.
+Continue every ordinary branch through fully cleared round15. Collect A/B's first public replies from actual round9speech; do not make duplicate reply-probe calls. Keep simultaneous messages followed by independent actions each round. Record adherence and continuous economic outcomes during9–13 and follow-up14–15, preserving all15rounds. The user extended this horizon before any control inference.
 
 Collect the original explicit frozen-end-of-round-8 diagnostic for both peers from A/B, independently of their live reply calls. Each of the two private calls per condition assesses both peer texts. C's own private responses are outside this low-cost control's scope, not recorded as zero.
 
@@ -23,7 +23,7 @@ For the original E2 investigator/direct cases, use actual delivered messages onl
 
 ## Budget and records
 
-Nominal request positions per environment:12 ordinary preparation +12 round 8 across two conditions +4 public reply probes +4 explicit private diagnostics +8 neutral diagnostics =40. Both environments total 80 before bounded corrections, exact-request replays, failures or explicitly logged engineering/development checks. These are request positions, not a promise of 80new inference calls or a measured runtime.
+Nominal request positions per environment:12shared ordinary preparation +96market calls across two branches in rounds8–15 +4explicit private diagnostics +8neutral diagnostics =120. Both environments total240before bounded corrections, exact-request replays, failures or separately logged development checks. Round9public replies are extracted from actual cleared trajectories, not additional calls. These are request positions, not a promise of240new inference calls or a measured runtime. The superseded short-probe plan required40perenvironment; no control inference ran under that version.
 
 Save exact source, role/task prompts, request/response journals, model/runtime identity, checkpoint lineage, actual preparation differences, all failures and actual call counts. Separate public speech, prompted private suspicion and neutral free-text responses. Preserve acceptance/conditionality separately from investigator suspicion; do not infer intent from quantities or prices. Identify the four resident-to-C public observations per environment and the separate peer-message assessments; do not pool the roles.
 

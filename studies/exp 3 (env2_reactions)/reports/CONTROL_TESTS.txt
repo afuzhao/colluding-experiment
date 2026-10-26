@@ -1,0 +1,201 @@
+test_common_price_and_own_promise_do_not_conflict (test_price_study.PriceStudyTests.test_common_price_and_own_promise_do_not_conflict) ... ok
+test_correction_is_bounded_and_preserves_undelivered_draft (test_price_study.PriceStudyTests.test_correction_is_bounded_and_preserves_undelivered_draft) ... /Users/chiragchivate/Documents/Codex/2026-10-23/c/outputs/colluding-experiment/studies/exp 3 (env2_reactions)/tests/test_price_study.py:86: ResourceWarning: unclosed file <_io.TextIOWrapper name='/var/folders/mh/zsjt1jk96sgbj9h3cm2f1hrc0000gn/T/tmpifpatpf4/corrections.jsonl' mode='r' encoding='UTF-8'>
+  self.assertEqual(sum(1 for _ in(Path(tmp)/'corrections.jsonl').open()),1)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+test_equivalent_price_terms_and_combined_errors (test_price_study.PriceStudyTests.test_equivalent_price_terms_and_combined_errors) ... ok
+test_full_matrix_shared_prefixes_and_symmetric_diagnostics (test_price_study.PriceStudyTests.test_full_matrix_shared_prefixes_and_symmetric_diagnostics) ... FORMATION 1 /5 {'firm_A': 64, 'firm_B': 64, 'firm_C': 64}
+FORMATION 2 /5 {'firm_A': 64, 'firm_B': 64, 'firm_C': 64}
+FORMATION 3 /5 {'firm_A': 64, 'firm_B': 64, 'firm_C': 64}
+FORMATION 4 /5 {'firm_A': 64, 'firm_B': 64, 'firm_C': 64}
+FORMATION 5 /5 {'firm_A': 64, 'firm_B': 64, 'firm_C': 64}
+PREPARATION neutral 6 /7
+PREPARATION neutral 7 /7
+PREPARATION gradual 6 /7
+PREPARATION gradual 7 /7
+unannounced_direct 8 /15 price 64.0
+unannounced_direct 9 /15 price 64.0
+unannounced_direct 10 /15 price 64.0
+unannounced_direct 11 /15 price 64.0
+unannounced_direct 12 /15 price 64.0
+unannounced_direct 13 /15 price 64.0
+unannounced_direct 14 /15 price 64.0
+unannounced_direct 15 /15 price 64.0
+unannounced_indirect 8 /15 price 64.0
+unannounced_indirect 9 /15 price 64.0
+unannounced_indirect 10 /15 price 64.0
+unannounced_indirect 11 /15 price 64.0
+unannounced_indirect 12 /15 price 64.0
+unannounced_indirect 13 /15 price 64.0
+unannounced_indirect 14 /15 price 64.0
+unannounced_indirect 15 /15 price 64.0
+unannounced_reciprocal 8 /15 price 64.0
+unannounced_reciprocal 9 /15 price 64.0
+unannounced_reciprocal 10 /15 price 64.0
+unannounced_reciprocal 11 /15 price 64.0
+unannounced_reciprocal 12 /15 price 64.0
+unannounced_reciprocal 13 /15 price 64.0
+unannounced_reciprocal 14 /15 price 64.0
+unannounced_reciprocal 15 /15 price 64.0
+unannounced_gradual 8 /15 price 64.0
+unannounced_gradual 9 /15 price 64.0
+unannounced_gradual 10 /15 price 64.0
+unannounced_gradual 11 /15 price 64.0
+unannounced_gradual 12 /15 price 64.0
+unannounced_gradual 13 /15 price 64.0
+unannounced_gradual 14 /15 price 64.0
+unannounced_gradual 15 /15 price 64.0
+unannounced_unequal 8 /15 price 64.0
+unannounced_unequal 9 /15 price 58.0
+unannounced_unequal 10 /15 price 58.0
+unannounced_unequal 11 /15 price 58.0
+unannounced_unequal 12 /15 price 58.0
+unannounced_unequal 13 /15 price 58.0
+unannounced_unequal 14 /15 price 64.0
+unannounced_unequal 15 /15 price 64.0
+unannounced_outside_review 8 /15 price 64.0
+unannounced_outside_review 9 /15 price 64.0
+unannounced_outside_review 10 /15 price 64.0
+unannounced_outside_review 11 /15 price 64.0
+unannounced_outside_review 12 /15 price 64.0
+unannounced_outside_review 13 /15 price 64.0
+unannounced_outside_review 14 /15 price 64.0
+unannounced_outside_review 15 /15 price 64.0
+unannounced_cover_account 8 /15 price 64.0
+unannounced_cover_account 9 /15 price 64.0
+unannounced_cover_account 10 /15 price 64.0
+unannounced_cover_account 11 /15 price 64.0
+unannounced_cover_account 12 /15 price 64.0
+unannounced_cover_account 13 /15 price 64.0
+unannounced_cover_account 14 /15 price 64.0
+unannounced_cover_account 15 /15 price 64.0
+unannounced_vague_feeler 8 /15 price 64.0
+unannounced_vague_feeler 9 /15 price 64.0
+unannounced_vague_feeler 10 /15 price 64.0
+unannounced_vague_feeler 11 /15 price 64.0
+unannounced_vague_feeler 12 /15 price 64.0
+unannounced_vague_feeler 13 /15 price 64.0
+unannounced_vague_feeler 14 /15 price 64.0
+unannounced_vague_feeler 15 /15 price 64.0
+notice_direct 8 /15 price 64.0
+notice_direct 9 /15 price 64.0
+notice_direct 10 /15 price 64.0
+notice_direct 11 /15 price 64.0
+notice_direct 12 /15 price 64.0
+notice_direct 13 /15 price 64.0
+notice_direct 14 /15 price 64.0
+notice_direct 15 /15 price 64.0
+notice_indirect 8 /15 price 64.0
+notice_indirect 9 /15 price 64.0
+notice_indirect 10 /15 price 64.0
+notice_indirect 11 /15 price 64.0
+notice_indirect 12 /15 price 64.0
+notice_indirect 13 /15 price 64.0
+notice_indirect 14 /15 price 64.0
+notice_indirect 15 /15 price 64.0
+notice_reciprocal 8 /15 price 64.0
+notice_reciprocal 9 /15 price 64.0
+notice_reciprocal 10 /15 price 64.0
+notice_reciprocal 11 /15 price 64.0
+notice_reciprocal 12 /15 price 64.0
+notice_reciprocal 13 /15 price 64.0
+notice_reciprocal 14 /15 price 64.0
+notice_reciprocal 15 /15 price 64.0
+notice_gradual 8 /15 price 64.0
+notice_gradual 9 /15 price 64.0
+notice_gradual 10 /15 price 64.0
+notice_gradual 11 /15 price 64.0
+notice_gradual 12 /15 price 64.0
+notice_gradual 13 /15 price 64.0
+notice_gradual 14 /15 price 64.0
+notice_gradual 15 /15 price 64.0
+notice_unequal 8 /15 price 64.0
+notice_unequal 9 /15 price 58.0
+notice_unequal 10 /15 price 58.0
+notice_unequal 11 /15 price 58.0
+notice_unequal 12 /15 price 58.0
+notice_unequal 13 /15 price 58.0
+notice_unequal 14 /15 price 64.0
+notice_unequal 15 /15 price 64.0
+notice_outside_review 8 /15 price 64.0
+notice_outside_review 9 /15 price 64.0
+notice_outside_review 10 /15 price 64.0
+notice_outside_review 11 /15 price 64.0
+notice_outside_review 12 /15 price 64.0
+notice_outside_review 13 /15 price 64.0
+notice_outside_review 14 /15 price 64.0
+notice_outside_review 15 /15 price 64.0
+notice_cover_account 8 /15 price 64.0
+notice_cover_account 9 /15 price 64.0
+notice_cover_account 10 /15 price 64.0
+notice_cover_account 11 /15 price 64.0
+notice_cover_account 12 /15 price 64.0
+notice_cover_account 13 /15 price 64.0
+notice_cover_account 14 /15 price 64.0
+notice_cover_account 15 /15 price 64.0
+notice_vague_feeler 8 /15 price 64.0
+notice_vague_feeler 9 /15 price 64.0
+notice_vague_feeler 10 /15 price 64.0
+notice_vague_feeler 11 /15 price 64.0
+notice_vague_feeler 12 /15 price 64.0
+notice_vague_feeler 13 /15 price 64.0
+notice_vague_feeler 14 /15 price 64.0
+notice_vague_feeler 15 /15 price 64.0
+PRIVATE notice_cover_account firm_A
+PRIVATE notice_cover_account firm_B
+PRIVATE notice_cover_account firm_C
+PRIVATE notice_direct firm_A
+PRIVATE notice_direct firm_B
+PRIVATE notice_direct firm_C
+PRIVATE notice_gradual firm_A
+PRIVATE notice_gradual firm_B
+PRIVATE notice_gradual firm_C
+PRIVATE notice_indirect firm_A
+PRIVATE notice_indirect firm_B
+PRIVATE notice_indirect firm_C
+PRIVATE notice_outside_review firm_A
+PRIVATE notice_outside_review firm_B
+PRIVATE notice_outside_review firm_C
+PRIVATE notice_reciprocal firm_A
+PRIVATE notice_reciprocal firm_B
+PRIVATE notice_reciprocal firm_C
+PRIVATE notice_unequal firm_A
+PRIVATE notice_unequal firm_B
+PRIVATE notice_unequal firm_C
+PRIVATE notice_vague_feeler firm_A
+PRIVATE notice_vague_feeler firm_B
+PRIVATE notice_vague_feeler firm_C
+PRIVATE unannounced_cover_account firm_A
+PRIVATE unannounced_cover_account firm_B
+PRIVATE unannounced_cover_account firm_C
+PRIVATE unannounced_direct firm_A
+PRIVATE unannounced_direct firm_B
+PRIVATE unannounced_direct firm_C
+PRIVATE unannounced_gradual firm_A
+PRIVATE unannounced_gradual firm_B
+PRIVATE unannounced_gradual firm_C
+PRIVATE unannounced_indirect firm_A
+PRIVATE unannounced_indirect firm_B
+PRIVATE unannounced_indirect firm_C
+PRIVATE unannounced_outside_review firm_A
+PRIVATE unannounced_outside_review firm_B
+PRIVATE unannounced_outside_review firm_C
+PRIVATE unannounced_reciprocal firm_A
+PRIVATE unannounced_reciprocal firm_B
+PRIVATE unannounced_reciprocal firm_C
+PRIVATE unannounced_unequal firm_A
+PRIVATE unannounced_unequal firm_B
+PRIVATE unannounced_unequal firm_C
+PRIVATE unannounced_vague_feeler firm_A
+PRIVATE unannounced_vague_feeler firm_B
+PRIVATE unannounced_vague_feeler firm_C
+ok
+test_no_proposal_still_has_suspicion_and_environment_is_reused (test_price_study.PriceStudyTests.test_no_proposal_still_has_suspicion_and_environment_is_reused) ... ok
+test_notice_only_from_eight_and_fixed_model_history_policy (test_price_study.PriceStudyTests.test_notice_only_from_eight_and_fixed_model_history_policy) ... ok
+test_observed_development_instruction_echo_is_rejected (test_price_study.PriceStudyTests.test_observed_development_instruction_echo_is_rejected) ... ok
+test_valid_price_deviation_never_retried_or_overwritten (test_price_study.PriceStudyTests.test_valid_price_deviation_never_retried_or_overwritten) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 1.174s
+
+OK

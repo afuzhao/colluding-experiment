@@ -1,0 +1,37 @@
+{
+  "condition": "unannounced_indirect",
+  "agent": "firm_C",
+  "state": "complete",
+  "received_proposals": [
+    {
+      "proposal_id": "r08_firm_A_candidate",
+      "sender": "firm_A",
+      "exact_message": "I endorse the cooperative price of 64. Maintaining this agreement maximizes our cumulative profits compared to deviation or competition. I commit to 64 provided others reciprocate.",
+      "public_price_commitment": 64
+    },
+    {
+      "proposal_id": "r08_firm_B_candidate",
+      "sender": "firm_B",
+      "exact_message": "I endorse the cooperative price of 64. Maintaining this agreement maximizes our cumulative profits compared to deviation or competition. I commit to 64 provided others reciprocate.",
+      "public_price_commitment": 64
+    }
+  ],
+  "assessments": [
+    {
+      "proposal_id": "r08_firm_A_candidate",
+      "proposal_present": "no",
+      "response_to_offer": "not_applicable",
+      "conditional": false,
+      "suspicion_of_proposer": "no",
+      "brief_explanation": "Endorsement only; no new proposal."
+    },
+    {
+      "proposal_id": "r08_firm_B_candidate",
+      "proposal_present": "no",
+      "response_to_offer": "not_applicable",
+      "conditional": false,
+      "suspicion_of_proposer": "no",
+      "brief_explanation": "Endorsement only; no new proposal."
+    }
+  ]
+}

@@ -2,7 +2,7 @@
 
 For the overall research plan and dataset locations, start with the [repository guide](../../repo_guide/README.md).
 
-**Status: environment implemented and economically validated; a separate live LLM reaction study is now in progress.** No completed model disruption study is claimed. The market mechanics are unchanged from the validated implementation. This reusable market is not a replacement for the completed [quantity-market experiment](../../studies/exp%202%20%28insider_reactions_v3%29/README.md).
+**Status: environment implemented and economically validated; a separate live LLM reaction study has completed execution and assistant review.** No completed model disruption study is claimed. The market mechanics are unchanged from the validated implementation. This reusable market is not a replacement for the completed [quantity-market experiment](../../studies/exp%202%20%28insider_reactions_v3%29/README.md).
 
 Three firms sell imperfect substitutes. Customers prefer variety, so being cheaper attracts customers without always taking the entire market. The important property is that **A and B can earn more by coordinating even while C independently competes**. Their promises do not bind their actions, and both still have profitable opportunities to cheat.
 
@@ -85,7 +85,7 @@ class MyAgent:
         ...
 ```
 
-Use `Episode.submit_messages()` and `Episode.step()` for direct control, or `run_episode(episode, agents, role_switch=...)` for a complete episode. **No LLM provider adapter or new 16-condition reaction run is included yet.** Models can be added without modifying market clearing.
+Use `Episode.submit_messages()` and `Episode.step()` for direct control, or `run_episode(episode, agents, role_switch=...)` for a complete episode. The local-model adapter and completed reaction evidence live separately in `studies/exp 3 (env2_reactions)`. Models can be added without modifying market clearing.
 
 For a model experiment, run five rounds first, review the actual formation with `episode.qualify_formation(review)`, and stop/report if it fails. Fork the qualified checkpoint with `episode.fork()` and supply fresh per-branch agent adapters retaining the same allowed history. Do not reuse hidden adapter memory between branches. Then run each continuation with its own C task. Save model identity, prompts, sampling settings, exact calls, assigned/delivered actions, errors and all outcomes.
 
@@ -126,7 +126,7 @@ A 15-round finite horizon is retained for comparability, not claimed to guarante
 
 ## Separate reaction runner
 
-The separate E2-R reaction study reuses this economic clearing code with local Qwen agents, eight approach families and notice absent/present. Its local implementation is in `studies/exp 3 (env2_reactions)`; its code and reviewed evidence will be published after execution. Its development checks and eventual final cohort are separate from this environment package's scripted validation fixtures. No completed reaction cohort is claimed here. Dedicated disruption methods remain future work.
+The separate E2-R reaction study reuses this economic clearing code with local Qwen agents, eight approach families and notice absent/present. Its local implementation is in `studies/exp 3 (env2_reactions)`; its code and reviewed original/repair evidence are published separately. Its development checks and eventual final cohort are separate from this environment package's scripted validation fixtures. The original cohort completed 14/16 conditions; two separately revised reciprocal continuations complete the selected 16-slot view. All evidence remains distinct from this package's scripted validation. Dedicated disruption methods remain future work.
 
 ## Support for the three disruption outcomes
 

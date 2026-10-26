@@ -1,0 +1,18 @@
+{
+  "state": "complete",
+  "pid": 43914,
+  "started_utc": "2026-10-26T02:00:05.371959+00:00",
+  "target_scenarios": 2,
+  "target_assessments": 6,
+  "conditions": {
+    "unannounced_reciprocal": 15,
+    "notice_reciprocal": 15
+  },
+  "parent": "results/final_16",
+  "active_condition": "notice_reciprocal",
+  "active_round": 15,
+  "assessment_failures": [],
+  "finished_utc": "2026-10-26T02:39:33.847276+00:00",
+  "new_successful_calls": 99,
+  "replayed_positions": 4
+}

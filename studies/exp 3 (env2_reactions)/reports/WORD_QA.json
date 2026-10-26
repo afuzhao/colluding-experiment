@@ -1,0 +1,8 @@
+{
+  "reviewer": "assistant_reviewed",
+  "pages": 6,
+  "all_page_images_inspected": true,
+  "result": "All six rendered pages readable; repeated table headers, margins, headings, long identity hashes and footer fit; no clipping or overlap observed.",
+  "renderer": "Bundled documents skill render_docx.py with workspace runtime and bundled LibreOffice",
+  "output": "reports/env2_reactions_report.docx"
+}

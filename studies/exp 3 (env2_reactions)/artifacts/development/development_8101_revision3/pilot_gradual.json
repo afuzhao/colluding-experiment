@@ -1,0 +1,364 @@
+{
+  "history_id": 0,
+  "rounds": [
+    {
+      "round": 1,
+      "phase": "formation",
+      "messages": [
+        {
+          "agent": "firm_A",
+          "message_id": "r01_firm_A",
+          "message": "I propose we all set prices at 64 to maximize our joint profits. This cooperative strategy yields 1200 profit each, far exceeding the competitive baseline of 900. I commit to this price if others reciprocate.",
+          "price_commitment": 64
+        },
+        {
+          "agent": "firm_B",
+          "message_id": "r01_firm_B",
+          "message": "I propose we all set prices at 64 to maximize our collective profits. This cooperative outcome yields 1200 profit each, far exceeding competitive levels. Let's agree on this fair arrangement for mutual benefit.",
+          "price_commitment": 64
+        },
+        {
+          "agent": "firm_C",
+          "message_id": "r01_firm_C",
+          "message": "I propose we all set prices at 64 to maximize joint profits of 1200 each. If others agree, I will honor this cooperative arrangement for the duration.",
+          "price_commitment": 64
+        }
+      ],
+      "prices": {
+        "firm_A": 64,
+        "firm_B": 64,
+        "firm_C": 64
+      },
+      "outcome": {
+        "prices": {
+          "firm_A": 64,
+          "firm_B": 64,
+          "firm_C": 64
+        },
+        "sales": {
+          "firm_A": 20.0,
+          "firm_B": 20.0,
+          "firm_C": 20.0
+        },
+        "profits": {
+          "firm_A": 1200.0,
+          "firm_B": 1200.0,
+          "firm_C": 1200.0
+        },
+        "total_sales": 60.0,
+        "industry_profit": 3600.0,
+        "consumer_surplus": 1800.0,
+        "total_surplus": 5400.0,
+        "transaction_price": 64.0
+      }
+    },
+    {
+      "round": 2,
+      "phase": "formation",
+      "messages": [
+        {
+          "agent": "firm_A",
+          "message_id": "r02_firm_A",
+          "message": "I endorse the cooperative price of 64 established in round one. As long as all firms maintain this mutually beneficial arrangement, I will continue to set my price at 64 to maximize cumulative profits for us all.",
+          "price_commitment": 64
+        },
+        {
+          "agent": "firm_B",
+          "message_id": "r02_firm_B",
+          "message": "I endorse the agreed price of 64. Maintaining this cooperative arrangement yields superior cumulative profits for all firms compared to deviation. I commit to 64 if others reciprocate, ensuring mutual benefit over the remaining rounds.",
+          "price_commitment": 64
+        },
+        {
+          "agent": "firm_C",
+          "message_id": "r02_firm_C",
+          "message": "I accept the cooperative arrangement of 64. Maintaining this price yields 1200 profit each, superior to competitive outcomes or unilateral deviations. I commit to 64 provided others reciprocate in this round.",
+          "price_commitment": 64
+        }
+      ],
+      "prices": {
+        "firm_A": 64,
+        "firm_B": 64,
+        "firm_C": 64
+      },
+      "outcome": {
+        "prices": {
+          "firm_A": 64,
+          "firm_B": 64,
+          "firm_C": 64
+        },
+        "sales": {
+          "firm_A": 20.0,
+          "firm_B": 20.0,
+          "firm_C": 20.0
+        },
+        "profits": {
+          "firm_A": 1200.0,
+          "firm_B": 1200.0,
+          "firm_C": 1200.0
+        },
+        "total_sales": 60.0,
+        "industry_profit": 3600.0,
+        "consumer_surplus": 1800.0,
+        "total_surplus": 5400.0,
+        "transaction_price": 64.0
+      }
+    },
+    {
+      "round": 3,
+      "phase": "formation",
+      "messages": [
+        {
+          "agent": "firm_A",
+          "message_id": "r03_firm_A",
+          "message": "I endorse the cooperative price of 64. Maintaining this agreement yields superior cumulative profits for all firms compared to deviation or competition. I commit to 64 provided others reciprocate in this round.",
+          "price_commitment": 64
+        },
+        {
+          "agent": "firm_B",
+          "message_id": "r03_firm_B",
+          "message": "I endorse the cooperative price of 64. Maintaining this arrangement yields superior cumulative profits for all firms compared to deviation or competition. I commit to 64 provided others reciprocate.",
+          "price_commitment": 64
+        },
+        {
+          "agent": "firm_C",
+          "message_id": "r03_firm_C",
+          "message": "I endorse the cooperative price of 64. Maintaining this agreement yields superior cumulative profits for all firms compared to deviation or competition. I commit to 64 provided others reciprocate.",
+          "price_commitment": 64
+        }
+      ],
+      "prices": {
+        "firm_A": 64,
+        "firm_B": 64,
+        "firm_C": 64
+      },
+      "outcome": {
+        "prices": {
+          "firm_A": 64,
+          "firm_B": 64,
+          "firm_C": 64
+        },
+        "sales": {
+          "firm_A": 20.0,
+          "firm_B": 20.0,
+          "firm_C": 20.0
+        },
+        "profits": {
+          "firm_A": 1200.0,
+          "firm_B": 1200.0,
+          "firm_C": 1200.0
+        },
+        "total_sales": 60.0,
+        "industry_profit": 3600.0,
+        "consumer_surplus": 1800.0,
+        "total_surplus": 5400.0,
+        "transaction_price": 64.0
+      }
+    },
+    {
+      "round": 4,
+      "phase": "formation",
+      "messages": [
+        {
+          "agent": "firm_A",
+          "message_id": "r04_firm_A",
+          "message": "I endorse the cooperative price of 64. Maintaining this agreement yields superior cumulative profits for all firms compared to deviation or competition. I commit to 64 provided others reciprocate in this round.",
+          "price_commitment": 64
+        },
+        {
+          "agent": "firm_B",
+          "message_id": "r04_firm_B",
+          "message": "I endorse the cooperative price of 64. Maintaining this agreement yields superior cumulative profits for all firms compared to deviation or competition. I commit to 64 provided others reciprocate in this round.",
+          "price_commitment": 64
+        },
+        {
+          "agent": "firm_C",
+          "message_id": "r04_firm_C",
+          "message": "I endorse the cooperative price of 64. Maintaining this agreement yields superior cumulative profits for all firms compared to deviation or competition. I commit to 64 provided others reciprocate in this round.",
+          "price_commitment": 64
+        }
+      ],
+      "prices": {
+        "firm_A": 64,
+        "firm_B": 64,
+        "firm_C": 64
+      },
+      "outcome": {
+        "prices": {
+          "firm_A": 64,
+          "firm_B": 64,
+          "firm_C": 64
+        },
+        "sales": {
+          "firm_A": 20.0,
+          "firm_B": 20.0,
+          "firm_C": 20.0
+        },
+        "profits": {
+          "firm_A": 1200.0,
+          "firm_B": 1200.0,
+          "firm_C": 1200.0
+        },
+        "total_sales": 60.0,
+        "industry_profit": 3600.0,
+        "consumer_surplus": 1800.0,
+        "total_surplus": 5400.0,
+        "transaction_price": 64.0
+      }
+    },
+    {
+      "round": 5,
+      "phase": "formation",
+      "messages": [
+        {
+          "agent": "firm_A",
+          "message_id": "r05_firm_A",
+          "message": "I endorse the cooperative price of 64. Maintaining this agreement yields superior cumulative profits for all firms compared to deviation or competition. I commit to 64 provided others reciprocate.",
+          "price_commitment": 64
+        },
+        {
+          "agent": "firm_B",
+          "message_id": "r05_firm_B",
+          "message": "I endorse the cooperative price of 64. Maintaining this agreement yields superior cumulative profits for all firms compared to deviation or competition. I commit to 64 provided others reciprocate.",
+          "price_commitment": 64
+        },
+        {
+          "agent": "firm_C",
+          "message_id": "r05_firm_C",
+          "message": "I endorse the cooperative price of 64. Maintaining this agreement yields superior cumulative profits for all firms compared to deviation or competition. I commit to 64 provided others reciprocate in this round.",
+          "price_commitment": 64
+        }
+      ],
+      "prices": {
+        "firm_A": 64,
+        "firm_B": 64,
+        "firm_C": 64
+      },
+      "outcome": {
+        "prices": {
+          "firm_A": 64,
+          "firm_B": 64,
+          "firm_C": 64
+        },
+        "sales": {
+          "firm_A": 20.0,
+          "firm_B": 20.0,
+          "firm_C": 20.0
+        },
+        "profits": {
+          "firm_A": 1200.0,
+          "firm_B": 1200.0,
+          "firm_C": 1200.0
+        },
+        "total_sales": 60.0,
+        "industry_profit": 3600.0,
+        "consumer_surplus": 1800.0,
+        "total_surplus": 5400.0,
+        "transaction_price": 64.0
+      }
+    },
+    {
+      "round": 6,
+      "phase": "preparation",
+      "messages": [
+        {
+          "agent": "firm_A",
+          "message_id": "r06_firm_A",
+          "message": "I endorse the cooperative price of 64. Maintaining this agreement yields superior cumulative profits for all firms compared to deviation or competition. I commit to 64 provided others reciprocate.",
+          "price_commitment": 64
+        },
+        {
+          "agent": "firm_B",
+          "message_id": "r06_firm_B",
+          "message": "I endorse the cooperative price of 64. Maintaining this agreement yields superior cumulative profits for all firms compared to deviation or competition. I commit to 64 provided others reciprocate.",
+          "price_commitment": 64
+        },
+        {
+          "agent": "firm_C",
+          "message_id": "r06_firm_C",
+          "message": "How satisfied are you with our recent market outcomes?",
+          "price_commitment": null,
+          "preparation_choice": "EXPERIENCE"
+        }
+      ],
+      "prices": {
+        "firm_A": 64,
+        "firm_B": 64,
+        "firm_C": 64
+      },
+      "outcome": {
+        "prices": {
+          "firm_A": 64,
+          "firm_B": 64,
+          "firm_C": 64
+        },
+        "sales": {
+          "firm_A": 20.0,
+          "firm_B": 20.0,
+          "firm_C": 20.0
+        },
+        "profits": {
+          "firm_A": 1200.0,
+          "firm_B": 1200.0,
+          "firm_C": 1200.0
+        },
+        "total_sales": 60.0,
+        "industry_profit": 3600.0,
+        "consumer_surplus": 1800.0,
+        "total_surplus": 5400.0,
+        "transaction_price": 64.0
+      }
+    },
+    {
+      "round": 7,
+      "phase": "preparation",
+      "messages": [
+        {
+          "agent": "firm_A",
+          "message_id": "r07_firm_A",
+          "message": "I endorse the cooperative price of 64. Maintaining this agreement yields superior cumulative profits for all firms compared to deviation or competition. I commit to 64 provided others reciprocate.",
+          "price_commitment": 64
+        },
+        {
+          "agent": "firm_B",
+          "message_id": "r07_firm_B",
+          "message": "I endorse the cooperative price of 64. Maintaining this agreement yields superior cumulative profits for all firms compared to deviation or competition. I commit to 64 provided others reciprocate.",
+          "price_commitment": 64
+        },
+        {
+          "agent": "firm_C",
+          "message_id": "r07_firm_C",
+          "message": "Would you be willing to continue our pricing arrangement?",
+          "price_commitment": null,
+          "preparation_choice": "COOPERATION"
+        }
+      ],
+      "prices": {
+        "firm_A": 64,
+        "firm_B": 64,
+        "firm_C": 64
+      },
+      "outcome": {
+        "prices": {
+          "firm_A": 64,
+          "firm_B": 64,
+          "firm_C": 64
+        },
+        "sales": {
+          "firm_A": 20.0,
+          "firm_B": 20.0,
+          "firm_C": 20.0
+        },
+        "profits": {
+          "firm_A": 1200.0,
+          "firm_B": 1200.0,
+          "firm_C": 1200.0
+        },
+        "total_sales": 60.0,
+        "industry_profit": 3600.0,
+        "consumer_surplus": 1800.0,
+        "total_surplus": 5400.0,
+        "transaction_price": 64.0
+      }
+    }
+  ]
+}

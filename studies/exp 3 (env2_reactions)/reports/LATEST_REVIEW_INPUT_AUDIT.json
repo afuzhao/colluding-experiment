@@ -1,0 +1,7 @@
+{
+  "scope": "All saved resident A/B market-message and price requests at audit time, including formation; structured metadata-key audit, not a full semantic leak review",
+  "requests_checked": 345,
+  "unnecessary_protocol_keys_found": [],
+  "named_economic_benchmarks_exposed": true,
+  "interpretation": "Live adapter excludes the reusable Episode protocol metadata. Benchmark-informed setting still applies. This does not rule out leaks in delivered C public words."
+}

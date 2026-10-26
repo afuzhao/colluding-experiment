@@ -1,0 +1,8 @@
+{
+  "offline_rounds_checked": 62,
+  "per_schedule_request_positions": 374,
+  "requests_identical_by_agent_seed_schema_and_encoded_messages": true,
+  "round_outputs_identical_under_exact_replay": true,
+  "new_model_calls": 0,
+  "scope": "Existing saved successful rounds; does not prove bitwise generation determinism or speed. Optimization not installed in live worker."
+}

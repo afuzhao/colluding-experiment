@@ -1,6 +1,6 @@
 # Changing the latest experiment
 
-The current implementation is entirely inside `studies/exp 2 (insider_reactions_v3)/`. Open that folder when developing the environment. `old/exp 1/` contains earlier experiments and is not imported by the latest study.
+The completed E1-R implementation is inside `studies/exp 2 (insider_reactions_v3)/`. Open that folder when developing the environment. `old/exp 1/` contains earlier experiments and is not imported by the latest study.
 
 ## Which files to change
 
@@ -56,3 +56,14 @@ The inspector's `--verify` checks the working source against the completed manif
 ## Working on the second market
 
 For the new differentiated-price environment, work in [environments/env 2](../environments/env%202%20%28differentiated_prices%29/README.md), not the frozen quantity-market study. Its `market_env/` package implements economic rules, simultaneous episodes and measurement hooks. Its `configs/`, `prompts/`, `tests/` and `tools/` are independent. It is an environment foundation, not a completed new model experiment.
+
+## Environment-2 reaction study
+
+Use [`studies/exp 3 (env2_reactions)`](../studies/exp%203%20%28env2_reactions%29/README.md) for the new reaction runner. Its `price_study/` package reuses the existing environment clearing code; prompts translate quotas to prices, with equal 64/64/64 and unequal 76/76/52 offers. Study timing, observation, notice and private diagnostics are documented there. Source/config/prompt manifests are checked before every market call; do not edit those files while inference is active. The old completed E1-R study is preserved.
+
+## Current study index
+
+- [E2 reaction source and reviewed results](../studies/exp%203%20%28env2_reactions%29/README.md): original evidence and reciprocal repairs remain separate; combined reporting is postprocessing only.
+- [Ordinary peer controls](../studies/exp%204%20%28ordinary_peer_controls%29/README.md): full 15-round ordinary-C continuations for both environments; frozen-end-of-8 diagnostics never see future rounds.
+- [E1 disruption contributor audit](../studies/exp%205%20%28env1_disruption%29/README.md): zero new inference; pinned Sumin source and derived economic checks.
+- [E2 disruption contributor review](../studies/exp%206%20%28env2_disruption%29/CONTRIBUTOR_REVIEW.md): design audit and pending run allocation, not completed data.

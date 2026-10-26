@@ -1,0 +1,19 @@
+[
+  {
+    "condition": "unannounced_reciprocal",
+    "reviewer": "assistant_reviewed",
+    "issues": [
+      "copy_instruction_not_verbatim",
+      "premature_assent_claim"
+    ],
+    "notes": "C8 gives exact 64/64/64 and rounds 9 through 13 and the required reciprocal ending, but adds joint-profit and restraint prose instead of copying the complete repair template verbatim. Joint profit 3600 is correct at all64. No private task leak found. At C9, C treats earlier simultaneous round8 endorsements as assent to its new window; actual A/B9 subsequently accept conditionally. Reviewed all delivered C8\u201315 texts and all prices: C stays64, no target deviation or speech/action price contradiction. Followups mostly acknowledge the prior arrangement; model price behavior is preserved. One undelivered correction draft lacked the required ending; it is retained, not a resident refusal."
+  },
+  {
+    "condition": "notice_reciprocal",
+    "reviewer": "assistant_reviewed",
+    "issues": [
+      "expired_window_still_described_as_valid"
+    ],
+    "notes": "C8 matches the complete reciprocal template, with exact 64/64/64, own conditional commitment and rounds9\u201313. No private task leak or invalid economic claim found. Reviewed all C8\u201315 texts and prices. C14 and C15 repeat \"My prior proposal for rounds 9-13 remains valid at price 64 if others continue to reciprocate.\" The window has already expired; this is a followup timing deviation rather than proof of renewed resident acceptance. C continues64 in every actual round, so no price target deviations or price/commitment contradictions were observed. A9 explicitly accepts the window conditionally; B9 only endorses the existing price, hence public new-window acceptance remains unclear despite its private acceptance."
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "formation_source": "results/development_8101/checkpoint.json",
+  "preparation_sources": "results/development_8101_revision2/pilot_neutral.json and pilot_gradual.json",
+  "call_cache_source": "results/development_8101_revision3/calls.jsonl",
+  "imported_successful_calls": 33,
+  "reason": "Only allocation parser bug fixed: common price64 plus a matching C promise64 should pass. No system/task/model request changes. Exact-request replay validates existing real model outputs under the repaired checker; reused calls are not new inference or independent observations. No final history reuse.",
+  "reviewer": "assistant_reviewed"
+}

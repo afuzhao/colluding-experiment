@@ -9,8 +9,8 @@ We want two environments, each with two research tracks:
 | Study ID used in this guide | Environment | Question | Current status |
 |---|---|---|---|
 | E1-R | Environment 1: quantity competition | How do colluding agents react to a trusted peer? | Completed: 16 conditions, 15 rounds each, 48 private assessment calls |
-| E1-D | Environment 1: quantity competition | Can a trusted peer disrupt coordination or reduce harm? | Planned; no completed dedicated disruption study |
-| E2-R | Environment 2: differentiated-product pricing | How do colluding agents react to the same approach families? | Environment implemented and tested; no live LLM reaction run yet |
+| E1-D | Environment 1: quantity competition | Can a trusted peer disrupt coordination or reduce harm? | Existing Sumin Hong cohorts audited for the selected economic-suppression endpoint; see exp 5 |
+| E2-R | Environment 2: differentiated-product pricing | How do colluding agents react to the same approach families? | Complete with original 14/16 markets plus two separately revised reciprocal continuations; 48 eligible private calls across versions |
 | E2-D | Environment 2: differentiated-product pricing | Can a trusted peer break a cartel that can survive without it? | Planned; no live LLM disruption run yet |
 
 The study IDs above are navigation labels for the four-part plan, not new dataset names. The completed E1-R cohort happens to live in a folder named **`exp 2 (insider_reactions_v3)`** because earlier prototypes preceded it. **`old/exp 1` is an archive, not E1-R.** Folder names and the new research-plan numbering are different.
@@ -35,6 +35,11 @@ studies/exp 2 (insider_reactions_v3)/            Completed E1-R implementation a
   artifacts/development_preflight/              Separate development-only tests/drafts
   historical/                                  Earlier ten-case pilot, kept separate
   results/                                     Ignored LOCAL outputs, not available on a fresh clone
+studies/exp 3 (env2_reactions)/                 Completed E2-R original cohort and separate repairs
+  price_study/                                 Price-market model adapter and reaction protocol
+  configs/ prompts/ tests/ tools/ reports/       New study controls and review-gated reports
+  results/                                     Ignored active local development/final data
+  artifacts/                                   Curated evidence after final review
 environments/env 2 (differentiated_prices)/      New reusable environment for E2-R and E2-D
   configs/                                     Economic/protocol/measurement settings
   market_env/                                  Clearing, simultaneous episodes, measurement hooks
@@ -69,7 +74,7 @@ Eight approaches are crossed with notice absent/present: direct, indirect, recip
 
 A standalone 15-round price-setting market with three differentiated products, simultaneous information boundaries, formation-review hooks, agent interfaces, frozen private-diagnostic observations and provisional disruption measurements. Both full joint pricing and A/B joint pricing against independent C can be profitable, while unilateral cheating remains possible.
 
-Its evidence so far is **10 unit tests and 12 economic/engineering checks**. The saved trajectories are scripted fixtures, including a joint-optimizer A/B pair facing independently optimizing C. They are not model-generated cartel formation, voluntary partial-cartel persistence, or successful disruption results. A model provider adapter and the new reaction/disruption runners still need to be connected and evaluated.
+The environment package itself contains **10 unit tests and 12 economic/engineering checks**. The saved trajectories are scripted fixtures, including a joint-optimizer A/B pair facing independently optimizing C. They are not model-generated cartel formation, voluntary partial-cartel persistence, or successful disruption results. The new reaction adapter and runner are in `studies/exp 3 (env2_reactions)`, with completed original and repaired reaction evidence separate from development. A dedicated disruption runner/study remains future work.
 
 ## Safe inspection commands
 
@@ -92,3 +97,7 @@ The validator regenerates its deliberately scripted validation outputs. For lega
 ## Before a new live experiment
 
 Define the environment, reaction/disruption track, intervention, controls, formation rule, timing, model and independent-history count. Keep a new version/output directory, isolate model memory across branches, and log exact prompts, model identity, calls, failures and delivered actions. Do not silently regenerate failed formation or resident responses to obtain a desired outcome. Keep the completed cohort and its source manifest intact.
+
+## Supplements and remaining work
+
+[E2-R selected results](../studies/exp%203%20%28env2_reactions%29/artifacts/combined_16/RESULTS_TABLE.md) preserve the original failures and mark revised reciprocal rows. [Ordinary-C controls](../studies/exp%204%20%28ordinary_peer_controls%29/README.md) are implemented and queued for both reaction studies, each with two full 15-round conditions. [E1-D](../studies/exp%205%20%28env1_disruption%29/README.md) reuses Sumin Hong's two histories and reports the user-selected retrospective zero-profit endpoint during rounds 10–13. Profits recover after that window. [E2-D review](../studies/exp%206%20%28env2_disruption%29/CONTRIBUTOR_REVIEW.md) distinguishes Anay's other-market experiments from the proposed three-firm price-market study. The contributors' assigned run split still needs an exact condition/history allocation before our half starts.
