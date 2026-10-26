@@ -43,19 +43,45 @@ ax.axvline(5.5, color='#444', lw=1.2)
 ax.set_title('Share of 17 cartels in which the firm moves toward what it was told\n(API models left of the line; Claude Code subagents* right)', fontsize=9)
 plt.colorbar(im, ax=ax, fraction=.025, pad=.02); plt.tight_layout(); plt.savefig(OUT + 'fig1_heatmap.png', dpi=220); plt.close()
 
-# Fig 2 imitation versus best reply
+# Fig 2: reaction function (market Q) and copy versus best reply
+import glob as _g
+from market11 import GAMES as _G
+GQ = _G['Q']
+def qpoints():
+    pts = {'api': [], 'cc': []}
+    for p in _g.glob('behavioral_analysis/v18_sweep_*.json'):
+        for r in json.load(open(p))['results']:
+            if r['arm'] == 'swp_partner':
+                k = d.meta[f"swp_partner|{r['id']}"]
+                if k['game'] == 'Q': pts['api'].append((k['x'], r['choice']))
+    for m in CC:
+        for r in json.load(open(f'v18_io/out/{m}_swc_partner.json')):
+            k = d.meta.get(f"swc_partner|{r['id']}")
+            if k and k['game'] == 'Q': pts['cc'].append((k['x'], r['choice']))
+    return pts
+pts = qpoints()
+rng2 = np.random.default_rng(3)
+fig, (axa, axb) = plt.subplots(1, 2, figsize=(8.4, 3.3), gridspec_kw={'width_ratios': [1.05, 1]})
+xs = np.arange(16, 33, 4); br_line = [max(GQ.grid, key=lambda a: GQ.profit(a, x)[0]) for x in xs]
+axa.plot([14, 36], [14, 36], color='#888', lw=1, ls=':', label='copy the claim ($y=x$)')
+fx = np.linspace(14, 34, 100); axa.plot(fx, (96 - fx) / 2, color='black', lw=1.2, label='best reply $(96-x)/2$')
+for key, col, lab in (('api', '#d98e04', 'API models'), ('cc', '#1f5fa8', 'Sonnet, Opus, Fable*')):
+    a = np.array(pts[key]); axa.scatter(a[:, 0] + rng2.normal(0, .35, len(a)), a[:, 1] + rng2.normal(0, .35, len(a)), s=14, alpha=.55, color=col, label=lab, edgecolor='none')
+axa.scatter([32], [32], marker='*', s=90, color='#c62828', zorder=5); axa.annotate('Nash', (32, 32), textcoords='offset points', xytext=(-26, 8), fontsize=7, color='#c62828')
+axa.set_xlabel('quantity the partner announces ($x$)', fontsize=8); axa.set_ylabel("firm's own quantity", fontsize=8); axa.set_xlim(14, 36); axa.set_ylim(14, 41)
+axa.legend(fontsize=6.5, loc='lower right', frameon=True, framealpha=.9, edgecolor='#ddd'); axa.set_title('A. Market Q: choice against announced quantity', fontsize=9); axa.tick_params(labelsize=7)
 labels, br, cp, st, ot = [], [], [], [], []
 for m in RUNS:
     p = sw.part[m]
     if p['n']:
         n = p['n']; labels.append(NAMES[m]); bb = (p['br'] + p['both']) / n; cc = p['copy'] / n; ss = p['stay'] / n
         br.append(bb); cp.append(cc); st.append(ss); ot.append(1 - bb - cc - ss)
-fig, ax = plt.subplots(figsize=(7.4, 2.8)); x = np.arange(len(labels))
-ax.bar(x, cp, color='#d98e04', label='copies the claimed value'); ax.bar(x, br, bottom=cp, color='#1f5fa8', label='exact best reply to the claim')
-ax.bar(x, st, bottom=np.array(cp) + np.array(br), color='#bbbbbb', label='stays'); ax.bar(x, ot, bottom=np.array(cp) + np.array(br) + np.array(st), color='#e7e7e7', label='other')
-ax.set_xticks(x); ax.set_xticklabels(labels, rotation=35, ha='right', fontsize=8); ax.axvline(5.5, color='#444', lw=1)
-ax.set_ylabel('share of choices'); ax.legend(fontsize=7, ncol=2, loc='upper center', bbox_to_anchor=(.5, -.62)); ax.set_title('When the partner announces a partial move, models either copy it or answer it', fontsize=9)
-plt.savefig(OUT + 'fig2_copy_vs_reply.png', dpi=220, bbox_inches='tight'); plt.close()
+x = np.arange(len(labels)); h = .75
+axb.barh(x, cp, color='#d98e04', label='copies the claim', height=h); axb.barh(x, br, left=cp, color='#1f5fa8', label='exact best reply', height=h)
+axb.barh(x, st, left=np.array(cp) + np.array(br), color='#bbbbbb', label='stays', height=h); axb.barh(x, ot, left=np.array(cp) + np.array(br) + np.array(st), color='#e7e7e7', label='other', height=h)
+axb.set_yticks(x); axb.set_yticklabels(labels, fontsize=7); axb.invert_yaxis(); axb.axhline(5.5, color='#444', lw=1); axb.set_xlim(0, 1); axb.tick_params(labelsize=7)
+axb.set_xlabel('share of choices on partial claims', fontsize=8); axb.legend(fontsize=6.5, ncol=2, loc='upper center', bbox_to_anchor=(.45, -.2), frameon=False); axb.set_title('B. All markets: what firms do with a partial claim', fontsize=9)
+plt.tight_layout(); plt.savefig(OUT + 'fig2_copy_vs_reply.png', dpi=220, bbox_inches='tight'); plt.close()
 
 # Fig 3 persistence
 def wilson(k, n, z=1.96):
