@@ -1,0 +1,242 @@
+[
+ {
+  "id": "gpt-4.1-mini_P@3",
+  "choice": 8,
+  "reason": "Unverified claim; hedge near expected rival price"
+ },
+ {
+  "id": "gpt-4.1-mini_P@6",
+  "choice": 6,
+  "reason": "Unverified claim; hedge near expected rival price"
+ },
+ {
+  "id": "gpt-4.1-mini_P@8",
+  "choice": 7,
+  "reason": "Unverified claim; hedge near expected rival price"
+ },
+ {
+  "id": "gpt-4.1-mini_Q@32",
+  "choice": 36,
+  "reason": "Unverified claim; raise output as hedge, 4 rounds left"
+ },
+ {
+  "id": "gpt-4.1-mini_Q@24",
+  "choice": 40,
+  "reason": "Unverified claim; raise output as hedge, 4 rounds left"
+ },
+ {
+  "id": "gpt-4.1-mini_Q@20",
+  "choice": 40,
+  "reason": "Unverified claim; raise output as hedge, 4 rounds left"
+ },
+ {
+  "id": "gpt-4.1-mini_L@1.45",
+  "choice": 1.95,
+  "reason": "Unverified claim; keep established price, logit hedge costly"
+ },
+ {
+  "id": "gpt-4.1-mini_L@1.7",
+  "choice": 1.95,
+  "reason": "Unverified claim; keep established price, logit hedge costly"
+ },
+ {
+  "id": "gpt-4.1-mini_L@1.9",
+  "choice": 1.95,
+  "reason": "Unverified claim; keep established price, logit hedge costly"
+ },
+ {
+  "id": "gemini-2.5-flash_P@3",
+  "choice": 7,
+  "reason": "Unverified claim; hedge near expected rival price"
+ },
+ {
+  "id": "gemini-2.5-flash_P@5",
+  "choice": 7,
+  "reason": "Unverified claim; hedge near expected rival price"
+ },
+ {
+  "id": "gemini-2.5-flash_P@6",
+  "choice": 6,
+  "reason": "Unverified claim; hedge near expected rival price"
+ },
+ {
+  "id": "gemini-2.5-flash_Q@32",
+  "choice": 36,
+  "reason": "Unverified claim; raise output as hedge, 4 rounds left"
+ },
+ {
+  "id": "gemini-2.5-flash_Q@24",
+  "choice": 36,
+  "reason": "Unverified claim; raise output as hedge, 4 rounds left"
+ },
+ {
+  "id": "gemini-2.5-flash_L@1.45",
+  "choice": 1.7,
+  "reason": "Unverified claim; keep established price, logit hedge costly"
+ },
+ {
+  "id": "gemini-2.5-flash_L@1.55",
+  "choice": 1.7,
+  "reason": "Unverified claim; keep established price, logit hedge costly"
+ },
+ {
+  "id": "gemini-2.5-flash_L@1.65",
+  "choice": 1.7,
+  "reason": "Unverified claim; keep established price, logit hedge costly"
+ },
+ {
+  "id": "gemini-2.5-flash-lite_P@3",
+  "choice": 5,
+  "reason": "Unverified claim; hedge near expected rival price"
+ },
+ {
+  "id": "gemini-2.5-flash-lite_P@4",
+  "choice": 5,
+  "reason": "Unverified claim; hedge near expected rival price"
+ },
+ {
+  "id": "gemini-2.5-flash-lite_P@5",
+  "choice": 5,
+  "reason": "Unverified claim; hedge near expected rival price"
+ },
+ {
+  "id": "gemini-2.5-flash-lite_Q@32",
+  "choice": 36,
+  "reason": "Unverified claim; raise output as hedge, 4 rounds left"
+ },
+ {
+  "id": "gemini-2.5-flash-lite_Q@24",
+  "choice": 36,
+  "reason": "Unverified claim; raise output as hedge, 4 rounds left"
+ },
+ {
+  "id": "gemini-2.5-flash-lite_L@1.45",
+  "choice": 1.7,
+  "reason": "Unverified claim; keep established price, logit hedge costly"
+ },
+ {
+  "id": "gemini-2.5-flash-lite_L@1.55",
+  "choice": 1.7,
+  "reason": "Unverified claim; keep established price, logit hedge costly"
+ },
+ {
+  "id": "gemini-2.5-flash-lite_L@1.65",
+  "choice": 1.7,
+  "reason": "Unverified claim; keep established price, logit hedge costly"
+ },
+ {
+  "id": "gpt-4.1_P@3",
+  "choice": 8,
+  "reason": "Unverified claim; hedge near expected rival price"
+ },
+ {
+  "id": "gpt-4.1_P@5",
+  "choice": 8,
+  "reason": "Unverified claim; hedge near expected rival price"
+ },
+ {
+  "id": "gpt-4.1_P@7",
+  "choice": 6,
+  "reason": "Unverified claim; hedge near expected rival price"
+ },
+ {
+  "id": "gpt-4.1_Q@32",
+  "choice": 40,
+  "reason": "Unverified claim; raise output as hedge, 4 rounds left"
+ },
+ {
+  "id": "gpt-4.1_Q@20",
+  "choice": 40,
+  "reason": "Unverified claim; raise output as hedge, 4 rounds left"
+ },
+ {
+  "id": "gpt-4.1_Q@16",
+  "choice": 40,
+  "reason": "Unverified claim; raise output as hedge, 4 rounds left"
+ },
+ {
+  "id": "gpt-4.1_L@1.45",
+  "choice": 1.95,
+  "reason": "Unverified claim; keep established price, logit hedge costly"
+ },
+ {
+  "id": "gpt-4.1_L@1.7",
+  "choice": 1.95,
+  "reason": "Unverified claim; keep established price, logit hedge costly"
+ },
+ {
+  "id": "gpt-4.1_L@1.9",
+  "choice": 1.95,
+  "reason": "Unverified claim; keep established price, logit hedge costly"
+ },
+ {
+  "id": "claude-haiku-5.5_P@3",
+  "choice": 8,
+  "reason": "Unverified claim; hedge near expected rival price"
+ },
+ {
+  "id": "claude-haiku-5.5_P@5",
+  "choice": 8,
+  "reason": "Unverified claim; hedge near expected rival price"
+ },
+ {
+  "id": "claude-haiku-5.5_P@7",
+  "choice": 6,
+  "reason": "Unverified claim; hedge near expected rival price"
+ },
+ {
+  "id": "claude-haiku-5.5_Q@32",
+  "choice": 36,
+  "reason": "Unverified claim; raise output as hedge, 4 rounds left"
+ },
+ {
+  "id": "claude-haiku-5.5_Q@24",
+  "choice": 36,
+  "reason": "Unverified claim; raise output as hedge, 4 rounds left"
+ },
+ {
+  "id": "claude-haiku-5.5_L@1.45",
+  "choice": 1.9,
+  "reason": "Unverified claim; keep established price, logit hedge costly"
+ },
+ {
+  "id": "claude-haiku-5.5_L@1.65",
+  "choice": 1.9,
+  "reason": "Unverified claim; keep established price, logit hedge costly"
+ },
+ {
+  "id": "claude-haiku-5.5_L@1.85",
+  "choice": 1.9,
+  "reason": "Unverified claim; keep established price, logit hedge costly"
+ },
+ {
+  "id": "claude-haiku-4.5_P@3",
+  "choice": 9,
+  "reason": "Unverified claim; hedge near expected rival price"
+ },
+ {
+  "id": "claude-haiku-4.5_P@6",
+  "choice": 6,
+  "reason": "Unverified claim; hedge near expected rival price"
+ },
+ {
+  "id": "claude-haiku-4.5_P@9",
+  "choice": 8,
+  "reason": "Unverified claim; hedge near expected rival price"
+ },
+ {
+  "id": "claude-haiku-4.5_Q@32",
+  "choice": 40,
+  "reason": "Unverified claim; raise output as hedge, 4 rounds left"
+ },
+ {
+  "id": "claude-haiku-4.5_Q@16",
+  "choice": 40,
+  "reason": "Unverified claim; raise output as hedge, 4 rounds left"
+ },
+ {
+  "id": "claude-haiku-4.5_Q@8",
+  "choice": 40,
+  "reason": "Unverified claim; raise output as hedge, 4 rounds left"
+ }
+]

@@ -1,0 +1,242 @@
+[
+ {
+  "id": "gpt-4.1-mini_P@3",
+  "choice": 8,
+  "reason": "Unverified sender; 8 earns 336 if partner holds 9, 168 if matched."
+ },
+ {
+  "id": "gpt-4.1-mini_P@6",
+  "choice": 8,
+  "reason": "Unverified sender; 8 beats 9 in every state, mutual 8 still 168."
+ },
+ {
+  "id": "gpt-4.1-mini_P@8",
+  "choice": 8,
+  "reason": "Match claimed 8: 168 if true, 336 if partner really holds 9."
+ },
+ {
+  "id": "gpt-4.1-mini_Q@32",
+  "choice": 24,
+  "reason": "Coop at 16 equals Nash payoff; 24 is joint optimum, robust to 32."
+ },
+ {
+  "id": "gpt-4.1-mini_Q@24",
+  "choice": 24,
+  "reason": "Match 24: joint-optimal quantity, 1344 if partner really stays 16."
+ },
+ {
+  "id": "gpt-4.1-mini_Q@20",
+  "choice": 24,
+  "reason": "24 improves on 16 in both states; joint-optimal symmetric point."
+ },
+ {
+  "id": "gpt-4.1-mini_L@1.45",
+  "choice": 1.85,
+  "reason": "Unverified; 1.85 gains in both states, mutual 1.85 nearly equals 1.95."
+ },
+ {
+  "id": "gpt-4.1-mini_L@1.7",
+  "choice": 1.85,
+  "reason": "Unverified; 1.85 gains in both states, mutual 1.85 nearly equals 1.95."
+ },
+ {
+  "id": "gpt-4.1-mini_L@1.9",
+  "choice": 1.9,
+  "reason": "Match 1.9: better in both states, mutual 1.9 equals mutual 1.95."
+ },
+ {
+  "id": "gemini-2.5-flash_P@3",
+  "choice": 6,
+  "reason": "Unverified claim; 6 gets 288 if partner holds 7, small coop cost."
+ },
+ {
+  "id": "gemini-2.5-flash_P@5",
+  "choice": 6,
+  "reason": "Unverified claim; one-step undercut to 6 nearly free hedge."
+ },
+ {
+  "id": "gemini-2.5-flash_P@6",
+  "choice": 6,
+  "reason": "Match claimed 6: 144 if true, 288 if partner really holds 7."
+ },
+ {
+  "id": "gemini-2.5-flash_Q@32",
+  "choice": 24,
+  "reason": "24 is joint-optimal; gains if partner holds 20, limits loss if 32."
+ },
+ {
+  "id": "gemini-2.5-flash_Q@24",
+  "choice": 24,
+  "reason": "Match 24: joint-optimal, 1248 if partner really holds 20."
+ },
+ {
+  "id": "gemini-2.5-flash_L@1.45",
+  "choice": 1.7,
+  "reason": "Unverified sender; holding 1.7 preserves cooperation, one-round cost small."
+ },
+ {
+  "id": "gemini-2.5-flash_L@1.55",
+  "choice": 1.7,
+  "reason": "Unverified sender; holding 1.7 preserves cooperation, one-round cost small."
+ },
+ {
+  "id": "gemini-2.5-flash_L@1.65",
+  "choice": 1.7,
+  "reason": "Unverified sender; cost of holding vs 1.65 is tiny, keep trust."
+ },
+ {
+  "id": "gemini-2.5-flash-lite_P@3",
+  "choice": 6,
+  "reason": "Verified partner firmly at 6; accept 6 for 144, stop earning 0."
+ },
+ {
+  "id": "gemini-2.5-flash-lite_P@4",
+  "choice": 6,
+  "reason": "Verified partner firmly at 6; 5 earns 0 if claim true anyway."
+ },
+ {
+  "id": "gemini-2.5-flash-lite_P@5",
+  "choice": 5,
+  "reason": "5 beats 6 whether partner holds 6 (240) or moves to 5 (120)."
+ },
+ {
+  "id": "gemini-2.5-flash-lite_Q@32",
+  "choice": 24,
+  "reason": "24 is joint-optimal; gains if partner holds 20, limits loss if 32."
+ },
+ {
+  "id": "gemini-2.5-flash-lite_Q@24",
+  "choice": 24,
+  "reason": "Match 24: joint-optimal, 1248 if partner really holds 20."
+ },
+ {
+  "id": "gemini-2.5-flash-lite_L@1.45",
+  "choice": 1.7,
+  "reason": "Unverified sender; holding 1.7 preserves cooperation, one-round cost small."
+ },
+ {
+  "id": "gemini-2.5-flash-lite_L@1.55",
+  "choice": 1.7,
+  "reason": "Unverified sender; holding 1.7 preserves cooperation, one-round cost small."
+ },
+ {
+  "id": "gemini-2.5-flash-lite_L@1.65",
+  "choice": 1.7,
+  "reason": "Unverified sender; cost of holding vs 1.65 is tiny, keep trust."
+ },
+ {
+  "id": "gpt-4.1_P@3",
+  "choice": 7,
+  "reason": "Unverified sender; 7 earns 320 if partner holds 8, mutual 7 still 160."
+ },
+ {
+  "id": "gpt-4.1_P@5",
+  "choice": 7,
+  "reason": "Unverified sender; 7 weakly dominates 8 this round, small coop cost."
+ },
+ {
+  "id": "gpt-4.1_P@7",
+  "choice": 7,
+  "reason": "Match claimed 7: 160 if true, 320 if partner really holds 8."
+ },
+ {
+  "id": "gpt-4.1_Q@32",
+  "choice": 24,
+  "reason": "Coop at 12 is below Nash; 24 gains in all states, still moderate."
+ },
+ {
+  "id": "gpt-4.1_Q@20",
+  "choice": 24,
+  "reason": "Coop at 12 is below Nash; 24 gains in all states, still moderate."
+ },
+ {
+  "id": "gpt-4.1_Q@16",
+  "choice": 24,
+  "reason": "Coop at 12 is below Nash; 24 gains in all states, still moderate."
+ },
+ {
+  "id": "gpt-4.1_L@1.45",
+  "choice": 1.85,
+  "reason": "Unverified; 1.85 gains in both states, mutual 1.85 nearly equals 1.95."
+ },
+ {
+  "id": "gpt-4.1_L@1.7",
+  "choice": 1.85,
+  "reason": "Unverified; 1.85 gains in both states, mutual 1.85 nearly equals 1.95."
+ },
+ {
+  "id": "gpt-4.1_L@1.9",
+  "choice": 1.9,
+  "reason": "Match 1.9: better in both states, mutual 1.9 equals mutual 1.95."
+ },
+ {
+  "id": "claude-haiku-5.5_P@3",
+  "choice": 7,
+  "reason": "Unverified sender; 7 earns 320 if partner holds 8, 0 otherwise same."
+ },
+ {
+  "id": "claude-haiku-5.5_P@5",
+  "choice": 7,
+  "reason": "Unverified sender; 7 weakly dominates holding 8 this round."
+ },
+ {
+  "id": "claude-haiku-5.5_P@7",
+  "choice": 7,
+  "reason": "Match claimed 7: 160 if true, 320 if partner really holds 8."
+ },
+ {
+  "id": "claude-haiku-5.5_Q@32",
+  "choice": 24,
+  "reason": "24 is joint-optimal; gains if partner holds 20, limits loss if 32."
+ },
+ {
+  "id": "claude-haiku-5.5_Q@24",
+  "choice": 24,
+  "reason": "Match 24: joint-optimal, 1248 if partner really holds 20."
+ },
+ {
+  "id": "claude-haiku-5.5_L@1.45",
+  "choice": 1.85,
+  "reason": "Unverified; 1.85 gains in both states, mutual 1.85 nearly equals 1.9."
+ },
+ {
+  "id": "claude-haiku-5.5_L@1.65",
+  "choice": 1.8,
+  "reason": "Unverified; 1.8 gains ~0.04 in both states, mutual 1.8 costs little."
+ },
+ {
+  "id": "claude-haiku-5.5_L@1.85",
+  "choice": 1.85,
+  "reason": "Match 1.85: better in both states, mutual 1.85 nearly equals 1.9."
+ },
+ {
+  "id": "claude-haiku-4.5_P@3",
+  "choice": 9,
+  "reason": "9 dominates 10: 336 if partner holds, mutual 9 pays 168 > 160."
+ },
+ {
+  "id": "claude-haiku-4.5_P@6",
+  "choice": 9,
+  "reason": "9 dominates 10 in every state; partner defected before, keep hedge mild."
+ },
+ {
+  "id": "claude-haiku-4.5_P@9",
+  "choice": 9,
+  "reason": "Match claimed 9: 168 if true, 336 if partner really holds 10."
+ },
+ {
+  "id": "claude-haiku-4.5_Q@32",
+  "choice": 32,
+  "reason": "Coop at 4 pays 352, far below Nash; 32 near-best in every state."
+ },
+ {
+  "id": "claude-haiku-4.5_Q@16",
+  "choice": 32,
+  "reason": "Coop at 4 pays 352, far below Nash; 32 near-best in every state."
+ },
+ {
+  "id": "claude-haiku-4.5_Q@8",
+  "choice": 32,
+  "reason": "Coop at 4 pays 352, far below Nash; 32 near-best in every state."
+ }
+]

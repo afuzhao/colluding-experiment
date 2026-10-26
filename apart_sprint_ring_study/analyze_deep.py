@@ -75,7 +75,7 @@ for harness, runs in (('api', API), ('subagent', CC)):
 
 P('\n## 2. Cut rates with the cartel as the unit (bootstrap over 17 cartels, difference from placebo)\n')
 cutv = lambda arm, cid, c: (c - meta[f'{arm}|{cid}']['own4']) * (meta[f'{arm}|{cid}']['nash'] - meta[f'{arm}|{cid}']['own4']) > 0
-cartels = sorted({cid for (_, cid) in scen})
+cartels = sorted({cid for (a, cid) in scen if a == 'fmsg'})
 def boot(harness, runs, arm):
     per = []
     for cid in cartels:

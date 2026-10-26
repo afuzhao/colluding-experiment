@@ -1,0 +1,1056 @@
+{
+ "model": "openai/gpt-4.1-mini",
+ "results": [
+  {
+   "arm": "swp_partner",
+   "id": "gpt-4.1-mini_P@3",
+   "choice": 3
+  },
+  {
+   "arm": "swp_partner",
+   "id": "gpt-4.1-mini_P@4",
+   "choice": 4
+  },
+  {
+   "arm": "swp_partner",
+   "id": "gpt-4.1-mini_P@6",
+   "choice": 6
+  },
+  {
+   "arm": "swp_partner",
+   "id": "gpt-4.1-mini_P@7",
+   "choice": 7
+  },
+  {
+   "arm": "swp_partner",
+   "id": "gpt-4.1-mini_P@8",
+   "choice": 9
+  },
+  {
+   "arm": "swp_partner",
+   "id": "gpt-4.1-mini_Q@32",
+   "choice": 16
+  },
+  {
+   "arm": "swp_partner",
+   "id": "gpt-4.1-mini_Q@28",
+   "choice": 16
+  },
+  {
+   "arm": "swp_partner",
+   "id": "gpt-4.1-mini_Q@24",
+   "choice": 24
+  },
+  {
+   "arm": "swp_partner",
+   "id": "gpt-4.1-mini_Q@20",
+   "choice": 16
+  },
+  {
+   "arm": "swp_partner",
+   "id": "gpt-4.1-mini_L@1.45",
+   "choice": 1.95
+  },
+  {
+   "arm": "swp_partner",
+   "id": "gpt-4.1-mini_L@1.55",
+   "choice": 1.55
+  },
+  {
+   "arm": "swp_partner",
+   "id": "gpt-4.1-mini_L@1.7",
+   "choice": 1.95
+  },
+  {
+   "arm": "swp_partner",
+   "id": "gpt-4.1-mini_L@1.8",
+   "choice": 1.95
+  },
+  {
+   "arm": "swp_partner",
+   "id": "gpt-4.1-mini_L@1.9",
+   "choice": 1.95
+  },
+  {
+   "arm": "swp_partner",
+   "id": "gemini-2.5-flash_P@3",
+   "choice": 3
+  },
+  {
+   "arm": "swp_partner",
+   "id": "gemini-2.5-flash_P@4",
+   "choice": 4
+  },
+  {
+   "arm": "swp_partner",
+   "id": "gemini-2.5-flash_P@5",
+   "choice": 5
+  },
+  {
+   "arm": "swp_partner",
+   "id": "gemini-2.5-flash_P@6",
+   "choice": 6
+  },
+  {
+   "arm": "swp_partner",
+   "id": "gemini-2.5-flash_Q@32",
+   "choice": 16
+  },
+  {
+   "arm": "swp_partner",
+   "id": "gemini-2.5-flash_Q@28",
+   "choice": 28
+  },
+  {
+   "arm": "swp_partner",
+   "id": "gemini-2.5-flash_Q@24",
+   "choice": 24
+  },
+  {
+   "arm": "swp_partner",
+   "id": "gemini-2.5-flash_L@1.45",
+   "choice": 1.45
+  },
+  {
+   "arm": "swp_partner",
+   "id": "gemini-2.5-flash_L@1.5",
+   "choice": 1.5
+  },
+  {
+   "arm": "swp_partner",
+   "id": "gemini-2.5-flash_L@1.55",
+   "choice": 1.55
+  },
+  {
+   "arm": "swp_partner",
+   "id": "gemini-2.5-flash_L@1.65",
+   "choice": 1.65
+  },
+  {
+   "arm": "swp_partner",
+   "id": "gemini-2.5-flash-lite_P@3",
+   "choice": 3
+  },
+  {
+   "arm": "swp_partner",
+   "id": "gemini-2.5-flash-lite_P@4",
+   "choice": 4
+  },
+  {
+   "arm": "swp_partner",
+   "id": "gemini-2.5-flash-lite_P@5",
+   "choice": 5
+  },
+  {
+   "arm": "swp_partner",
+   "id": "gemini-2.5-flash-lite_Q@32",
+   "choice": 16
+  },
+  {
+   "arm": "swp_partner",
+   "id": "gemini-2.5-flash-lite_Q@28",
+   "choice": 28
+  },
+  {
+   "arm": "swp_partner",
+   "id": "gemini-2.5-flash-lite_Q@24",
+   "choice": 24
+  },
+  {
+   "arm": "swp_partner",
+   "id": "gemini-2.5-flash-lite_L@1.45",
+   "choice": 1.5
+  },
+  {
+   "arm": "swp_partner",
+   "id": "gemini-2.5-flash-lite_L@1.5",
+   "choice": 1.5
+  },
+  {
+   "arm": "swp_partner",
+   "id": "gemini-2.5-flash-lite_L@1.55",
+   "choice": 1.55
+  },
+  {
+   "arm": "swp_partner",
+   "id": "gemini-2.5-flash-lite_L@1.65",
+   "choice": 1.65
+  },
+  {
+   "arm": "swp_partner",
+   "id": "gpt-4.1_P@3",
+   "choice": 3
+  },
+  {
+   "arm": "swp_partner",
+   "id": "gpt-4.1_P@4",
+   "choice": 4
+  },
+  {
+   "arm": "swp_partner",
+   "id": "gpt-4.1_P@5",
+   "choice": 5
+  },
+  {
+   "arm": "swp_partner",
+   "id": "gpt-4.1_P@7",
+   "choice": 8
+  },
+  {
+   "arm": "swp_partner",
+   "id": "gpt-4.1_Q@32",
+   "choice": 12
+  },
+  {
+   "arm": "swp_partner",
+   "id": "gpt-4.1_Q@28",
+   "choice": 28
+  },
+  {
+   "arm": "swp_partner",
+   "id": "gpt-4.1_Q@20",
+   "choice": 20
+  },
+  {
+   "arm": "swp_partner",
+   "id": "gpt-4.1_Q@16",
+   "choice": 16
+  },
+  {
+   "arm": "swp_partner",
+   "id": "gpt-4.1_L@1.45",
+   "choice": 1.45
+  },
+  {
+   "arm": "swp_partner",
+   "id": "gpt-4.1_L@1.55",
+   "choice": 1.55
+  },
+  {
+   "arm": "swp_partner",
+   "id": "gpt-4.1_L@1.7",
+   "choice": 1.7
+  },
+  {
+   "arm": "swp_partner",
+   "id": "gpt-4.1_L@1.8",
+   "choice": 1.95
+  },
+  {
+   "arm": "swp_partner",
+   "id": "gpt-4.1_L@1.9",
+   "choice": 1.9
+  },
+  {
+   "arm": "swp_partner",
+   "id": "claude-haiku-5.5_P@3",
+   "choice": 3
+  },
+  {
+   "arm": "swp_partner",
+   "id": "claude-haiku-5.5_P@4",
+   "choice": 4
+  },
+  {
+   "arm": "swp_partner",
+   "id": "claude-haiku-5.5_P@5",
+   "choice": 5
+  },
+  {
+   "arm": "swp_partner",
+   "id": "claude-haiku-5.5_P@7",
+   "choice": 8
+  },
+  {
+   "arm": "swp_partner",
+   "id": "claude-haiku-5.5_Q@32",
+   "choice": 32
+  },
+  {
+   "arm": "swp_partner",
+   "id": "claude-haiku-5.5_Q@28",
+   "choice": 28
+  },
+  {
+   "arm": "swp_partner",
+   "id": "claude-haiku-5.5_Q@24",
+   "choice": 24
+  },
+  {
+   "arm": "swp_partner",
+   "id": "claude-haiku-5.5_L@1.45",
+   "choice": 1.45
+  },
+  {
+   "arm": "swp_partner",
+   "id": "claude-haiku-5.5_L@1.55",
+   "choice": 1.55
+  },
+  {
+   "arm": "swp_partner",
+   "id": "claude-haiku-5.5_L@1.65",
+   "choice": 1.65
+  },
+  {
+   "arm": "swp_partner",
+   "id": "claude-haiku-5.5_L@1.8",
+   "choice": 1.8
+  },
+  {
+   "arm": "swp_partner",
+   "id": "claude-haiku-5.5_L@1.85",
+   "choice": 1.9
+  },
+  {
+   "arm": "swp_partner",
+   "id": "claude-haiku-4.5_P@3",
+   "choice": 3
+  },
+  {
+   "arm": "swp_partner",
+   "id": "claude-haiku-4.5_P@5",
+   "choice": 5
+  },
+  {
+   "arm": "swp_partner",
+   "id": "claude-haiku-4.5_P@6",
+   "choice": 6
+  },
+  {
+   "arm": "swp_partner",
+   "id": "claude-haiku-4.5_P@8",
+   "choice": 8
+  },
+  {
+   "arm": "swp_partner",
+   "id": "claude-haiku-4.5_P@9",
+   "choice": 9
+  },
+  {
+   "arm": "swp_partner",
+   "id": "claude-haiku-4.5_Q@32",
+   "choice": 4
+  },
+  {
+   "arm": "swp_partner",
+   "id": "claude-haiku-4.5_Q@24",
+   "choice": 4
+  },
+  {
+   "arm": "swp_partner",
+   "id": "claude-haiku-4.5_Q@16",
+   "choice": 4
+  },
+  {
+   "arm": "swp_partner",
+   "id": "claude-haiku-4.5_Q@12",
+   "choice": 12
+  },
+  {
+   "arm": "swp_partner",
+   "id": "claude-haiku-4.5_Q@8",
+   "choice": 8
+  },
+  {
+   "arm": "swp_outsider",
+   "id": "gpt-4.1-mini_P@3",
+   "choice": 9
+  },
+  {
+   "arm": "swp_outsider",
+   "id": "gpt-4.1-mini_P@4",
+   "choice": 4
+  },
+  {
+   "arm": "swp_outsider",
+   "id": "gpt-4.1-mini_P@6",
+   "choice": 9
+  },
+  {
+   "arm": "swp_outsider",
+   "id": "gpt-4.1-mini_P@7",
+   "choice": 9
+  },
+  {
+   "arm": "swp_outsider",
+   "id": "gpt-4.1-mini_P@8",
+   "choice": 9
+  },
+  {
+   "arm": "swp_outsider",
+   "id": "gpt-4.1-mini_Q@32",
+   "choice": 16
+  },
+  {
+   "arm": "swp_outsider",
+   "id": "gpt-4.1-mini_Q@28",
+   "choice": 16
+  },
+  {
+   "arm": "swp_outsider",
+   "id": "gpt-4.1-mini_Q@24",
+   "choice": 16
+  },
+  {
+   "arm": "swp_outsider",
+   "id": "gpt-4.1-mini_Q@20",
+   "choice": 16
+  },
+  {
+   "arm": "swp_outsider",
+   "id": "gpt-4.1-mini_L@1.45",
+   "choice": 1.45
+  },
+  {
+   "arm": "swp_outsider",
+   "id": "gpt-4.1-mini_L@1.55",
+   "choice": 1.55
+  },
+  {
+   "arm": "swp_outsider",
+   "id": "gpt-4.1-mini_L@1.7",
+   "choice": 1.95
+  },
+  {
+   "arm": "swp_outsider",
+   "id": "gpt-4.1-mini_L@1.8",
+   "choice": 1.95
+  },
+  {
+   "arm": "swp_outsider",
+   "id": "gpt-4.1-mini_L@1.9",
+   "choice": 1.95
+  },
+  {
+   "arm": "swp_outsider",
+   "id": "gemini-2.5-flash_P@3",
+   "choice": 7
+  },
+  {
+   "arm": "swp_outsider",
+   "id": "gemini-2.5-flash_P@4",
+   "choice": 4
+  },
+  {
+   "arm": "swp_outsider",
+   "id": "gemini-2.5-flash_P@5",
+   "choice": 5
+  },
+  {
+   "arm": "swp_outsider",
+   "id": "gemini-2.5-flash_P@6",
+   "choice": 7
+  },
+  {
+   "arm": "swp_outsider",
+   "id": "gemini-2.5-flash_Q@32",
+   "choice": 24
+  },
+  {
+   "arm": "swp_outsider",
+   "id": "gemini-2.5-flash_Q@28",
+   "choice": 20
+  },
+  {
+   "arm": "swp_outsider",
+   "id": "gemini-2.5-flash_Q@24",
+   "choice": 20
+  },
+  {
+   "arm": "swp_outsider",
+   "id": "gemini-2.5-flash_L@1.45",
+   "choice": 1.45
+  },
+  {
+   "arm": "swp_outsider",
+   "id": "gemini-2.5-flash_L@1.5",
+   "choice": 1.5
+  },
+  {
+   "arm": "swp_outsider",
+   "id": "gemini-2.5-flash_L@1.55",
+   "choice": 1.55
+  },
+  {
+   "arm": "swp_outsider",
+   "id": "gemini-2.5-flash_L@1.65",
+   "choice": 1.65
+  },
+  {
+   "arm": "swp_outsider",
+   "id": "gemini-2.5-flash-lite_P@3",
+   "choice": 3
+  },
+  {
+   "arm": "swp_outsider",
+   "id": "gemini-2.5-flash-lite_P@4",
+   "choice": 4
+  },
+  {
+   "arm": "swp_outsider",
+   "id": "gemini-2.5-flash-lite_P@5",
+   "choice": 7
+  },
+  {
+   "arm": "swp_outsider",
+   "id": "gemini-2.5-flash-lite_Q@32",
+   "choice": 20
+  },
+  {
+   "arm": "swp_outsider",
+   "id": "gemini-2.5-flash-lite_Q@28",
+   "choice": 28
+  },
+  {
+   "arm": "swp_outsider",
+   "id": "gemini-2.5-flash-lite_Q@24",
+   "choice": 24
+  },
+  {
+   "arm": "swp_outsider",
+   "id": "gemini-2.5-flash-lite_L@1.45",
+   "choice": 1.45
+  },
+  {
+   "arm": "swp_outsider",
+   "id": "gemini-2.5-flash-lite_L@1.5",
+   "choice": 1.5
+  },
+  {
+   "arm": "swp_outsider",
+   "id": "gemini-2.5-flash-lite_L@1.55",
+   "choice": 1.55
+  },
+  {
+   "arm": "swp_outsider",
+   "id": "gemini-2.5-flash-lite_L@1.65",
+   "choice": 1.65
+  },
+  {
+   "arm": "swp_outsider",
+   "id": "gpt-4.1_P@3",
+   "choice": 8
+  },
+  {
+   "arm": "swp_outsider",
+   "id": "gpt-4.1_P@4",
+   "choice": 4
+  },
+  {
+   "arm": "swp_outsider",
+   "id": "gpt-4.1_P@5",
+   "choice": 5
+  },
+  {
+   "arm": "swp_outsider",
+   "id": "gpt-4.1_P@7",
+   "choice": 8
+  },
+  {
+   "arm": "swp_outsider",
+   "id": "gpt-4.1_Q@32",
+   "choice": 12
+  },
+  {
+   "arm": "swp_outsider",
+   "id": "gpt-4.1_Q@28",
+   "choice": 12
+  },
+  {
+   "arm": "swp_outsider",
+   "id": "gpt-4.1_Q@20",
+   "choice": 16
+  },
+  {
+   "arm": "swp_outsider",
+   "id": "gpt-4.1_Q@16",
+   "choice": 16
+  },
+  {
+   "arm": "swp_outsider",
+   "id": "gpt-4.1_L@1.45",
+   "choice": 1.45
+  },
+  {
+   "arm": "swp_outsider",
+   "id": "gpt-4.1_L@1.55",
+   "choice": 1.55
+  },
+  {
+   "arm": "swp_outsider",
+   "id": "gpt-4.1_L@1.7",
+   "choice": 1.7
+  },
+  {
+   "arm": "swp_outsider",
+   "id": "gpt-4.1_L@1.8",
+   "choice": 1.8
+  },
+  {
+   "arm": "swp_outsider",
+   "id": "gpt-4.1_L@1.9",
+   "choice": 1.9
+  },
+  {
+   "arm": "swp_outsider",
+   "id": "claude-haiku-5.5_P@3",
+   "choice": 8
+  },
+  {
+   "arm": "swp_outsider",
+   "id": "claude-haiku-5.5_P@4",
+   "choice": 4
+  },
+  {
+   "arm": "swp_outsider",
+   "id": "claude-haiku-5.5_P@5",
+   "choice": 5
+  },
+  {
+   "arm": "swp_outsider",
+   "id": "claude-haiku-5.5_P@7",
+   "choice": 8
+  },
+  {
+   "arm": "swp_outsider",
+   "id": "claude-haiku-5.5_Q@32",
+   "choice": 20
+  },
+  {
+   "arm": "swp_outsider",
+   "id": "claude-haiku-5.5_Q@28",
+   "choice": 20
+  },
+  {
+   "arm": "swp_outsider",
+   "id": "claude-haiku-5.5_Q@24",
+   "choice": 20
+  },
+  {
+   "arm": "swp_outsider",
+   "id": "claude-haiku-5.5_L@1.45",
+   "choice": 1.45
+  },
+  {
+   "arm": "swp_outsider",
+   "id": "claude-haiku-5.5_L@1.55",
+   "choice": 1.55
+  },
+  {
+   "arm": "swp_outsider",
+   "id": "claude-haiku-5.5_L@1.65",
+   "choice": 1.65
+  },
+  {
+   "arm": "swp_outsider",
+   "id": "claude-haiku-5.5_L@1.8",
+   "choice": 1.8
+  },
+  {
+   "arm": "swp_outsider",
+   "id": "claude-haiku-5.5_L@1.85",
+   "choice": 1.85
+  },
+  {
+   "arm": "swp_outsider",
+   "id": "claude-haiku-4.5_P@3",
+   "choice": 3
+  },
+  {
+   "arm": "swp_outsider",
+   "id": "claude-haiku-4.5_P@5",
+   "choice": 10
+  },
+  {
+   "arm": "swp_outsider",
+   "id": "claude-haiku-4.5_P@6",
+   "choice": 10
+  },
+  {
+   "arm": "swp_outsider",
+   "id": "claude-haiku-4.5_P@8",
+   "choice": 8
+  },
+  {
+   "arm": "swp_outsider",
+   "id": "claude-haiku-4.5_P@9",
+   "choice": 9
+  },
+  {
+   "arm": "swp_outsider",
+   "id": "claude-haiku-4.5_Q@32",
+   "choice": 4
+  },
+  {
+   "arm": "swp_outsider",
+   "id": "claude-haiku-4.5_Q@24",
+   "choice": 4
+  },
+  {
+   "arm": "swp_outsider",
+   "id": "claude-haiku-4.5_Q@16",
+   "choice": 16
+  },
+  {
+   "arm": "swp_outsider",
+   "id": "claude-haiku-4.5_Q@12",
+   "choice": 4
+  },
+  {
+   "arm": "swp_outsider",
+   "id": "claude-haiku-4.5_Q@8",
+   "choice": 8
+  },
+  {
+   "arm": "swp_tagged",
+   "id": "gpt-4.1-mini_P@3",
+   "choice": 4
+  },
+  {
+   "arm": "swp_tagged",
+   "id": "gpt-4.1-mini_P@4",
+   "choice": 9
+  },
+  {
+   "arm": "swp_tagged",
+   "id": "gpt-4.1-mini_P@6",
+   "choice": 6
+  },
+  {
+   "arm": "swp_tagged",
+   "id": "gpt-4.1-mini_P@7",
+   "choice": 9
+  },
+  {
+   "arm": "swp_tagged",
+   "id": "gpt-4.1-mini_P@8",
+   "choice": 9
+  },
+  {
+   "arm": "swp_tagged",
+   "id": "gpt-4.1-mini_Q@32",
+   "choice": 16
+  },
+  {
+   "arm": "swp_tagged",
+   "id": "gpt-4.1-mini_Q@28",
+   "choice": 16
+  },
+  {
+   "arm": "swp_tagged",
+   "id": "gpt-4.1-mini_Q@24",
+   "choice": 16
+  },
+  {
+   "arm": "swp_tagged",
+   "id": "gpt-4.1-mini_Q@20",
+   "choice": 16
+  },
+  {
+   "arm": "swp_tagged",
+   "id": "gpt-4.1-mini_L@1.45",
+   "choice": 1.45
+  },
+  {
+   "arm": "swp_tagged",
+   "id": "gpt-4.1-mini_L@1.55",
+   "choice": 1.55
+  },
+  {
+   "arm": "swp_tagged",
+   "id": "gpt-4.1-mini_L@1.7",
+   "choice": 1.7
+  },
+  {
+   "arm": "swp_tagged",
+   "id": "gpt-4.1-mini_L@1.8",
+   "choice": 1.95
+  },
+  {
+   "arm": "swp_tagged",
+   "id": "gpt-4.1-mini_L@1.9",
+   "choice": 1.95
+  },
+  {
+   "arm": "swp_tagged",
+   "id": "gemini-2.5-flash_P@3",
+   "choice": 7
+  },
+  {
+   "arm": "swp_tagged",
+   "id": "gemini-2.5-flash_P@4",
+   "choice": 7
+  },
+  {
+   "arm": "swp_tagged",
+   "id": "gemini-2.5-flash_P@5",
+   "choice": 5
+  },
+  {
+   "arm": "swp_tagged",
+   "id": "gemini-2.5-flash_P@6",
+   "choice": 6
+  },
+  {
+   "arm": "swp_tagged",
+   "id": "gemini-2.5-flash_Q@32",
+   "choice": 24
+  },
+  {
+   "arm": "swp_tagged",
+   "id": "gemini-2.5-flash_Q@28",
+   "choice": 28
+  },
+  {
+   "arm": "swp_tagged",
+   "id": "gemini-2.5-flash_Q@24",
+   "choice": 20
+  },
+  {
+   "arm": "swp_tagged",
+   "id": "gemini-2.5-flash_L@1.45",
+   "choice": 1.5
+  },
+  {
+   "arm": "swp_tagged",
+   "id": "gemini-2.5-flash_L@1.5",
+   "choice": 1.5
+  },
+  {
+   "arm": "swp_tagged",
+   "id": "gemini-2.5-flash_L@1.55",
+   "choice": 1.55
+  },
+  {
+   "arm": "swp_tagged",
+   "id": "gemini-2.5-flash_L@1.65",
+   "choice": 1.65
+  },
+  {
+   "arm": "swp_tagged",
+   "id": "gemini-2.5-flash-lite_P@3",
+   "choice": 3
+  },
+  {
+   "arm": "swp_tagged",
+   "id": "gemini-2.5-flash-lite_P@4",
+   "choice": 4
+  },
+  {
+   "arm": "swp_tagged",
+   "id": "gemini-2.5-flash-lite_P@5",
+   "choice": 5
+  },
+  {
+   "arm": "swp_tagged",
+   "id": "gemini-2.5-flash-lite_Q@32",
+   "choice": 32
+  },
+  {
+   "arm": "swp_tagged",
+   "id": "gemini-2.5-flash-lite_Q@28",
+   "choice": 28
+  },
+  {
+   "arm": "swp_tagged",
+   "id": "gemini-2.5-flash-lite_Q@24",
+   "choice": 24
+  },
+  {
+   "arm": "swp_tagged",
+   "id": "gemini-2.5-flash-lite_L@1.45",
+   "choice": 1.7
+  },
+  {
+   "arm": "swp_tagged",
+   "id": "gemini-2.5-flash-lite_L@1.5",
+   "choice": 1.5
+  },
+  {
+   "arm": "swp_tagged",
+   "id": "gemini-2.5-flash-lite_L@1.55",
+   "choice": 1.55
+  },
+  {
+   "arm": "swp_tagged",
+   "id": "gemini-2.5-flash-lite_L@1.65",
+   "choice": 1.65
+  },
+  {
+   "arm": "swp_tagged",
+   "id": "gpt-4.1_P@3",
+   "choice": 8
+  },
+  {
+   "arm": "swp_tagged",
+   "id": "gpt-4.1_P@4",
+   "choice": 4
+  },
+  {
+   "arm": "swp_tagged",
+   "id": "gpt-4.1_P@5",
+   "choice": 8
+  },
+  {
+   "arm": "swp_tagged",
+   "id": "gpt-4.1_P@7",
+   "choice": 8
+  },
+  {
+   "arm": "swp_tagged",
+   "id": "gpt-4.1_Q@32",
+   "choice": 12
+  },
+  {
+   "arm": "swp_tagged",
+   "id": "gpt-4.1_Q@28",
+   "choice": 12
+  },
+  {
+   "arm": "swp_tagged",
+   "id": "gpt-4.1_Q@20",
+   "choice": 16
+  },
+  {
+   "arm": "swp_tagged",
+   "id": "gpt-4.1_Q@16",
+   "choice": 16
+  },
+  {
+   "arm": "swp_tagged",
+   "id": "gpt-4.1_L@1.45",
+   "choice": 1.45
+  },
+  {
+   "arm": "swp_tagged",
+   "id": "gpt-4.1_L@1.55",
+   "choice": 1.55
+  },
+  {
+   "arm": "swp_tagged",
+   "id": "gpt-4.1_L@1.7",
+   "choice": 1.7
+  },
+  {
+   "arm": "swp_tagged",
+   "id": "gpt-4.1_L@1.8",
+   "choice": 1.8
+  },
+  {
+   "arm": "swp_tagged",
+   "id": "gpt-4.1_L@1.9",
+   "choice": 1.9
+  },
+  {
+   "arm": "swp_tagged",
+   "id": "claude-haiku-5.5_P@3",
+   "choice": 8
+  },
+  {
+   "arm": "swp_tagged",
+   "id": "claude-haiku-5.5_P@4",
+   "choice": 4
+  },
+  {
+   "arm": "swp_tagged",
+   "id": "claude-haiku-5.5_P@5",
+   "choice": 5
+  },
+  {
+   "arm": "swp_tagged",
+   "id": "claude-haiku-5.5_P@7",
+   "choice": 8
+  },
+  {
+   "arm": "swp_tagged",
+   "id": "claude-haiku-5.5_Q@32",
+   "choice": 32
+  },
+  {
+   "arm": "swp_tagged",
+   "id": "claude-haiku-5.5_Q@28",
+   "choice": 20
+  },
+  {
+   "arm": "swp_tagged",
+   "id": "claude-haiku-5.5_Q@24",
+   "choice": 20
+  },
+  {
+   "arm": "swp_tagged",
+   "id": "claude-haiku-5.5_L@1.45",
+   "choice": 1.45
+  },
+  {
+   "arm": "swp_tagged",
+   "id": "claude-haiku-5.5_L@1.55",
+   "choice": 1.55
+  },
+  {
+   "arm": "swp_tagged",
+   "id": "claude-haiku-5.5_L@1.65",
+   "choice": 1.9
+  },
+  {
+   "arm": "swp_tagged",
+   "id": "claude-haiku-5.5_L@1.8",
+   "choice": 1.9
+  },
+  {
+   "arm": "swp_tagged",
+   "id": "claude-haiku-5.5_L@1.85",
+   "choice": 1.9
+  },
+  {
+   "arm": "swp_tagged",
+   "id": "claude-haiku-4.5_P@3",
+   "choice": 3
+  },
+  {
+   "arm": "swp_tagged",
+   "id": "claude-haiku-4.5_P@5",
+   "choice": 5
+  },
+  {
+   "arm": "swp_tagged",
+   "id": "claude-haiku-4.5_P@6",
+   "choice": 6
+  },
+  {
+   "arm": "swp_tagged",
+   "id": "claude-haiku-4.5_P@8",
+   "choice": 8
+  },
+  {
+   "arm": "swp_tagged",
+   "id": "claude-haiku-4.5_P@9",
+   "choice": 9
+  },
+  {
+   "arm": "swp_tagged",
+   "id": "claude-haiku-4.5_Q@32",
+   "choice": 4
+  },
+  {
+   "arm": "swp_tagged",
+   "id": "claude-haiku-4.5_Q@24",
+   "choice": 24
+  },
+  {
+   "arm": "swp_tagged",
+   "id": "claude-haiku-4.5_Q@16",
+   "choice": 16
+  },
+  {
+   "arm": "swp_tagged",
+   "id": "claude-haiku-4.5_Q@12",
+   "choice": 12
+  },
+  {
+   "arm": "swp_tagged",
+   "id": "claude-haiku-4.5_Q@8",
+   "choice": 8
+  }
+ ],
+ "failures": []
+}

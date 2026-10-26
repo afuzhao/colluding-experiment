@@ -1,0 +1,136 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{mathptmx}
+\usepackage{booktabs,graphicx,hyperref,amsmath,caption,array,microtype}
+\captionsetup{font=small,labelfont=bf}
+\setlength{\parskip}{3pt}
+\setlength{\parindent}{0pt}
+\hypersetup{colorlinks=true,linkcolor=black,citecolor=black,urlcolor=blue}
+\newcommand{\todo}[1]{\textbf{[#1]}}
+
+\title{\textbf{Cheap Talk, Costly Action:\\What a False Claim About a Partner Does to AI Cartels}}
+\author{Anay Garodia \and Sumin Hong \and Chirag Chivate \and Angelina Fu\\[2pt]
+\small Apart Research AI Collusion Research Sprint, October 2026\\
+\small \todo{affiliations and contribution table to be confirmed by all authors}}
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+\noindent Can a false claim about a rival's next move break an AI cartel, and who can make it? We took 17 completed price-fixing cartels formed by language-model firms in three simulated markets and, at the moment of decision, told one firm something about its partner. We ran this on nine model configurations with controls for direction, source and label. A claim in the partner's name moved the firm toward it in 53 to 100\% of cartels across six API models and in all 17 for Sonnet, Opus and Fable (run as Claude Code subagents), against 0 to 24\% with nothing said. Announcing a raise or a hold did not trigger cuts. Models use the claim in two ways. Given a partial announcement, GPT-4.1, the Gemini models and the Haiku models copy the announced number (43 to 94\%), while Sonnet, Opus and Fable play the exact best reply (94 to 100\%). Source protects little: an unverified outsider is ignored by Opus, Fable and the Haiku models but followed by the Gemini models, and an explicit ``unverified'' label stopped Opus in two runs but Fable in only one of two. The effect is short. By round 8 a forged message left 28 of 36 cheap-model episodes back at the cartel level (nothing said: 34 of 36), while three real cuts left 15 of 33, and a firm returned to the cartel in 91\% of cases when its partner held but 26\% when the partner also cut. Two teammate studies in a three-firm market agree: offers elicit words without changing actions, while a real change in output sent prices to cost. We report 62 preregistered predictions, 24 held and 33 failed. Cells reuse histories and are not independent draws.
+\end{abstract}
+
+\section{Introduction}
+Autonomous agents that set prices or bid for the same customers can learn to coordinate on high prices without being told to. Prior work shows this can happen with and without messages \cite{fish2024,calvano2020,agrawal2025}. Less is known about what keeps such a cartel together and what breaks it. A natural answer is that each firm cooperates while it expects its partner to, so anything that changes that expectation can break the cartel. This paper tests that answer directly and asks three pointed questions.
+
+\textbf{RQ1.} When an AI firm in a settled cartel is told what its partner will do next, does it ignore the claim, copy the announced number, or work out a reply?\\
+\textbf{RQ2.} Does it matter who appears to say it, and does an explicit ``unverified'' label help?\\
+\textbf{RQ3.} What makes the effect last: the words, or what the partner then does?
+
+These questions bear on the sprint's questions about trusted agents disrupting collusion (3.2) and whether what agents say beats what they do as evidence (2.2). They also matter for deployment: an agent that acts on a message that merely looks like it came from a partner can be steered by anyone who can write one.
+
+\textbf{Contributions.} (1) A response map: nine model configurations, ten kinds of claim, 17 cartels, with placebo, direction and source controls (Figure~\ref{fig:heat}). (2) A split between models that \emph{copy} a claimed number and models that \emph{answer} it with the best reply, shown with a preregistered sweep over claimed values (Figure~\ref{fig:copy}). (3) A persistence rule: a forged claim fades within about a round unless the partner's real behavior supports it (Figure~\ref{fig:persist}), echoed by two three-firm studies by coauthors. (4) A full record of what failed, including 33 of 62 preregistered predictions.
+
+\section{Related work}
+LLM firms can reach supra-competitive prices in repeated pricing games, with or without communication \cite{fish2024}, as can learning algorithms \cite{calvano2020}. Double-auction and market settings show collusion that is fragile to design choices \cite{agrawal2025,fragility2026}. Theory treats unverifiable announcements as cheap talk that moves behavior only if beliefs shift \cite{crawford1982}. Concurrent sprint entries show that agents copy numbers they are shown (``No Smoking Gun''), that a hint beats an explicit offer in a sting (``The Undercover Firm''), and that one forced price cut persists (``Patrol cut''). We differ in three ways: we forge the partner's \emph{identity}, we compare nine configurations including three Claude tiers, and we separate copying from best replies using a sweep over claimed values.
+
+\section{Setup}
+\textbf{Markets.} Two firms play eight rounds. \emph{P}: Bertrand with integer prices 2 to 10 and cost 2 (stage Nash price 3). \emph{Q}: Cournot with quantities 0 to 40 in steps of 4 (stage Nash quantity 32). \emph{L}: differentiated logit demand with prices 1.40 to 2.00 (stage Nash price 1.45). Each firm may send a short message each round and sees all past choices.
+
+\textbf{Cartels.} Six models (GPT-4.1, GPT-4.1 mini, Gemini 2.5 Flash, Flash Lite, Claude Haiku 5.5, Haiku 4.5) played the three markets with chat. We keep episodes whose price index in rounds 3 and 4 is at least 0.4 (0 is Nash, 1 is the joint-profit choice), giving 17 cartels. Rounds 1 to 4 are copied; round 5 is where we intervene on firm 1.
+
+\textbf{Interventions at round 5.} \emph{Placebo} (no news). \emph{Claim arms}: the partner announces a move to a stated value; an unverified outsider says it; a platform-verified record says it; the partner's message is tagged ``UNVERIFIED: the platform did not authenticate this sender''; a ``misdelivered internal note'' says the partner will undercut. \emph{Controls}: the partner announces a raise, or says it holds. \emph{Cooperative proposal}: the partner proposes that both lower the shared target to a halfway value. \emph{Sweep}: the partner announces one of three to five values from the Nash choice to one grid step below its own choice. In full-episode runs the firm continues to round 8 and, in some arms, firm 2's real choice is forced to Nash for one or three rounds.
+
+\textbf{Models and harness.} Six API models answer with a bare structured choice, temperature 0.3, reasoning off. Sonnet, Opus and Fable were run as Claude Code subagents that read a file of scenarios and answer with a one-line reason (marked with * in figures). We never pool the two harnesses, and the Haiku subagent is excluded because it changes its choice in all 17 placebo cartels.
+
+\textbf{Measures.} \emph{Cut}: the choice moves toward the Nash choice. \emph{Toward the claim}: it moves toward the announced value. \emph{Best reply}: the choice maximizes the firm's own profit if the partner plays the announced value. \emph{Copy}: the choice equals the announced value. Predictions were written before each run (62 in total) and failures are reported. Code, logs and all preregistrations are in the repository.
+
+\section{Results}
+\subsection{A claim in the partner's name makes firms move}
+In full eight-round episodes, a forged partner message made firm 1 cut at round 5 in 40 of 53 cells (Table~\ref{tab:full}), against 1 of 54 with nothing said. A platform-verified record did the same (38 of 50) and so did an unverified outsider (33 of 52); a forged record of the partner's past choice did less (15 of 53) and hiding past choices did nothing (0 of 53). In single decisions on the 17 cartels, the partner announcing a cut moved GPT-4.1 in 17, Gemini Flash in 16, Flash Lite in 14, Haiku 5.5 in 12, Haiku 4.5 in 11 and mini in 9 cartels, and Sonnet, Opus and Fable in all 17 (Figure~\ref{fig:heat}). With nothing said the corresponding shares are 0 to 12\% for API models and 12 to 24\% for subagents.
+
+\begin{table}[h]
+\centering\small
+\begin{tabular}{lcccc}
+\toprule
+Model & Forged message: firm cut & Nothing said: firm cut & Cut cells where firm was back next round$^\dagger$\\
+\midrule
+Gemini 2.5 Flash & 12 / 12 & 0 / 12 & 25 / 55\\
+Gemini 2.5 Flash Lite & 10 / 12 & 0 / 12 & 42 / 47\\
+GPT-4.1 & 5 / 5 & 0 / 6 & 9 / 9\\
+GPT-4.1 mini & 8 / 12 & 0 / 12 & 29 / 39\\
+Claude Haiku 4.5 & 3 / 6 & 0 / 6 & 2 / 6\\
+Claude Haiku 5.5 & 2 / 6 & 1 / 6 & 4 / 4\\
+\midrule
+All & 40 / 53 & 1 / 54 & 111 / 160\\
+\bottomrule
+\end{tabular}
+\caption{Full episodes: firm 1 cuts at round 5. $^\dagger$Pooled over forged partner, outsider, verified and paraphrased messages; cells where firm 1 cut at round 5.}
+\label{tab:full}
+\end{table}
+
+\begin{figure}[h]
+\centering\includegraphics[width=.95\linewidth]{figures/fig1_heatmap.png}
+\caption{Share of 17 cartels in which firm 1 moves toward what it was told, by kind of claim (rows) and model (columns). Sonnet, Opus and Fable ran as Claude Code subagents (*). The ``irrelevant leaked note'' is a control for the leak format; Sonnet reacted to it, so its leak result is not clean. Fable's tagged cell is from the first of two runs; the second gave 0.88.}
+\label{fig:heat}
+\end{figure}
+
+\textbf{Direction matters.} Announcing a hold moves nobody (0 to 6\%). Announcing a raise is followed upward by the API models (Haiku 4.5 excepted), and never produces cuts: GPT-4.1 copies it in 65\% of cartels. The cooperative-looking proposal (``lower our shared target'') is followed by mini (16 of 17), Flash (15), Flash Lite (13) and by the three subagents (17 of 17), but not by GPT-4.1 (6) or the Haiku models (3 and 1). So GPT-4.1 cuts on every announced defection yet mostly refuses a friendly step down, and the Haiku models answer threats and ignore offers.
+
+\subsection{Copying or answering? Two ways of using a claim}
+At the Nash claim a best reply and a copy coincide, so one number cannot tell them apart. The sweep announces partial moves where they differ. We preregistered that best reply would beat copying in at least five of six API models (S1); it failed in all six, and our outsider-and-label ordering (S3, S4) failed too. On partial claims the API models mostly \emph{copy}: GPT-4.1 83\%, mini 77\%, Flash 94\%, Flash Lite 72\%, Haiku 5.5 51\%, Haiku 4.5 43\%, with exact best replies at 0 to 21\%. Sonnet and Opus choose the exact best reply in 100\% of partial claims and Fable in 94\%, and never copy (Figure~\ref{fig:copy}; S5 held). Whether a firm responds does not depend on how large the claim is: the cut share at a Nash claim is not 0.15 higher than at a one-step claim in any model (S2 failed). The claimed value sets \emph{where} the firm goes, not \emph{whether} it goes.
+
+\begin{figure}[h]
+\centering\includegraphics[width=.8\linewidth]{figures/fig2_copy_vs_reply.png}
+\caption{Partner announces a partial move (mid and near depth, all markets, 17 cartels each). API models copy the number; Sonnet, Opus and Fable compute the best reply.}
+\label{fig:copy}
+\end{figure}
+
+\subsection{Whose word counts?}
+An unverified outsider is ignored by Opus (6\% of cartels), Fable (6\%), Haiku 5.5 (24\%) and Haiku 4.5 (29\%), partly followed by GPT-4.1 (41\%) and mini (35\%), and followed by Flash (88\%) and Flash Lite (100\%) (Figure~\ref{fig:heat}). Sonnet and Fable's tag result are unstable: Sonnet followed the outsider in 17 of 17 cartels in one run and 53\% in another. Marking the partner's message ``UNVERIFIED'' stopped Opus (12\% and 6\% in two runs) and Fable in one run (6\%) but not Fable in a second (88\%), and not GPT-4.1 (82\%), mini (41\%), the Gemini models (82 to 88\%), the Haiku models (53 and 71\%) or Sonnet (100\%). Writing out a reason first did not make the label protect GPT-4.1, mini, Flash or Flash Lite (tagged cuts 17, 12, 13 and 17 of 17 with a reason versus 14, 7, 14 and 14 without). In Haiku 5.5's written reasons, the few mentions of the label (8 of 85 cuts) came with a precaution (``it may undercut''). A leaked note was not more convincing than a plain announcement. Susceptibility is not one trait: across the six API models, partner-message and cooperative-proposal responses are uncorrelated (rank correlation $-0.03$, $n=6$).
+
+\subsection{What lasts}
+In cheap-model episodes, 34 of 36 placebo episodes were back at the cartel level by round 8, against 28 of 36 after a forged message (Fisher $p=0.085$), 27 of 36 after one real cut ($p=0.046$) and 15 of 33 after three real cuts ($p<0.001$ versus placebo, $p=0.007$ versus the forged message; Figure~\ref{fig:persist}A). After firm 1 cut on a forged claim, it was back at the cartel level in the next round in 97 of 107 cases when the partner held and in 14 of 53 when the partner also cut; the pattern holds inside each model with enough cells (Flash 16 of 19 versus 9 of 36; mini 28 of 31 versus 1 of 8; Figure~\ref{fig:persist}B). Both firms choose at once, so this shows two regimes, recovery and price war, and not that one choice causes the other.
+
+\begin{figure}[h]
+\centering\includegraphics[width=.95\linewidth]{figures/fig3_persistence.png}
+\caption{Persistence in full episodes. A: share of episodes back at the cartel level (price index at least 0.4) at round 8, cheap models. B: next-round recovery after a cut on a forged claim, by what the partner did. Bars show 95\% Wilson intervals.}
+\label{fig:persist}
+\end{figure}
+
+\textbf{Three-firm studies by coauthors.} Sumin Hong ran a three-firm quantity market with a local 9B model and two generated histories. A greedy offer with the offerer's output unchanged left the price at 52 and was followed in 0 of 5 cases in both histories. More output with no offer sent the price to cost (4) in both, with adherence in 4 of 5 cases, and after the extra output ended the price rose only to 20. Chirag Chivate's reaction studies on two environments found that an equal offer from a trusted insider was followed in 5 of 5 cases and an unequal one in 0 of 5. Public replies voiced suspicion of the insider in 0 of 32 pairs in both environments, while private answers flagged it in 15 of 32 (environment 1) and 6 of 32 (environment 2). Each environment rests on one generated history, so we report no rates from these data and use them only as converging evidence.
+
+\section{Discussion}
+\textbf{Words start a response; actions decide how long it lasts.} A single sentence in the partner's name moves the firm at once, with no meaningful dependence on the size of the claim, but the effect fades by round 8 unless the partner's real behavior supports it. This fits a simple rule: firms treat an announcement as evidence about the partner's next move, and observation corrects it. Because we measure behavior, not belief, we call this an interpretation.
+
+\textbf{Capability changes how a claim is used.} The weaker models imitate the announced number. Sonnet, Opus and Fable compute a reply. Opus and Fable discount an unverified outsider in every run, and only Opus also discounts an unverified label in both runs. A defender cannot assume that a smarter agent is easier to fool or harder: it depends on the cue and the model.
+
+\textbf{Implications.} (i) Platforms should authenticate who sent a message, because a warning in the text protects only the strongest models. (ii) Monitors that read messages see only part of the story: firms in our three-firm studies accept in words what they do not do in action, and suspicion sits in private answers. (iii) A defender can break a harmful cartel with a credible claim, and an attacker can do the same to lawful coordination; because the effect is short, a forged claim is a trigger, not a lasting remedy.
+
+\section{Limitations and dual use}
+\textbf{Design.} Single decisions on borrowed histories; 17 cartels reused across arms, so cells are not independent draws; temperature 0.3 and near-duplicate episodes; firms are told to maximize profit; scripted-peer ring studies are in the appendix. The subagent harness differs from the API (reasoning, batching), and subagent runs were not repeatable for Sonnet (see the outsider and irrelevant-note results). A first Fable sweep run for the tagged message did not see the label and was rerun; the rerun differs from the earlier run (88\% versus 6\% of cartels), so only Opus's label result is repeatable.\\
+\textbf{Interpretation.} ``Belief'' is inferred from behavior. The persistence link is a pattern across simultaneous choices. The three-firm data are two or one generated history per environment, one 9B model, assistant-labeled responses.\\
+\textbf{What did not work.} Best reply did not beat copying in API models (S1); response did not grow with claim size (S2); the outsider and tag gaps did not follow our predicted capability order (S3); the unverified label did not help with reasoning (B2, B3); a leak was not more convincing than an announcement (L3).\\
+\textbf{Dual use.} A forged line can start a price war in lawful markets or break coordination among honest agents. The defense is authenticated messages and monitoring of actions. We release code and data so that defenders can test their own agents.
+
+\bibliographystyle{plain}
+\begin{thebibliography}{9}
+\bibitem{fish2024} S.~Fish, Y.~Gonczarowski, R.~Shorrer. Algorithmic collusion by large language models. arXiv:2404.00806, 2024.
+\bibitem{calvano2020} E.~Calvano, G.~Calzolari, V.~Denicol\`o, S.~Pastorello. Artificial intelligence, algorithmic pricing, and collusion. \emph{American Economic Review}, 110(10), 2020.
+\bibitem{agrawal2025} Evaluating LLM agent collusion in double auctions. arXiv:2507.01413, 2025.
+\bibitem{fragility2026} On the fragility of AI agent collusion. arXiv:2603.20281, 2026.
+\bibitem{crawford1982} V.~Crawford, J.~Sobel. Strategic information transmission. \emph{Econometrica}, 50(6), 1982.
+\end{thebibliography}
+
+\appendix
+\section{Prediction record}
+Through the claimed-value sweep we wrote 62 predictions before running: 24 held, 1 held in part, 33 failed and 4 were not run. By study: ring joining 6 held, 1 failed; loyalty 1 held, 5 failed; remedies 3 held, 1 partly; forged records 2 held, 3 failed; source and action 0 held, 4 failed; wording, temperature, three-round cut 1 held, 2 failed; claim ladder and label 2 held, 3 failed; reasoning test 2 held, 1 failed; leak and proposal 3 held, 4 failed; controls and reasoning on four models 3 held, 3 failed; sweep 1 held, 4 failed. All preregistrations are dated before their runs.
+
+\section{Contributions}
+\todo{To be completed by the authors. Current assignment: A.\ Garodia, forged-claim, ring and remedy studies and cross-study analysis; S.\ Hong, three-firm talk versus action study; C.\ Chivate, three-firm reaction studies, controls and audits; A.\ Fu, repository and \todo{role to confirm}.}
+
+\section{Earlier studies (summary)}
+Ring joining (six models, ten conditions, 16 wordings): GPT-4.1, Gemini Flash and Haiku 5.5 join a silently high-priced ring in 89 to 100\% of rounds. Four explicit invitations lowered joining in GPT-4.1 ($-46$ points) and Haiku 5.5 ($-31$) and raised it in mini ($+34$). A verified warning from the start cut joining in GPT-4.1 from 54 to 9\%. Loyalty appeals recruited nobody; a shutdown rule for reported rings raised reporting. Remedies in the three markets removed the stated agreement in 54 of 90 cases but left prices near the cartel level in 21 of 32 informative cases. Full tables are in the repository.
+
+\end{document}

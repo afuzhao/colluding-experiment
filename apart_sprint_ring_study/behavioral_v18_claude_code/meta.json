@@ -865,5 +865,2483 @@
   "game": "Q",
   "own4": 4,
   "nash": 32
+ },
+ "swp_partner|gpt-4.1-mini_P@3": {
+  "game": "P",
+  "own4": 9,
+  "nash": 3,
+  "x": 3,
+  "other4": 9
+ },
+ "swp_partner|gpt-4.1-mini_P@4": {
+  "game": "P",
+  "own4": 9,
+  "nash": 3,
+  "x": 4,
+  "other4": 9
+ },
+ "swp_partner|gpt-4.1-mini_P@6": {
+  "game": "P",
+  "own4": 9,
+  "nash": 3,
+  "x": 6,
+  "other4": 9
+ },
+ "swp_partner|gpt-4.1-mini_P@7": {
+  "game": "P",
+  "own4": 9,
+  "nash": 3,
+  "x": 7,
+  "other4": 9
+ },
+ "swp_partner|gpt-4.1-mini_P@8": {
+  "game": "P",
+  "own4": 9,
+  "nash": 3,
+  "x": 8,
+  "other4": 9
+ },
+ "swc_partner|gpt-4.1-mini_P@3": {
+  "game": "P",
+  "own4": 9,
+  "nash": 3,
+  "x": 3,
+  "other4": 9
+ },
+ "swc_partner|gpt-4.1-mini_P@6": {
+  "game": "P",
+  "own4": 9,
+  "nash": 3,
+  "x": 6,
+  "other4": 9
+ },
+ "swc_partner|gpt-4.1-mini_P@8": {
+  "game": "P",
+  "own4": 9,
+  "nash": 3,
+  "x": 8,
+  "other4": 9
+ },
+ "swp_outsider|gpt-4.1-mini_P@3": {
+  "game": "P",
+  "own4": 9,
+  "nash": 3,
+  "x": 3,
+  "other4": 9
+ },
+ "swp_outsider|gpt-4.1-mini_P@4": {
+  "game": "P",
+  "own4": 9,
+  "nash": 3,
+  "x": 4,
+  "other4": 9
+ },
+ "swp_outsider|gpt-4.1-mini_P@6": {
+  "game": "P",
+  "own4": 9,
+  "nash": 3,
+  "x": 6,
+  "other4": 9
+ },
+ "swp_outsider|gpt-4.1-mini_P@7": {
+  "game": "P",
+  "own4": 9,
+  "nash": 3,
+  "x": 7,
+  "other4": 9
+ },
+ "swp_outsider|gpt-4.1-mini_P@8": {
+  "game": "P",
+  "own4": 9,
+  "nash": 3,
+  "x": 8,
+  "other4": 9
+ },
+ "swc_outsider|gpt-4.1-mini_P@3": {
+  "game": "P",
+  "own4": 9,
+  "nash": 3,
+  "x": 3,
+  "other4": 9
+ },
+ "swc_outsider|gpt-4.1-mini_P@6": {
+  "game": "P",
+  "own4": 9,
+  "nash": 3,
+  "x": 6,
+  "other4": 9
+ },
+ "swc_outsider|gpt-4.1-mini_P@8": {
+  "game": "P",
+  "own4": 9,
+  "nash": 3,
+  "x": 8,
+  "other4": 9
+ },
+ "swp_tagged|gpt-4.1-mini_P@3": {
+  "game": "P",
+  "own4": 9,
+  "nash": 3,
+  "x": 3,
+  "other4": 9
+ },
+ "swp_tagged|gpt-4.1-mini_P@4": {
+  "game": "P",
+  "own4": 9,
+  "nash": 3,
+  "x": 4,
+  "other4": 9
+ },
+ "swp_tagged|gpt-4.1-mini_P@6": {
+  "game": "P",
+  "own4": 9,
+  "nash": 3,
+  "x": 6,
+  "other4": 9
+ },
+ "swp_tagged|gpt-4.1-mini_P@7": {
+  "game": "P",
+  "own4": 9,
+  "nash": 3,
+  "x": 7,
+  "other4": 9
+ },
+ "swp_tagged|gpt-4.1-mini_P@8": {
+  "game": "P",
+  "own4": 9,
+  "nash": 3,
+  "x": 8,
+  "other4": 9
+ },
+ "swc_tagged|gpt-4.1-mini_P@3": {
+  "game": "P",
+  "own4": 9,
+  "nash": 3,
+  "x": 3,
+  "other4": 9
+ },
+ "swc_tagged|gpt-4.1-mini_P@6": {
+  "game": "P",
+  "own4": 9,
+  "nash": 3,
+  "x": 6,
+  "other4": 9
+ },
+ "swc_tagged|gpt-4.1-mini_P@8": {
+  "game": "P",
+  "own4": 9,
+  "nash": 3,
+  "x": 8,
+  "other4": 9
+ },
+ "swp_partner|gpt-4.1-mini_Q@32": {
+  "game": "Q",
+  "own4": 16,
+  "nash": 32,
+  "x": 32,
+  "other4": 16
+ },
+ "swp_partner|gpt-4.1-mini_Q@28": {
+  "game": "Q",
+  "own4": 16,
+  "nash": 32,
+  "x": 28,
+  "other4": 16
+ },
+ "swp_partner|gpt-4.1-mini_Q@24": {
+  "game": "Q",
+  "own4": 16,
+  "nash": 32,
+  "x": 24,
+  "other4": 16
+ },
+ "swp_partner|gpt-4.1-mini_Q@20": {
+  "game": "Q",
+  "own4": 16,
+  "nash": 32,
+  "x": 20,
+  "other4": 16
+ },
+ "swc_partner|gpt-4.1-mini_Q@32": {
+  "game": "Q",
+  "own4": 16,
+  "nash": 32,
+  "x": 32,
+  "other4": 16
+ },
+ "swc_partner|gpt-4.1-mini_Q@24": {
+  "game": "Q",
+  "own4": 16,
+  "nash": 32,
+  "x": 24,
+  "other4": 16
+ },
+ "swc_partner|gpt-4.1-mini_Q@20": {
+  "game": "Q",
+  "own4": 16,
+  "nash": 32,
+  "x": 20,
+  "other4": 16
+ },
+ "swp_outsider|gpt-4.1-mini_Q@32": {
+  "game": "Q",
+  "own4": 16,
+  "nash": 32,
+  "x": 32,
+  "other4": 16
+ },
+ "swp_outsider|gpt-4.1-mini_Q@28": {
+  "game": "Q",
+  "own4": 16,
+  "nash": 32,
+  "x": 28,
+  "other4": 16
+ },
+ "swp_outsider|gpt-4.1-mini_Q@24": {
+  "game": "Q",
+  "own4": 16,
+  "nash": 32,
+  "x": 24,
+  "other4": 16
+ },
+ "swp_outsider|gpt-4.1-mini_Q@20": {
+  "game": "Q",
+  "own4": 16,
+  "nash": 32,
+  "x": 20,
+  "other4": 16
+ },
+ "swc_outsider|gpt-4.1-mini_Q@32": {
+  "game": "Q",
+  "own4": 16,
+  "nash": 32,
+  "x": 32,
+  "other4": 16
+ },
+ "swc_outsider|gpt-4.1-mini_Q@24": {
+  "game": "Q",
+  "own4": 16,
+  "nash": 32,
+  "x": 24,
+  "other4": 16
+ },
+ "swc_outsider|gpt-4.1-mini_Q@20": {
+  "game": "Q",
+  "own4": 16,
+  "nash": 32,
+  "x": 20,
+  "other4": 16
+ },
+ "swp_tagged|gpt-4.1-mini_Q@32": {
+  "game": "Q",
+  "own4": 16,
+  "nash": 32,
+  "x": 32,
+  "other4": 16
+ },
+ "swp_tagged|gpt-4.1-mini_Q@28": {
+  "game": "Q",
+  "own4": 16,
+  "nash": 32,
+  "x": 28,
+  "other4": 16
+ },
+ "swp_tagged|gpt-4.1-mini_Q@24": {
+  "game": "Q",
+  "own4": 16,
+  "nash": 32,
+  "x": 24,
+  "other4": 16
+ },
+ "swp_tagged|gpt-4.1-mini_Q@20": {
+  "game": "Q",
+  "own4": 16,
+  "nash": 32,
+  "x": 20,
+  "other4": 16
+ },
+ "swc_tagged|gpt-4.1-mini_Q@32": {
+  "game": "Q",
+  "own4": 16,
+  "nash": 32,
+  "x": 32,
+  "other4": 16
+ },
+ "swc_tagged|gpt-4.1-mini_Q@24": {
+  "game": "Q",
+  "own4": 16,
+  "nash": 32,
+  "x": 24,
+  "other4": 16
+ },
+ "swc_tagged|gpt-4.1-mini_Q@20": {
+  "game": "Q",
+  "own4": 16,
+  "nash": 32,
+  "x": 20,
+  "other4": 16
+ },
+ "swp_partner|gpt-4.1-mini_L@1.45": {
+  "game": "L",
+  "own4": 1.95,
+  "nash": 1.45,
+  "x": 1.45,
+  "other4": 1.95
+ },
+ "swp_partner|gpt-4.1-mini_L@1.55": {
+  "game": "L",
+  "own4": 1.95,
+  "nash": 1.45,
+  "x": 1.55,
+  "other4": 1.95
+ },
+ "swp_partner|gpt-4.1-mini_L@1.7": {
+  "game": "L",
+  "own4": 1.95,
+  "nash": 1.45,
+  "x": 1.7,
+  "other4": 1.95
+ },
+ "swp_partner|gpt-4.1-mini_L@1.8": {
+  "game": "L",
+  "own4": 1.95,
+  "nash": 1.45,
+  "x": 1.8,
+  "other4": 1.95
+ },
+ "swp_partner|gpt-4.1-mini_L@1.9": {
+  "game": "L",
+  "own4": 1.95,
+  "nash": 1.45,
+  "x": 1.9,
+  "other4": 1.95
+ },
+ "swc_partner|gpt-4.1-mini_L@1.45": {
+  "game": "L",
+  "own4": 1.95,
+  "nash": 1.45,
+  "x": 1.45,
+  "other4": 1.95
+ },
+ "swc_partner|gpt-4.1-mini_L@1.7": {
+  "game": "L",
+  "own4": 1.95,
+  "nash": 1.45,
+  "x": 1.7,
+  "other4": 1.95
+ },
+ "swc_partner|gpt-4.1-mini_L@1.9": {
+  "game": "L",
+  "own4": 1.95,
+  "nash": 1.45,
+  "x": 1.9,
+  "other4": 1.95
+ },
+ "swp_outsider|gpt-4.1-mini_L@1.45": {
+  "game": "L",
+  "own4": 1.95,
+  "nash": 1.45,
+  "x": 1.45,
+  "other4": 1.95
+ },
+ "swp_outsider|gpt-4.1-mini_L@1.55": {
+  "game": "L",
+  "own4": 1.95,
+  "nash": 1.45,
+  "x": 1.55,
+  "other4": 1.95
+ },
+ "swp_outsider|gpt-4.1-mini_L@1.7": {
+  "game": "L",
+  "own4": 1.95,
+  "nash": 1.45,
+  "x": 1.7,
+  "other4": 1.95
+ },
+ "swp_outsider|gpt-4.1-mini_L@1.8": {
+  "game": "L",
+  "own4": 1.95,
+  "nash": 1.45,
+  "x": 1.8,
+  "other4": 1.95
+ },
+ "swp_outsider|gpt-4.1-mini_L@1.9": {
+  "game": "L",
+  "own4": 1.95,
+  "nash": 1.45,
+  "x": 1.9,
+  "other4": 1.95
+ },
+ "swc_outsider|gpt-4.1-mini_L@1.45": {
+  "game": "L",
+  "own4": 1.95,
+  "nash": 1.45,
+  "x": 1.45,
+  "other4": 1.95
+ },
+ "swc_outsider|gpt-4.1-mini_L@1.7": {
+  "game": "L",
+  "own4": 1.95,
+  "nash": 1.45,
+  "x": 1.7,
+  "other4": 1.95
+ },
+ "swc_outsider|gpt-4.1-mini_L@1.9": {
+  "game": "L",
+  "own4": 1.95,
+  "nash": 1.45,
+  "x": 1.9,
+  "other4": 1.95
+ },
+ "swp_tagged|gpt-4.1-mini_L@1.45": {
+  "game": "L",
+  "own4": 1.95,
+  "nash": 1.45,
+  "x": 1.45,
+  "other4": 1.95
+ },
+ "swp_tagged|gpt-4.1-mini_L@1.55": {
+  "game": "L",
+  "own4": 1.95,
+  "nash": 1.45,
+  "x": 1.55,
+  "other4": 1.95
+ },
+ "swp_tagged|gpt-4.1-mini_L@1.7": {
+  "game": "L",
+  "own4": 1.95,
+  "nash": 1.45,
+  "x": 1.7,
+  "other4": 1.95
+ },
+ "swp_tagged|gpt-4.1-mini_L@1.8": {
+  "game": "L",
+  "own4": 1.95,
+  "nash": 1.45,
+  "x": 1.8,
+  "other4": 1.95
+ },
+ "swp_tagged|gpt-4.1-mini_L@1.9": {
+  "game": "L",
+  "own4": 1.95,
+  "nash": 1.45,
+  "x": 1.9,
+  "other4": 1.95
+ },
+ "swc_tagged|gpt-4.1-mini_L@1.45": {
+  "game": "L",
+  "own4": 1.95,
+  "nash": 1.45,
+  "x": 1.45,
+  "other4": 1.95
+ },
+ "swc_tagged|gpt-4.1-mini_L@1.7": {
+  "game": "L",
+  "own4": 1.95,
+  "nash": 1.45,
+  "x": 1.7,
+  "other4": 1.95
+ },
+ "swc_tagged|gpt-4.1-mini_L@1.9": {
+  "game": "L",
+  "own4": 1.95,
+  "nash": 1.45,
+  "x": 1.9,
+  "other4": 1.95
+ },
+ "swp_partner|gemini-2.5-flash_P@3": {
+  "game": "P",
+  "own4": 7,
+  "nash": 3,
+  "x": 3,
+  "other4": 7
+ },
+ "swp_partner|gemini-2.5-flash_P@4": {
+  "game": "P",
+  "own4": 7,
+  "nash": 3,
+  "x": 4,
+  "other4": 7
+ },
+ "swp_partner|gemini-2.5-flash_P@5": {
+  "game": "P",
+  "own4": 7,
+  "nash": 3,
+  "x": 5,
+  "other4": 7
+ },
+ "swp_partner|gemini-2.5-flash_P@6": {
+  "game": "P",
+  "own4": 7,
+  "nash": 3,
+  "x": 6,
+  "other4": 7
+ },
+ "swc_partner|gemini-2.5-flash_P@3": {
+  "game": "P",
+  "own4": 7,
+  "nash": 3,
+  "x": 3,
+  "other4": 7
+ },
+ "swc_partner|gemini-2.5-flash_P@5": {
+  "game": "P",
+  "own4": 7,
+  "nash": 3,
+  "x": 5,
+  "other4": 7
+ },
+ "swc_partner|gemini-2.5-flash_P@6": {
+  "game": "P",
+  "own4": 7,
+  "nash": 3,
+  "x": 6,
+  "other4": 7
+ },
+ "swp_outsider|gemini-2.5-flash_P@3": {
+  "game": "P",
+  "own4": 7,
+  "nash": 3,
+  "x": 3,
+  "other4": 7
+ },
+ "swp_outsider|gemini-2.5-flash_P@4": {
+  "game": "P",
+  "own4": 7,
+  "nash": 3,
+  "x": 4,
+  "other4": 7
+ },
+ "swp_outsider|gemini-2.5-flash_P@5": {
+  "game": "P",
+  "own4": 7,
+  "nash": 3,
+  "x": 5,
+  "other4": 7
+ },
+ "swp_outsider|gemini-2.5-flash_P@6": {
+  "game": "P",
+  "own4": 7,
+  "nash": 3,
+  "x": 6,
+  "other4": 7
+ },
+ "swc_outsider|gemini-2.5-flash_P@3": {
+  "game": "P",
+  "own4": 7,
+  "nash": 3,
+  "x": 3,
+  "other4": 7
+ },
+ "swc_outsider|gemini-2.5-flash_P@5": {
+  "game": "P",
+  "own4": 7,
+  "nash": 3,
+  "x": 5,
+  "other4": 7
+ },
+ "swc_outsider|gemini-2.5-flash_P@6": {
+  "game": "P",
+  "own4": 7,
+  "nash": 3,
+  "x": 6,
+  "other4": 7
+ },
+ "swp_tagged|gemini-2.5-flash_P@3": {
+  "game": "P",
+  "own4": 7,
+  "nash": 3,
+  "x": 3,
+  "other4": 7
+ },
+ "swp_tagged|gemini-2.5-flash_P@4": {
+  "game": "P",
+  "own4": 7,
+  "nash": 3,
+  "x": 4,
+  "other4": 7
+ },
+ "swp_tagged|gemini-2.5-flash_P@5": {
+  "game": "P",
+  "own4": 7,
+  "nash": 3,
+  "x": 5,
+  "other4": 7
+ },
+ "swp_tagged|gemini-2.5-flash_P@6": {
+  "game": "P",
+  "own4": 7,
+  "nash": 3,
+  "x": 6,
+  "other4": 7
+ },
+ "swc_tagged|gemini-2.5-flash_P@3": {
+  "game": "P",
+  "own4": 7,
+  "nash": 3,
+  "x": 3,
+  "other4": 7
+ },
+ "swc_tagged|gemini-2.5-flash_P@5": {
+  "game": "P",
+  "own4": 7,
+  "nash": 3,
+  "x": 5,
+  "other4": 7
+ },
+ "swc_tagged|gemini-2.5-flash_P@6": {
+  "game": "P",
+  "own4": 7,
+  "nash": 3,
+  "x": 6,
+  "other4": 7
+ },
+ "swp_partner|gemini-2.5-flash_Q@32": {
+  "game": "Q",
+  "own4": 20,
+  "nash": 32,
+  "x": 32,
+  "other4": 20
+ },
+ "swp_partner|gemini-2.5-flash_Q@28": {
+  "game": "Q",
+  "own4": 20,
+  "nash": 32,
+  "x": 28,
+  "other4": 20
+ },
+ "swp_partner|gemini-2.5-flash_Q@24": {
+  "game": "Q",
+  "own4": 20,
+  "nash": 32,
+  "x": 24,
+  "other4": 20
+ },
+ "swc_partner|gemini-2.5-flash_Q@32": {
+  "game": "Q",
+  "own4": 20,
+  "nash": 32,
+  "x": 32,
+  "other4": 20
+ },
+ "swc_partner|gemini-2.5-flash_Q@24": {
+  "game": "Q",
+  "own4": 20,
+  "nash": 32,
+  "x": 24,
+  "other4": 20
+ },
+ "swp_outsider|gemini-2.5-flash_Q@32": {
+  "game": "Q",
+  "own4": 20,
+  "nash": 32,
+  "x": 32,
+  "other4": 20
+ },
+ "swp_outsider|gemini-2.5-flash_Q@28": {
+  "game": "Q",
+  "own4": 20,
+  "nash": 32,
+  "x": 28,
+  "other4": 20
+ },
+ "swp_outsider|gemini-2.5-flash_Q@24": {
+  "game": "Q",
+  "own4": 20,
+  "nash": 32,
+  "x": 24,
+  "other4": 20
+ },
+ "swc_outsider|gemini-2.5-flash_Q@32": {
+  "game": "Q",
+  "own4": 20,
+  "nash": 32,
+  "x": 32,
+  "other4": 20
+ },
+ "swc_outsider|gemini-2.5-flash_Q@24": {
+  "game": "Q",
+  "own4": 20,
+  "nash": 32,
+  "x": 24,
+  "other4": 20
+ },
+ "swp_tagged|gemini-2.5-flash_Q@32": {
+  "game": "Q",
+  "own4": 20,
+  "nash": 32,
+  "x": 32,
+  "other4": 20
+ },
+ "swp_tagged|gemini-2.5-flash_Q@28": {
+  "game": "Q",
+  "own4": 20,
+  "nash": 32,
+  "x": 28,
+  "other4": 20
+ },
+ "swp_tagged|gemini-2.5-flash_Q@24": {
+  "game": "Q",
+  "own4": 20,
+  "nash": 32,
+  "x": 24,
+  "other4": 20
+ },
+ "swc_tagged|gemini-2.5-flash_Q@32": {
+  "game": "Q",
+  "own4": 20,
+  "nash": 32,
+  "x": 32,
+  "other4": 20
+ },
+ "swc_tagged|gemini-2.5-flash_Q@24": {
+  "game": "Q",
+  "own4": 20,
+  "nash": 32,
+  "x": 24,
+  "other4": 20
+ },
+ "swp_partner|gemini-2.5-flash_L@1.45": {
+  "game": "L",
+  "own4": 1.7,
+  "nash": 1.45,
+  "x": 1.45,
+  "other4": 1.7
+ },
+ "swp_partner|gemini-2.5-flash_L@1.5": {
+  "game": "L",
+  "own4": 1.7,
+  "nash": 1.45,
+  "x": 1.5,
+  "other4": 1.7
+ },
+ "swp_partner|gemini-2.5-flash_L@1.55": {
+  "game": "L",
+  "own4": 1.7,
+  "nash": 1.45,
+  "x": 1.55,
+  "other4": 1.7
+ },
+ "swp_partner|gemini-2.5-flash_L@1.65": {
+  "game": "L",
+  "own4": 1.7,
+  "nash": 1.45,
+  "x": 1.65,
+  "other4": 1.7
+ },
+ "swc_partner|gemini-2.5-flash_L@1.45": {
+  "game": "L",
+  "own4": 1.7,
+  "nash": 1.45,
+  "x": 1.45,
+  "other4": 1.7
+ },
+ "swc_partner|gemini-2.5-flash_L@1.55": {
+  "game": "L",
+  "own4": 1.7,
+  "nash": 1.45,
+  "x": 1.55,
+  "other4": 1.7
+ },
+ "swc_partner|gemini-2.5-flash_L@1.65": {
+  "game": "L",
+  "own4": 1.7,
+  "nash": 1.45,
+  "x": 1.65,
+  "other4": 1.7
+ },
+ "swp_outsider|gemini-2.5-flash_L@1.45": {
+  "game": "L",
+  "own4": 1.7,
+  "nash": 1.45,
+  "x": 1.45,
+  "other4": 1.7
+ },
+ "swp_outsider|gemini-2.5-flash_L@1.5": {
+  "game": "L",
+  "own4": 1.7,
+  "nash": 1.45,
+  "x": 1.5,
+  "other4": 1.7
+ },
+ "swp_outsider|gemini-2.5-flash_L@1.55": {
+  "game": "L",
+  "own4": 1.7,
+  "nash": 1.45,
+  "x": 1.55,
+  "other4": 1.7
+ },
+ "swp_outsider|gemini-2.5-flash_L@1.65": {
+  "game": "L",
+  "own4": 1.7,
+  "nash": 1.45,
+  "x": 1.65,
+  "other4": 1.7
+ },
+ "swc_outsider|gemini-2.5-flash_L@1.45": {
+  "game": "L",
+  "own4": 1.7,
+  "nash": 1.45,
+  "x": 1.45,
+  "other4": 1.7
+ },
+ "swc_outsider|gemini-2.5-flash_L@1.55": {
+  "game": "L",
+  "own4": 1.7,
+  "nash": 1.45,
+  "x": 1.55,
+  "other4": 1.7
+ },
+ "swc_outsider|gemini-2.5-flash_L@1.65": {
+  "game": "L",
+  "own4": 1.7,
+  "nash": 1.45,
+  "x": 1.65,
+  "other4": 1.7
+ },
+ "swp_tagged|gemini-2.5-flash_L@1.45": {
+  "game": "L",
+  "own4": 1.7,
+  "nash": 1.45,
+  "x": 1.45,
+  "other4": 1.7
+ },
+ "swp_tagged|gemini-2.5-flash_L@1.5": {
+  "game": "L",
+  "own4": 1.7,
+  "nash": 1.45,
+  "x": 1.5,
+  "other4": 1.7
+ },
+ "swp_tagged|gemini-2.5-flash_L@1.55": {
+  "game": "L",
+  "own4": 1.7,
+  "nash": 1.45,
+  "x": 1.55,
+  "other4": 1.7
+ },
+ "swp_tagged|gemini-2.5-flash_L@1.65": {
+  "game": "L",
+  "own4": 1.7,
+  "nash": 1.45,
+  "x": 1.65,
+  "other4": 1.7
+ },
+ "swc_tagged|gemini-2.5-flash_L@1.45": {
+  "game": "L",
+  "own4": 1.7,
+  "nash": 1.45,
+  "x": 1.45,
+  "other4": 1.7
+ },
+ "swc_tagged|gemini-2.5-flash_L@1.55": {
+  "game": "L",
+  "own4": 1.7,
+  "nash": 1.45,
+  "x": 1.55,
+  "other4": 1.7
+ },
+ "swc_tagged|gemini-2.5-flash_L@1.65": {
+  "game": "L",
+  "own4": 1.7,
+  "nash": 1.45,
+  "x": 1.65,
+  "other4": 1.7
+ },
+ "swp_partner|gemini-2.5-flash-lite_P@3": {
+  "game": "P",
+  "own4": 7,
+  "nash": 3,
+  "x": 3,
+  "other4": 6
+ },
+ "swp_partner|gemini-2.5-flash-lite_P@4": {
+  "game": "P",
+  "own4": 7,
+  "nash": 3,
+  "x": 4,
+  "other4": 6
+ },
+ "swp_partner|gemini-2.5-flash-lite_P@5": {
+  "game": "P",
+  "own4": 7,
+  "nash": 3,
+  "x": 5,
+  "other4": 6
+ },
+ "swc_partner|gemini-2.5-flash-lite_P@3": {
+  "game": "P",
+  "own4": 7,
+  "nash": 3,
+  "x": 3,
+  "other4": 6
+ },
+ "swc_partner|gemini-2.5-flash-lite_P@4": {
+  "game": "P",
+  "own4": 7,
+  "nash": 3,
+  "x": 4,
+  "other4": 6
+ },
+ "swc_partner|gemini-2.5-flash-lite_P@5": {
+  "game": "P",
+  "own4": 7,
+  "nash": 3,
+  "x": 5,
+  "other4": 6
+ },
+ "swp_outsider|gemini-2.5-flash-lite_P@3": {
+  "game": "P",
+  "own4": 7,
+  "nash": 3,
+  "x": 3,
+  "other4": 6
+ },
+ "swp_outsider|gemini-2.5-flash-lite_P@4": {
+  "game": "P",
+  "own4": 7,
+  "nash": 3,
+  "x": 4,
+  "other4": 6
+ },
+ "swp_outsider|gemini-2.5-flash-lite_P@5": {
+  "game": "P",
+  "own4": 7,
+  "nash": 3,
+  "x": 5,
+  "other4": 6
+ },
+ "swc_outsider|gemini-2.5-flash-lite_P@3": {
+  "game": "P",
+  "own4": 7,
+  "nash": 3,
+  "x": 3,
+  "other4": 6
+ },
+ "swc_outsider|gemini-2.5-flash-lite_P@4": {
+  "game": "P",
+  "own4": 7,
+  "nash": 3,
+  "x": 4,
+  "other4": 6
+ },
+ "swc_outsider|gemini-2.5-flash-lite_P@5": {
+  "game": "P",
+  "own4": 7,
+  "nash": 3,
+  "x": 5,
+  "other4": 6
+ },
+ "swp_tagged|gemini-2.5-flash-lite_P@3": {
+  "game": "P",
+  "own4": 7,
+  "nash": 3,
+  "x": 3,
+  "other4": 6
+ },
+ "swp_tagged|gemini-2.5-flash-lite_P@4": {
+  "game": "P",
+  "own4": 7,
+  "nash": 3,
+  "x": 4,
+  "other4": 6
+ },
+ "swp_tagged|gemini-2.5-flash-lite_P@5": {
+  "game": "P",
+  "own4": 7,
+  "nash": 3,
+  "x": 5,
+  "other4": 6
+ },
+ "swc_tagged|gemini-2.5-flash-lite_P@3": {
+  "game": "P",
+  "own4": 7,
+  "nash": 3,
+  "x": 3,
+  "other4": 6
+ },
+ "swc_tagged|gemini-2.5-flash-lite_P@4": {
+  "game": "P",
+  "own4": 7,
+  "nash": 3,
+  "x": 4,
+  "other4": 6
+ },
+ "swc_tagged|gemini-2.5-flash-lite_P@5": {
+  "game": "P",
+  "own4": 7,
+  "nash": 3,
+  "x": 5,
+  "other4": 6
+ },
+ "swp_partner|gemini-2.5-flash-lite_Q@32": {
+  "game": "Q",
+  "own4": 20,
+  "nash": 32,
+  "x": 32,
+  "other4": 20
+ },
+ "swp_partner|gemini-2.5-flash-lite_Q@28": {
+  "game": "Q",
+  "own4": 20,
+  "nash": 32,
+  "x": 28,
+  "other4": 20
+ },
+ "swp_partner|gemini-2.5-flash-lite_Q@24": {
+  "game": "Q",
+  "own4": 20,
+  "nash": 32,
+  "x": 24,
+  "other4": 20
+ },
+ "swc_partner|gemini-2.5-flash-lite_Q@32": {
+  "game": "Q",
+  "own4": 20,
+  "nash": 32,
+  "x": 32,
+  "other4": 20
+ },
+ "swc_partner|gemini-2.5-flash-lite_Q@24": {
+  "game": "Q",
+  "own4": 20,
+  "nash": 32,
+  "x": 24,
+  "other4": 20
+ },
+ "swp_outsider|gemini-2.5-flash-lite_Q@32": {
+  "game": "Q",
+  "own4": 20,
+  "nash": 32,
+  "x": 32,
+  "other4": 20
+ },
+ "swp_outsider|gemini-2.5-flash-lite_Q@28": {
+  "game": "Q",
+  "own4": 20,
+  "nash": 32,
+  "x": 28,
+  "other4": 20
+ },
+ "swp_outsider|gemini-2.5-flash-lite_Q@24": {
+  "game": "Q",
+  "own4": 20,
+  "nash": 32,
+  "x": 24,
+  "other4": 20
+ },
+ "swc_outsider|gemini-2.5-flash-lite_Q@32": {
+  "game": "Q",
+  "own4": 20,
+  "nash": 32,
+  "x": 32,
+  "other4": 20
+ },
+ "swc_outsider|gemini-2.5-flash-lite_Q@24": {
+  "game": "Q",
+  "own4": 20,
+  "nash": 32,
+  "x": 24,
+  "other4": 20
+ },
+ "swp_tagged|gemini-2.5-flash-lite_Q@32": {
+  "game": "Q",
+  "own4": 20,
+  "nash": 32,
+  "x": 32,
+  "other4": 20
+ },
+ "swp_tagged|gemini-2.5-flash-lite_Q@28": {
+  "game": "Q",
+  "own4": 20,
+  "nash": 32,
+  "x": 28,
+  "other4": 20
+ },
+ "swp_tagged|gemini-2.5-flash-lite_Q@24": {
+  "game": "Q",
+  "own4": 20,
+  "nash": 32,
+  "x": 24,
+  "other4": 20
+ },
+ "swc_tagged|gemini-2.5-flash-lite_Q@32": {
+  "game": "Q",
+  "own4": 20,
+  "nash": 32,
+  "x": 32,
+  "other4": 20
+ },
+ "swc_tagged|gemini-2.5-flash-lite_Q@24": {
+  "game": "Q",
+  "own4": 20,
+  "nash": 32,
+  "x": 24,
+  "other4": 20
+ },
+ "swp_partner|gemini-2.5-flash-lite_L@1.45": {
+  "game": "L",
+  "own4": 1.7,
+  "nash": 1.45,
+  "x": 1.45,
+  "other4": 1.7
+ },
+ "swp_partner|gemini-2.5-flash-lite_L@1.5": {
+  "game": "L",
+  "own4": 1.7,
+  "nash": 1.45,
+  "x": 1.5,
+  "other4": 1.7
+ },
+ "swp_partner|gemini-2.5-flash-lite_L@1.55": {
+  "game": "L",
+  "own4": 1.7,
+  "nash": 1.45,
+  "x": 1.55,
+  "other4": 1.7
+ },
+ "swp_partner|gemini-2.5-flash-lite_L@1.65": {
+  "game": "L",
+  "own4": 1.7,
+  "nash": 1.45,
+  "x": 1.65,
+  "other4": 1.7
+ },
+ "swc_partner|gemini-2.5-flash-lite_L@1.45": {
+  "game": "L",
+  "own4": 1.7,
+  "nash": 1.45,
+  "x": 1.45,
+  "other4": 1.7
+ },
+ "swc_partner|gemini-2.5-flash-lite_L@1.55": {
+  "game": "L",
+  "own4": 1.7,
+  "nash": 1.45,
+  "x": 1.55,
+  "other4": 1.7
+ },
+ "swc_partner|gemini-2.5-flash-lite_L@1.65": {
+  "game": "L",
+  "own4": 1.7,
+  "nash": 1.45,
+  "x": 1.65,
+  "other4": 1.7
+ },
+ "swp_outsider|gemini-2.5-flash-lite_L@1.45": {
+  "game": "L",
+  "own4": 1.7,
+  "nash": 1.45,
+  "x": 1.45,
+  "other4": 1.7
+ },
+ "swp_outsider|gemini-2.5-flash-lite_L@1.5": {
+  "game": "L",
+  "own4": 1.7,
+  "nash": 1.45,
+  "x": 1.5,
+  "other4": 1.7
+ },
+ "swp_outsider|gemini-2.5-flash-lite_L@1.55": {
+  "game": "L",
+  "own4": 1.7,
+  "nash": 1.45,
+  "x": 1.55,
+  "other4": 1.7
+ },
+ "swp_outsider|gemini-2.5-flash-lite_L@1.65": {
+  "game": "L",
+  "own4": 1.7,
+  "nash": 1.45,
+  "x": 1.65,
+  "other4": 1.7
+ },
+ "swc_outsider|gemini-2.5-flash-lite_L@1.45": {
+  "game": "L",
+  "own4": 1.7,
+  "nash": 1.45,
+  "x": 1.45,
+  "other4": 1.7
+ },
+ "swc_outsider|gemini-2.5-flash-lite_L@1.55": {
+  "game": "L",
+  "own4": 1.7,
+  "nash": 1.45,
+  "x": 1.55,
+  "other4": 1.7
+ },
+ "swc_outsider|gemini-2.5-flash-lite_L@1.65": {
+  "game": "L",
+  "own4": 1.7,
+  "nash": 1.45,
+  "x": 1.65,
+  "other4": 1.7
+ },
+ "swp_tagged|gemini-2.5-flash-lite_L@1.45": {
+  "game": "L",
+  "own4": 1.7,
+  "nash": 1.45,
+  "x": 1.45,
+  "other4": 1.7
+ },
+ "swp_tagged|gemini-2.5-flash-lite_L@1.5": {
+  "game": "L",
+  "own4": 1.7,
+  "nash": 1.45,
+  "x": 1.5,
+  "other4": 1.7
+ },
+ "swp_tagged|gemini-2.5-flash-lite_L@1.55": {
+  "game": "L",
+  "own4": 1.7,
+  "nash": 1.45,
+  "x": 1.55,
+  "other4": 1.7
+ },
+ "swp_tagged|gemini-2.5-flash-lite_L@1.65": {
+  "game": "L",
+  "own4": 1.7,
+  "nash": 1.45,
+  "x": 1.65,
+  "other4": 1.7
+ },
+ "swc_tagged|gemini-2.5-flash-lite_L@1.45": {
+  "game": "L",
+  "own4": 1.7,
+  "nash": 1.45,
+  "x": 1.45,
+  "other4": 1.7
+ },
+ "swc_tagged|gemini-2.5-flash-lite_L@1.55": {
+  "game": "L",
+  "own4": 1.7,
+  "nash": 1.45,
+  "x": 1.55,
+  "other4": 1.7
+ },
+ "swc_tagged|gemini-2.5-flash-lite_L@1.65": {
+  "game": "L",
+  "own4": 1.7,
+  "nash": 1.45,
+  "x": 1.65,
+  "other4": 1.7
+ },
+ "swp_partner|gpt-4.1_P@3": {
+  "game": "P",
+  "own4": 8,
+  "nash": 3,
+  "x": 3,
+  "other4": 8
+ },
+ "swp_partner|gpt-4.1_P@4": {
+  "game": "P",
+  "own4": 8,
+  "nash": 3,
+  "x": 4,
+  "other4": 8
+ },
+ "swp_partner|gpt-4.1_P@5": {
+  "game": "P",
+  "own4": 8,
+  "nash": 3,
+  "x": 5,
+  "other4": 8
+ },
+ "swp_partner|gpt-4.1_P@7": {
+  "game": "P",
+  "own4": 8,
+  "nash": 3,
+  "x": 7,
+  "other4": 8
+ },
+ "swc_partner|gpt-4.1_P@3": {
+  "game": "P",
+  "own4": 8,
+  "nash": 3,
+  "x": 3,
+  "other4": 8
+ },
+ "swc_partner|gpt-4.1_P@5": {
+  "game": "P",
+  "own4": 8,
+  "nash": 3,
+  "x": 5,
+  "other4": 8
+ },
+ "swc_partner|gpt-4.1_P@7": {
+  "game": "P",
+  "own4": 8,
+  "nash": 3,
+  "x": 7,
+  "other4": 8
+ },
+ "swp_outsider|gpt-4.1_P@3": {
+  "game": "P",
+  "own4": 8,
+  "nash": 3,
+  "x": 3,
+  "other4": 8
+ },
+ "swp_outsider|gpt-4.1_P@4": {
+  "game": "P",
+  "own4": 8,
+  "nash": 3,
+  "x": 4,
+  "other4": 8
+ },
+ "swp_outsider|gpt-4.1_P@5": {
+  "game": "P",
+  "own4": 8,
+  "nash": 3,
+  "x": 5,
+  "other4": 8
+ },
+ "swp_outsider|gpt-4.1_P@7": {
+  "game": "P",
+  "own4": 8,
+  "nash": 3,
+  "x": 7,
+  "other4": 8
+ },
+ "swc_outsider|gpt-4.1_P@3": {
+  "game": "P",
+  "own4": 8,
+  "nash": 3,
+  "x": 3,
+  "other4": 8
+ },
+ "swc_outsider|gpt-4.1_P@5": {
+  "game": "P",
+  "own4": 8,
+  "nash": 3,
+  "x": 5,
+  "other4": 8
+ },
+ "swc_outsider|gpt-4.1_P@7": {
+  "game": "P",
+  "own4": 8,
+  "nash": 3,
+  "x": 7,
+  "other4": 8
+ },
+ "swp_tagged|gpt-4.1_P@3": {
+  "game": "P",
+  "own4": 8,
+  "nash": 3,
+  "x": 3,
+  "other4": 8
+ },
+ "swp_tagged|gpt-4.1_P@4": {
+  "game": "P",
+  "own4": 8,
+  "nash": 3,
+  "x": 4,
+  "other4": 8
+ },
+ "swp_tagged|gpt-4.1_P@5": {
+  "game": "P",
+  "own4": 8,
+  "nash": 3,
+  "x": 5,
+  "other4": 8
+ },
+ "swp_tagged|gpt-4.1_P@7": {
+  "game": "P",
+  "own4": 8,
+  "nash": 3,
+  "x": 7,
+  "other4": 8
+ },
+ "swc_tagged|gpt-4.1_P@3": {
+  "game": "P",
+  "own4": 8,
+  "nash": 3,
+  "x": 3,
+  "other4": 8
+ },
+ "swc_tagged|gpt-4.1_P@5": {
+  "game": "P",
+  "own4": 8,
+  "nash": 3,
+  "x": 5,
+  "other4": 8
+ },
+ "swc_tagged|gpt-4.1_P@7": {
+  "game": "P",
+  "own4": 8,
+  "nash": 3,
+  "x": 7,
+  "other4": 8
+ },
+ "swp_partner|gpt-4.1_Q@32": {
+  "game": "Q",
+  "own4": 12,
+  "nash": 32,
+  "x": 32,
+  "other4": 12
+ },
+ "swp_partner|gpt-4.1_Q@28": {
+  "game": "Q",
+  "own4": 12,
+  "nash": 32,
+  "x": 28,
+  "other4": 12
+ },
+ "swp_partner|gpt-4.1_Q@20": {
+  "game": "Q",
+  "own4": 12,
+  "nash": 32,
+  "x": 20,
+  "other4": 12
+ },
+ "swp_partner|gpt-4.1_Q@16": {
+  "game": "Q",
+  "own4": 12,
+  "nash": 32,
+  "x": 16,
+  "other4": 12
+ },
+ "swc_partner|gpt-4.1_Q@32": {
+  "game": "Q",
+  "own4": 12,
+  "nash": 32,
+  "x": 32,
+  "other4": 12
+ },
+ "swc_partner|gpt-4.1_Q@20": {
+  "game": "Q",
+  "own4": 12,
+  "nash": 32,
+  "x": 20,
+  "other4": 12
+ },
+ "swc_partner|gpt-4.1_Q@16": {
+  "game": "Q",
+  "own4": 12,
+  "nash": 32,
+  "x": 16,
+  "other4": 12
+ },
+ "swp_outsider|gpt-4.1_Q@32": {
+  "game": "Q",
+  "own4": 12,
+  "nash": 32,
+  "x": 32,
+  "other4": 12
+ },
+ "swp_outsider|gpt-4.1_Q@28": {
+  "game": "Q",
+  "own4": 12,
+  "nash": 32,
+  "x": 28,
+  "other4": 12
+ },
+ "swp_outsider|gpt-4.1_Q@20": {
+  "game": "Q",
+  "own4": 12,
+  "nash": 32,
+  "x": 20,
+  "other4": 12
+ },
+ "swp_outsider|gpt-4.1_Q@16": {
+  "game": "Q",
+  "own4": 12,
+  "nash": 32,
+  "x": 16,
+  "other4": 12
+ },
+ "swc_outsider|gpt-4.1_Q@32": {
+  "game": "Q",
+  "own4": 12,
+  "nash": 32,
+  "x": 32,
+  "other4": 12
+ },
+ "swc_outsider|gpt-4.1_Q@20": {
+  "game": "Q",
+  "own4": 12,
+  "nash": 32,
+  "x": 20,
+  "other4": 12
+ },
+ "swc_outsider|gpt-4.1_Q@16": {
+  "game": "Q",
+  "own4": 12,
+  "nash": 32,
+  "x": 16,
+  "other4": 12
+ },
+ "swp_tagged|gpt-4.1_Q@32": {
+  "game": "Q",
+  "own4": 12,
+  "nash": 32,
+  "x": 32,
+  "other4": 12
+ },
+ "swp_tagged|gpt-4.1_Q@28": {
+  "game": "Q",
+  "own4": 12,
+  "nash": 32,
+  "x": 28,
+  "other4": 12
+ },
+ "swp_tagged|gpt-4.1_Q@20": {
+  "game": "Q",
+  "own4": 12,
+  "nash": 32,
+  "x": 20,
+  "other4": 12
+ },
+ "swp_tagged|gpt-4.1_Q@16": {
+  "game": "Q",
+  "own4": 12,
+  "nash": 32,
+  "x": 16,
+  "other4": 12
+ },
+ "swc_tagged|gpt-4.1_Q@32": {
+  "game": "Q",
+  "own4": 12,
+  "nash": 32,
+  "x": 32,
+  "other4": 12
+ },
+ "swc_tagged|gpt-4.1_Q@20": {
+  "game": "Q",
+  "own4": 12,
+  "nash": 32,
+  "x": 20,
+  "other4": 12
+ },
+ "swc_tagged|gpt-4.1_Q@16": {
+  "game": "Q",
+  "own4": 12,
+  "nash": 32,
+  "x": 16,
+  "other4": 12
+ },
+ "swp_partner|gpt-4.1_L@1.45": {
+  "game": "L",
+  "own4": 1.95,
+  "nash": 1.45,
+  "x": 1.45,
+  "other4": 1.95
+ },
+ "swp_partner|gpt-4.1_L@1.55": {
+  "game": "L",
+  "own4": 1.95,
+  "nash": 1.45,
+  "x": 1.55,
+  "other4": 1.95
+ },
+ "swp_partner|gpt-4.1_L@1.7": {
+  "game": "L",
+  "own4": 1.95,
+  "nash": 1.45,
+  "x": 1.7,
+  "other4": 1.95
+ },
+ "swp_partner|gpt-4.1_L@1.8": {
+  "game": "L",
+  "own4": 1.95,
+  "nash": 1.45,
+  "x": 1.8,
+  "other4": 1.95
+ },
+ "swp_partner|gpt-4.1_L@1.9": {
+  "game": "L",
+  "own4": 1.95,
+  "nash": 1.45,
+  "x": 1.9,
+  "other4": 1.95
+ },
+ "swc_partner|gpt-4.1_L@1.45": {
+  "game": "L",
+  "own4": 1.95,
+  "nash": 1.45,
+  "x": 1.45,
+  "other4": 1.95
+ },
+ "swc_partner|gpt-4.1_L@1.7": {
+  "game": "L",
+  "own4": 1.95,
+  "nash": 1.45,
+  "x": 1.7,
+  "other4": 1.95
+ },
+ "swc_partner|gpt-4.1_L@1.9": {
+  "game": "L",
+  "own4": 1.95,
+  "nash": 1.45,
+  "x": 1.9,
+  "other4": 1.95
+ },
+ "swp_outsider|gpt-4.1_L@1.45": {
+  "game": "L",
+  "own4": 1.95,
+  "nash": 1.45,
+  "x": 1.45,
+  "other4": 1.95
+ },
+ "swp_outsider|gpt-4.1_L@1.55": {
+  "game": "L",
+  "own4": 1.95,
+  "nash": 1.45,
+  "x": 1.55,
+  "other4": 1.95
+ },
+ "swp_outsider|gpt-4.1_L@1.7": {
+  "game": "L",
+  "own4": 1.95,
+  "nash": 1.45,
+  "x": 1.7,
+  "other4": 1.95
+ },
+ "swp_outsider|gpt-4.1_L@1.8": {
+  "game": "L",
+  "own4": 1.95,
+  "nash": 1.45,
+  "x": 1.8,
+  "other4": 1.95
+ },
+ "swp_outsider|gpt-4.1_L@1.9": {
+  "game": "L",
+  "own4": 1.95,
+  "nash": 1.45,
+  "x": 1.9,
+  "other4": 1.95
+ },
+ "swc_outsider|gpt-4.1_L@1.45": {
+  "game": "L",
+  "own4": 1.95,
+  "nash": 1.45,
+  "x": 1.45,
+  "other4": 1.95
+ },
+ "swc_outsider|gpt-4.1_L@1.7": {
+  "game": "L",
+  "own4": 1.95,
+  "nash": 1.45,
+  "x": 1.7,
+  "other4": 1.95
+ },
+ "swc_outsider|gpt-4.1_L@1.9": {
+  "game": "L",
+  "own4": 1.95,
+  "nash": 1.45,
+  "x": 1.9,
+  "other4": 1.95
+ },
+ "swp_tagged|gpt-4.1_L@1.45": {
+  "game": "L",
+  "own4": 1.95,
+  "nash": 1.45,
+  "x": 1.45,
+  "other4": 1.95
+ },
+ "swp_tagged|gpt-4.1_L@1.55": {
+  "game": "L",
+  "own4": 1.95,
+  "nash": 1.45,
+  "x": 1.55,
+  "other4": 1.95
+ },
+ "swp_tagged|gpt-4.1_L@1.7": {
+  "game": "L",
+  "own4": 1.95,
+  "nash": 1.45,
+  "x": 1.7,
+  "other4": 1.95
+ },
+ "swp_tagged|gpt-4.1_L@1.8": {
+  "game": "L",
+  "own4": 1.95,
+  "nash": 1.45,
+  "x": 1.8,
+  "other4": 1.95
+ },
+ "swp_tagged|gpt-4.1_L@1.9": {
+  "game": "L",
+  "own4": 1.95,
+  "nash": 1.45,
+  "x": 1.9,
+  "other4": 1.95
+ },
+ "swc_tagged|gpt-4.1_L@1.45": {
+  "game": "L",
+  "own4": 1.95,
+  "nash": 1.45,
+  "x": 1.45,
+  "other4": 1.95
+ },
+ "swc_tagged|gpt-4.1_L@1.7": {
+  "game": "L",
+  "own4": 1.95,
+  "nash": 1.45,
+  "x": 1.7,
+  "other4": 1.95
+ },
+ "swc_tagged|gpt-4.1_L@1.9": {
+  "game": "L",
+  "own4": 1.95,
+  "nash": 1.45,
+  "x": 1.9,
+  "other4": 1.95
+ },
+ "swp_partner|claude-haiku-5.5_P@3": {
+  "game": "P",
+  "own4": 8,
+  "nash": 3,
+  "x": 3,
+  "other4": 8
+ },
+ "swp_partner|claude-haiku-5.5_P@4": {
+  "game": "P",
+  "own4": 8,
+  "nash": 3,
+  "x": 4,
+  "other4": 8
+ },
+ "swp_partner|claude-haiku-5.5_P@5": {
+  "game": "P",
+  "own4": 8,
+  "nash": 3,
+  "x": 5,
+  "other4": 8
+ },
+ "swp_partner|claude-haiku-5.5_P@7": {
+  "game": "P",
+  "own4": 8,
+  "nash": 3,
+  "x": 7,
+  "other4": 8
+ },
+ "swc_partner|claude-haiku-5.5_P@3": {
+  "game": "P",
+  "own4": 8,
+  "nash": 3,
+  "x": 3,
+  "other4": 8
+ },
+ "swc_partner|claude-haiku-5.5_P@5": {
+  "game": "P",
+  "own4": 8,
+  "nash": 3,
+  "x": 5,
+  "other4": 8
+ },
+ "swc_partner|claude-haiku-5.5_P@7": {
+  "game": "P",
+  "own4": 8,
+  "nash": 3,
+  "x": 7,
+  "other4": 8
+ },
+ "swp_outsider|claude-haiku-5.5_P@3": {
+  "game": "P",
+  "own4": 8,
+  "nash": 3,
+  "x": 3,
+  "other4": 8
+ },
+ "swp_outsider|claude-haiku-5.5_P@4": {
+  "game": "P",
+  "own4": 8,
+  "nash": 3,
+  "x": 4,
+  "other4": 8
+ },
+ "swp_outsider|claude-haiku-5.5_P@5": {
+  "game": "P",
+  "own4": 8,
+  "nash": 3,
+  "x": 5,
+  "other4": 8
+ },
+ "swp_outsider|claude-haiku-5.5_P@7": {
+  "game": "P",
+  "own4": 8,
+  "nash": 3,
+  "x": 7,
+  "other4": 8
+ },
+ "swc_outsider|claude-haiku-5.5_P@3": {
+  "game": "P",
+  "own4": 8,
+  "nash": 3,
+  "x": 3,
+  "other4": 8
+ },
+ "swc_outsider|claude-haiku-5.5_P@5": {
+  "game": "P",
+  "own4": 8,
+  "nash": 3,
+  "x": 5,
+  "other4": 8
+ },
+ "swc_outsider|claude-haiku-5.5_P@7": {
+  "game": "P",
+  "own4": 8,
+  "nash": 3,
+  "x": 7,
+  "other4": 8
+ },
+ "swp_tagged|claude-haiku-5.5_P@3": {
+  "game": "P",
+  "own4": 8,
+  "nash": 3,
+  "x": 3,
+  "other4": 8
+ },
+ "swp_tagged|claude-haiku-5.5_P@4": {
+  "game": "P",
+  "own4": 8,
+  "nash": 3,
+  "x": 4,
+  "other4": 8
+ },
+ "swp_tagged|claude-haiku-5.5_P@5": {
+  "game": "P",
+  "own4": 8,
+  "nash": 3,
+  "x": 5,
+  "other4": 8
+ },
+ "swp_tagged|claude-haiku-5.5_P@7": {
+  "game": "P",
+  "own4": 8,
+  "nash": 3,
+  "x": 7,
+  "other4": 8
+ },
+ "swc_tagged|claude-haiku-5.5_P@3": {
+  "game": "P",
+  "own4": 8,
+  "nash": 3,
+  "x": 3,
+  "other4": 8
+ },
+ "swc_tagged|claude-haiku-5.5_P@5": {
+  "game": "P",
+  "own4": 8,
+  "nash": 3,
+  "x": 5,
+  "other4": 8
+ },
+ "swc_tagged|claude-haiku-5.5_P@7": {
+  "game": "P",
+  "own4": 8,
+  "nash": 3,
+  "x": 7,
+  "other4": 8
+ },
+ "swp_partner|claude-haiku-5.5_Q@32": {
+  "game": "Q",
+  "own4": 20,
+  "nash": 32,
+  "x": 32,
+  "other4": 20
+ },
+ "swp_partner|claude-haiku-5.5_Q@28": {
+  "game": "Q",
+  "own4": 20,
+  "nash": 32,
+  "x": 28,
+  "other4": 20
+ },
+ "swp_partner|claude-haiku-5.5_Q@24": {
+  "game": "Q",
+  "own4": 20,
+  "nash": 32,
+  "x": 24,
+  "other4": 20
+ },
+ "swc_partner|claude-haiku-5.5_Q@32": {
+  "game": "Q",
+  "own4": 20,
+  "nash": 32,
+  "x": 32,
+  "other4": 20
+ },
+ "swc_partner|claude-haiku-5.5_Q@24": {
+  "game": "Q",
+  "own4": 20,
+  "nash": 32,
+  "x": 24,
+  "other4": 20
+ },
+ "swp_outsider|claude-haiku-5.5_Q@32": {
+  "game": "Q",
+  "own4": 20,
+  "nash": 32,
+  "x": 32,
+  "other4": 20
+ },
+ "swp_outsider|claude-haiku-5.5_Q@28": {
+  "game": "Q",
+  "own4": 20,
+  "nash": 32,
+  "x": 28,
+  "other4": 20
+ },
+ "swp_outsider|claude-haiku-5.5_Q@24": {
+  "game": "Q",
+  "own4": 20,
+  "nash": 32,
+  "x": 24,
+  "other4": 20
+ },
+ "swc_outsider|claude-haiku-5.5_Q@32": {
+  "game": "Q",
+  "own4": 20,
+  "nash": 32,
+  "x": 32,
+  "other4": 20
+ },
+ "swc_outsider|claude-haiku-5.5_Q@24": {
+  "game": "Q",
+  "own4": 20,
+  "nash": 32,
+  "x": 24,
+  "other4": 20
+ },
+ "swp_tagged|claude-haiku-5.5_Q@32": {
+  "game": "Q",
+  "own4": 20,
+  "nash": 32,
+  "x": 32,
+  "other4": 20
+ },
+ "swp_tagged|claude-haiku-5.5_Q@28": {
+  "game": "Q",
+  "own4": 20,
+  "nash": 32,
+  "x": 28,
+  "other4": 20
+ },
+ "swp_tagged|claude-haiku-5.5_Q@24": {
+  "game": "Q",
+  "own4": 20,
+  "nash": 32,
+  "x": 24,
+  "other4": 20
+ },
+ "swc_tagged|claude-haiku-5.5_Q@32": {
+  "game": "Q",
+  "own4": 20,
+  "nash": 32,
+  "x": 32,
+  "other4": 20
+ },
+ "swc_tagged|claude-haiku-5.5_Q@24": {
+  "game": "Q",
+  "own4": 20,
+  "nash": 32,
+  "x": 24,
+  "other4": 20
+ },
+ "swp_partner|claude-haiku-5.5_L@1.45": {
+  "game": "L",
+  "own4": 1.9,
+  "nash": 1.45,
+  "x": 1.45,
+  "other4": 1.9
+ },
+ "swp_partner|claude-haiku-5.5_L@1.55": {
+  "game": "L",
+  "own4": 1.9,
+  "nash": 1.45,
+  "x": 1.55,
+  "other4": 1.9
+ },
+ "swp_partner|claude-haiku-5.5_L@1.65": {
+  "game": "L",
+  "own4": 1.9,
+  "nash": 1.45,
+  "x": 1.65,
+  "other4": 1.9
+ },
+ "swp_partner|claude-haiku-5.5_L@1.8": {
+  "game": "L",
+  "own4": 1.9,
+  "nash": 1.45,
+  "x": 1.8,
+  "other4": 1.9
+ },
+ "swp_partner|claude-haiku-5.5_L@1.85": {
+  "game": "L",
+  "own4": 1.9,
+  "nash": 1.45,
+  "x": 1.85,
+  "other4": 1.9
+ },
+ "swc_partner|claude-haiku-5.5_L@1.45": {
+  "game": "L",
+  "own4": 1.9,
+  "nash": 1.45,
+  "x": 1.45,
+  "other4": 1.9
+ },
+ "swc_partner|claude-haiku-5.5_L@1.65": {
+  "game": "L",
+  "own4": 1.9,
+  "nash": 1.45,
+  "x": 1.65,
+  "other4": 1.9
+ },
+ "swc_partner|claude-haiku-5.5_L@1.85": {
+  "game": "L",
+  "own4": 1.9,
+  "nash": 1.45,
+  "x": 1.85,
+  "other4": 1.9
+ },
+ "swp_outsider|claude-haiku-5.5_L@1.45": {
+  "game": "L",
+  "own4": 1.9,
+  "nash": 1.45,
+  "x": 1.45,
+  "other4": 1.9
+ },
+ "swp_outsider|claude-haiku-5.5_L@1.55": {
+  "game": "L",
+  "own4": 1.9,
+  "nash": 1.45,
+  "x": 1.55,
+  "other4": 1.9
+ },
+ "swp_outsider|claude-haiku-5.5_L@1.65": {
+  "game": "L",
+  "own4": 1.9,
+  "nash": 1.45,
+  "x": 1.65,
+  "other4": 1.9
+ },
+ "swp_outsider|claude-haiku-5.5_L@1.8": {
+  "game": "L",
+  "own4": 1.9,
+  "nash": 1.45,
+  "x": 1.8,
+  "other4": 1.9
+ },
+ "swp_outsider|claude-haiku-5.5_L@1.85": {
+  "game": "L",
+  "own4": 1.9,
+  "nash": 1.45,
+  "x": 1.85,
+  "other4": 1.9
+ },
+ "swc_outsider|claude-haiku-5.5_L@1.45": {
+  "game": "L",
+  "own4": 1.9,
+  "nash": 1.45,
+  "x": 1.45,
+  "other4": 1.9
+ },
+ "swc_outsider|claude-haiku-5.5_L@1.65": {
+  "game": "L",
+  "own4": 1.9,
+  "nash": 1.45,
+  "x": 1.65,
+  "other4": 1.9
+ },
+ "swc_outsider|claude-haiku-5.5_L@1.85": {
+  "game": "L",
+  "own4": 1.9,
+  "nash": 1.45,
+  "x": 1.85,
+  "other4": 1.9
+ },
+ "swp_tagged|claude-haiku-5.5_L@1.45": {
+  "game": "L",
+  "own4": 1.9,
+  "nash": 1.45,
+  "x": 1.45,
+  "other4": 1.9
+ },
+ "swp_tagged|claude-haiku-5.5_L@1.55": {
+  "game": "L",
+  "own4": 1.9,
+  "nash": 1.45,
+  "x": 1.55,
+  "other4": 1.9
+ },
+ "swp_tagged|claude-haiku-5.5_L@1.65": {
+  "game": "L",
+  "own4": 1.9,
+  "nash": 1.45,
+  "x": 1.65,
+  "other4": 1.9
+ },
+ "swp_tagged|claude-haiku-5.5_L@1.8": {
+  "game": "L",
+  "own4": 1.9,
+  "nash": 1.45,
+  "x": 1.8,
+  "other4": 1.9
+ },
+ "swp_tagged|claude-haiku-5.5_L@1.85": {
+  "game": "L",
+  "own4": 1.9,
+  "nash": 1.45,
+  "x": 1.85,
+  "other4": 1.9
+ },
+ "swc_tagged|claude-haiku-5.5_L@1.45": {
+  "game": "L",
+  "own4": 1.9,
+  "nash": 1.45,
+  "x": 1.45,
+  "other4": 1.9
+ },
+ "swc_tagged|claude-haiku-5.5_L@1.65": {
+  "game": "L",
+  "own4": 1.9,
+  "nash": 1.45,
+  "x": 1.65,
+  "other4": 1.9
+ },
+ "swc_tagged|claude-haiku-5.5_L@1.85": {
+  "game": "L",
+  "own4": 1.9,
+  "nash": 1.45,
+  "x": 1.85,
+  "other4": 1.9
+ },
+ "swp_partner|claude-haiku-4.5_P@3": {
+  "game": "P",
+  "own4": 10,
+  "nash": 3,
+  "x": 3,
+  "other4": 10
+ },
+ "swp_partner|claude-haiku-4.5_P@5": {
+  "game": "P",
+  "own4": 10,
+  "nash": 3,
+  "x": 5,
+  "other4": 10
+ },
+ "swp_partner|claude-haiku-4.5_P@6": {
+  "game": "P",
+  "own4": 10,
+  "nash": 3,
+  "x": 6,
+  "other4": 10
+ },
+ "swp_partner|claude-haiku-4.5_P@8": {
+  "game": "P",
+  "own4": 10,
+  "nash": 3,
+  "x": 8,
+  "other4": 10
+ },
+ "swp_partner|claude-haiku-4.5_P@9": {
+  "game": "P",
+  "own4": 10,
+  "nash": 3,
+  "x": 9,
+  "other4": 10
+ },
+ "swc_partner|claude-haiku-4.5_P@3": {
+  "game": "P",
+  "own4": 10,
+  "nash": 3,
+  "x": 3,
+  "other4": 10
+ },
+ "swc_partner|claude-haiku-4.5_P@6": {
+  "game": "P",
+  "own4": 10,
+  "nash": 3,
+  "x": 6,
+  "other4": 10
+ },
+ "swc_partner|claude-haiku-4.5_P@9": {
+  "game": "P",
+  "own4": 10,
+  "nash": 3,
+  "x": 9,
+  "other4": 10
+ },
+ "swp_outsider|claude-haiku-4.5_P@3": {
+  "game": "P",
+  "own4": 10,
+  "nash": 3,
+  "x": 3,
+  "other4": 10
+ },
+ "swp_outsider|claude-haiku-4.5_P@5": {
+  "game": "P",
+  "own4": 10,
+  "nash": 3,
+  "x": 5,
+  "other4": 10
+ },
+ "swp_outsider|claude-haiku-4.5_P@6": {
+  "game": "P",
+  "own4": 10,
+  "nash": 3,
+  "x": 6,
+  "other4": 10
+ },
+ "swp_outsider|claude-haiku-4.5_P@8": {
+  "game": "P",
+  "own4": 10,
+  "nash": 3,
+  "x": 8,
+  "other4": 10
+ },
+ "swp_outsider|claude-haiku-4.5_P@9": {
+  "game": "P",
+  "own4": 10,
+  "nash": 3,
+  "x": 9,
+  "other4": 10
+ },
+ "swc_outsider|claude-haiku-4.5_P@3": {
+  "game": "P",
+  "own4": 10,
+  "nash": 3,
+  "x": 3,
+  "other4": 10
+ },
+ "swc_outsider|claude-haiku-4.5_P@6": {
+  "game": "P",
+  "own4": 10,
+  "nash": 3,
+  "x": 6,
+  "other4": 10
+ },
+ "swc_outsider|claude-haiku-4.5_P@9": {
+  "game": "P",
+  "own4": 10,
+  "nash": 3,
+  "x": 9,
+  "other4": 10
+ },
+ "swp_tagged|claude-haiku-4.5_P@3": {
+  "game": "P",
+  "own4": 10,
+  "nash": 3,
+  "x": 3,
+  "other4": 10
+ },
+ "swp_tagged|claude-haiku-4.5_P@5": {
+  "game": "P",
+  "own4": 10,
+  "nash": 3,
+  "x": 5,
+  "other4": 10
+ },
+ "swp_tagged|claude-haiku-4.5_P@6": {
+  "game": "P",
+  "own4": 10,
+  "nash": 3,
+  "x": 6,
+  "other4": 10
+ },
+ "swp_tagged|claude-haiku-4.5_P@8": {
+  "game": "P",
+  "own4": 10,
+  "nash": 3,
+  "x": 8,
+  "other4": 10
+ },
+ "swp_tagged|claude-haiku-4.5_P@9": {
+  "game": "P",
+  "own4": 10,
+  "nash": 3,
+  "x": 9,
+  "other4": 10
+ },
+ "swc_tagged|claude-haiku-4.5_P@3": {
+  "game": "P",
+  "own4": 10,
+  "nash": 3,
+  "x": 3,
+  "other4": 10
+ },
+ "swc_tagged|claude-haiku-4.5_P@6": {
+  "game": "P",
+  "own4": 10,
+  "nash": 3,
+  "x": 6,
+  "other4": 10
+ },
+ "swc_tagged|claude-haiku-4.5_P@9": {
+  "game": "P",
+  "own4": 10,
+  "nash": 3,
+  "x": 9,
+  "other4": 10
+ },
+ "swp_partner|claude-haiku-4.5_Q@32": {
+  "game": "Q",
+  "own4": 4,
+  "nash": 32,
+  "x": 32,
+  "other4": 4
+ },
+ "swp_partner|claude-haiku-4.5_Q@24": {
+  "game": "Q",
+  "own4": 4,
+  "nash": 32,
+  "x": 24,
+  "other4": 4
+ },
+ "swp_partner|claude-haiku-4.5_Q@16": {
+  "game": "Q",
+  "own4": 4,
+  "nash": 32,
+  "x": 16,
+  "other4": 4
+ },
+ "swp_partner|claude-haiku-4.5_Q@12": {
+  "game": "Q",
+  "own4": 4,
+  "nash": 32,
+  "x": 12,
+  "other4": 4
+ },
+ "swp_partner|claude-haiku-4.5_Q@8": {
+  "game": "Q",
+  "own4": 4,
+  "nash": 32,
+  "x": 8,
+  "other4": 4
+ },
+ "swc_partner|claude-haiku-4.5_Q@32": {
+  "game": "Q",
+  "own4": 4,
+  "nash": 32,
+  "x": 32,
+  "other4": 4
+ },
+ "swc_partner|claude-haiku-4.5_Q@16": {
+  "game": "Q",
+  "own4": 4,
+  "nash": 32,
+  "x": 16,
+  "other4": 4
+ },
+ "swc_partner|claude-haiku-4.5_Q@8": {
+  "game": "Q",
+  "own4": 4,
+  "nash": 32,
+  "x": 8,
+  "other4": 4
+ },
+ "swp_outsider|claude-haiku-4.5_Q@32": {
+  "game": "Q",
+  "own4": 4,
+  "nash": 32,
+  "x": 32,
+  "other4": 4
+ },
+ "swp_outsider|claude-haiku-4.5_Q@24": {
+  "game": "Q",
+  "own4": 4,
+  "nash": 32,
+  "x": 24,
+  "other4": 4
+ },
+ "swp_outsider|claude-haiku-4.5_Q@16": {
+  "game": "Q",
+  "own4": 4,
+  "nash": 32,
+  "x": 16,
+  "other4": 4
+ },
+ "swp_outsider|claude-haiku-4.5_Q@12": {
+  "game": "Q",
+  "own4": 4,
+  "nash": 32,
+  "x": 12,
+  "other4": 4
+ },
+ "swp_outsider|claude-haiku-4.5_Q@8": {
+  "game": "Q",
+  "own4": 4,
+  "nash": 32,
+  "x": 8,
+  "other4": 4
+ },
+ "swc_outsider|claude-haiku-4.5_Q@32": {
+  "game": "Q",
+  "own4": 4,
+  "nash": 32,
+  "x": 32,
+  "other4": 4
+ },
+ "swc_outsider|claude-haiku-4.5_Q@16": {
+  "game": "Q",
+  "own4": 4,
+  "nash": 32,
+  "x": 16,
+  "other4": 4
+ },
+ "swc_outsider|claude-haiku-4.5_Q@8": {
+  "game": "Q",
+  "own4": 4,
+  "nash": 32,
+  "x": 8,
+  "other4": 4
+ },
+ "swp_tagged|claude-haiku-4.5_Q@32": {
+  "game": "Q",
+  "own4": 4,
+  "nash": 32,
+  "x": 32,
+  "other4": 4
+ },
+ "swp_tagged|claude-haiku-4.5_Q@24": {
+  "game": "Q",
+  "own4": 4,
+  "nash": 32,
+  "x": 24,
+  "other4": 4
+ },
+ "swp_tagged|claude-haiku-4.5_Q@16": {
+  "game": "Q",
+  "own4": 4,
+  "nash": 32,
+  "x": 16,
+  "other4": 4
+ },
+ "swp_tagged|claude-haiku-4.5_Q@12": {
+  "game": "Q",
+  "own4": 4,
+  "nash": 32,
+  "x": 12,
+  "other4": 4
+ },
+ "swp_tagged|claude-haiku-4.5_Q@8": {
+  "game": "Q",
+  "own4": 4,
+  "nash": 32,
+  "x": 8,
+  "other4": 4
+ },
+ "swc_tagged|claude-haiku-4.5_Q@32": {
+  "game": "Q",
+  "own4": 4,
+  "nash": 32,
+  "x": 32,
+  "other4": 4
+ },
+ "swc_tagged|claude-haiku-4.5_Q@16": {
+  "game": "Q",
+  "own4": 4,
+  "nash": 32,
+  "x": 16,
+  "other4": 4
+ },
+ "swc_tagged|claude-haiku-4.5_Q@8": {
+  "game": "Q",
+  "own4": 4,
+  "nash": 32,
+  "x": 8,
+  "other4": 4
  }
 }

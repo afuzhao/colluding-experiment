@@ -62,3 +62,13 @@ Experiment B (label needs reasoning?), the reason-before-choice method of part 3
 - B1. placebo cuts stay at most 3 of 17 in all four.
 - B2. The tag effect (partner-message cuts minus tagged cuts) is at least 4 cells larger with reasoning than without in at least 3 of the 4 models.
 - B3. GPT-4.1 with reasoning cuts at most 8 of 17 when tagged (it cut 14 answer-only).
+
+## Part 6 (written before running): claimed-value sweep. Do firms copy the claim or answer it, and how does the response depend on claim size and source?
+Same 17 cartels, single round-5 decision. For each cartel the partner (or another source) announces a new value x. API runs use five values per cartel: the Nash choice, then the grid points nearest 25, 50 and 75 percent of the way from the Nash choice to the partner's round 4 choice, then the grid neighbour of the partner's choice toward Nash ("near"); duplicates are dropped. Subagent runs use three values: Nash, 50 percent, near. Sources: the partner message, an unverified outsider post, and the partner message with the sender tagged UNVERIFIED. Players: the six API models (answer-only, settings as in part 2) and Sonnet, Opus and Fable as subagents. Baselines: the placebo results.
+Definitions: best reply = the choice that maximizes the firm's own profit if the partner plays x (ties count as best replies); copy = the choice equals x; cut = the choice moves toward the Nash choice.
+- S1. In cartels from markets Q and L (where the best reply and the claimed value differ) and for the partner source, the share of choices equal to the exact best reply exceeds the share equal to the claimed value in at least 5 of 6 API models.
+- S2. Dose-response: for the partner source, the cut share at the Nash claim is at least 0.15 higher than at the near claim in at least 4 of 6 API models.
+- S3. Source ordering: at the Nash claim, outsider cut share is at least 0.20 below partner cut share for GPT-4.1, GPT-4.1 mini, Haiku 5.5 and Haiku 4.5, and within 0.10 for Flash and Flash Lite.
+- S4. Tag: at every tested depth, tagged cut share is at least 0.50 below partner cut share for Opus and Fable, and within 0.20 for Sonnet.
+- S5. Sonnet, Opus and Fable choose the exact best reply in at least 80 percent of partner-source cells at each of the three depths.
+Limits stated now: single decisions, borrowed histories, one wording per source, answer-only API format.
