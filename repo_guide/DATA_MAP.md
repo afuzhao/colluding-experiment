@@ -66,9 +66,9 @@ The selected public/private pair directions each have 32 resident-to-C, 32 resid
 
 [Ordinary-C supplements](../studies/exp%204%20%28ordinary_peer_controls%29/README.md) have completed execution and assistant review: two 15-round conditions per environment, with isolated frozen-round-8 explicit and neutral diagnostics. They have their own artifacts and reports rather than enter the old 16-row headline tables.
 
-[E1 disruption audit](../studies/exp%205%20%28env1_disruption%29/README.md) preserves Sumin Hong's authorship and pinned contributor source. Its derived CSV recalculates 150 actual round outcomes from 10 branches across two generated histories; 88 C target checks passed. Both action-only branches have price equal to cost and all profits zero in rounds 10–13, with positive profits again in 14–15. This is a retrospectively selected economic endpoint, not disappearance of all coordinated intent.
+[E1 disruption audit](../studies/exp%205%20%28env1_disruption%29/README.md) preserves Sumin Hong's authorship and pinned contributor source. Its audit recalculates all 150 actual round outcomes from 10 branches across two generated histories; the derived CSV contains 80 rows for rounds 8–15; 88 C target checks passed. Both action-only branches have price equal to cost and all profits zero in rounds 10–13, with positive profits again in 14–15. This is a retrospectively selected economic endpoint, not disappearance of all coordinated intent.
 
-[E2 disruption contribution review](../studies/exp%206%20%28env2_disruption%29/CONTRIBUTOR_REVIEW.md) is a read-only design/evidence audit, not new E2-D data. Different two-firm or logit markets cannot be relabelled as this three-firm quadratic market. The human has now supplied the assigned brief; see exp 6 for the explicit twelve-arm scope and queued implementation.
+[E2 disruption contribution review](../studies/exp%206%20%28env2_disruption%29/CONTRIBUTOR_REVIEW.md) is a read-only design/evidence audit, not new E2-D data. Different two-firm or logit markets cannot be relabelled as this three-firm quadratic market. The human has now supplied the assigned brief; see exp 6 for the explicit twelve-arm scope and unexecuted implementation.
 
 ## Future collection and combined analysis
 
@@ -88,3 +88,7 @@ All paths below are under `studies/exp 4 (ordinary_peer_controls)`.
 | `reports/CONTROL_COMPARISON.md`, `.json` and `.csv` | Derived comparison with original direct-offer snapshots; no pooled cross-environment inference |
 
 Public direction counts per environment are4 residents-to-C,4 resident-to-resident and4 C-to-resident. Explicit private counts are4 residents-to-C and4 resident-to-resident; neutral counts are8 each across ordinary and original snapshots. C-own private assessments were not collected. Original diagnostic records are reused references; the neutral accounts on those snapshots are genuinely new calls. Independent rating remains pending.
+
+## Three-study foundation
+
+[Three-study paper foundation](../papers/three_study_foundation/README.md) consolidates E1-R, E2-R and audited E1-D evidence with completed controls, checked mathematics, results and limitations. E2 disruption remains an unexecuted specification; this task stops after foundation publication.

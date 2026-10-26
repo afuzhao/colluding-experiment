@@ -66,8 +66,12 @@ Use [`studies/exp 3 (env2_reactions)`](../studies/exp%203%20%28env2_reactions%29
 - [E2 reaction source and reviewed results](../studies/exp%203%20%28env2_reactions%29/README.md): original evidence and reciprocal repairs remain separate; combined reporting is postprocessing only.
 - [Ordinary peer controls](../studies/exp%204%20%28ordinary_peer_controls%29/README.md): full 15-round ordinary-C continuations for both environments; frozen-end-of-8 diagnostics never see future rounds.
 - [E1 disruption contributor audit](../studies/exp%205%20%28env1_disruption%29/README.md): zero new inference; pinned Sumin source and derived economic checks.
-- [E2 disruption contributor review](../studies/exp%206%20%28env2_disruption%29/CONTRIBUTOR_REVIEW.md): design audit and pending run allocation, not completed data.
+- [E2 disruption contributor review](../studies/exp%206%20%28env2_disruption%29/CONTRIBUTOR_REVIEW.md): design audit and assigned, unexecuted specification, not completed data.
 
 ## Completed control reporting tools
 
 The ordinary-peer supplement now contains review-gated reporting and curated evidence for both environments. `prepare_review.py` collects actual text without automatic labels; `audit_control_calls.py` checks recorded role and visibility boundaries; `finalize_controls.py` validates review/source gates; `build_comparison.py` writes the separate-environment index. These are postprocessing commands, not model runs. Preserve the captured inference source/configuration and original parent datasets.
+
+## Three-study foundation
+
+[Three-study paper foundation](../papers/three_study_foundation/README.md) consolidates E1-R, E2-R and audited E1-D evidence with completed controls, checked mathematics, results and limitations. E2 disruption remains an unexecuted specification; this task stops after foundation publication.

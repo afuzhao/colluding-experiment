@@ -1,0 +1,296 @@
+{
+  "new_model_calls": 0,
+  "E1_pure_integer_stage_equilibria": [
+    [
+      23,
+      24,
+      25
+    ],
+    [
+      23,
+      25,
+      24
+    ],
+    [
+      24,
+      23,
+      25
+    ],
+    [
+      24,
+      24,
+      24
+    ],
+    [
+      24,
+      25,
+      23
+    ],
+    [
+      25,
+      23,
+      24
+    ],
+    [
+      25,
+      24,
+      23
+    ]
+  ],
+  "E2_pure_integer_stage_equilibria": [
+    [
+      34,
+      34,
+      34
+    ]
+  ],
+  "E1_benchmarks": {
+    "joint": {
+      "quantities": [
+        16,
+        16,
+        16
+      ],
+      "total_quantity": 48,
+      "price": 52,
+      "profits": {
+        "firm_A": 768,
+        "firm_B": 768,
+        "firm_C": 768
+      },
+      "industry_profit": 2304,
+      "consumer_surplus": 1152.0
+    },
+    "symmetric_independent": {
+      "quantities": [
+        24,
+        24,
+        24
+      ],
+      "total_quantity": 72,
+      "price": 28,
+      "profits": {
+        "firm_A": 576,
+        "firm_B": 576,
+        "firm_C": 576
+      },
+      "industry_profit": 1728,
+      "consumer_surplus": 2592.0
+    },
+    "unilateral_deviation": {
+      "quantities": [
+        32,
+        16,
+        16
+      ],
+      "total_quantity": 64,
+      "price": 36,
+      "profits": {
+        "firm_A": 1024,
+        "firm_B": 512,
+        "firm_C": 512
+      },
+      "industry_profit": 2048,
+      "consumer_surplus": 2048.0
+    },
+    "competitive_C_AB_unchanged": {
+      "quantities": [
+        16,
+        16,
+        32
+      ],
+      "total_quantity": 64,
+      "price": 36,
+      "profits": {
+        "firm_A": 512,
+        "firm_B": 512,
+        "firm_C": 1024
+      },
+      "industry_profit": 2048,
+      "consumer_surplus": 2048.0
+    },
+    "all32": {
+      "quantities": [
+        32,
+        32,
+        32
+      ],
+      "total_quantity": 96,
+      "price": 4,
+      "profits": {
+        "firm_A": 0,
+        "firm_B": 0,
+        "firm_C": 0
+      },
+      "industry_profit": 0,
+      "consumer_surplus": 4608.0
+    },
+    "profitable_deviation_from_all32": {
+      "quantities": [
+        16,
+        32,
+        32
+      ],
+      "total_quantity": 80,
+      "price": 20,
+      "profits": {
+        "firm_A": 256,
+        "firm_B": 512,
+        "firm_C": 512
+      },
+      "industry_profit": 1280,
+      "consumer_surplus": 3200.0
+    }
+  },
+  "E2_benchmarks": {
+    "joint": {
+      "prices": {
+        "firm_A": 64,
+        "firm_B": 64,
+        "firm_C": 64
+      },
+      "sales": {
+        "firm_A": 20.0,
+        "firm_B": 20.0,
+        "firm_C": 20.0
+      },
+      "profits": {
+        "firm_A": 1200.0,
+        "firm_B": 1200.0,
+        "firm_C": 1200.0
+      },
+      "total_sales": 60.0,
+      "industry_profit": 3600.0,
+      "consumer_surplus": 1800.0,
+      "total_surplus": 5400.0,
+      "transaction_price": 64.0
+    },
+    "symmetric_independent": {
+      "prices": {
+        "firm_A": 34,
+        "firm_B": 34,
+        "firm_C": 34
+      },
+      "sales": {
+        "firm_A": 30.0,
+        "firm_B": 30.0,
+        "firm_C": 30.0
+      },
+      "profits": {
+        "firm_A": 900.0,
+        "firm_B": 900.0,
+        "firm_C": 900.0
+      },
+      "total_sales": 90.0,
+      "industry_profit": 2700.0,
+      "consumer_surplus": 4050.0,
+      "total_surplus": 6750.0,
+      "transaction_price": 34.0
+    },
+    "unilateral_deviation": {
+      "prices": {
+        "firm_A": 44,
+        "firm_B": 64,
+        "firm_C": 64
+      },
+      "sales": {
+        "firm_A": 40.0,
+        "firm_B": 13.333333333333334,
+        "firm_C": 13.333333333333334
+      },
+      "profits": {
+        "firm_A": 1600.0,
+        "firm_B": 800.0,
+        "firm_C": 800.0
+      },
+      "total_sales": 66.66666666666667,
+      "industry_profit": 3200.0,
+      "consumer_surplus": 2400.0,
+      "total_surplus": 5600.0,
+      "transaction_price": 52.0
+    },
+    "partial_coalition": {
+      "prices": {
+        "firm_A": 42,
+        "firm_B": 42,
+        "firm_C": 37
+      },
+      "sales": {
+        "firm_A": 25.666666666666668,
+        "firm_B": 25.666666666666668,
+        "firm_C": 32.333333333333336
+      },
+      "profits": {
+        "firm_A": 975.3333333333334,
+        "firm_B": 975.3333333333334,
+        "firm_C": 1067.0
+      },
+      "total_sales": 83.66666666666667,
+      "industry_profit": 3017.666666666667,
+      "consumer_surplus": 3511.166666666667,
+      "total_surplus": 6528.833333333334,
+      "transaction_price": 40.06772908366534
+    },
+    "unequal_offer": {
+      "prices": {
+        "firm_A": 76,
+        "firm_B": 76,
+        "firm_C": 52
+      },
+      "sales": {
+        "firm_A": 8.0,
+        "firm_B": 8.0,
+        "firm_C": 40.0
+      },
+      "profits": {
+        "firm_A": 576.0,
+        "firm_B": 576.0,
+        "firm_C": 1920.0
+      },
+      "total_sales": 56.0,
+      "industry_profit": 3072.0,
+      "consumer_surplus": 1824.0,
+      "total_surplus": 4896.0,
+      "transaction_price": 58.857142857142854
+    }
+  },
+  "infinite_horizon_illustration": {
+    "E1_cooperate_deviate_punish": [
+      768,
+      1024,
+      576
+    ],
+    "E2_cooperate_deviate_punish": [
+      1200,
+      1600,
+      900
+    ],
+    "grim_trigger_threshold_both": "4/7",
+    "applied_to_actual_finite15_game": false
+  },
+  "E1_best_response_to_B16_C32": [
+    24
+  ],
+  "E1_best_response_to_B32_C32": [
+    16
+  ],
+  "E2_conditional_AB_independent_given_C37": [
+    {
+      "firm_A": 34,
+      "firm_B": 34
+    },
+    {
+      "firm_A": 35,
+      "firm_B": 35
+    }
+  ],
+  "E2_AB_joint_best_response_C37": {
+    "allocations": [
+      {
+        "firm_A": 42,
+        "firm_B": 42
+      }
+    ],
+    "joint_profit": 1950.6666666666667
+  }
+}
