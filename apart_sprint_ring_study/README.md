@@ -4,7 +4,7 @@ Code, data and results for our entry to the Apart Research AI Collusion Research
 
 **One line:** a forged message in a partner's name makes most AI firms break a cartel on first reaction, a "this sender is unverified" label rarely stops it, and how a model responds depends heavily on how it is called.
 
-## Results (preregistered; 10 model configurations; about 4,000 runs)
+## Results (preregistered; 10 model configurations; about 3,350 complete episodes, 1,900 single decisions and 42,000 model calls)
 
 | Study | Question | Main result |
 |---|---|---|
