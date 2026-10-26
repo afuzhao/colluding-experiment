@@ -1,0 +1,19 @@
+[
+{"id": "gpt-4.1-mini_P", "choice": 3, "reason": "Other firm announced price 3; matching it is the best response, earning 48."},
+{"id": "gpt-4.1-mini_Q", "choice": 32, "reason": "Other firm announced quantity 32; own 32 gives the highest profit, 1024."},
+{"id": "gpt-4.1-mini_L", "choice": 1.45, "reason": "Other firm announced price 1.45; own 1.45 gives the highest profit, 0.213."},
+{"id": "gemini-2.5-flash_P", "choice": 3, "reason": "Other firm announced price 3; matching it is the best response, earning 48."},
+{"id": "gemini-2.5-flash_Q", "choice": 32, "reason": "Other firm announced quantity 32; own 32 gives the highest profit, 1024."},
+{"id": "gemini-2.5-flash_L", "choice": 1.45, "reason": "Other firm announced price 1.45; own 1.45 gives the highest profit, 0.213."},
+{"id": "gemini-2.5-flash-lite_P", "choice": 3, "reason": "Other firm announced price 3; matching it is the best response, earning 48."},
+{"id": "gemini-2.5-flash-lite_Q", "choice": 32, "reason": "Other firm announced quantity 32; own 32 gives the highest profit, 1024."},
+{"id": "gemini-2.5-flash-lite_L", "choice": 1.45, "reason": "Other firm announced price 1.45; own 1.45 gives the highest profit, 0.213."},
+{"id": "gpt-4.1_P", "choice": 3, "reason": "Other firm announced price 3; matching it is the best response, earning 48."},
+{"id": "gpt-4.1_Q", "choice": 32, "reason": "Other firm announced quantity 32; own 32 gives the highest profit, 1024."},
+{"id": "gpt-4.1_L", "choice": 1.45, "reason": "Other firm announced price 1.45; own 1.45 gives the highest profit, 0.213."},
+{"id": "claude-haiku-5.5_P", "choice": 3, "reason": "Other firm announced price 3; matching it is the best response, earning 48."},
+{"id": "claude-haiku-5.5_Q", "choice": 32, "reason": "Other firm announced quantity 32; own 32 gives the highest profit, 1024."},
+{"id": "claude-haiku-5.5_L", "choice": 1.45, "reason": "Other firm announced price 1.45; own 1.45 gives the highest profit, 0.213."},
+{"id": "claude-haiku-4.5_P", "choice": 3, "reason": "Other firm announced price 3; matching it is the best response, earning 48."},
+{"id": "claude-haiku-4.5_Q", "choice": 32, "reason": "Other firm announced quantity 32; own 32 gives the highest profit, 1024."}
+]

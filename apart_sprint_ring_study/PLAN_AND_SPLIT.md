@@ -1,3 +1,5 @@
+> Status (late Oct 25): Project 1 now centers on forged messages and provenance (Studies 4 and 5 in README.md); the report draft in report/ is out of date and is being rewritten. Project 2 is unchanged except that Sumin Hong has pushed related E1 disruption results (branch sumin/disruption: actions break a cartel, words do not).
+
 # Plan and split into two Apart submissions
 
 Deadline: Oct 25, 23:59 AoE (Oct 26, 07:59 ET). Each person may be on two projects. Our work answers two different questions that need different tools, so it makes two clean entries.

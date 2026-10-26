@@ -13,7 +13,7 @@ from collections import defaultdict
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
-OLD = Path('/path/to/earlier/scratch/'
+OLD = Path('/private/tmp/claude-501/-Users-aakritigarodia-Desktop-Projects/'
            '26cc3aef-c3b2-4b58-a1fb-fe50dafb31e0/scratchpad/interrogation')
 KINDS = ('guilty', 'guilty_conceal', 'lookalike', 'competitive')
 QUESTIONS = {

@@ -1,0 +1,17 @@
+# Known issues (from an independent code review, Oct 25)
+
+An independent reviewer read the v4/v5/v6 engines and analysis. No settlement-math bugs. Findings, with the effect on reported results:
+
+1. **Report status read after the round's actions (market4.py).** Whether a report is true or false is judged on the pact status *after* this round's withdrawals and acceptances, not at the start of the round. Only one report event exists in the data (GPT-4.1 mini, bounty 500, seed 1709, round 6, both sellers reported), and it is not affected. The false-report column is 0 everywhere. Collected data are not changed; a fix would apply to any new collection.
+2. **A report removes the reporter's message from the other seller's inbox (market4.py).** The target can infer a report from the missing message. This weakens the payoff to reporting but cannot explain why sellers rarely report, since the decision to report comes before the leak. The null result on snitching is a claim about the decision, and it is stated that way.
+3. **v6 arms are not matched in the two pre-entry rounds.** Call keys contain the arm name, so rounds 5 and 6 are re-sampled per arm. Prices rarely differ (1 of 7 seeds for GPT-4.1 mini), message text often does. v6 contrasts are stated as matched on checkpoint, not on pre-entry draws.
+4. **v5 round-1 prices are re-sampled per script** for GPT-4.1 mini (14 of 16 seeds differ across scripts). The opening price is now pooled over all scripts and seeds (128 episodes per model), and analyses no longer depend on `hold8`.
+5. **The match-down fit was inflated by trivial rows.** The rule is now evaluated on informative rows only (rival price below the model's own round-1 price), by round, with seed-resampling intervals, against stay-put and best-response baselines (`analyze_matchdown.py`). The rule was formed after seeing the v5 curves, so it is exploratory.
+6. Public events show who was fined, which can reveal the reporter under leniency; a decoy-clean-up step could delete a real floor-9 proposal. Neither is known to have occurred.
+7. `round()` banker's rounding in `analyze_prediction.py` fixed to round-half-up. The response-curve prediction does not beat the stay-put baseline and is reported as not better.
+
+## v8 pair experiments (independent review, Oct 25)
+1. **Seats did not alternate.** The plan said seat order alternates with the seed parity; all eight extension seeds are odd, so seller_1 was always the second-listed model. The anchor of Claude Sonnet 4.6 is about 9 as seller_1 and about 7 as seller_2, and Sonnet was always seller_2 in the primary matrix, so the law over-predicts Sonnet cells by about 2. A confirmatory replication with eight even seeds (3102 to 3816) reverses the seat order for every cell.
+2. **Anchor data and primary pair data share seeds.** The plan said they were disjoint; the single-agent runs used SEEDS plus the extension seeds. Recomputing every anchor from the main seeds only gives identical medians and identical errors. The even-seed replication is disjoint from all anchor data.
+3. **A calibration episode (seed 9003) was included in two cells** of the first analysis (n=9). It is now excluded; the errors do not change to three decimals.
+4. **The silent test is partly persistence.** Prices are constant across rounds 3 to 6 in 174 of 223 silent G1 episodes, so a large part of the test is that a model's round-1 price persists. The analysis now separates (a) round-1 prices predicted by model-level anchors and (b) dynamics given the actual round-1 prices (match-down versus stay).

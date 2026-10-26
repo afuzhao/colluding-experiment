@@ -1,0 +1,16 @@
+{
+ "started_unix": 1792981849.666037,
+ "state": "complete_with_missing",
+ "shard": "main_anthropic_claude-haiku-4_5",
+ "model": "anthropic/claude-haiku-4.5",
+ "done": 17,
+ "failures": [
+  {
+   "game": "P",
+   "arm": "outsider",
+   "seed": 5101,
+   "reason": "excluded: uncertain network request mid-episode"
+  }
+ ],
+ "updated_unix": 1792982250.069421
+}

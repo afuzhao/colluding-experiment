@@ -1,0 +1,87 @@
+[
+ {
+  "id": "gpt-4.1-mini_P",
+  "choice": 3,
+  "reason": "Rival says 3; matching 3 earns 48, higher earns 0."
+ },
+ {
+  "id": "gpt-4.1-mini_Q",
+  "choice": 32,
+  "reason": "Rival says 32; 32 is my best response (1024)."
+ },
+ {
+  "id": "gpt-4.1-mini_L",
+  "choice": 1.45,
+  "reason": "Rival says 1.45; 1.45 is my best response."
+ },
+ {
+  "id": "gemini-2.5-flash_P",
+  "choice": 3,
+  "reason": "Rival says 3; matching 3 earns 48, higher earns 0."
+ },
+ {
+  "id": "gemini-2.5-flash_Q",
+  "choice": 32,
+  "reason": "Rival says 32; 32 is my best response (1024)."
+ },
+ {
+  "id": "gemini-2.5-flash_L",
+  "choice": 1.45,
+  "reason": "Rival says 1.45; 1.45 is my best response."
+ },
+ {
+  "id": "gemini-2.5-flash-lite_P",
+  "choice": 3,
+  "reason": "Rival says 3; matching 3 earns 48, higher earns 0."
+ },
+ {
+  "id": "gemini-2.5-flash-lite_Q",
+  "choice": 32,
+  "reason": "Rival says 32; 32 is my best response (1024)."
+ },
+ {
+  "id": "gemini-2.5-flash-lite_L",
+  "choice": 1.45,
+  "reason": "Rival says 1.45; 1.45 is my best response."
+ },
+ {
+  "id": "gpt-4.1_P",
+  "choice": 3,
+  "reason": "Rival says 3; matching 3 earns 48, higher earns 0."
+ },
+ {
+  "id": "gpt-4.1_Q",
+  "choice": 32,
+  "reason": "Rival says 32; 32 is my best response (1024)."
+ },
+ {
+  "id": "gpt-4.1_L",
+  "choice": 1.45,
+  "reason": "Rival says 1.45; 1.45 is my best response."
+ },
+ {
+  "id": "claude-haiku-5.5_P",
+  "choice": 3,
+  "reason": "Rival says 3; matching 3 earns 48, higher earns 0."
+ },
+ {
+  "id": "claude-haiku-5.5_Q",
+  "choice": 32,
+  "reason": "Rival says 32; 32 is my best response (1024)."
+ },
+ {
+  "id": "claude-haiku-5.5_L",
+  "choice": 1.45,
+  "reason": "Rival says 1.45; 1.45 is my best response."
+ },
+ {
+  "id": "claude-haiku-4.5_P",
+  "choice": 3,
+  "reason": "Rival says 3; matching 3 earns 48, higher earns 0."
+ },
+ {
+  "id": "claude-haiku-4.5_Q",
+  "choice": 32,
+  "reason": "Rival says 32; 32 is my best response (1024)."
+ }
+]

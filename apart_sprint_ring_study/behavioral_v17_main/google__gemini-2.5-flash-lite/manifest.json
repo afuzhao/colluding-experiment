@@ -1,0 +1,18 @@
+{
+ "model": "google/gemini-2.5-flash-lite",
+ "version": "v17",
+ "temp": 0.3,
+ "rounds": 8,
+ "start": 5,
+ "notice": "Platform notice: the market record for earlier rounds was re-checked and is unchanged.",
+ "temperature": 0.3,
+ "max_tokens": 220,
+ "source_hashes": {
+  "market17.py": "2817e0dacb346cbaec925f05926a48445a43bf442c5d2738889351c5089bb6cc",
+  "market11.py": "03fb8bb3222eeee3271b027326f9eb496f95afb3d5d646ef8953c1006f8b790b",
+  "market4.py": "676488e885480ea90ca639fd04e95018e78ec2b15d44b9475a776a306a1c1ddc",
+  "behavioral.py": "6065dc4ed6ccad575926490809cf4825a2978a11795bd2ffc75c89729e46c3b9",
+  "paid_client.py": "22018042eb361783903046a8d672ca18d7500ecebe60f6026bf901517de1ce71",
+  "PREREGISTERED_V17.md": "a5c6df0e846bd9dffbb75c399936de7d9e47411b6ffa684211ced420685a437c"
+ }
+}

@@ -1,0 +1,82 @@
+{
+ "started_unix": 1792982692.1317818,
+ "state": "complete_with_missing",
+ "shard": "son15",
+ "model": "anthropic/claude-sonnet-5.5",
+ "done": 0,
+ "failures": [
+  {
+   "game": "P",
+   "arm": "placebo",
+   "seed": 5101,
+   "reason": "Needs the completed v11 chat episode of the same seed"
+  },
+  {
+   "game": "P",
+   "arm": "fmsg",
+   "seed": 5101,
+   "reason": "Needs the completed v11 chat episode of the same seed"
+  },
+  {
+   "game": "Q",
+   "arm": "placebo",
+   "seed": 5101,
+   "reason": "Needs the completed v11 chat episode of the same seed"
+  },
+  {
+   "game": "Q",
+   "arm": "fmsg",
+   "seed": 5101,
+   "reason": "Needs the completed v11 chat episode of the same seed"
+  },
+  {
+   "game": "P",
+   "arm": "placebo",
+   "seed": 5202,
+   "reason": "Needs the completed v11 chat episode of the same seed"
+  },
+  {
+   "game": "P",
+   "arm": "fmsg",
+   "seed": 5202,
+   "reason": "Needs the completed v11 chat episode of the same seed"
+  },
+  {
+   "game": "Q",
+   "arm": "placebo",
+   "seed": 5202,
+   "reason": "Needs the completed v11 chat episode of the same seed"
+  },
+  {
+   "game": "Q",
+   "arm": "fmsg",
+   "seed": 5202,
+   "reason": "Needs the completed v11 chat episode of the same seed"
+  },
+  {
+   "game": "P",
+   "arm": "placebo",
+   "seed": 5303,
+   "reason": "Needs the completed v11 chat episode of the same seed"
+  },
+  {
+   "game": "P",
+   "arm": "fmsg",
+   "seed": 5303,
+   "reason": "Needs the completed v11 chat episode of the same seed"
+  },
+  {
+   "game": "Q",
+   "arm": "placebo",
+   "seed": 5303,
+   "reason": "Needs the completed v11 chat episode of the same seed"
+  },
+  {
+   "game": "Q",
+   "arm": "fmsg",
+   "seed": 5303,
+   "reason": "Needs the completed v11 chat episode of the same seed"
+  }
+ ],
+ "updated_unix": 1792982692.137654
+}

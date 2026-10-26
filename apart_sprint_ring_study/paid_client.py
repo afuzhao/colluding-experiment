@@ -112,7 +112,7 @@ class Client:
         maximum = 220
         reserve = bound(messages, maximum, self.pricing)
         body = {'model': self.model, 'messages': messages, 'seed': seed,
-                'temperature': 0.3, 'max_tokens': maximum, 'usage': {'include': True},
+                'temperature': float(os.environ.get('APART_TEMP', '0.3')), 'max_tokens': maximum, 'usage': {'include': True},
                 'response_format': {'type': 'json_schema', 'json_schema': {
                     'name': 'market_action', 'strict': True, 'schema': schema}},
                 'provider': {'sort': 'price', 'require_parameters': True,

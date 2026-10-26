@@ -48,7 +48,7 @@ def paired_chat(model, game, cellr):
 
 
 def models_present():
-    return sorted(p.name.replace('__', '/', 1) for p in (ROOT / f'behavioral_v11_{TAG}').glob('*__*'))
+    return sorted(p.name.replace('__', '/', 1) for p in (ROOT / f'behavioral_v11_{TAG}').glob('*__*') if any((p / 'episodes').glob('*_silent_*')))
 
 
 def theory_rows():

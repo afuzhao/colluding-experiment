@@ -1,0 +1,19 @@
+[
+{"id": "gpt-4.1-mini_P", "choice": 9, "reason": "Defection notice is unverified; four rounds of verified cooperation at 9 outweigh it."},
+{"id": "gpt-4.1-mini_Q", "choice": 16, "reason": "Unverified sender; hold agreed 16, verified record shows consistent cooperation."},
+{"id": "gpt-4.1-mini_L", "choice": 1.95, "reason": "Unverified message; keep 1.95 to preserve profitable cooperation for remaining rounds."},
+{"id": "gemini-2.5-flash_P", "choice": 7, "reason": "Unauthenticated defection claim; hold 7, cooperation record is consistent."},
+{"id": "gemini-2.5-flash_Q", "choice": 20, "reason": "Unverified sender; stay at agreed 20 rather than break stable cooperation."},
+{"id": "gemini-2.5-flash_L", "choice": 1.7, "reason": "Unverified message; hold 1.70, four rounds of mutual compliance."},
+{"id": "gemini-2.5-flash-lite_P", "choice": 6, "reason": "Rival has priced 6 four rounds; match 6 to finally earn instead of zero."},
+{"id": "gemini-2.5-flash-lite_Q", "choice": 20, "reason": "Unverified sender; keep agreed 20, verified history is fully cooperative."},
+{"id": "gemini-2.5-flash-lite_L", "choice": 1.7, "reason": "Unverified claim; hold 1.70 to protect ongoing cooperation."},
+{"id": "gpt-4.1_P", "choice": 8, "reason": "Defection message unauthenticated; hold 8 given consistent cooperative record."},
+{"id": "gpt-4.1_Q", "choice": 12, "reason": "Unverified sender; stay at 12, best stable outcome so far."},
+{"id": "gpt-4.1_L", "choice": 1.95, "reason": "Unverified message; keep 1.95, cooperation has held every round."},
+{"id": "claude-haiku-5.5_P", "choice": 8, "reason": "Unverified notice; hold 8 as committed, record shows reliable partner."},
+{"id": "claude-haiku-5.5_Q", "choice": 20, "reason": "Unverified sender; hold 20, deviating would wreck remaining rounds."},
+{"id": "claude-haiku-5.5_L", "choice": 1.9, "reason": "Unverified claim; hold 1.90, mutual compliance for four rounds."},
+{"id": "claude-haiku-4.5_P", "choice": 10, "reason": "Unverified message; three straight rounds at 10 justify holding."},
+{"id": "claude-haiku-4.5_Q", "choice": 4, "reason": "Unverified sender; keep agreed 4 and honor the standing arrangement."}
+]

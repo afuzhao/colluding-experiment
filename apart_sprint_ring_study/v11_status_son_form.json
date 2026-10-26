@@ -1,0 +1,46 @@
+{
+ "started_unix": 1792982521.841524,
+ "state": "complete_with_missing",
+ "shard": "son_form",
+ "cap": 1.6,
+ "model": "anthropic/claude-sonnet-5.5",
+ "failures": [
+  {
+   "game": "P",
+   "regime": "chat",
+   "seed": 5101,
+   "reason": "Three technical/schema failures; collection stopped without replacing the outcome"
+  },
+  {
+   "game": "Q",
+   "regime": "chat",
+   "seed": 5101,
+   "reason": "Three technical/schema failures; collection stopped without replacing the outcome"
+  },
+  {
+   "game": "P",
+   "regime": "chat",
+   "seed": 5202,
+   "reason": "Three technical/schema failures; collection stopped without replacing the outcome"
+  },
+  {
+   "game": "Q",
+   "regime": "chat",
+   "seed": 5202,
+   "reason": "Three technical/schema failures; collection stopped without replacing the outcome"
+  },
+  {
+   "game": "P",
+   "regime": "chat",
+   "seed": 5303,
+   "reason": "Three technical/schema failures; collection stopped without replacing the outcome"
+  },
+  {
+   "game": "Q",
+   "regime": "chat",
+   "seed": 5303,
+   "reason": "Three technical/schema failures; collection stopped without replacing the outcome"
+  }
+ ],
+ "updated_unix": 1792982691.9976
+}

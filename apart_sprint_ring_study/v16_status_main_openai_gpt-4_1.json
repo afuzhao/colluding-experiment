@@ -1,0 +1,16 @@
+{
+ "started_unix": 1792981847.6231968,
+ "state": "complete_with_missing",
+ "shard": "main_openai_gpt-4_1",
+ "model": "openai/gpt-4.1",
+ "done": 17,
+ "failures": [
+  {
+   "game": "P",
+   "arm": "verified",
+   "seed": 5101,
+   "reason": "excluded: uncertain network request mid-episode"
+  }
+ ],
+ "updated_unix": 1792982141.008914
+}

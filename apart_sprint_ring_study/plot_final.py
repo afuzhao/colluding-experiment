@@ -88,8 +88,51 @@ def solidarity():
     plt.close(fig)
 
 
+def breaking():
+    import glob
+    import analyze_v16 as a16
+    from market11 import GAMES
+    data = a16.load()
+    models = [m for m in ['gpt-4.1', 'gpt-4.1-mini', 'gemini-2.5-flash', 'gemini-2.5-flash-lite', 'claude-haiku-5.5', 'claude-haiku-4.5'] if m in data]
+    arms = [('fmsg', 'partner message', '#c0392b'), ('outsider', 'outsider message', '#7f8c8d'), ('verified', 'verified record', '#2c3e50'), ('act', 'real one-round cut', '#2e86c1')]
+    fig, axes = plt.subplots(1, 2, figsize=(7.4, 2.8), gridspec_kw={'width_ratios': [2.2, 1]})
+    ax = axes[0]
+    w = 0.2
+    for i, (arm, lab, col) in enumerate(arms):
+        ys = [a16.diff(data[m], arm) or 0 for m in models]
+        ax.bar(np.arange(len(models)) + (i - 1.5) * w, ys, w, label=lab, color=col)
+    ax.axhline(0, color='k', lw=0.5)
+    ax.set_xticks(range(len(models)), [NAMES[m].replace(' ', '\n', 1) for m in models], fontsize=6.5)
+    ax.set_ylabel('price index change vs placebo\n(rounds 6 to 8; lower = prices fell)', fontsize=7)
+    ax.legend(fontsize=6, frameon=False, ncol=2)
+    ax.set_title('What breaks a formed cartel', fontsize=8)
+    ax = axes[1]
+    ex = {}
+    for m in models:
+        d = {}
+        for f in glob.glob(str(ROOT / 'behavioral_v15_main' / f'*{m.replace("/", "__")}' / 'episodes' / '*.json')) + glob.glob(str(ROOT / 'behavioral_v15_main' / f'*__{m}' / 'episodes' / '*.json')):
+            e = json.load(open(f))
+            if e.get('complete') and e['config']['arm'] in ('placebo', 'fmsg', 'fixed'):
+                g, arm, seed = e['config']['game'], e['config']['arm'], e['config']['seed']
+                r = e['state']['history'][7]
+                d[(g, arm, seed)] = max(-1, min(2, GAMES[g].index(r['market_price'])))
+        for arm in ('fmsg', 'fixed'):
+            xs = [d[(g, arm, s)] - d[(g, 'placebo', s)] for (g, a, s) in d if a == arm and (g, 'placebo', s) in d]
+            ex[(m, arm)] = statistics.mean(xs) if xs else 0
+    for i, (arm, lab, col) in enumerate([('fmsg', 'forgery stands', '#c0392b'), ('fixed', 'exposed at round 7', '#e59866')]):
+        ax.bar(np.arange(len(models)) + (i - 0.5) * 0.35, [ex[(m, arm)] for m in models], 0.35, label=lab, color=col)
+    ax.axhline(0, color='k', lw=0.5)
+    ax.set_xticks(range(len(models)), [NAMES[m].split()[-1] if 'Haiku' in NAMES[m] or 'mini' in NAMES[m] or 'Lite' in NAMES[m] else NAMES[m].split()[-1] for m in models], fontsize=6)
+    ax.set_title('Round 8: forgery exposed', fontsize=8)
+    ax.legend(fontsize=6, frameon=False)
+    fig.tight_layout()
+    fig.savefig(OUT / 'fig_break.png')
+    plt.close(fig)
+
+
 if __name__ == '__main__':
     ring()
     remedies()
     solidarity()
+    breaking()
     print('ok')

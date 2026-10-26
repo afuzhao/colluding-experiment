@@ -1,0 +1,19 @@
+[
+{"id": "gpt-4.1-mini_P", "choice": 3, "reason": "Verified rival move to 3; matching earns 48, anything higher earns 0."},
+{"id": "gpt-4.1-mini_Q", "choice": 32, "reason": "Verified rival move to 32; 32 is my best response (1024)."},
+{"id": "gpt-4.1-mini_L", "choice": 1.45, "reason": "Verified rival move to 1.45; 1.45 maximizes my profit (0.213)."},
+{"id": "gemini-2.5-flash_P", "choice": 3, "reason": "Verified rival move to 3; matching earns 48, anything higher earns 0."},
+{"id": "gemini-2.5-flash_Q", "choice": 32, "reason": "Verified rival move to 32; 32 is my best response (1024)."},
+{"id": "gemini-2.5-flash_L", "choice": 1.45, "reason": "Verified rival move to 1.45; 1.45 maximizes my profit (0.213)."},
+{"id": "gemini-2.5-flash-lite_P", "choice": 3, "reason": "Rival already undercutting, now verified at 3; matching earns 48."},
+{"id": "gemini-2.5-flash-lite_Q", "choice": 32, "reason": "Verified rival move to 32; 32 is my best response (1024)."},
+{"id": "gemini-2.5-flash-lite_L", "choice": 1.45, "reason": "Verified rival move to 1.45; 1.45 maximizes my profit (0.213)."},
+{"id": "gpt-4.1_P", "choice": 3, "reason": "Verified rival move to 3; matching earns 48, anything higher earns 0."},
+{"id": "gpt-4.1_Q", "choice": 32, "reason": "Verified rival move to 32; 32 is my best response (1024)."},
+{"id": "gpt-4.1_L", "choice": 1.45, "reason": "Verified rival move to 1.45; 1.45 maximizes my profit (0.213)."},
+{"id": "claude-haiku-5.5_P", "choice": 3, "reason": "Verified rival move to 3; matching earns 48, anything higher earns 0."},
+{"id": "claude-haiku-5.5_Q", "choice": 32, "reason": "Verified rival move to 32; 32 is my best response (1024)."},
+{"id": "claude-haiku-5.5_L", "choice": 1.45, "reason": "Verified rival move to 1.45; 1.45 maximizes my profit (0.213)."},
+{"id": "claude-haiku-4.5_P", "choice": 3, "reason": "Verified rival move to 3; matching earns 48, anything higher earns 0."},
+{"id": "claude-haiku-4.5_Q", "choice": 32, "reason": "Verified rival move to 32; 32 is my best response (1024)."}
+]

@@ -1,0 +1,82 @@
+{
+ "started_unix": 1792982692.131781,
+ "state": "complete_with_missing",
+ "shard": "son16",
+ "model": "anthropic/claude-sonnet-5.5",
+ "done": 0,
+ "failures": [
+  {
+   "game": "P",
+   "arm": "outsider",
+   "seed": 5101,
+   "reason": "Needs the completed v11 chat episode of the same seed"
+  },
+  {
+   "game": "P",
+   "arm": "act",
+   "seed": 5101,
+   "reason": "Needs the completed v11 chat episode of the same seed"
+  },
+  {
+   "game": "Q",
+   "arm": "outsider",
+   "seed": 5101,
+   "reason": "Needs the completed v11 chat episode of the same seed"
+  },
+  {
+   "game": "Q",
+   "arm": "act",
+   "seed": 5101,
+   "reason": "Needs the completed v11 chat episode of the same seed"
+  },
+  {
+   "game": "P",
+   "arm": "outsider",
+   "seed": 5202,
+   "reason": "Needs the completed v11 chat episode of the same seed"
+  },
+  {
+   "game": "P",
+   "arm": "act",
+   "seed": 5202,
+   "reason": "Needs the completed v11 chat episode of the same seed"
+  },
+  {
+   "game": "Q",
+   "arm": "outsider",
+   "seed": 5202,
+   "reason": "Needs the completed v11 chat episode of the same seed"
+  },
+  {
+   "game": "Q",
+   "arm": "act",
+   "seed": 5202,
+   "reason": "Needs the completed v11 chat episode of the same seed"
+  },
+  {
+   "game": "P",
+   "arm": "outsider",
+   "seed": 5303,
+   "reason": "Needs the completed v11 chat episode of the same seed"
+  },
+  {
+   "game": "P",
+   "arm": "act",
+   "seed": 5303,
+   "reason": "Needs the completed v11 chat episode of the same seed"
+  },
+  {
+   "game": "Q",
+   "arm": "outsider",
+   "seed": 5303,
+   "reason": "Needs the completed v11 chat episode of the same seed"
+  },
+  {
+   "game": "Q",
+   "arm": "act",
+   "seed": 5303,
+   "reason": "Needs the completed v11 chat episode of the same seed"
+  }
+ ],
+ "updated_unix": 1792982692.1376681
+}

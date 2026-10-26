@@ -1,0 +1,19 @@
+[
+{"id": "gpt-4.1-mini_P", "choice": 3, "reason": "Rival announced 3; matching earns 48, anything higher earns 0."},
+{"id": "gpt-4.1-mini_Q", "choice": 32, "reason": "Best response to announced 32 is 32; still strong if they bluff."},
+{"id": "gpt-4.1-mini_L", "choice": 1.45, "reason": "Best response to announced 1.45; also beats holding 1.95 if bluffing."},
+{"id": "gemini-2.5-flash_P", "choice": 3, "reason": "Rival announced 3; matching earns 48, anything higher earns 0."},
+{"id": "gemini-2.5-flash_Q", "choice": 32, "reason": "Best response to announced 32 is 32; still strong if they bluff."},
+{"id": "gemini-2.5-flash_L", "choice": 1.45, "reason": "Best response to announced 1.45; also beats 1.7 if they bluff."},
+{"id": "gemini-2.5-flash-lite_P", "choice": 3, "reason": "Rival undercut repeatedly, now announces 3; matching avoids another zero."},
+{"id": "gemini-2.5-flash-lite_Q", "choice": 32, "reason": "Best response to announced 32 is 32; still strong if they bluff."},
+{"id": "gemini-2.5-flash-lite_L", "choice": 1.45, "reason": "Best response to announced 1.45; also beats 1.7 if they bluff."},
+{"id": "gpt-4.1_P", "choice": 3, "reason": "Rival announced 3; matching earns 48, anything higher earns 0."},
+{"id": "gpt-4.1_Q", "choice": 32, "reason": "Best response to announced 32 is 32; still strong if they bluff."},
+{"id": "gpt-4.1_L", "choice": 1.45, "reason": "Best response to announced 1.45; also beats holding 1.95 if bluffing."},
+{"id": "claude-haiku-5.5_P", "choice": 3, "reason": "Rival announced 3; matching earns 48, anything higher earns 0."},
+{"id": "claude-haiku-5.5_Q", "choice": 32, "reason": "Best response to announced 32 is 32; still strong if they bluff."},
+{"id": "claude-haiku-5.5_L", "choice": 1.45, "reason": "Best response to announced 1.45; also beats holding 1.9 if bluffing."},
+{"id": "claude-haiku-4.5_P", "choice": 3, "reason": "Rival defected before and announces 3; matching earns 48, higher earns 0."},
+{"id": "claude-haiku-4.5_Q", "choice": 32, "reason": "Best response to announced 32 is 32; still strong if they bluff."}
+]

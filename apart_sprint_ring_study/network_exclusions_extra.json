@@ -102,5 +102,53 @@
   "reserved_upper_bound_usd": 0.0025072,
   "time": 1792958045.6221042,
   "reason": "Lost network response; full cost bound consumed; no retry of uncertain request"
+ },
+ {
+  "ledger": "ledger_v16_main_anthropic_claude-haiku-4_5",
+  "model": "anthropic/claude-haiku-4.5",
+  "episode": "P_outsider16_5101",
+  "reserved_upper_bound_usd": 0.011722,
+  "time": 1792981780.214139,
+  "reason": "Lost network response; full cost bound consumed; no retry of uncertain request"
+ },
+ {
+  "ledger": "ledger_v16_main_anthropic_claude-haiku-5_5",
+  "model": "anthropic/claude-haiku-5.5",
+  "episode": "P_outsider16_5101",
+  "reserved_upper_bound_usd": 0.0011357000000000001,
+  "time": 1792981780.289271,
+  "reason": "Lost network response; full cost bound consumed; no retry of uncertain request"
+ },
+ {
+  "ledger": "ledger_v16_main_google_gemini-2_5-flash",
+  "model": "google/gemini-2.5-flash",
+  "episode": "P_verified16_5101",
+  "reserved_upper_bound_usd": 0.0030706,
+  "time": 1792981780.362763,
+  "reason": "Lost network response; full cost bound consumed; no retry of uncertain request"
+ },
+ {
+  "ledger": "ledger_v16_main_google_gemini-2_5-flash-lite",
+  "model": "google/gemini-2.5-flash-lite",
+  "episode": "P_verified16_5101",
+  "reserved_upper_bound_usd": 0.0009735,
+  "time": 1792981780.434196,
+  "reason": "Lost network response; full cost bound consumed; no retry of uncertain request"
+ },
+ {
+  "ledger": "ledger_v16_main_openai_gpt-4_1",
+  "model": "openai/gpt-4.1",
+  "episode": "P_verified16_5101",
+  "reserved_upper_bound_usd": 0.019454,
+  "time": 1792981780.506559,
+  "reason": "Lost network response; full cost bound consumed; no retry of uncertain request"
+ },
+ {
+  "ledger": "ledger_v16_main_openai_gpt-4_1-mini",
+  "model": "openai/gpt-4.1-mini",
+  "episode": "P_verified16_5101",
+  "reserved_upper_bound_usd": 0.0041148,
+  "time": 1792981780.579605,
+  "reason": "Lost network response; full cost bound consumed; no retry of uncertain request"
  }
 ]

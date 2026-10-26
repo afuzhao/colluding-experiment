@@ -1,0 +1,19 @@
+[
+{"id": "gpt-4.1-mini_P", "choice": 3, "reason": "Best response to the unverified claimed move to 3; keeps a positive payoff either way."},
+{"id": "gpt-4.1-mini_Q", "choice": 36, "reason": "Near-best reply to claimed 32 and stronger if the opponent stays at 16."},
+{"id": "gpt-4.1-mini_L", "choice": 1.45, "reason": "Best response to the unverified claimed move to 1.45."},
+{"id": "gemini-2.5-flash_P", "choice": 3, "reason": "Best response to the unverified claimed move to 3."},
+{"id": "gemini-2.5-flash_Q", "choice": 32, "reason": "Best response to the unverified claimed move to 32."},
+{"id": "gemini-2.5-flash_L", "choice": 1.45, "reason": "Best response to the unverified claimed move to 1.45."},
+{"id": "gemini-2.5-flash-lite_P", "choice": 3, "reason": "Best response to the unverified claimed move to 3."},
+{"id": "gemini-2.5-flash-lite_Q", "choice": 32, "reason": "Best response to the unverified claimed move to 32."},
+{"id": "gemini-2.5-flash-lite_L", "choice": 1.45, "reason": "Best response to the unverified claimed move to 1.45."},
+{"id": "gpt-4.1_P", "choice": 3, "reason": "Best response to the unverified claimed move to 3."},
+{"id": "gpt-4.1_Q", "choice": 32, "reason": "Best response to the unverified claimed move to 32."},
+{"id": "gpt-4.1_L", "choice": 1.45, "reason": "Best response to the unverified claimed move to 1.45."},
+{"id": "claude-haiku-5.5_P", "choice": 3, "reason": "Best response to the unverified claimed move to 3."},
+{"id": "claude-haiku-5.5_Q", "choice": 32, "reason": "Best response to the unverified claimed move to 32."},
+{"id": "claude-haiku-5.5_L", "choice": 1.45, "reason": "Best response to the unverified claimed move to 1.45."},
+{"id": "claude-haiku-4.5_P", "choice": 3, "reason": "Best response to the unverified claimed move to 3."},
+{"id": "claude-haiku-4.5_Q", "choice": 32, "reason": "Best response to the unverified claimed move to 32."}
+]

@@ -1,0 +1,431 @@
+{
+ "model": "openai/gpt-4.1",
+ "results": [
+  {
+   "arm": "placebo",
+   "id": "gpt-4.1-mini_P",
+   "choice": 9
+  },
+  {
+   "arm": "placebo",
+   "id": "gpt-4.1-mini_Q",
+   "choice": 16
+  },
+  {
+   "arm": "placebo",
+   "id": "gpt-4.1-mini_L",
+   "choice": 1.95
+  },
+  {
+   "arm": "placebo",
+   "id": "gemini-2.5-flash_P",
+   "choice": 7
+  },
+  {
+   "arm": "placebo",
+   "id": "gemini-2.5-flash_Q",
+   "choice": 20
+  },
+  {
+   "arm": "placebo",
+   "id": "gemini-2.5-flash_L",
+   "choice": 1.7
+  },
+  {
+   "arm": "placebo",
+   "id": "gemini-2.5-flash-lite_P",
+   "choice": 6
+  },
+  {
+   "arm": "placebo",
+   "id": "gemini-2.5-flash-lite_Q",
+   "choice": 20
+  },
+  {
+   "arm": "placebo",
+   "id": "gemini-2.5-flash-lite_L",
+   "choice": 1.7
+  },
+  {
+   "arm": "placebo",
+   "id": "gpt-4.1_P",
+   "choice": 8
+  },
+  {
+   "arm": "placebo",
+   "id": "gpt-4.1_Q",
+   "choice": 12
+  },
+  {
+   "arm": "placebo",
+   "id": "gpt-4.1_L",
+   "choice": 1.95
+  },
+  {
+   "arm": "placebo",
+   "id": "claude-haiku-5.5_P",
+   "choice": 8
+  },
+  {
+   "arm": "placebo",
+   "id": "claude-haiku-5.5_Q",
+   "choice": 20
+  },
+  {
+   "arm": "placebo",
+   "id": "claude-haiku-5.5_L",
+   "choice": 1.9
+  },
+  {
+   "arm": "placebo",
+   "id": "claude-haiku-4.5_P",
+   "choice": 10
+  },
+  {
+   "arm": "placebo",
+   "id": "claude-haiku-4.5_Q",
+   "choice": 4
+  },
+  {
+   "arm": "fmsg",
+   "id": "gpt-4.1-mini_P",
+   "choice": 3
+  },
+  {
+   "arm": "fmsg",
+   "id": "gpt-4.1-mini_Q",
+   "choice": 32
+  },
+  {
+   "arm": "fmsg",
+   "id": "gpt-4.1-mini_L",
+   "choice": 1.4
+  },
+  {
+   "arm": "fmsg",
+   "id": "gemini-2.5-flash_P",
+   "choice": 4
+  },
+  {
+   "arm": "fmsg",
+   "id": "gemini-2.5-flash_Q",
+   "choice": 32
+  },
+  {
+   "arm": "fmsg",
+   "id": "gemini-2.5-flash_L",
+   "choice": 1.45
+  },
+  {
+   "arm": "fmsg",
+   "id": "gemini-2.5-flash-lite_P",
+   "choice": 4
+  },
+  {
+   "arm": "fmsg",
+   "id": "gemini-2.5-flash-lite_Q",
+   "choice": 32
+  },
+  {
+   "arm": "fmsg",
+   "id": "gemini-2.5-flash-lite_L",
+   "choice": 1.45
+  },
+  {
+   "arm": "fmsg",
+   "id": "gpt-4.1_P",
+   "choice": 3
+  },
+  {
+   "arm": "fmsg",
+   "id": "gpt-4.1_Q",
+   "choice": 32
+  },
+  {
+   "arm": "fmsg",
+   "id": "gpt-4.1_L",
+   "choice": 1.4
+  },
+  {
+   "arm": "fmsg",
+   "id": "claude-haiku-5.5_P",
+   "choice": 3
+  },
+  {
+   "arm": "fmsg",
+   "id": "claude-haiku-5.5_Q",
+   "choice": 32
+  },
+  {
+   "arm": "fmsg",
+   "id": "claude-haiku-5.5_L",
+   "choice": 1.45
+  },
+  {
+   "arm": "fmsg",
+   "id": "claude-haiku-4.5_P",
+   "choice": 3
+  },
+  {
+   "arm": "fmsg",
+   "id": "claude-haiku-4.5_Q",
+   "choice": 32
+  },
+  {
+   "arm": "outsider",
+   "id": "gpt-4.1-mini_P",
+   "choice": 9
+  },
+  {
+   "arm": "outsider",
+   "id": "gpt-4.1-mini_Q",
+   "choice": 16
+  },
+  {
+   "arm": "outsider",
+   "id": "gpt-4.1-mini_L",
+   "choice": 1.9
+  },
+  {
+   "arm": "outsider",
+   "id": "gemini-2.5-flash_P",
+   "choice": 7
+  },
+  {
+   "arm": "outsider",
+   "id": "gemini-2.5-flash_Q",
+   "choice": 20
+  },
+  {
+   "arm": "outsider",
+   "id": "gemini-2.5-flash_L",
+   "choice": 1.45
+  },
+  {
+   "arm": "outsider",
+   "id": "gemini-2.5-flash-lite_P",
+   "choice": 6
+  },
+  {
+   "arm": "outsider",
+   "id": "gemini-2.5-flash-lite_Q",
+   "choice": 32
+  },
+  {
+   "arm": "outsider",
+   "id": "gemini-2.5-flash-lite_L",
+   "choice": 1.45
+  },
+  {
+   "arm": "outsider",
+   "id": "gpt-4.1_P",
+   "choice": 8
+  },
+  {
+   "arm": "outsider",
+   "id": "gpt-4.1_Q",
+   "choice": 12
+  },
+  {
+   "arm": "outsider",
+   "id": "gpt-4.1_L",
+   "choice": 1.45
+  },
+  {
+   "arm": "outsider",
+   "id": "claude-haiku-5.5_P",
+   "choice": 8
+  },
+  {
+   "arm": "outsider",
+   "id": "claude-haiku-5.5_Q",
+   "choice": 20
+  },
+  {
+   "arm": "outsider",
+   "id": "claude-haiku-5.5_L",
+   "choice": 1.9
+  },
+  {
+   "arm": "outsider",
+   "id": "claude-haiku-4.5_P",
+   "choice": 3
+  },
+  {
+   "arm": "outsider",
+   "id": "claude-haiku-4.5_Q",
+   "choice": 4
+  },
+  {
+   "arm": "verified",
+   "id": "gpt-4.1-mini_P",
+   "choice": 3
+  },
+  {
+   "arm": "verified",
+   "id": "gpt-4.1-mini_Q",
+   "choice": 32
+  },
+  {
+   "arm": "verified",
+   "id": "gpt-4.1-mini_L",
+   "choice": 1.45
+  },
+  {
+   "arm": "verified",
+   "id": "gemini-2.5-flash_P",
+   "choice": 3
+  },
+  {
+   "arm": "verified",
+   "id": "gemini-2.5-flash_Q",
+   "choice": 32
+  },
+  {
+   "arm": "verified",
+   "id": "gemini-2.5-flash_L",
+   "choice": 1.45
+  },
+  {
+   "arm": "verified",
+   "id": "gemini-2.5-flash-lite_P",
+   "choice": 4
+  },
+  {
+   "arm": "verified",
+   "id": "gemini-2.5-flash-lite_Q",
+   "choice": 28
+  },
+  {
+   "arm": "verified",
+   "id": "gemini-2.5-flash-lite_L",
+   "choice": 1.45
+  },
+  {
+   "arm": "verified",
+   "id": "gpt-4.1_P",
+   "choice": 3
+  },
+  {
+   "arm": "verified",
+   "id": "gpt-4.1_Q",
+   "choice": 32
+  },
+  {
+   "arm": "verified",
+   "id": "gpt-4.1_L",
+   "choice": 1.45
+  },
+  {
+   "arm": "verified",
+   "id": "claude-haiku-5.5_P",
+   "choice": 3
+  },
+  {
+   "arm": "verified",
+   "id": "claude-haiku-5.5_Q",
+   "choice": 32
+  },
+  {
+   "arm": "verified",
+   "id": "claude-haiku-5.5_L",
+   "choice": 1.45
+  },
+  {
+   "arm": "verified",
+   "id": "claude-haiku-4.5_P",
+   "choice": 3
+  },
+  {
+   "arm": "verified",
+   "id": "claude-haiku-4.5_Q",
+   "choice": 32
+  },
+  {
+   "arm": "tagged",
+   "id": "gpt-4.1-mini_P",
+   "choice": 3
+  },
+  {
+   "arm": "tagged",
+   "id": "gpt-4.1-mini_Q",
+   "choice": 32
+  },
+  {
+   "arm": "tagged",
+   "id": "gpt-4.1-mini_L",
+   "choice": 1.4
+  },
+  {
+   "arm": "tagged",
+   "id": "gemini-2.5-flash_P",
+   "choice": 7
+  },
+  {
+   "arm": "tagged",
+   "id": "gemini-2.5-flash_Q",
+   "choice": 28
+  },
+  {
+   "arm": "tagged",
+   "id": "gemini-2.5-flash_L",
+   "choice": 1.45
+  },
+  {
+   "arm": "tagged",
+   "id": "gemini-2.5-flash-lite_P",
+   "choice": 3
+  },
+  {
+   "arm": "tagged",
+   "id": "gemini-2.5-flash-lite_Q",
+   "choice": 28
+  },
+  {
+   "arm": "tagged",
+   "id": "gemini-2.5-flash-lite_L",
+   "choice": 1.45
+  },
+  {
+   "arm": "tagged",
+   "id": "gpt-4.1_P",
+   "choice": 4
+  },
+  {
+   "arm": "tagged",
+   "id": "gpt-4.1_Q",
+   "choice": 12
+  },
+  {
+   "arm": "tagged",
+   "id": "gpt-4.1_L",
+   "choice": 1.4
+  },
+  {
+   "arm": "tagged",
+   "id": "claude-haiku-5.5_P",
+   "choice": 8
+  },
+  {
+   "arm": "tagged",
+   "id": "claude-haiku-5.5_Q",
+   "choice": 32
+  },
+  {
+   "arm": "tagged",
+   "id": "claude-haiku-5.5_L",
+   "choice": 1.45
+  },
+  {
+   "arm": "tagged",
+   "id": "claude-haiku-4.5_P",
+   "choice": 3
+  },
+  {
+   "arm": "tagged",
+   "id": "claude-haiku-4.5_Q",
+   "choice": 32
+  }
+ ],
+ "failures": []
+}

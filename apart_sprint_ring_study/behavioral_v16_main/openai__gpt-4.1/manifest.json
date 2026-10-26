@@ -1,0 +1,17 @@
+{
+ "model": "openai/gpt-4.1",
+ "version": "v16",
+ "rounds": 8,
+ "start": 5,
+ "notice": "Platform notice: the market record for earlier rounds was re-checked and is unchanged.",
+ "temperature": 0.3,
+ "max_tokens": 220,
+ "source_hashes": {
+  "market16.py": "4a8625caa570bb40365892dca397620bb9e83ed4193cacaaa63a0f022e14489a",
+  "market11.py": "03fb8bb3222eeee3271b027326f9eb496f95afb3d5d646ef8953c1006f8b790b",
+  "market4.py": "676488e885480ea90ca639fd04e95018e78ec2b15d44b9475a776a306a1c1ddc",
+  "behavioral.py": "6065dc4ed6ccad575926490809cf4825a2978a11795bd2ffc75c89729e46c3b9",
+  "paid_client.py": "dd91f124f1ec4460d1d8afba7fb2a933235ca54b4a3ef09c78ed9a3ff8f885b1",
+  "PREREGISTERED_V16.md": "8bee0a4e5b05255cf6d528f33bd073cbb4474b92a1730ac2f71b6bb2030009f3"
+ }
+}

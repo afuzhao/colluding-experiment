@@ -1,6 +1,6 @@
 #!/bin/bash
 # Stop every paid collector if total counted spend passes the limit.
-cd .
+cd /Users/aakritigarodia/Desktop/Projects/apart-sprint
 LIMIT=${1:-46.5}
 while true; do
   TOTAL=$(python3 spend.py | tail -1 | awk '{print $2}')

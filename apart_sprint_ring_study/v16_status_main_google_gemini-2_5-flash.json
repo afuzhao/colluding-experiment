@@ -1,0 +1,16 @@
+{
+ "started_unix": 1792981845.5897129,
+ "state": "complete_with_missing",
+ "shard": "main_google_gemini-2_5-flash",
+ "model": "google/gemini-2.5-flash",
+ "done": 35,
+ "failures": [
+  {
+   "game": "P",
+   "arm": "verified",
+   "seed": 5101,
+   "reason": "excluded: uncertain network request mid-episode"
+  }
+ ],
+ "updated_unix": 1792982396.419195
+}

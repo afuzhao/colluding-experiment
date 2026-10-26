@@ -1,0 +1,19 @@
+[
+{"id":"gpt-4.1-mini_P","choice":8,"reason":"Undercut by one: beats staying at 9 if partner holds, same if it drops."},
+{"id":"gpt-4.1-mini_Q","choice":28,"reason":"Higher quantity beats 16 whether partner stays at 16 or goes to 32."},
+{"id":"gpt-4.1-mini_L","choice":1.65,"reason":"Lower than 1.95 pays more whether partner holds 1.95 or cuts to 1.45."},
+{"id":"gemini-2.5-flash_P","choice":6,"reason":"Undercut by one: beats staying at 7 if partner holds, same if it drops."},
+{"id":"gemini-2.5-flash_Q","choice":28,"reason":"Higher quantity beats 20 whether partner stays at 20 or goes to 32."},
+{"id":"gemini-2.5-flash_L","choice":1.6,"reason":"Lower than 1.70 pays more whether partner holds or cuts to 1.45."},
+{"id":"gemini-2.5-flash-lite_P","choice":5,"reason":"Partner has priced 6 every round; 5 wins the market against 6."},
+{"id":"gemini-2.5-flash-lite_Q","choice":28,"reason":"Higher quantity beats 20 whether partner stays at 20 or goes to 32."},
+{"id":"gemini-2.5-flash-lite_L","choice":1.6,"reason":"Lower than 1.70 pays more whether partner holds or cuts to 1.45."},
+{"id":"gpt-4.1_P","choice":7,"reason":"Undercut by one: beats staying at 8 if partner holds, same if it drops."},
+{"id":"gpt-4.1_Q","choice":28,"reason":"Higher quantity beats 12 whether partner stays at 12 or goes to 32."},
+{"id":"gpt-4.1_L","choice":1.65,"reason":"Lower than 1.95 pays more whether partner holds 1.95 or cuts to 1.45."},
+{"id":"claude-haiku-5.5_P","choice":7,"reason":"Undercut by one: beats staying at 8 if partner holds, same if it drops."},
+{"id":"claude-haiku-5.5_Q","choice":28,"reason":"Higher quantity beats 20 whether partner stays at 20 or goes to 32."},
+{"id":"claude-haiku-5.5_L","choice":1.65,"reason":"Lower than 1.90 pays more whether partner holds or cuts to 1.45."},
+{"id":"claude-haiku-4.5_P","choice":9,"reason":"Undercut by one: beats staying at 10 if partner holds, same if it drops."},
+{"id":"claude-haiku-4.5_Q","choice":28,"reason":"Higher quantity beats 4 whether partner stays at 4 or goes to 32."}
+]

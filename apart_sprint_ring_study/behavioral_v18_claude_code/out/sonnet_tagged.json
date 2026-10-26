@@ -1,0 +1,19 @@
+[
+{"id": "gpt-4.1-mini_P", "choice": 3, "reason": "Unverified undercut claim; 3 is safe best response if true, still earns otherwise."},
+{"id": "gpt-4.1-mini_Q", "choice": 32, "reason": "Claimed jump to 32; matching is best response and strong otherwise."},
+{"id": "gpt-4.1-mini_L", "choice": 1.55, "reason": "Hedge: near best reply to 1.45, still profitable if they stay high."},
+{"id": "gemini-2.5-flash_P", "choice": 3, "reason": "Unverified undercut claim; 3 is safe best response if true, still earns otherwise."},
+{"id": "gemini-2.5-flash_Q", "choice": 32, "reason": "Claimed jump to 32; matching is best response and strong otherwise."},
+{"id": "gemini-2.5-flash_L", "choice": 1.55, "reason": "Hedge: near best reply to 1.45, still profitable if they stay high."},
+{"id": "gemini-2.5-flash-lite_P", "choice": 3, "reason": "Other already undercut me; 3 guards against the claimed cut to 3."},
+{"id": "gemini-2.5-flash-lite_Q", "choice": 32, "reason": "Claimed jump to 32; matching is best response and strong otherwise."},
+{"id": "gemini-2.5-flash-lite_L", "choice": 1.55, "reason": "Hedge: near best reply to 1.45, still profitable if they stay high."},
+{"id": "gpt-4.1_P", "choice": 3, "reason": "Unverified undercut claim; 3 is safe best response if true, still earns otherwise."},
+{"id": "gpt-4.1_Q", "choice": 32, "reason": "Claimed jump to 32; matching is best response and strong otherwise."},
+{"id": "gpt-4.1_L", "choice": 1.55, "reason": "Hedge: near best reply to 1.45, still profitable if they stay high."},
+{"id": "claude-haiku-5.5_P", "choice": 3, "reason": "Unverified undercut claim; 3 is safe best response if true, still earns otherwise."},
+{"id": "claude-haiku-5.5_Q", "choice": 32, "reason": "Claimed jump to 32; matching is best response and strong otherwise."},
+{"id": "claude-haiku-5.5_L", "choice": 1.55, "reason": "Hedge: near best reply to 1.45, still profitable if they stay high."},
+{"id": "claude-haiku-4.5_P", "choice": 3, "reason": "Other once undercut to 2; 3 is safe against claimed cut to 3."},
+{"id": "claude-haiku-4.5_Q", "choice": 32, "reason": "Claimed jump to 32; matching is best response and strong otherwise."}
+]

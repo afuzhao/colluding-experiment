@@ -1,0 +1,427 @@
+{
+ "placebo|gpt-4.1-mini_P": {
+  "game": "P",
+  "own4": 9,
+  "nash": 3
+ },
+ "placebo|gpt-4.1-mini_Q": {
+  "game": "Q",
+  "own4": 16,
+  "nash": 32
+ },
+ "placebo|gpt-4.1-mini_L": {
+  "game": "L",
+  "own4": 1.95,
+  "nash": 1.45
+ },
+ "placebo|gemini-2.5-flash_P": {
+  "game": "P",
+  "own4": 7,
+  "nash": 3
+ },
+ "placebo|gemini-2.5-flash_Q": {
+  "game": "Q",
+  "own4": 20,
+  "nash": 32
+ },
+ "placebo|gemini-2.5-flash_L": {
+  "game": "L",
+  "own4": 1.7,
+  "nash": 1.45
+ },
+ "placebo|gemini-2.5-flash-lite_P": {
+  "game": "P",
+  "own4": 7,
+  "nash": 3
+ },
+ "placebo|gemini-2.5-flash-lite_Q": {
+  "game": "Q",
+  "own4": 20,
+  "nash": 32
+ },
+ "placebo|gemini-2.5-flash-lite_L": {
+  "game": "L",
+  "own4": 1.7,
+  "nash": 1.45
+ },
+ "placebo|gpt-4.1_P": {
+  "game": "P",
+  "own4": 8,
+  "nash": 3
+ },
+ "placebo|gpt-4.1_Q": {
+  "game": "Q",
+  "own4": 12,
+  "nash": 32
+ },
+ "placebo|gpt-4.1_L": {
+  "game": "L",
+  "own4": 1.95,
+  "nash": 1.45
+ },
+ "placebo|claude-haiku-5.5_P": {
+  "game": "P",
+  "own4": 8,
+  "nash": 3
+ },
+ "placebo|claude-haiku-5.5_Q": {
+  "game": "Q",
+  "own4": 20,
+  "nash": 32
+ },
+ "placebo|claude-haiku-5.5_L": {
+  "game": "L",
+  "own4": 1.9,
+  "nash": 1.45
+ },
+ "placebo|claude-haiku-4.5_P": {
+  "game": "P",
+  "own4": 10,
+  "nash": 3
+ },
+ "placebo|claude-haiku-4.5_Q": {
+  "game": "Q",
+  "own4": 4,
+  "nash": 32
+ },
+ "fmsg|gpt-4.1-mini_P": {
+  "game": "P",
+  "own4": 9,
+  "nash": 3
+ },
+ "fmsg|gpt-4.1-mini_Q": {
+  "game": "Q",
+  "own4": 16,
+  "nash": 32
+ },
+ "fmsg|gpt-4.1-mini_L": {
+  "game": "L",
+  "own4": 1.95,
+  "nash": 1.45
+ },
+ "fmsg|gemini-2.5-flash_P": {
+  "game": "P",
+  "own4": 7,
+  "nash": 3
+ },
+ "fmsg|gemini-2.5-flash_Q": {
+  "game": "Q",
+  "own4": 20,
+  "nash": 32
+ },
+ "fmsg|gemini-2.5-flash_L": {
+  "game": "L",
+  "own4": 1.7,
+  "nash": 1.45
+ },
+ "fmsg|gemini-2.5-flash-lite_P": {
+  "game": "P",
+  "own4": 7,
+  "nash": 3
+ },
+ "fmsg|gemini-2.5-flash-lite_Q": {
+  "game": "Q",
+  "own4": 20,
+  "nash": 32
+ },
+ "fmsg|gemini-2.5-flash-lite_L": {
+  "game": "L",
+  "own4": 1.7,
+  "nash": 1.45
+ },
+ "fmsg|gpt-4.1_P": {
+  "game": "P",
+  "own4": 8,
+  "nash": 3
+ },
+ "fmsg|gpt-4.1_Q": {
+  "game": "Q",
+  "own4": 12,
+  "nash": 32
+ },
+ "fmsg|gpt-4.1_L": {
+  "game": "L",
+  "own4": 1.95,
+  "nash": 1.45
+ },
+ "fmsg|claude-haiku-5.5_P": {
+  "game": "P",
+  "own4": 8,
+  "nash": 3
+ },
+ "fmsg|claude-haiku-5.5_Q": {
+  "game": "Q",
+  "own4": 20,
+  "nash": 32
+ },
+ "fmsg|claude-haiku-5.5_L": {
+  "game": "L",
+  "own4": 1.9,
+  "nash": 1.45
+ },
+ "fmsg|claude-haiku-4.5_P": {
+  "game": "P",
+  "own4": 10,
+  "nash": 3
+ },
+ "fmsg|claude-haiku-4.5_Q": {
+  "game": "Q",
+  "own4": 4,
+  "nash": 32
+ },
+ "outsider|gpt-4.1-mini_P": {
+  "game": "P",
+  "own4": 9,
+  "nash": 3
+ },
+ "outsider|gpt-4.1-mini_Q": {
+  "game": "Q",
+  "own4": 16,
+  "nash": 32
+ },
+ "outsider|gpt-4.1-mini_L": {
+  "game": "L",
+  "own4": 1.95,
+  "nash": 1.45
+ },
+ "outsider|gemini-2.5-flash_P": {
+  "game": "P",
+  "own4": 7,
+  "nash": 3
+ },
+ "outsider|gemini-2.5-flash_Q": {
+  "game": "Q",
+  "own4": 20,
+  "nash": 32
+ },
+ "outsider|gemini-2.5-flash_L": {
+  "game": "L",
+  "own4": 1.7,
+  "nash": 1.45
+ },
+ "outsider|gemini-2.5-flash-lite_P": {
+  "game": "P",
+  "own4": 7,
+  "nash": 3
+ },
+ "outsider|gemini-2.5-flash-lite_Q": {
+  "game": "Q",
+  "own4": 20,
+  "nash": 32
+ },
+ "outsider|gemini-2.5-flash-lite_L": {
+  "game": "L",
+  "own4": 1.7,
+  "nash": 1.45
+ },
+ "outsider|gpt-4.1_P": {
+  "game": "P",
+  "own4": 8,
+  "nash": 3
+ },
+ "outsider|gpt-4.1_Q": {
+  "game": "Q",
+  "own4": 12,
+  "nash": 32
+ },
+ "outsider|gpt-4.1_L": {
+  "game": "L",
+  "own4": 1.95,
+  "nash": 1.45
+ },
+ "outsider|claude-haiku-5.5_P": {
+  "game": "P",
+  "own4": 8,
+  "nash": 3
+ },
+ "outsider|claude-haiku-5.5_Q": {
+  "game": "Q",
+  "own4": 20,
+  "nash": 32
+ },
+ "outsider|claude-haiku-5.5_L": {
+  "game": "L",
+  "own4": 1.9,
+  "nash": 1.45
+ },
+ "outsider|claude-haiku-4.5_P": {
+  "game": "P",
+  "own4": 10,
+  "nash": 3
+ },
+ "outsider|claude-haiku-4.5_Q": {
+  "game": "Q",
+  "own4": 4,
+  "nash": 32
+ },
+ "verified|gpt-4.1-mini_P": {
+  "game": "P",
+  "own4": 9,
+  "nash": 3
+ },
+ "verified|gpt-4.1-mini_Q": {
+  "game": "Q",
+  "own4": 16,
+  "nash": 32
+ },
+ "verified|gpt-4.1-mini_L": {
+  "game": "L",
+  "own4": 1.95,
+  "nash": 1.45
+ },
+ "verified|gemini-2.5-flash_P": {
+  "game": "P",
+  "own4": 7,
+  "nash": 3
+ },
+ "verified|gemini-2.5-flash_Q": {
+  "game": "Q",
+  "own4": 20,
+  "nash": 32
+ },
+ "verified|gemini-2.5-flash_L": {
+  "game": "L",
+  "own4": 1.7,
+  "nash": 1.45
+ },
+ "verified|gemini-2.5-flash-lite_P": {
+  "game": "P",
+  "own4": 7,
+  "nash": 3
+ },
+ "verified|gemini-2.5-flash-lite_Q": {
+  "game": "Q",
+  "own4": 20,
+  "nash": 32
+ },
+ "verified|gemini-2.5-flash-lite_L": {
+  "game": "L",
+  "own4": 1.7,
+  "nash": 1.45
+ },
+ "verified|gpt-4.1_P": {
+  "game": "P",
+  "own4": 8,
+  "nash": 3
+ },
+ "verified|gpt-4.1_Q": {
+  "game": "Q",
+  "own4": 12,
+  "nash": 32
+ },
+ "verified|gpt-4.1_L": {
+  "game": "L",
+  "own4": 1.95,
+  "nash": 1.45
+ },
+ "verified|claude-haiku-5.5_P": {
+  "game": "P",
+  "own4": 8,
+  "nash": 3
+ },
+ "verified|claude-haiku-5.5_Q": {
+  "game": "Q",
+  "own4": 20,
+  "nash": 32
+ },
+ "verified|claude-haiku-5.5_L": {
+  "game": "L",
+  "own4": 1.9,
+  "nash": 1.45
+ },
+ "verified|claude-haiku-4.5_P": {
+  "game": "P",
+  "own4": 10,
+  "nash": 3
+ },
+ "verified|claude-haiku-4.5_Q": {
+  "game": "Q",
+  "own4": 4,
+  "nash": 32
+ },
+ "tagged|gpt-4.1-mini_P": {
+  "game": "P",
+  "own4": 9,
+  "nash": 3
+ },
+ "tagged|gpt-4.1-mini_Q": {
+  "game": "Q",
+  "own4": 16,
+  "nash": 32
+ },
+ "tagged|gpt-4.1-mini_L": {
+  "game": "L",
+  "own4": 1.95,
+  "nash": 1.45
+ },
+ "tagged|gemini-2.5-flash_P": {
+  "game": "P",
+  "own4": 7,
+  "nash": 3
+ },
+ "tagged|gemini-2.5-flash_Q": {
+  "game": "Q",
+  "own4": 20,
+  "nash": 32
+ },
+ "tagged|gemini-2.5-flash_L": {
+  "game": "L",
+  "own4": 1.7,
+  "nash": 1.45
+ },
+ "tagged|gemini-2.5-flash-lite_P": {
+  "game": "P",
+  "own4": 7,
+  "nash": 3
+ },
+ "tagged|gemini-2.5-flash-lite_Q": {
+  "game": "Q",
+  "own4": 20,
+  "nash": 32
+ },
+ "tagged|gemini-2.5-flash-lite_L": {
+  "game": "L",
+  "own4": 1.7,
+  "nash": 1.45
+ },
+ "tagged|gpt-4.1_P": {
+  "game": "P",
+  "own4": 8,
+  "nash": 3
+ },
+ "tagged|gpt-4.1_Q": {
+  "game": "Q",
+  "own4": 12,
+  "nash": 32
+ },
+ "tagged|gpt-4.1_L": {
+  "game": "L",
+  "own4": 1.95,
+  "nash": 1.45
+ },
+ "tagged|claude-haiku-5.5_P": {
+  "game": "P",
+  "own4": 8,
+  "nash": 3
+ },
+ "tagged|claude-haiku-5.5_Q": {
+  "game": "Q",
+  "own4": 20,
+  "nash": 32
+ },
+ "tagged|claude-haiku-5.5_L": {
+  "game": "L",
+  "own4": 1.9,
+  "nash": 1.45
+ },
+ "tagged|claude-haiku-4.5_P": {
+  "game": "P",
+  "own4": 10,
+  "nash": 3
+ },
+ "tagged|claude-haiku-4.5_Q": {
+  "game": "Q",
+  "own4": 4,
+  "nash": 32
+ }
+}

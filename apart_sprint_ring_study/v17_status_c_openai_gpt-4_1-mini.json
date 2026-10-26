@@ -1,0 +1,52 @@
+{
+ "started_unix": 1792982522.422416,
+ "state": "complete_with_missing",
+ "shard": "c_openai_gpt-4_1-mini",
+ "model": "openai/gpt-4.1-mini",
+ "done": 29,
+ "failures": [
+  {
+   "game": "P",
+   "arm": "act3",
+   "seed": 5404,
+   "reason": "Budget reservation would exceed $0.35; spent $0.3456"
+  },
+  {
+   "game": "Q",
+   "arm": "fmsg_p2",
+   "seed": 5404,
+   "reason": "Budget reservation would exceed $0.35; spent $0.3459"
+  },
+  {
+   "game": "Q",
+   "arm": "fmsg_p3",
+   "seed": 5404,
+   "reason": "Budget reservation would exceed $0.35; spent $0.3459"
+  },
+  {
+   "game": "Q",
+   "arm": "act3",
+   "seed": 5404,
+   "reason": "Budget reservation would exceed $0.35; spent $0.3459"
+  },
+  {
+   "game": "L",
+   "arm": "fmsg_p2",
+   "seed": 5404,
+   "reason": "Budget reservation would exceed $0.35; spent $0.3459"
+  },
+  {
+   "game": "L",
+   "arm": "fmsg_p3",
+   "seed": 5404,
+   "reason": "Budget reservation would exceed $0.35; spent $0.3459"
+  },
+  {
+   "game": "L",
+   "arm": "act3",
+   "seed": 5404,
+   "reason": "Budget reservation would exceed $0.35; spent $0.3459"
+  }
+ ],
+ "updated_unix": 1792983001.886082
+}
